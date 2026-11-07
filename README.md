@@ -1,18 +1,20 @@
 # BREAKER — arquivo do Notion
 
-Cópia do workspace **BREAKER — Series Workspace**, exportada em 7 de novembro de 2026. A navegação acompanha a hierarquia de páginas e subpáginas do Notion.
+Arquivo editorial do workspace **BREAKER — Series Workspace**. Esta cópia conserva propostas, material canônico e arquivos históricos conforme identificados no Notion.
 
-## Mapa
+## Navegação
 
-- `pages/index.md`: índice mestre da série.
-- `pages/series-bible/`: regras do universo, personagens, cidades, identidade visual e direção de arte.
-- `pages/acts/act-i/`: Act I e continuidade transversal.
-  - `season-01/`: visão geral e documentação da Season 1.
-  - `season-01/03-cases-bosses/`: cases e bosses organizados como no Notion.
-  - `season-01/04-…`, `05-…`: mapas, referências e demais áreas da temporada.
-- `pages/acts/act-ii/` e `pages/acts/act-iii/`: atos e temporadas futuras.
-- `pages/series/`: páginas gerais ligadas ao workspace.
-- `databases/`: exportações dos bancos de dados e respectivos registros.
+- [Workspace e índice da série](pages/index.md)
+- [Series Bible](pages/README.md#series-bible)
+- [Acts e Seasons](pages/acts/README.md)
+- [Bancos de dados exportados](databases/README.md)
+- [Manifesto de origem](manifest.json)
 
-Os nomes dos arquivos são títulos legíveis, sem IDs. O ID e o link de origem continuam no frontmatter e em `manifest.json` para rastreabilidade. Propostas, material canônico e arquivos históricos mantêm o status indicado no Notion.
+## Padrão de organização
+
+A navegação segue a estrutura editorial do Notion: série → Act → Season → área de conteúdo. Cada pasta usa nomes legíveis e um README como índice. IDs aparecem apenas no frontmatter e no manifesto, nunca nos nomes de arquivos.
+
+Dentro de cada Season, o conteúdo fica separado por função: visão geral, narrativa, cases, mundo, personagens, desafios, produção, referências, comunidade e arquivo histórico. O conteúdo sem equivalente direto fica em shared no Act correspondente.
+
+O desenho usa a hierarquia editorial como mapa. Para documentação técnica futura, a distinção entre tutorial, guia prático, referência e explicação pode complementar essa árvore, sem misturar essas categorias aos documentos narrativos.
 

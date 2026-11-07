@@ -5,22 +5,7 @@ title: "👁️ 08 — The Oracle"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c563042581208f71f4f69bf03d72 as of 2026-11-04T15:35:23.001Z:
-<page url="https://app.notion.com/p/4009c563042581208f71f4f69bf03d72" icon="👁️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"08 — The Oracle"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"👁️"}</iconMetadata>
-<content>
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [08 — The Oracle — abrir arte no Google Drive](https://drive.google.com/file/d/1ZiieRcwJt5eaeU5_TZlGCE29eY2Hbw3i/view)
-</callout>
+**Visual reference:** [08 — The Oracle — abrir arte no Google Drive](https://drive.google.com/file/d/1ZiieRcwJt5eaeU5_TZlGCE29eY2Hbw3i/view)
 
 # Função narrativa
 
@@ -32,15 +17,15 @@ The Oracle é um sistema usado para prever anomalias futuras. Sua reputação é
 
 # Conceito técnico
 
-<b>Predictable randomness / RNG insuficiente / dependência de estado previsível.</b>
+**Predictable randomness / RNG insuficiente / dependência de estado previsível.**
 
 # Missão
 
-> <b>Preveja o Oracle antes que ele preveja você.</b>
+> **Preveja o Oracle antes que ele preveja você.**
 
 # Condição de vitória
 
-Registrar uma única rodada de três alvos futuros e acertar os três resultados no <code>reveal</code>, depois que o último alvo chegar.
+Registrar uma única rodada de três alvos futuros e acertar os três resultados no `reveal`, depois que o último alvo chegar.
 
 # Cena
 
@@ -52,7 +37,7 @@ Então pergunta:
 
 Resposta:
 
-> <b>THE ARCHITECT</b>
+> **THE ARCHITECT**
 
 # Insight
 
@@ -70,13 +55,13 @@ The Oracle é tratado em Meridian como uma máquina quase sobrenatural. Polícia
 
 Depois de encontrar o próprio nome em Sector 13, o Breaker decide testar a divindade antes de confiar nela.
 
-> <b>Preveja o Oracle antes que ele preveja você.</b>
+> **Preveja o Oracle antes que ele preveja você.**
 
 ## Vulnerabilidade real
 
-<b>Insufficiently Random Values / predictable randomness.</b>
+**Insufficiently Random Values / predictable randomness.**
 
-O Scout classifica como crítico o uso de <code>ledger().timestamp()</code> ou <code>ledger().sequence()</code> como fonte de aleatoriedade. Ambos são valores públicos ou previsíveis para o atacante. O próprio Soroban SDK também alerta que seu PRNG não é adequado para gerar segredos ou aplicações com baixo nível de tolerância a risco sem entender o threat model.
+O Scout classifica como crítico o uso de `ledger().timestamp()` ou `ledger().sequence()` como fonte de aleatoriedade. Ambos são valores públicos ou previsíveis para o atacante. O próprio Soroban SDK também alerta que seu PRNG não é adequado para gerar segredos ou aplicações com baixo nível de tolerância a risco sem entender o threat model.
 
 ### Contrato vulnerável
 
@@ -113,14 +98,14 @@ pub fn reveal(env: Env, player: Address) -> u32 {
 
 ### Exploit esperado
 
-O jogador lê <code>current_sequence()</code> e registra três alvos futuros com <code>choices[i] = targets[i] % choices()</code>. Não há segredo: o resultado do Oracle é o próprio alvo módulo 4, e o alvo é escolhido pelo jogador. Depois que o último alvo chega, um único <code>reveal(player)</code> confere a rodada e grava <code>streak = 3</code>.
+O jogador lê `current_sequence()` e registra três alvos futuros com `choices[i] = targets[i] % choices()`. Não há segredo: o resultado do Oracle é o próprio alvo módulo 4, e o alvo é escolhido pelo jogador. Depois que o último alvo chega, um único `reveal(player)` confere a rodada e grava `streak = 3`.
 
 ### Condição objetiva de vitória
 
-- <code>streak(player) &gt;= required_hits()</code> (3);
-- a rodada foi registrada com exatamente três alvos, todos à frente da sequence no momento do <code>predict</code>;
-- as três escolhas são <code>target % 4</code>;
-- um único <code>reveal</code>, depois que o último alvo chegou.
+- `streak(player) &gt;= required_hits()` (3);
+- a rodada foi registrada com exatamente três alvos, todos à frente da sequence no momento do `predict`;
+- as três escolhas são `target % 4`;
+- um único `reveal`, depois que o último alvo chegou.
 
 ## Solução segura
 
@@ -149,11 +134,11 @@ Depois da terceira previsão correta, The Oracle muda de comportamento.
 
 O jogador pergunta:
 
-> <b>Quem criou a lista?</b>
+> **Quem criou a lista?**
 
 A resposta surge sem atraso:
 
-> <b>THE ARCHITECT</b>
+> **THE ARCHITECT**
 
 Pela primeira vez, o mistério recebe um nome.
 
@@ -171,27 +156,30 @@ O Oracle ocupa uma câmara monumental de previsão.
 
 Ao entrar:
 
-<b>SUBJECT DETECTED</b>
+**SUBJECT DETECTED**
 
-<b>PREDICTION MODEL ACTIVE</b>
+**PREDICTION MODEL ACTIVE**
 
 Mara:
 
-> <b>Ele sabe que você está aqui.</b>
+> **Ele sabe que você está aqui.**
 
-<b>Consequência fixa de Sector 13:</b> a telemetria confirma que a pressão adicional cessou quando o Breaker encontrou o Registry. O rebuild permanece afetado, e Mara observa: "Encontrar a prova não exigia piorar tudo até o fim. Mas você precisou provocar a falha para que ela aparecesse." Não há diálogo condicionado a escolhas nem indicadores de moralidade. A investigação segue para o Oracle.
+**Consequência fixa de Sector 13:** a telemetria confirma que a pressão adicional cessou quando o Breaker encontrou o Registry. O rebuild permanece afetado, e Mara observa: "Encontrar a prova não exigia piorar tudo até o fim. Mas você precisou provocar a falha para que ela aparecesse." Não há diálogo condicionado a escolhas nem indicadores de moralidade. A investigação segue para o Oracle.
 
 ## Scene 1 — Inciting Evidence
 
-Duas assinaturas de origem, sem explicação inicial: <code>PROPHECY_ENGINE</code> para as três previsões e <code>SUBJECT_CLASSIFIER</code> para telemetria dos participantes. Apenas Prophecy Engine está disponível como challenge; o classificador se revela após a terceira previsão.
+Duas assinaturas de origem, sem explicação inicial: `PROPHECY_ENGINE` para as três previsões e `SUBJECT_CLASSIFIER` para telemetria dos participantes. Apenas Prophecy Engine está disponível como challenge; o classificador se revela após a terceira previsão.
 
 O Oracle afirma prever três escolhas futuras do Breaker.
 
-Painel:<br /><b>PREDICTION 1 — LOCKED</b><br /><b>PREDICTION 2 — LOCKED</b><br /><b>PREDICTION 3 — LOCKED</b>
+Painel:
+**PREDICTION 1 — LOCKED**
+**PREDICTION 2 — LOCKED**
+**PREDICTION 3 — LOCKED**
 
 ## Scene 2 — Mission
 
-> <b>PREVEJA O ORACLE ANTES QUE ELE PREVEJA VOCÊ.</b>
+> **PREVEJA O ORACLE ANTES QUE ELE PREVEJA VOCÊ.**
 
 ## Scene 3 — Active Investigation
 
@@ -206,29 +194,31 @@ O sistema parece usar aleatoriedade.
 
 ## Scene 4 — Reactive Beats
 
-O jogador registra uma única rodada de três alvos futuros e faz um único <code>reveal</code> depois do último.
+O jogador registra uma única rodada de três alvos futuros e faz um único `reveal` depois do último.
 
 ## Scene 5 — Breach
 
-O jogador registra uma rodada de três alvos futuros e faz um único <code>reveal</code> depois do último. A sala não atualiza a cada acerto: o contrato devolve o total de uma vez.
+O jogador registra uma rodada de três alvos futuros e faz um único `reveal` depois do último. A sala não atualiza a cada acerto: o contrato devolve o total de uma vez.
 
 ## Scene 6 — World Reaction
 
-No colapso da interface, separar mensagens por módulo: <code>PROPHECY_ENGINE: FAILED</code> significa que a saída era previsível; <code>SUBJECT_CLASSIFIER: OBSERVING</code> mostra que outra parte do sistema acompanhava a estratégia do player. Mara pergunta qual dos dois o jogador realmente quebrou. A resposta deve ser deduzida pelos eventos, preparando a diferença entre prever números e classificar comportamento.
+No colapso da interface, separar mensagens por módulo: `PROPHECY_ENGINE: FAILED` significa que a saída era previsível; `SUBJECT_CLASSIFIER: OBSERVING` mostra que outra parte do sistema acompanhava a estratégia do player. Mara pergunta qual dos dois o jogador realmente quebrou. A resposta deve ser deduzida pelos eventos, preparando a diferença entre prever números e classificar comportamento.
 
 Os hologramas param de mostrar probabilidades.
 
 O sistema abandona a interface de previsão e revela sua função real:
 
-<b>PREDICTION MODEL: FAILED</b><br /><b>SUBJECT BEHAVIOR: OUTSIDE EXPECTED RANGE</b><br /><b>BREAKER CLASSIFICATION: CONFIRMED</b>
+**PREDICTION MODEL: FAILED**
+**SUBJECT BEHAVIOR: OUTSIDE EXPECTED RANGE**
+**BREAKER CLASSIFICATION: CONFIRMED**
 
 A esfera central então colapsa em uma única palavra:
 
-<b>ARCHITECT</b>
+**ARCHITECT**
 
 Coordenadas aparecem.
 
-<b>THE SPIRE</b>
+**THE SPIRE**
 
 ## Scene 7 — Discovery
 
@@ -238,33 +228,32 @@ O sistema não estava apenas tentando prever resultados. Estava modelando o comp
 
 Primeiro contato direto, ainda sem voz:
 
-<b>SUBJECT PATH CONFIRMED</b>
+**SUBJECT PATH CONFIRMED**
 
 ## Scene 8 — Debrief
 
-<b>VULNERABILITY DISCOVERED — PREDICTABLE RANDOMNESS</b>
+**VULNERABILITY DISCOVERED — PREDICTABLE RANDOMNESS**
 
 Explicar que dados públicos/determinísticos não são fonte segura de imprevisibilidade adversarial.
 
 ## Scene 9 — Transition
 
-Mapa:<br /><b>THE SPIRE — ACTIVE INFRASTRUCTURE</b>
+Mapa:
+**THE SPIRE — ACTIVE INFRASTRUCTURE**
 
 Mara:
 
-> <b>Isso não está abandonado. Ainda tem gente usando.</b>
+> **Isso não está abandonado. Ainda tem gente usando.**
 
-Unlock:<br /><b>CASE 09 — STEAL THE KEY</b>
+Unlock:
+**CASE 09 — STEAL THE KEY**
 
 ## Ajuste de roteiro v2 — O que o Oracle realmente prevê
 
-Distinguir explicitamente dois mecanismos. <b>Prophecy Engine</b> produz três respostas pseudoaleatórias calculáveis a partir de valores públicos; o player demonstra a falha ao antecipá-las. <b>Subject Classification</b> é outro módulo que observa ações e registra status no Breaker Registry; não é uma previsão sobrenatural e não é quebrado com o mesmo exploit. Depois da terceira previsão, um evento de classificação revela a ligação. A cena deve transmitir uma mudança de hipótese: primeiro, o Oracle não sabe o futuro; depois, o sistema estava observando o próprio teste. Manter a solução técnica em seu debrief posterior.
+Distinguir explicitamente dois mecanismos. **Prophecy Engine** produz três respostas pseudoaleatórias calculáveis a partir de valores públicos; o player demonstra a falha ao antecipá-las. **Subject Classification** é outro módulo que observa ações e registra status no Breaker Registry; não é uma previsão sobrenatural e não é quebrado com o mesmo exploit. Depois da terceira previsão, um evento de classificação revela a ligação. A cena deve transmitir uma mudança de hipótese: primeiro, o Oracle não sabe o futuro; depois, o sistema estava observando o próprio teste. Manter a solução técnica em seu debrief posterior.
 
 ## Complemento canônico — previsão comportamental corrigida
 
-O Oracle tem <b>dois mecanismos distintos</b>: a lógica pseudoaleatória previsível que compõe o challenge, e o <b>Subject Classifier</b> que estima condutas dos observados. Após a vitória no exploit, um pequeno registro do segundo módulo mostra <code>EXPECTED RESPONSE</code>, <code>OBSERVED RESPONSE: DIFFERENT</code> e <code>MODEL UPDATED</code> quando o classificador compara <b>a previsão de que o Breaker continuaria pressionando o rebuild em Sector 13 para extrair mais informações</b> com o comportamento canônico observado: o Breaker interrompeu inserções adicionais depois de obter a prova e preservar o snapshot. A previsão do modelo falhou por superestimar persistência exploratória; é uma hipótese revisada, não profecia. O valor exato de confiança/threshold pertence à fixture e não foi testado.
+O Oracle tem **dois mecanismos distintos**: a lógica pseudoaleatória previsível que compõe o challenge, e o **Subject Classifier** que estima condutas dos observados. Após a vitória no exploit, um pequeno registro do segundo módulo mostra `EXPECTED RESPONSE`, `OBSERVED RESPONSE: DIFFERENT` e `MODEL UPDATED` quando o classificador compara **a previsão de que o Breaker continuaria pressionando o rebuild em Sector 13 para extrair mais informações** com o comportamento canônico observado: o Breaker interrompeu inserções adicionais depois de obter a prova e preservar o snapshot. A previsão do modelo falhou por superestimar persistência exploratória; é uma hipótese revisada, não profecia. O valor exato de confiança/threshold pertence à fixture e não foi testado.
 
-<b>Limites:</b> não pedir escolha moral ao jogador, não gerar branch, não revelar previamente o funcionamento de Become Missing e não usar o classificador para validar o exploit do RNG. O registro é pista da falibilidade do Architect para o clímax.
-</content>
-</page>
-
+**Limites:** não pedir escolha moral ao jogador, não gerar branch, não revelar previamente o funcionamento de Become Missing e não usar o classificador para validar o exploit do RNG. O registro é pista da falibilidade do Architect para o clímax.

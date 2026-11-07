@@ -5,21 +5,9 @@ title: "👁️ 02 — Personagens — Breaker, Witness, Mara & Rhea"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581e4a174f46df6181ad1 as of 2026-11-02T17:43:32.483Z:
-<page url="https://app.notion.com/p/4019c563042581e4a174f46df6181ad1" icon="👁️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"02 — Personagens — Breaker, Witness, Mara & Rhea"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"👁️"}</iconMetadata>
-<content>
 # The Breaker
 
-O protagonista chega a Moonlight como <b>ACCEPTED</b>.
+O protagonista chega a Moonlight como **ACCEPTED**.
 
 Em Lumen, usou autoridade excepcional para impedir uma catástrofe.
 
@@ -27,13 +15,13 @@ Agora experimenta o outro lado dessa lógica.
 
 Progressão:
 
-<b>ACCEPTED → suspeito → fugitivo → autoauditor → operationally MISSING → absolvido em Moonlight → sacrificado por Rhea → voluntarily MISSING</b>
+**ACCEPTED → suspeito → fugitivo → autoauditor → operationally MISSING → absolvido em Moonlight → sacrificado por Rhea → voluntarily MISSING**
 
 Sua maior evolução não é aprender uma nova técnica de ataque.
 
 É compreender:
 
-> <b>ter acesso à verdade não significa ter direito de revelá-la.</b>
+> **ter acesso à verdade não significa ter direito de revelá-la.**
 
 # Rhea Kestrel
 
@@ -43,13 +31,14 @@ Moonlight não começa com reconciliação.
 
 A private settlement que liga os dois possui evidência dividida:
 
-SENDER WITNESS: RHEA<br />RECIPIENT WITNESS: BREAKER
+SENDER WITNESS: RHEA
+RECIPIENT WITNESS: BREAKER
 
 Nenhum deles consegue construir sozinho a prova completa com disclosure proporcional.
 
 Rhea:
 
-> <b>“Você não consegue limpar seu nome sem mim.”</b>
+> **“Você não consegue limpar seu nome sem mim.”**
 
 Breaker:
 
@@ -57,13 +46,13 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu sei.”</b>
+> **“Eu sei.”**
 
 Eles são obrigados a trabalhar juntos.
 
 A progressão é:
 
-<b>inimigos → cooperação forçada → confiança conquistada → ruptura de confiança por escolha unilateral de Rhea → rivais com ferida pessoal</b>
+**inimigos → cooperação forçada → confiança conquistada → ruptura de confiança por escolha unilateral de Rhea → rivais com ferida pessoal**
 
 Não romance nem amizade automática. O Breaker realmente passa a acreditar que Rhea respeitará seu direito de decidir sobre si mesmo; é precisamente essa expectativa que ela rompe.
 
@@ -79,7 +68,7 @@ Também entende que investigações legítimas podem exigir disclosure limitado.
 
 Pela primeira vez, o Breaker precisa dizer a Rhea:
 
-> <b>“Você consegue quebrar isso. Não significa que deve.”</b>
+> **“Você consegue quebrar isso. Não significa que deve.”**
 
 É a inversão do aprendizado de Lumen.
 
@@ -103,7 +92,7 @@ Selective disclosure limitado permitiu identificar somente as relações necess�
 
 A experiência moldou sua crença:
 
-> <b>“Privacidade protege inocentes porque ainda existe uma forma legítima de investigar culpados.”</b>
+> **“Privacidade protege inocentes porque ainda existe uma forma legítima de investigar culpados.”**
 
 Por isso a recusa do Breaker parece suspeita.
 
@@ -111,11 +100,11 @@ Ele/ela já ouviu argumentos semelhantes de pessoas realmente culpadas.
 
 ## Arco
 
-<b>certeza → persistência procedural → contradição → dúvida → escolha institucional</b>
+**certeza → persistência procedural → contradição → dúvida → escolha institucional**
 
 No início:
 
-> <b>“Você não decide o que eu preciso.”</b>
+> **“Você não decide o que eu preciso.”**
 
 No final:
 
@@ -123,7 +112,7 @@ SYSTEM: FULL DISCLOSURE REQUIRED
 
 First Witness:
 
-> <b>“A prova é suficiente.”</b>
+> **“A prova é suficiente.”**
 
 First Witness encerra a ordem após revisar a suficiência técnica da prova mínima, sem exigir exposição indiscriminada.
 
@@ -153,7 +142,7 @@ Sera chega à Season 3 depois de aprender em Lumen que informação verdadeira t
 
 Agora sua posição é mais madura:
 
-> <b>accountability não exige exposição indiscriminada.</b>
+> **accountability não exige exposição indiscriminada.**
 
 Ela se torna uma aliada informacional do Breaker, mas não uma quest dispenser.
 
@@ -191,7 +180,7 @@ São investigadores altamente autorizados.
 
 O desconforto da Season vem de perceber que:
 
-> <b>eles não precisam quebrar toda a criptografia para reconstruir uma pessoa.</b>
+> **eles não precisam quebrar toda a criptografia para reconstruir uma pessoa.**
 
 # Handoff emocional v2 — confiança demonstrável, não apenas declarada
 
@@ -206,7 +195,4 @@ O desconforto da Season vem de perceber que:
 | Final | Fornece sender witness necessário ao pacote mínimo | Prova conformidade sem expor a cidade | Vitória conjunta |
 | Epílogo | Só agora escolhe atribuir operador histórico a Lumen | Descobre a divulgação não consentida e mantém MISSING | Ruptura real |
 
-<b>Regra de produção:</b> duas ações com <b>custo pessoal visível</b> de ambos antes do clímax; não plantar sinais falsos de que Rhea planejava trair. First Witness é investigador legítimo que aprende a rejeitar disclosure desproporcional. Sera é aliada informacional, não personagem que entrega soluções. Mara protege-se pela ausência de contato.
-</content>
-</page>
-
+**Regra de produção:** duas ações com **custo pessoal visível** de ambos antes do clímax; não plantar sinais falsos de que Rhea planejava trair. First Witness é investigador legítimo que aprende a rejeitar disclosure desproporcional. Sera é aliada informacional, não personagem que entrega soluções. Mara protege-se pela ausência de contato.

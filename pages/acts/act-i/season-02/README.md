@@ -5,4 +5,3 @@
 - [Mundo e personagens](world/)
 - [Produção e QA](production/)
 - [Referências e canon](references/)
-

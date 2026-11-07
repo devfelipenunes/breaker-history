@@ -5,23 +5,7 @@ title: "HORIZON / LEGACY FEED"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40e9c5630425818ab003ddc1f3a8fcaa as of 2026-11-04T15:13:43.032Z:
-<page url="https://app.notion.com/p/40e9c5630425818ab003ddc1f3a8fcaa">
-<ancestor-path>
-<parent-data-source url="collection://68d445ad-e91e-44c9-a323-544887af1bad" name="17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA"/>
-<ancestor-2-database url="https://app.notion.com/p/2b1d33190ac446bfaea34e7a4db74d92" title="17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-4-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-5-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"Arquivo / Asset":"08.webp / BREAKER OS","Case / Área":"Case 07","Custos / cuidados":"Distinguir Horizon, RPC e Galexie; não inventar dados secretos no ledger.","Easter Egg":"HORIZON / LEGACY FEED","Fonte oficial":"https://developers.stellar.org/docs/tools/lab/quickstart-with-lab","Local na composição":"Rodapé de monitor técnico separado dos documentos secretos","Prioridade":"P1","Referência real":"Horizon: infraestrutura de API/consulta histórica da rede Stellar","Risco spoiler":"Médio","Season":"Season 1","Status":"Ideia","Suporte":["Terminal","Documento"],"Tipo":"Tecnologia","url":"https://app.notion.com/p/40e9c5630425818ab003ddc1f3a8fcaa"}
-</properties>
-<iconMetadata>null</iconMetadata>
-<content>
-<callout icon="🥚" color="gray_bg">
-<b>PROPOSTA — NÃO CANÔNICA</b>. Não foi inserida em imagem, mapa ou runtime. É um candidato de pesquisa para revisão de arte, UX e canon da Season 1.
-</callout>
+**PROPOSTA — NÃO CANÔNICA**. Não foi inserida em imagem, mapa ou runtime. É um candidato de pesquisa para revisão de arte, UX e canon da Season 1.
 
 ## Conceito
 
@@ -47,13 +31,10 @@ Horizon: infraestrutura de API/consulta histórica da rede Stellar. [Fonte ofici
 - [ ] Revisar nomes, logos, licença e qualquer sugestão de endosso de terceiros.
 - [ ] Marcar 'Aprovado' somente após decisão explícita; 'Implementado' somente após ver no runtime.
 
-<b>Cuidado principal:</b> Distinguir Horizon, RPC e Galexie; não inventar dados secretos no ledger.
-</content>
-</page>
+**Cuidado principal:** Distinguir Horizon, RPC e Galexie; não inventar dados secretos no ledger.
 
-<parent-data-source-schema url="collection://68d445ad-e91e-44c9-a323-544887af1bad">
 The SQLite table definition for this page's parent data source. Use these column names and option values to set this page's properties, create sibling pages, or query the data source.
-<sqlite-table>
+
 CREATE TABLE IF NOT EXISTS "collection://68d445ad-e91e-44c9-a323-544887af1bad" (
 	url TEXT UNIQUE,
 	createdTime TEXT, -- ISO-8601 datetime string, automatically set. This is the canonical time for when the page was created.
@@ -71,6 +52,4 @@ CREATE TABLE IF NOT EXISTS "collection://68d445ad-e91e-44c9-a323-544887af1bad" (
 	"Local na composição" TEXT,
 	"Easter Egg" TEXT
 )
-</sqlite-table>
-</parent-data-source-schema>
 

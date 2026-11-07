@@ -5,21 +5,7 @@ title: "🛠️ 11 — Production Tracker & QA — Season 3"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c9c563042581ac9e64cd78769471df as of 2026-11-03T00:08:24.024Z:
-<page url="https://app.notion.com/p/40c9c563042581ac9e64cd78769471df" icon="🛠️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"11 — Production Tracker & QA — Season 3"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🛠️"}</iconMetadata>
-<content>
-<callout icon="🛠️" color="yellow_bg">
-<b>Tracker de documentação, implementação e QA — Season 3.</b> Fases descritas no Notion, sem comprovação de deploy, contratos, ZK circuit/verifier, frontend ou quantidade de slides. Status “NÃO VERIFICADO” <b>não significa</b> não implementado. Evitar marcar como concluído sem execução reproduzível.
-</callout>
+**Tracker de documentação, implementação e QA — Season 3.** Fases descritas no Notion, sem comprovação de deploy, contratos, ZK circuit/verifier, frontend ou quantidade de slides. Status “NÃO VERIFICADO” **não significa** não implementado. Evitar marcar como concluído sem execução reproduzível.
 
 # Estado editorial inicial
 
@@ -47,7 +33,7 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c
 
 # Prioridades
 
-<b>P0 — Consistência e verificação formal</b>
+**P0 — Consistência e verificação formal**
 
 - Fixar prova histórica de settlement, binding sender/recipient, policy na execução e alteração DENIED posterior.
 - Diferenciar Case 03 (reprodução de perfil forjado) de Case 04 (causa histórica do DENIED).
@@ -57,14 +43,14 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c
 - Especificar MISSING no modelo de observação e scope da privacidade.
 - Garantir que o epílogo permaneça um segundo procedimento, com perda institucional não financeira.
 
-<b>P1 — Experiência e narrativa</b>
+**P1 — Experiência e narrativa**
 
 - Diferenciar loops jogáveis de Case 01/storage, 02/events, 03/profile e 04/governance.
 - Entre Cases 05–09 construir confiança por atos demonstráveis de reciprocidade, não diálogo explicativo.
 - Provar que cada pista dos Witnesses tem fonte rastreável, e que SOURCE E.V. é identificada só no clímax.
 - Adaptar os beats de slides a componentes existentes, mantendo imagem cinematográfica e Breach Report separado.
 
-<b>P2 — Polimento</b>
+**P2 — Polimento**
 
 - Estados visuais progressivos do Veil, Glass District, Pool, Blind Quarter e Spire.
 - Efeitos de rastreio e degradação de observation confidence, sem confundir grau de confiança da inferência com probabilidade matemática garantida.
@@ -88,22 +74,22 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c
 
 # Registro a preencher após acesso ao repositório
 
-<b>Case ID; owner; branch/commit; Soroban SDK/runtime; stack ZK (circuit + proving/verifying system); testnet/local fixture; proved public inputs; secure mirror; exploit trace; verificador; screenshots/slides; playtest; blockers; status.</b>
+**Case ID; owner; branch/commit; Soroban SDK/runtime; stack ZK (circuit + proving/verifying system); testnet/local fixture; proved public inputs; secure mirror; exploit trace; verificador; screenshots/slides; playtest; blockers; status.**
 
 # Estratégia de playtest
 
-1. <b>Prologue–Case 04–Witness:</b> testar se o jogador entende por que informações públicas comprometem privacidade e por que a associação atual não basta para julgar o passado.
-2. <b>Cases 05–06:</b> separar nullifier replay de under-constrained circuit; perguntar se proof válida garante claim verdadeira.
-3. <b>Cases 07–09:</b> observar interpretação de metadados, limite de auditoria e associação de VK/policy.
-4. <b>Case 10 + Final:</b> testar se o jogador alcança MISSING no threat model, constrói prova positiva e consegue divulgar apenas claims necessárias.
-5. <b>Epílogo:</b> perguntar o que Rhea revelou, para qual processo, quando decidiu e o que foi efetivamente suspenso.
+1. **Prologue–Case 04–Witness:** testar se o jogador entende por que informações públicas comprometem privacidade e por que a associação atual não basta para julgar o passado.
+2. **Cases 05–06:** separar nullifier replay de under-constrained circuit; perguntar se proof válida garante claim verdadeira.
+3. **Cases 07–09:** observar interpretação de metadados, limite de auditoria e associação de VK/policy.
+4. **Case 10 + Final:** testar se o jogador alcança MISSING no threat model, constrói prova positiva e consegue divulgar apenas claims necessárias.
+5. **Epílogo:** perguntar o que Rhea revelou, para qual processo, quando decidiu e o que foi efetivamente suspenso.
 
 # Referências
 
-- <mention url="https://app.notion.com/p/4019c56304258120bb15ce9d8ce99725" />
-- <mention url="https://app.notion.com/p/40c9c56304258163a9f8c7ed2abcdf1c" />
-- <mention url="https://app.notion.com/p/40c9c563042581cbb4f2c2c801ec0ea5" />
-- <mention url="https://app.notion.com/p/4029c56304258153a677d79433eb2a70" />
+- [03 — Mapa de Desafios & Aprendizado](../world/03-mapa-de-desafios-aprendizado.md)
+- [08 — Privacy Threat Model & Cadeia de Evidências](../world/08-privacy-threat-model-cadeia-de-evidencias.md)
+- [09 — Roteiro de Gameplay & Slides — Season 3](../world/09-roteiro-de-gameplay-slides-season-3.md)
+- [07 — O Sétimo | Rhea × Breaker — Virada canônica do Act I](../world/07-o-setimo-rhea-breaker-virada-canonica-do-act-i.md)
 
 # QA P0 de causalidade e privacidade — decisões aprovadas
 
@@ -114,8 +100,5 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c
 - [ ] Case 09/10: sender witness entregue autenticado antes da separação; não requer reencontro.
 - [ ] Final: Breaker aparece à Spire fisicamente, com credential de caso restrita; First Witness o identifica na sessão sem conseguir rastrear entrada/saída continuamente.
 - [ ] A prova de settlement usa policy histórica e atestação beneficiário; full disclosure alcançaria envelope jornalístico associado ao dossiê, mas prova mínima exclui origem E.V.
-- [ ] Epílogo: atestação voluntária de Rhea refere-se <b>apenas</b> à investigação independente de Lumen após encerramento de Moonlight; somente credencial institucional intercity é suspensa.
+- [ ] Epílogo: atestação voluntária de Rhea refere-se **apenas** à investigação independente de Lumen após encerramento de Moonlight; somente credencial institucional intercity é suspensa.
 - [ ] Stack ZK, threat model, views e modelos de observação testados antes de declarar segurança ou certeza do resultado.
-</content>
-</page>
-

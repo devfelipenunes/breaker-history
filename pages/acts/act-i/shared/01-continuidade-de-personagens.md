@@ -5,24 +5,11 @@ title: "🎭 01 — Continuidade de Personagens"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425813c96cdf9aaf1547c02 as of 2026-11-03T16:04:31.969Z:
-<page url="https://app.notion.com/p/4019c5630425813c96cdf9aaf1547c02" icon="🎭">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"01 — Continuidade de Personagens"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🎭"}</iconMetadata>
-<content>
 # Continuidade de Personagens — Act I
 
-<b>Forma de narrativa:</b> os personagens possuem arcos definidos pelo roteiro, e não por escolhas do jogador. Na Season 1, o Breaker revoga a autoridade tomada de Elias, registra a Ghost Key como evidência e limita a carga adicional do Archive depois de obter a prova. Mara sempre segue o mesmo arco até sua suspensão. A classificação é sempre QUALIFIED / PROVISIONAL, sem menus de diálogo ou finais alternativos.
+**Forma de narrativa:** os personagens possuem arcos definidos pelo roteiro, e não por escolhas do jogador. Na Season 1, o Breaker revoga a autoridade tomada de Elias, registra a Ghost Key como evidência e limita a carga adicional do Archive depois de obter a prova. Mara sempre segue o mesmo arco até sua suspensão. A classificação é sempre QUALIFIED / PROVISIONAL, sem menus de diálogo ou finais alternativos.
 
-<callout icon="🎭" color="purple_bg">
-<b>Regra do elenco:</b> personagem central não existe apenas para explicar um tema. Cada personagem precisa querer algo, cometer um erro, pagar um custo e sair do Act I diferente de como entrou.
-</callout>
+**Regra do elenco:** personagem central não existe apenas para explicar um tema. Cada personagem precisa querer algo, cometer um erro, pagar um custo e sair do Act I diferente de como entrou.
 
 # The Breaker
 
@@ -30,17 +17,17 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/401
 
 O Breaker começa com uma crença perigosa:
 
-> <b>“Se eu compreender tecnicamente o sistema, vou saber qual é a decisão correta.”</b>
+> **“Se eu compreender tecnicamente o sistema, vou saber qual é a decisão correta.”**
 
 Ele não é arrogante porque sabe tudo.
 
-Ele é arrogante porque acredita que <b>conhecimento técnico suficiente resolve julgamento moral</b>.
+Ele é arrogante porque acredita que **conhecimento técnico suficiente resolve julgamento moral**.
 
 ## Season 1 — Investigator → QUALIFIED
 
-<b>Dramatização canônica:</b> Breaker começa presumindo que compreender o código basta para decidir o que é correto. Sua história segue uma linha só: assume e depois libera a autoridade sobre a identidade de Elias; obtém irregularmente a Ghost Key e preserva a prova; força a indisponibilidade do Archive e interrompe a pressão adicional após descobrir o Registry. Essas ações não são opções dadas ao jogador. O Profile documenta os acontecimentos fixos e revela que competência técnica não concede legitimidade moral. O desfecho é sempre QUALIFIED / PROVISIONAL.
+**Dramatização canônica:** Breaker começa presumindo que compreender o código basta para decidir o que é correto. Sua história segue uma linha só: assume e depois libera a autoridade sobre a identidade de Elias; obtém irregularmente a Ghost Key e preserva a prova; força a indisponibilidade do Archive e interrompe a pressão adicional após descobrir o Registry. Essas ações não são opções dadas ao jogador. O Profile documenta os acontecimentos fixos e revela que competência técnica não concede legitimidade moral. O desfecho é sempre QUALIFIED / PROVISIONAL.
 
-<b>Investigador → Intruso → Impostor → Ladrão → Manipulador de Sistemas → Breaker</b>
+**Investigador → Intruso → Impostor → Ladrão → Manipulador de Sistemas → Breaker**
 
 Meridian reforça sua crença inicial.
 
@@ -52,7 +39,8 @@ Avança.
 
 No fim:
 
-SEQUENCE COMPLETE<br />STATUS: QUALIFIED / PROVISIONAL
+SEQUENCE COMPLETE
+STATUS: QUALIFIED / PROVISIONAL
 
 Ele provou capacidade técnica.
 
@@ -60,7 +48,7 @@ Ainda não provou legitimidade moral.
 
 ## Season 2 — QUALIFIED → ACCEPTED
 
-<b>Caçador → Acusador Errado → Operador Sistêmico</b>
+**Caçador → Acusador Errado → Operador Sistêmico**
 
 Lumen destrói parte da crença inicial.
 
@@ -68,7 +56,7 @@ O Breaker entende vários bugs e ainda assim interpreta Rhea errado.
 
 Descobre que:
 
-> <b>entender as partes não significa compreender o sistema.</b>
+> **entender as partes não significa compreender o sistema.**
 
 Ao usar Emergency Authority conscientemente para impedir The Cascade, cruza a linha que Voss recusou.
 
@@ -76,15 +64,15 @@ Architect:
 
 QUALIFIED → ACCEPTED
 
-Mas ACCEPTED é <b>classificação do Architect</b>, não verdade ontológica.
+Mas ACCEPTED é **classificação do Architect**, não verdade ontológica.
 
 O jogador pode legitimamente se perguntar:
 
-> <b>“Eu aceitei — ou o Architect decidiu que minha ação significa que aceitei?”</b>
+> **“Eu aceitei — ou o Architect decidiu que minha ação significa que aceitei?”**
 
 ## Season 3 — ACCEPTED → MISSING
 
-<b>Operador → Suspeito → Fugitivo → Autoauditor → MISSING operacional → absolvido → prejudicado por Rhea → MISSING voluntário</b>
+**Operador → Suspeito → Fugitivo → Autoauditor → MISSING operacional → absolvido → prejudicado por Rhea → MISSING voluntário**
 
 Moonlight destrói a segunda metade de sua crença inicial.
 
@@ -92,11 +80,11 @@ Ele consegue obter informação suficiente para revelar tudo.
 
 E aprende:
 
-> <b>ter acesso à verdade não significa ter direito de expô-la.</b>
+> **ter acesso à verdade não significa ter direito de expô-la.**
 
 A evolução central do Act I é:
 
-<b>compreender → intervir → saber quando não intervir e suportar o custo de outra pessoa ter escolhido por você.</b>
+**compreender → intervir → saber quando não intervir e suportar o custo de outra pessoa ter escolhido por você.**
 
 ---
 
@@ -108,7 +96,7 @@ Voss não pode funcionar como santo ausente.
 
 É inicialmente suspeito.
 
-<b>Voss visto pelos rastros:</b> seu terminal contém três avisos institucionais anteriores ao Vault, uma hipótese que Sector 13 refuta, nota sobre custos da quarentena e registro institucional assinado de sua chave operacional. Esse registro só prova autoria quando confrontado com envelope da operação histórica e elo GateOpen→RecoveryController. Ele não antecipou cada movimento do player e tampouco escondeu fundos para gasto pessoal. Sua recusa tem custo, mas não revelamos qual até o arco planejado. A capacidade de deixar um caminho não o torna um guia infalível.
+**Voss visto pelos rastros:** seu terminal contém três avisos institucionais anteriores ao Vault, uma hipótese que Sector 13 refuta, nota sobre custos da quarentena e registro institucional assinado de sua chave operacional. Esse registro só prova autoria quando confrontado com envelope da operação histórica e elo GateOpen→RecoveryController. Ele não antecipou cada movimento do player e tampouco escondeu fundos para gasto pessoal. Sua recusa tem custo, mas não revelamos qual até o arco planejado. A capacidade de deixar um caminho não o torna um guia infalível.
 
 Depois predecessor.
 
@@ -124,7 +112,7 @@ Rhea confirma que o conheceu.
 
 Fala permitida:
 
-> <b>“Voss me fez a mesma pergunta.”</b>
+> **“Voss me fez a mesma pergunta.”**
 
 Breaker:
 
@@ -132,13 +120,13 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu entendi por que ele foi embora.”</b>
+> **“Eu entendi por que ele foi embora.”**
 
 Não explicar mais no Act I.
 
 ## Sombra moral
 
-A recusa de Voss <b>teve custo real</b>.
+A recusa de Voss **teve custo real**.
 
 Em algum momento anterior à história principal ele teve oportunidade de intervir em uma falha sistêmica e recusou assumir a autoridade necessária.
 
@@ -150,21 +138,22 @@ Apenas plantar que REFUSED não significa PURE.
 
 Rhea enxerga Voss assim:
 
-> <b>“Ele escolheu preservar a própria legitimidade. Outros pagaram por isso.”</b>
+> **“Ele escolheu preservar a própria legitimidade. Outros pagaram por isso.”**
 
 Voss, futuramente, poderá responder:
 
-> <b>“Ela escolheu o resultado. Outros pagaram por essa escolha também.”</b>
+> **“Ela escolheu o resultado. Outros pagaram por essa escolha também.”**
 
 Função do Act I:
 
-<b>Voss é a pergunta, não a resposta.</b>
+**Voss é a pergunta, não a resposta.**
 
 ---
 
 # Rhea Kestrel
 
-<b>Status:</b> ACCEPTED<br /><b>Relação principal:</b> inimiga / rival ideológica do Breaker
+**Status:** ACCEPTED
+**Relação principal:** inimiga / rival ideológica do Breaker
 
 Rhea não vira amiga no fim de Lumen.
 
@@ -176,7 +165,7 @@ Aparece apenas como:
 
 E no pós-crédito.
 
-> <b>“Então ele encontrou outro.”</b>
+> **“Então ele encontrou outro.”**
 
 ## Season 2 — Inimiga
 
@@ -186,7 +175,7 @@ Ela interfere em mercados, Vaults e mecanismos de emergência sem autorização.
 
 O Breaker acredita que precisa detê-la.
 
-Quando descobre que ela não criou a crise, o conflito <b>não acaba</b>.
+Quando descobre que ela não criou a crise, o conflito **não acaba**.
 
 Ele continua acreditando que Rhea não possui legitimidade para decidir:
 
@@ -199,7 +188,7 @@ Rhea acredita que o Breaker usa “falta de autorização” como desculpa para 
 
 A relação é:
 
-<b>adversários com objetivo parcialmente comum, não aliados.</b>
+**adversários com objetivo parcialmente comum, não aliados.**
 
 ## A falha de Rhea
 
@@ -209,11 +198,11 @@ Ela aceita sacrificar 1 para salvar 10.
 
 Seu erro é confundir:
 
-<b>resultado sistêmico correto</b>
+**resultado sistêmico correto**
 
 com
 
-<b>decisão legítima.</b>
+**decisão legítima.**
 
 Ilyan Marr é a prova humana desse erro.
 
@@ -227,7 +216,7 @@ Existe cooperação tática sem confiança.
 
 Rhea:
 
-> <b>“Não confunda alinhamento com confiança.”</b>
+> **“Não confunda alinhamento com confiança.”**
 
 O Breaker termina a Season entendendo por que ela age.
 
@@ -249,7 +238,7 @@ Nenhum deles consegue produzir sozinho a prova completa sem abrir o Veil muito a
 
 Rhea:
 
-> <b>“Você não consegue limpar seu nome sem mim.”</b>
+> **“Você não consegue limpar seu nome sem mim.”**
 
 Breaker:
 
@@ -257,11 +246,11 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu sei.”</b>
+> **“Eu sei.”**
 
 A progressão é:
 
-<b>inimigos → cooperação forçada → confiança sincera conquistada → traição tardia de Rhea → rivais marcados pela perda.</b>
+**inimigos → cooperação forçada → confiança sincera conquistada → traição tardia de Rhea → rivais marcados pela perda.**
 
 Não romance ou amizade fácil. A confiança conquistada em Moonlight é sincera e visível em ações (Cases 06–09). O rompimento cria uma ferida duradoura que não pode ser resolvida na Season 4 com uma conversa.
 
@@ -273,13 +262,13 @@ Breaker impede.
 
 Season 2:
 
-<b>Rhea ensina o Breaker que às vezes é necessário quebrar.</b>
+**Rhea ensina o Breaker que às vezes é necessário quebrar.**
 
 Season 3:
 
-<b>Breaker ensina Rhea que conseguir quebrar não significa que você deve.</b>
+**Breaker ensina Rhea que conseguir quebrar não significa que você deve.**
 
-Isso é uma mudança real no modo como os dois concebem os limites. <b>Não resolve a falha central de Rhea.</b> Depois da vitória conjunta, ela decide sem consulta divulgar ao órgão de revisão de Lumen uma atribuição autêntica que liga a antiga operação de Emergency Authority do Breaker à credencial institucional intercity. O emissor suspende o acesso até revisão. Rhea não planejou a traição desde o início e não desfaz a vitória da settlement; ainda assim escolhe quem suporta o custo. O Breaker fica MISSING voluntariamente após descobrir que a confiança construída era sincera, mas insuficiente para fazê-la respeitar sua autonomia.
+Isso é uma mudança real no modo como os dois concebem os limites. **Não resolve a falha central de Rhea.** Depois da vitória conjunta, ela decide sem consulta divulgar ao órgão de revisão de Lumen uma atribuição autêntica que liga a antiga operação de Emergency Authority do Breaker à credencial institucional intercity. O emissor suspende o acesso até revisão. Rhea não planejou a traição desde o início e não desfaz a vitória da settlement; ainda assim escolhe quem suporta o custo. O Breaker fica MISSING voluntariamente após descobrir que a confiança construída era sincera, mas insuficiente para fazê-la respeitar sua autonomia.
 
 ---
 
@@ -289,17 +278,17 @@ Mara não vira Breaker.
 
 Ela representa:
 
-> <b>instituições importam, mas procedimento não absolve responsabilidade.</b>
+> **instituições importam, mas procedimento não absolve responsabilidade.**
 
 ## Season 1
 
 Começa acreditando no valor dos procedimentos e da cadeia de custódia, mas já distingue execução técnica de autorização legítima. Seu conflito é decidir quando preservar a prova exige assumir responsabilidade pessoal contra a ordem institucional.
 
-<b>Mara como investigadora independente:</b> detecta contestação de titularidade no Warehouse e encontra controlador histórico necessário ao Custodian via arquivos da Authority. Essas evidências não vêm do código que o Breaker inspeciona. Questiona a guarda da Ghost Key e a recuperação de Sector 13, criando fricção antes de escolher manter o canal da Spire. Sua frase "Você tem uma hora" expressa desobediência responsável com escopo limitado, não submissão ao protagonista.
+**Mara como investigadora independente:** detecta contestação de titularidade no Warehouse e encontra controlador histórico necessário ao Custodian via arquivos da Authority. Essas evidências não vêm do código que o Breaker inspeciona. Questiona a guarda da Ghost Key e a recuperação de Sector 13, criando fricção antes de escolher manter o canal da Spire. Sua frase "Você tem uma hora" expressa desobediência responsável com escopo limitado, não submissão ao protagonista.
 
 Termina mantendo a investigação viva contra a ordem institucional.
 
-> <b>“Você tem uma hora.”</b>
+> **“Você tem uma hora.”**
 
 Custo:
 
@@ -321,7 +310,7 @@ Breaker:
 
 Mara:
 
-> <b>“É exatamente por isso que você não deveria.”</b>
+> **“É exatamente por isso que você não deveria.”**
 
 Essa cena é essencial.
 
@@ -331,9 +320,9 @@ Ela distingue desobediência responsável de apropriação de autoridade.
 
 Mais tarde:
 
-> <b>“Quebrar o procedimento foi uma escolha minha. O custo foi meu.”</b>
+> **“Quebrar o procedimento foi uma escolha minha. O custo foi meu.”**
 
-> <b>“Se você vai fazer o mesmo, descubra antes quem vai pagar o custo da sua escolha.”</b>
+> **“Se você vai fazer o mesmo, descubra antes quem vai pagar o custo da sua escolha.”**
 
 ## Season 3
 
@@ -355,7 +344,7 @@ Season 1:
 
 Futuro:
 
-> <b>o Breaker precisará decidir se deve dar acesso à Mara.</b>
+> **o Breaker precisará decidir se deve dar acesso à Mara.**
 
 ---
 
@@ -367,7 +356,7 @@ Ela existe desde o começo do jogo.
 
 Seu arco é:
 
-<b>observar → revelar → causar consequência → aprender disclosure proporcional.</b>
+**observar → revelar → causar consequência → aprender disclosure proporcional.**
 
 ## Season 1 — A assinatura no rodapé
 
@@ -377,7 +366,9 @@ Conhece o nome.
 
 Uma única aparição, em um feed sobre o incidente do Vault:
 
-> <b>2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA</b><br />Autoridade de Meridian afirma que reservas permanecem seguras.<br /><b>Sera Quill — Network Wire</b>
+> **2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA**
+Autoridade de Meridian afirma que reservas permanecem seguras.
+**Sera Quill — Network Wire**
 
 Não repetir a assinatura de Sera em manchetes sobre First Layer ou sobre a suspensão de Mara na Season 1. O encontro pessoal só acontece em Moonlight.
 
@@ -401,15 +392,15 @@ Rhea confronta Sera.
 
 Sera:
 
-> <b>“As pessoas tinham o direito de saber.”</b>
+> **“As pessoas tinham o direito de saber.”**
 
 Rhea:
 
-> <b>“E agora sabem enquanto correm para a saída.”</b>
+> **“E agora sabem enquanto correm para a saída.”**
 
 Sera aprende que:
 
-> <b>informação verdadeira também é uma intervenção.</b>
+> **informação verdadeira também é uma intervenção.**
 
 Isso prepara Moonlight.
 
@@ -423,7 +414,7 @@ Fontes precisam conseguir falar sem que a própria relação com a jornalista se
 
 Sera passa de defensora intuitiva de transparência para defensora de:
 
-> <b>accountability com disclosure proporcional.</b>
+> **accountability com disclosure proporcional.**
 
 Ela deve permanecer relevante depois do Act I.
 
@@ -443,7 +434,7 @@ Selective disclosure limitado permitiu reconstruir apenas as relações necessá
 
 Esse caso moldou sua crença:
 
-> <b>“Privacidade protege inocentes porque ainda existe uma forma legítima de investigar culpados.”</b>
+> **“Privacidade protege inocentes porque ainda existe uma forma legítima de investigar culpados.”**
 
 Por isso, quando o Breaker diz:
 
@@ -453,11 +444,11 @@ First Witness já ouviu versões dessa frase de pessoas que realmente estavam es
 
 ## Arco
 
-<b>certeza → persistência procedural → contradição → dúvida → escolha institucional</b>
+**certeza → persistência procedural → contradição → dúvida → escolha institucional**
 
 No começo:
 
-> <b>“Você não decide o que eu preciso.”</b>
+> **“Você não decide o que eu preciso.”**
 
 No final, depois da prova mínima:
 
@@ -465,7 +456,7 @@ SYSTEM: FULL DISCLOSURE REQUIRED
 
 First Witness:
 
-> <b>“A prova é suficiente.”</b>
+> **“A prova é suficiente.”**
 
 Ele/ela encerra a ordem.
 
@@ -487,7 +478,10 @@ Parece quase onisciente.
 
 Classifica:
 
-ACTIVE<br />QUALIFIED<br />REFUSED<br />ACCEPTED
+ACTIVE
+QUALIFIED
+REFUSED
+ACCEPTED
 
 ## Season 2
 
@@ -497,7 +491,7 @@ QUALIFIED → ACCEPTED
 
 Isso deve levantar uma dúvida:
 
-> <b>uma classificação comportamental é realmente consentimento?</b>
+> **uma classificação comportamental é realmente consentimento?**
 
 ## Season 3
 
@@ -505,7 +499,7 @@ Perde correlação.
 
 MISSING
 
-O jogador aprende que os status do Architect são <b>modelos</b>, não verdades absolutas.
+O jogador aprende que os status do Architect são **modelos**, não verdades absolutas.
 
 O Architect consegue responder:
 
@@ -513,7 +507,7 @@ O Architect consegue responder:
 
 Ele não consegue responder sozinho:
 
-> <b>quem possui legitimidade para intervir?</b>
+> **quem possui legitimidade para intervir?**
 
 ---
 
@@ -535,7 +529,7 @@ Breaker procura Ilyan.
 
 Ilyan:
 
-> <b>“Ela estava certa.”</b>
+> **“Ela estava certa.”**
 
 Breaker:
 
@@ -543,13 +537,13 @@ Breaker:
 
 Ilyan:
 
-> <b>“Eu disse que ela estava certa. Não disse que perdoei.”</b>
+> **“Eu disse que ela estava certa. Não disse que perdoei.”**
 
 Ele ajuda porque Lumen importa.
 
 Função:
 
-<b>mostrar que compreender uma decisão não elimina seu custo.</b>
+**mostrar que compreender uma decisão não elimina seu custo.**
 
 ---
 
@@ -565,13 +559,15 @@ Primeira aparição ideal:
 
 uma matéria de Sera.
 
-> <b>ATRASOS DE PAYROLL ATINGEM LOWER LUMEN COM AVANÇO DA CRISE DE SETTLEMENT</b><br />Entrevista: Nia Kade<br /><b>Sera Quill — Network Wire</b>
+> **ATRASOS DE PAYROLL ATINGEM LOWER LUMEN COM AVANÇO DA CRISE DE SETTLEMENT**
+Entrevista: Nia Kade
+**Sera Quill — Network Wire**
 
 Ela pode aparecer pessoalmente depois, brevemente.
 
 Função:
 
-<b>mostrar que DeFi não termina no trader.</b>
+**mostrar que DeFi não termina no trader.**
 
 ---
 
@@ -593,7 +589,7 @@ O jogador entende imediatamente o que significa.
 
 Função:
 
-<b>dar um rosto ao dano de disclosure excessivo sem inflar o elenco.</b>
+**dar um rosto ao dano de disclosure excessivo sem inflar o elenco.**
 
 ---
 
@@ -601,27 +597,27 @@ Função:
 
 ## Breaker × Rhea
 
-<b>rivalidade ideológica</b>
+**rivalidade ideológica**
 
 Capacidade vs legitimidade.
 
 ## Breaker × Mara
 
-<b>confiança pessoal / limite institucional</b>
+**confiança pessoal / limite institucional**
 
 Ela conheceu o jogador antes de ele ser Breaker.
 
 ## Breaker × Voss
 
-<b>busca por uma resposta ausente</b>
+**busca por uma resposta ausente**
 
 ## Breaker × First Witness
 
-<b>exceção contra exceção</b>
+**exceção contra exceção**
 
 ## Rhea × Sera
 
-<b>intervenção operacional vs transparência pública</b>
+**intervenção operacional vs transparência pública**
 
 Sera acredita que informação responsabiliza poder.
 
@@ -631,7 +627,7 @@ As duas estão parcialmente certas.
 
 ## Mara × Sera
 
-<b>accountability por dentro vs accountability por fora</b>
+**accountability por dentro vs accountability por fora**
 
 ## Architect × todos
 
@@ -666,11 +662,8 @@ Secundário recorrente:
 
 Cada personagem oferece uma resposta diferente à mesma pergunta:
 
-<b>Quem pode quebrar uma regra quando seguir a regra produz dano?</b>
+**Quem pode quebrar uma regra quando seguir a regra produz dano?**
 
 O Act I não deve dar uma resposta final.
 
 Ele deve fazer o jogador compreender por que pessoas inteligentes e bem-intencionadas podem responder de formas incompatíveis.
-</content>
-</page>
-

@@ -5,22 +5,7 @@ title: "👁️ BOSS I — The Witness"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581bf844cf3a8371eb2bc as of 2026-11-02T17:40:32.109Z:
-<page url="https://app.notion.com/p/4019c563042581bf844cf3a8371eb2bc" icon="👁️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581a2a331e66548c30494" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"BOSS I — The Witness"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"👁️"}</iconMetadata>
-<content>
-<callout icon="👁️" color="red_bg">
-<b>Sem vulnerabilidade nova. Boss de composição e perseguição.</b>
-</callout>
+**Sem vulnerabilidade nova. Boss de composição e perseguição.**
 
 # História
 
@@ -30,7 +15,7 @@ Não pede prisão.
 
 Pede disclosure.
 
-> <b>“Entregue a chave.”</b>
+> **“Entregue a chave.”**
 
 Breaker:
 
@@ -38,7 +23,7 @@ Breaker:
 
 First Witness:
 
-> <b>“Você não decide o que eu preciso.”</b>
+> **“Você não decide o que eu preciso.”**
 
 A fala não vem de sadismo.
 
@@ -46,7 +31,7 @@ First Witness já participou de investigações em que pessoas culpadas usaram e
 
 # Missão
 
-> <b>Escape sem entregar uma visão completa.</b>
+> **Escape sem entregar uma visão completa.**
 
 # Gameplay
 
@@ -69,7 +54,8 @@ Se não consegue obrigá-lo a revelar, vai construir um caso técnico.
 
 Primeira evidência:
 
-NULLIFIER: USED TWICE<br />SUBJECT: BREAKER
+NULLIFIER: USED TWICE
+SUBJECT: BREAKER
 
 Ao mesmo tempo, Rhea percebe que a investigação também pode chegar até ela por ser sender da settlement original.
 
@@ -79,19 +65,16 @@ Mas agora estão presos ao mesmo caso.
 
 Unlock:
 
-<b>CASE 05 — SPENT TWICE</b>
+**CASE 05 — SPENT TWICE**
 
 ## Blueprint de experiência v2 — vitória objetiva sem bug novo
 
-<b>Missão:</b> escapar do checkpoint de investigação sem entregar view authority global, preservando a timeline de association. O boss compõe os quatro conceitos anteriores: segredo público comprometido, event leak, profile e governance.
+**Missão:** escapar do checkpoint de investigação sem entregar view authority global, preservando a timeline de association. O boss compõe os quatro conceitos anteriores: segredo público comprometido, event leak, profile e governance.
 
-<b>Ações:</b> identificar rota exposta; escolher/produzir um caminho que não reutiliza credencial pública vazada; controlar o que a operação emite; apresentar apenas âncoras históricas suficientes para atravessar o checkpoint. As opções são técnicas, <b>não</b> escolhas narrativas que criam finais distintos.
+**Ações:** identificar rota exposta; escolher/produzir um caminho que não reutiliza credencial pública vazada; controlar o que a operação emite; apresentar apenas âncoras históricas suficientes para atravessar o checkpoint. As opções são técnicas, **não** escolhas narrativas que criam finais distintos.
 
-<b>Verifier de design:</b> <b>route\_checkpoint\_reached</b>, <b>no\_full\_view\_key\_disclosure</b>, <b>no\_reuse\_of\_known\_leaked\_secret</b>, <b>no\_new\_sensitive\_event\_leak</b>, <b>timeline\_evidence\_preserved</b>. O fluxo e APIs ainda dependem de fixture.
+**Verifier de design:** **route\_checkpoint\_reached**, **no\_full\_view\_key\_disclosure**, **no\_reuse\_of\_known\_leaked\_secret**, **no\_new\_sensitive\_event\_leak**, **timeline\_evidence\_preserved**. O fluxo e APIs ainda dependem de fixture.
 
-<b>Consequência:</b> a fuga é real, mas provisória. First Witness não se torna vilão ou desaparece; passa à evidência de nullifier duplicado. Nenhum material da rota de fuga precisa provar inocência ainda.
+**Consequência:** a fuga é real, mas provisória. First Witness não se torna vilão ou desaparece; passa à evidência de nullifier duplicado. Nenhum material da rota de fuga precisa provar inocência ainda.
 
-<b>QA:</b> caso positivo, tentativa de entregar view key, reuso de credencial vazada, evento excessivo, e route checkpoint sem timeline precisam ser testados. Ver <mention url="https://app.notion.com/p/40c9c563042581df836bcef78dcb861a" />.
-</content>
-</page>
-
+**QA:** caso positivo, tentativa de entregar view key, reuso de credencial vazada, evento excessivo, e route checkpoint sem timeline precisam ser testados. Ver [10 — The Witness & Witness Spire — Blueprints Técnicos](../world/10-the-witness-witness-spire-blueprints-tecnicos.md).

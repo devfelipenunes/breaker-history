@@ -5,21 +5,7 @@ title: "🧩 03 — Cases & Bosses"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f as of 2026-11-04T15:38:07.783Z:
-<page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" icon="🧩">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"03 — Cases & Bosses"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🧩"}</iconMetadata>
-<content>
-<callout icon="🧩" color="blue_bg">
-<b>ÍNDICE TÉCNICO DE CASES E BOSSES — VERSÃO DOCUMENTAL REVISADA v1.4.</b> As fichas foram reconciliadas com o roteiro definitivo e preservam hipóteses de implementação, não testes executados. Para história, copy, ordem e desfecho prevalece <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" />. Para Rewrite/Architect consultar também <mention url="https://app.notion.com/p/4039c56304258137ae19e8787acc1d1f" /> e o código, quando disponível.
-</callout>
+**ÍNDICE TÉCNICO DE CASES E BOSSES — VERSÃO DOCUMENTAL REVISADA v1.4.** As fichas foram reconciliadas com o roteiro definitivo e preservam hipóteses de implementação, não testes executados. Para história, copy, ordem e desfecho prevalece [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md). Para Rewrite/Architect consultar também [VOSS PROTOCOL — Níveis 11/12 | Especificação vigente](voss-protocol-niveis-11-12-especificacao-vigente.md) e o código, quando disponível.
 
 # Fluxo
 
@@ -40,57 +26,28 @@ Depois da solução:
 - por que o exploit funcionou;
 - padrão seguro.
 
-<page url="https://app.notion.com/p/4009c563042581ff8cebd44408321b54">
-00 — Prologue: The Impossible Theft
-</page>
+[00 — Prologue: The Impossible Theft](00-prologue-the-impossible-theft.md)
 
-<page url="https://app.notion.com/p/4009c563042581e0b720d685c5eb837c">
-01 — No Forced Entry
-</page>
+[01 — No Forced Entry](01-no-forced-entry.md)
 
-<page url="https://app.notion.com/p/4009c5630425816d96c0f22627a7f6ae">
-02 — The Dead Man's Wallet
-</page>
+[02 — The Dead Man's Wallet](02-the-dead-man-s-wallet.md)
 
-<page url="https://app.notion.com/p/4009c5630425813cb1f3e2515b9de879">
-03 — Warehouse 17
-</page>
+[03 — Warehouse 17](03-warehouse-17.md)
 
-<page url="https://app.notion.com/p/4009c5630425815084b7dd82afc14074">
-04 — The Forgotten Floor
-</page>
+[04 — The Forgotten Floor](04-the-forgotten-floor.md)
 
-<page url="https://app.notion.com/p/4009c56304258198b58cd159962b9387">
-BOSS I — The Custodian
-</page>
+[BOSS I — The Custodian](boss-i-the-custodian.md)
 
-<page url="https://app.notion.com/p/4009c56304258170813ff50ebbd55c16">
-05 — The Missing Investigator
-</page>
+[05 — The Missing Investigator](05-the-missing-investigator.md)
 
-<page url="https://app.notion.com/p/4009c563042581f1b02ec78e46a3bba0">
-06 — The Impossible Account
-</page>
+[06 — The Impossible Account](06-the-impossible-account.md)
 
-<page url="https://app.notion.com/p/4009c56304258134a525e38dc0eba08b">
-07 — Sector 13
-</page>
+[07 — Sector 13](07-sector-13.md)
 
-<page url="https://app.notion.com/p/4009c563042581208f71f4f69bf03d72">
-08 — The Oracle
-</page>
+[08 — The Oracle](08-the-oracle.md)
 
-<page url="https://app.notion.com/p/4009c56304258178a3f5d8e6b6190770">
-09 — Steal the Key
-</page>
+[09 — Steal the Key](09-steal-the-key.md)
 
-<page url="https://app.notion.com/p/4009c5630425815395a8cbd0b9a7b536">
-10 — Rewrite
-</page>
+[10 — Rewrite](10-rewrite.md)
 
-<page url="https://app.notion.com/p/4009c5630425815581b2df01797d5365">
-FINAL BOSS — The Architect
-</page>
-</content>
-</page>
-
+[FINAL BOSS — The Architect](final-boss-the-architect.md)

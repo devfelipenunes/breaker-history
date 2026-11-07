@@ -5,21 +5,7 @@ title: "🎞️ ARQUIVO — Storyboards S1 (51 fichas) | material de produção 
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40d9c56304258103b01ceb45914f7dc9 as of 2026-11-03T14:35:31.239Z:
-<page url="https://app.notion.com/p/40d9c56304258103b01ceb45914f7dc9" icon="🎞️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425817d8adcc534f531c010" title="03 — Plano de Produção do Act I"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"ARQUIVO — Storyboards S1 (51 fichas) \\| material de produção pausado"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🎞️"}</iconMetadata>
-<content>
-<callout icon="🎬" color="blue_bg">
-<b>ARQUIVO DE PRODUÇÃO — PAUSADO.</b> Os arquivos de slides foram removidos; estas fichas históricas não são a prioridade atual. Esta página e seus cinco movimentos traduzem visualmente o roteiro; NÃO criam outro cânone. Para fatos, copy e final, prevalece <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" />. Direção de câmera: <mention url="https://app.notion.com/p/40d9c563042581e0804ddbe5451f69bf" />. Artes existentes aprovadas têm prioridade sobre qualquer pré-visualização.
-</callout>
+**ARQUIVO DE PRODUÇÃO — PAUSADO.** Os arquivos de slides foram removidos; estas fichas históricas não são a prioridade atual. Esta página e seus cinco movimentos traduzem visualmente o roteiro; NÃO criam outro cânone. Para fatos, copy e final, prevalece [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md). Direção de câmera: [BREAKER — Cinematic Direction Bible | v1.0](../../../../../series-bible/breaker-cinematic-direction-bible-v1-0.md). Artes existentes aprovadas têm prioridade sobre qualquer pré-visualização.
 
 ## Escopo histórico — em pausa
 
@@ -28,7 +14,7 @@ Este arquivo preserva 51 fichas de enquadramento e direção anteriormente produ
 - 51 fichas nos cinco movimentos, com instruções de câmera, luz, continuidade e ordem de revelação.
 - Artes canônicas originais continuam nos documentos de referência e no Drive; nenhuma foi apagada.
 - Todos os arquivos de apresentação, a montagem de pré-visualização e o pacote interativo que esta revisão criou foram retirados da Library a pedido do usuário.
-- Para decisões da Season 1, voltar à <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" />. Não reabrir produção visual por iniciativa própria.
+- Para decisões da Season 1, voltar à [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md). Não reabrir produção visual por iniciativa própria.
 
 ## Estado real após limpeza
 
@@ -40,7 +26,7 @@ Este arquivo preserva 51 fichas de enquadramento e direção anteriormente produ
 | Artes originais dos cenários | ✅ Preservadas no Google Drive; não alteradas |
 | Frontend, contratos, Evidence Locker e playtest | ⏳ Não validados nesta rodada |
 
-<b>Organização:</b> a pasta narrativa da Season 1 não apresenta mais este arquivo como etapa ativa; esta página foi movida para o Plano de Produção do Act I.
+**Organização:** a pasta narrativa da Season 1 não apresenta mais este arquivo como etapa ativa; esta página foi movida para o Plano de Produção do Act I.
 
 ## Gramática visual obrigatória
 
@@ -59,41 +45,31 @@ Este arquivo preserva 51 fichas de enquadramento e direção anteriormente produ
 - [ ] Responsividade e acessibilidade verificadas; no máximo duas regiões de brilho.
 - [ ] Ritmo e continuidade entre frames testados em sequência, não só individualmente.
 
-As páginas-filhas são fichas de <b>produção</b>; caso haja conflito, corrigir a ficha conforme a <b>FINAL NARRATIVE v1.4</b>, não alterar o roteiro bloqueado sem razão comprovada.
+As páginas-filhas são fichas de **produção**; caso haja conflito, corrigir a ficha conforme a **FINAL NARRATIVE v1.4**, não alterar o roteiro bloqueado sem razão comprovada.
 
-<page url="https://app.notion.com/p/40d9c5630425813395e1dc566487b2f4">
-01 — MOVIMENTO I — FISSURA \| Shot Cards (9)
-</page>
+[01 — MOVIMENTO I — FISSURA \| Shot Cards (9)](../shot-cards/01-movimento-i-fissura-shot-cards-9.md)
 
-<page url="https://app.notion.com/p/40d9c5630425812f97c3c60d1d6533c7">
-02 — MOVIMENTO II — CIDADE SOTERRADA \| Shot Cards (11)
-</page>
+[02 — MOVIMENTO II — CIDADE SOTERRADA \| Shot Cards (11)](../shot-cards/02-movimento-ii-cidade-soterrada-shot-cards-11.md)
 
-<page url="https://app.notion.com/p/40d9c5630425813ab6a1ed86c4ddc641">
-03 — MOVIMENTO III — INVESTIGADOR ANTERIOR \| Shot Cards (12)
-</page>
+[03 — MOVIMENTO III — INVESTIGADOR ANTERIOR \| Shot Cards (12)](../shot-cards/03-movimento-iii-investigador-anterior-shot-cards-12.md)
 
-<page url="https://app.notion.com/p/40d9c5630425815dbe4be6b2a384de7c">
-04 — MOVIMENTO IV — MANDATO PERDIDO \| Shot Cards (8)
-</page>
+[04 — MOVIMENTO IV — MANDATO PERDIDO \| Shot Cards (8)](../shot-cards/04-movimento-iv-mandato-perdido-shot-cards-8.md)
 
-<page url="https://app.notion.com/p/40d9c5630425815bb917d52575d3892f">
-05 — MOVIMENTO V — CONFRONTO \| Shot Cards (11)
-</page>
+[05 — MOVIMENTO V — CONFRONTO \| Shot Cards (11)](../shot-cards/05-movimento-v-confronto-shot-cards-11.md)
 
 ## Índice dos cinco movimentos (51 shot cards)
 
-- <mention url="https://app.notion.com/p/40d9c5630425813395e1dc566487b2f4">01 — MOVIMENTO I — FISSURA | Shot Cards (9)</mention> — <b>I: Fissura</b>, 9 quadros; Prólogo, No Forced Entry e Dead Man's Wallet.
-- <mention url="https://app.notion.com/p/40d9c5630425812f97c3c60d1d6533c7">02 — MOVIMENTO II — CIDADE SOTERRADA | Shot Cards (11)</mention> — <b>II: Cidade Soterrada</b>, 11 quadros; Warehouse 17, Forgotten Floor, Custodian.
-- <mention url="https://app.notion.com/p/40d9c5630425813ab6a1ed86c4ddc641">03 — MOVIMENTO III — INVESTIGADOR ANTERIOR | Shot Cards (12)</mention> — <b>III: Investigador Anterior</b>, 12 quadros; Voss, Impossible Account, Sector 13.
-- <mention url="https://app.notion.com/p/40d9c5630425815dbe4be6b2a384de7c">04 — MOVIMENTO IV — MANDATO PERDIDO | Shot Cards (8)</mention> — <b>IV: Mandato Perdido</b>, 8 quadros; Oracle e Steal the Key.
-- <mention url="https://app.notion.com/p/40d9c5630425815bb917d52575d3892f">05 — MOVIMENTO V — CONFRONTO | Shot Cards (11)</mention> — <b>V: Confronto</b>, 11 quadros; Rewrite, Architect, Lumen.
+- [01 — MOVIMENTO I — FISSURA | Shot Cards (9)](../shot-cards/01-movimento-i-fissura-shot-cards-9.md) — **I: Fissura**, 9 quadros; Prólogo, No Forced Entry e Dead Man's Wallet.
+- [02 — MOVIMENTO II — CIDADE SOTERRADA | Shot Cards (11)](../shot-cards/02-movimento-ii-cidade-soterrada-shot-cards-11.md) — **II: Cidade Soterrada**, 11 quadros; Warehouse 17, Forgotten Floor, Custodian.
+- [03 — MOVIMENTO III — INVESTIGADOR ANTERIOR | Shot Cards (12)](../shot-cards/03-movimento-iii-investigador-anterior-shot-cards-12.md) — **III: Investigador Anterior**, 12 quadros; Voss, Impossible Account, Sector 13.
+- [04 — MOVIMENTO IV — MANDATO PERDIDO | Shot Cards (8)](../shot-cards/04-movimento-iv-mandato-perdido-shot-cards-8.md) — **IV: Mandato Perdido**, 8 quadros; Oracle e Steal the Key.
+- [05 — MOVIMENTO V — CONFRONTO | Shot Cards (11)](../shot-cards/05-movimento-v-confronto-shot-cards-11.md) — **V: Confronto**, 11 quadros; Rewrite, Architect, Lumen.
 
 ## Materiais descartados nesta revisão
 
-Os arquivos de pré-visualização <code>BREAKER_Season_1_51_Slide_Storyboard_Previs_v1.0.pptx</code>, <code>BREAKER_Season_1_storyboard_montage.png</code> e <code>BREAKER_S1_51_Storyboard_Interactive_Review.zip</code> foram enviados à lixeira da Library em 3 de novembro de 2026. Não estão mais disponíveis como entregas ativas. A pasta de destino anterior foi <code>/Breaker/Season 1 - Storyboards/</code>.
+Os arquivos de pré-visualização `BREAKER_Season_1_51_Slide_Storyboard_Previs_v1.0.pptx`, `BREAKER_Season_1_storyboard_montage.png` e `BREAKER_S1_51_Storyboard_Interactive_Review.zip` foram enviados à lixeira da Library em 3 de novembro de 2026. Não estão mais disponíveis como entregas ativas. A pasta de destino anterior foi `/Breaker/Season 1 - Storyboards/`.
 
-As 51 fichas textuais permanecem apenas como <b>histórico de direção</b> nos movimentos abaixo, porque preservam trabalho de análise e não competem com a versão narrativa canônica. Os backgrounds originais aprovados continuam no Drive.
+As 51 fichas textuais permanecem apenas como **histórico de direção** nos movimentos abaixo, porque preservam trabalho de análise e não competem com a versão narrativa canônica. Os backgrounds originais aprovados continuam no Drive.
 
 ## Auditoria de saída (o que de fato foi conferido)
 
@@ -110,7 +86,4 @@ As 51 fichas textuais permanecem apenas como <b>histórico de direção</b> nos 
 - [ ] Integrar slides/trigger PRE POST BRIDGE no frontend e validar os arquivos de prova, persistência e sessões.
 - [ ] Executar playtest cego e revisar ritmo de leitura. Tempos indicados nas fichas são alvos, não medições.
 
-<b>Definição do estado:</b> storyboard e <b>prévia de montagem visual concluídos</b>. Não declarar que os 51 slides finais foram publicados no BREAKER. Para fechar arte final e runtime, são necessárias revisões visuais com os assets definitivos, código e testes.
-</content>
-</page>
-
+**Definição do estado:** storyboard e **prévia de montagem visual concluídos**. Não declarar que os 51 slides finais foram publicados no BREAKER. Para fechar arte final e runtime, são necessárias revisões visuais com os assets definitivos, código e testes.

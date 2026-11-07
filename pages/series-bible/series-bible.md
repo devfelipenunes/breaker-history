@@ -5,25 +5,13 @@ title: "📚 00 — Series Bible"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045 as of 2026-11-04T15:15:20.757Z:
-<page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" icon="📚">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"00 — Series Bible"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📚"}</iconMetadata>
-<content>
-<callout icon="📚" color="purple_bg">
-<b>Series Bible</b> reúne somente regras globais de BREAKER: universo, geografia, identidade do jogador, progressão, recompensas e canon oculto da saga. Conteúdo específico de uma Season vive dentro do hub daquela Season.
-</callout>
+**Series Bible** reúne somente regras globais de BREAKER: universo, geografia, identidade do jogador, progressão, recompensas e canon oculto da saga. Conteúdo específico de uma Season vive dentro do hub daquela Season.
 
 # Estrutura da saga
 
-A campanha principal de BREAKER é planejada como <b>7 Seasons</b>.
+A campanha principal de BREAKER é planejada como **7 Seasons**.
 
-<b>CODE → VALUE → INFORMATION → MEMORY → EXTERNAL TRUTH → CONSENSUS → RULES</b>
+**CODE → VALUE → INFORMATION → MEMORY → EXTERNAL TRUTH → CONSENSUS → RULES**
 
 Cada Season precisa:
 
@@ -43,67 +31,42 @@ Se pertence a uma cidade, personagem, challenge, visual ou arco específico, fic
 
 Quando uma Season entra em desenvolvimento ativo, usar:
 
-1. <b>Overview & Story Arc</b>
-2. <b>World & Locations</b>
-3. <b>Characters</b>
-4. <b>Challenge Map & Learning</b>
-5. <b>Cases & Bosses</b>
-6. <b>Visual References</b>
-7. <b>Hidden Canon & Hooks</b>, quando necessário
+1. **Overview & Story Arc**
+2. **World & Locations**
+3. **Characters**
+4. **Challenge Map & Learning**
+5. **Cases & Bosses**
+6. **Visual References**
+7. **Hidden Canon & Hooks**, quando necessário
 
 As Seasons 1–3 possuem Cases documentados individualmente. A Season 1 mantém documentação narrativa adicional porque também possui roteiro e novelização próprios.
 
-<page url="https://app.notion.com/p/4009c5630425812aa9a1c8344e109b88">
-01 — World & Core Lore
-</page>
+[01 — World & Core Lore](01-world-core-lore.md)
 
-<page url="https://app.notion.com/p/4009c5630425811ba257d3d5f1956f0f">
-02 — Cities of the Stellar Network
-</page>
+[02 — Cities of the Stellar Network](02-cities-of-the-stellar-network.md)
 
-<page url="https://app.notion.com/p/4009c56304258123bd93c9aebf9518f6">
-03 — Breakers, Classes & Progression
-</page>
+[03 — Breakers, Classes & Progression](03-breakers-classes-progression.md)
 
-<page url="https://app.notion.com/p/4009c5630425817dae93db77191c7e5a">
-04 — Story Items, Achievements & Proof of Skill
-</page>
+[04 — Story Items, Achievements & Proof of Skill](04-story-items-achievements-proof-of-skill.md)
 
-<page url="https://app.notion.com/p/4009c5630425818883fede65b6347525">
-05 — Series Roadmap & Open Questions
-</page>
+[05 — Series Roadmap & Open Questions](05-series-roadmap-open-questions.md)
 
-<page url="https://app.notion.com/p/4009c5630425816abc6ef25f42c48cef">
-06 — Series Arc & Hidden Canon
-</page>
+[06 — Series Arc & Hidden Canon](06-series-arc-hidden-canon.md)
 
 # Continuidade visual obrigatória
 
-<b>Referência visual canônica obrigatória:</b> <mention url="https://app.notion.com/p/4029c5630425810b9d95cca9b3630952">09 — Art Bible CANÔNICO | Identidade Visual Aprovada — Baseline Site S1</mention>. Os banners seguem proporção 8:3 e preservam identidade de personagem, símbolo, direção de câmera, materiais e iluminação. Outras cidades devem manter a gramática cinematográfica, mas nunca copiar geografia e landmarks de Meridian. O Atlas 07 continua estudo subordinado à Art Bible.
+**Referência visual canônica obrigatória:** [09 — Art Bible CANÔNICO | Identidade Visual Aprovada — Baseline Site S1](09-art-bible-canonico-identidade-visual-aprovada-baseline-site-s1.md). Os banners seguem proporção 8:3 e preservam identidade de personagem, símbolo, direção de câmera, materiais e iluminação. Outras cidades devem manter a gramática cinematográfica, mas nunca copiar geografia e landmarks de Meridian. O Atlas 07 continua estudo subordinado à Art Bible.
 
 Nas artes de BREAKER, manter os rostos de todos os personagens ocultos, sem traços faciais identificáveis. Usar costas, contraluz, sombra, gola, máscara ou obstrução de enquadramento.
 
 O Breaker mantém cabelo preto curto e compacto, com laterais e nuca aparadas, conforme as referências aprovadas. Não usar cabelo comprido. Capas de Season devem ser produzidas sem escrita; títulos pertencem à interface.
 
-<page url="https://app.notion.com/p/4029c563042581c69566f4c51122fd3a">
-07 — Atlas Visual & Worldbuilding (estudo)
-</page>
+[07 — Atlas Visual & Worldbuilding (estudo)](07-atlas-visual-worldbuilding-estudo.md)
 
-<page url="https://app.notion.com/p/4029c563042581f79ef5da426319649a">
-08 — Dossiês de Personagens & Backgrounds (estudo)
-</page>
+[08 — Dossiês de Personagens & Backgrounds (estudo)](08-dossies-de-personagens-backgrounds-estudo.md)
 
-<page url="https://app.notion.com/p/4029c5630425810b9d95cca9b3630952">
-09 — Art Bible CANÔNICO \| Identidade Visual Aprovada — Baseline Site S1
-</page>
+[09 — Art Bible CANÔNICO \| Identidade Visual Aprovada — Baseline Site S1](09-art-bible-canonico-identidade-visual-aprovada-baseline-site-s1.md)
 
-<page url="https://app.notion.com/p/4039c563042581d9bf27d22d355dc5b2">
-10 — Direção de Arte \| Meridian S1 — Manual de Produção e Continuidade
-</page>
+[10 — Direção de Arte \| Meridian S1 — Manual de Produção e Continuidade](10-direcao-de-arte-meridian-s1-manual-de-producao-e-continuidade.md)
 
-<page url="https://app.notion.com/p/40d9c563042581e0804ddbe5451f69bf">
-BREAKER — Cinematic Direction Bible \| v1.0
-</page>
-</content>
-</page>
-
+[BREAKER — Cinematic Direction Bible \| v1.0](breaker-cinematic-direction-bible-v1-0.md)

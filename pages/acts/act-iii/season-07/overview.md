@@ -5,24 +5,14 @@ title: "🔘 Season 07 — CORE"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258184ad80efdafbb4cfdc as of 2026-11-02T13:03:47.507Z:
-<page url="https://app.notion.com/p/4019c56304258184ad80efdafbb4cfdc" icon="🔘">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581df9f14f6c50603012a" title="ACT III — Who Has Authority?"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"Season 07 — CORE"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🔘"}</iconMetadata>
-<content>
-<callout icon="🔘" color="gray_bg">
-<b>Season 7 — CORE</b> encerra a saga principal. O objetivo não é derrotar um vilão; é responder à pergunta moral que BREAKER vem construindo desde Meridian.
-</callout>
+**Season 7 — CORE** encerra a saga principal. O objetivo não é derrotar um vilão; é responder à pergunta moral que BREAKER vem construindo desde Meridian.
 
 # Identity
 
-<b>Local:</b> Core<br /><b>Gameplay fantasy:</b> operador de protocolo / Breaker diante das regras fundamentais<br /><b>Tema técnico:</b> Stellar Core, transaction lifecycle, protocol rules/upgrades, network settings, fees/resources, XDR, consensus + contracts, integração dos conhecimentos das Seasons anteriores<br /><b>Pergunta:</b> <i>Quem tem o direito de definir as regras?</i>
+**Local:** Core
+**Gameplay fantasy:** operador de protocolo / Breaker diante das regras fundamentais
+**Tema técnico:** Stellar Core, transaction lifecycle, protocol rules/upgrades, network settings, fees/resources, XDR, consensus + contracts, integração dos conhecimentos das Seasons anteriores
+**Pergunta:** *Quem tem o direito de definir as regras?*
 
 # Core
 
@@ -30,7 +20,7 @@ As outras cidades usam ou interpretam a Network.
 
 Core representa o lugar onde suas regras fundamentais são definidas e executadas.
 
-> <b>Todas as cidades interpretam a Network. Core decide o que a Network é.</b>
+> **Todas as cidades interpretam a Network. Core decide o que a Network é.**
 
 Core não deve parecer uma cidade convencional. É o endgame conceitual e visual.
 
@@ -40,21 +30,23 @@ O Architect detecta uma falha sistêmica que nenhum contrato isolado consegue so
 
 Sua proposta:
 
-PROTOCOL INTERVENTION<br />STATUS: REQUIRED<br />AUTHORITY: BREAKER NETWORK
+PROTOCOL INTERVENTION
+STATUS: REQUIRED
+AUTHORITY: BREAKER NETWORK
 
 Ele quer tornar permanente aquilo que até então era excepcional:
 
-<b>uma camada reconhecida de Breakers capaz de intervir quando as regras existentes falham.</b>
+**uma camada reconhecida de Breakers capaz de intervir quando as regras existentes falham.**
 
 # As três posições
 
-<b>Architect:</b> algumas situações exigem autoridade excepcional.
+**Architect:** algumas situações exigem autoridade excepcional.
 
-<b>Voss:</b> ninguém deve possuir esse poder permanentemente.
+**Voss:** ninguém deve possuir esse poder permanentemente.
 
-> <b>Quando Breakers viram parte da lei, deixam de ser Breakers.</b>
+> **Quando Breakers viram parte da lei, deixam de ser Breakers.**
 
-<b>Rhea:</b> não agir também é uma decisão; Lumen mostrou o custo de esperar.
+**Rhea:** não agir também é uma decisão; Lumen mostrou o custo de esperar.
 
 O jogador passou por seis Seasons em que quebrar regras às vezes salvou pessoas e às vezes criou novos riscos.
 
@@ -78,7 +70,7 @@ Não é um último bug.
 
 # Pergunta final
 
-> <b>Se tudo é governado por código, quem deve ter o poder de quebrá-lo?</b>
+> **Se tudo é governado por código, quem deve ter o poder de quebrá-lo?**
 
 A saga principal termina com uma decisão canônica do Breaker, determinada pelo roteiro e expressa por suas ações.
 
@@ -103,6 +95,3 @@ Este é o único desfecho da saga. O jogador resolve a execução técnica; não
 Voss confronta o custo da recusa; Rhea confronta os limites do cálculo unilateral; Mara exige responsabilidade institucional; Sera publica a decisão e suas consequências sem expor fontes. O Architect continua operando sob os limites do novo mandato aprovado pelas Houses, com auditoria e possibilidade de revogação; não é derrotado como vilão convencional.
 
 O epílogo mostra o efeito nas cidades e quem pode fiscalizar, revogar ou revisar a autoridade estabelecida. O mistério da autorização é encerrado; operações posteriores não reabrem artificialmente a saga.
-</content>
-</page>
-

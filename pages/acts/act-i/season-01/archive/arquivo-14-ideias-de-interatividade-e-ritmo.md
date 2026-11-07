@@ -5,22 +5,9 @@ title: "🎮 ARQUIVO — 14 Ideias de Interatividade e Ritmo"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c9c563042581d7ace3ff4a6c339158 as of 2026-11-03T16:06:56.439Z:
-<page url="https://app.notion.com/p/40c9c563042581d7ace3ff4a6c339158" icon="🎮">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/40d9c563042581939ffad5f7e19042e3" title="90 — Arquivo Editorial e Estudos | Season 1"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"ARQUIVO — 14 Ideias de Interatividade e Ritmo"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🎮"}</iconMetadata>
-<content>
-Explorar maneiras de fazer o jogador sentir que está <b>investigando e executando um hack</b>, com agência técnica, enquanto a história de Meridian segue linear e a dificuldade da Season 1 permanece acessível.
+Explorar maneiras de fazer o jogador sentir que está **investigando e executando um hack**, com agência técnica, enquanto a história de Meridian segue linear e a dificuldade da Season 1 permanece acessível.
 
-> <b>Status: banco de propostas de design.</b> A priorização e os critérios executáveis da revisão estão no <mention url="https://app.notion.com/p/40c9c563042581e681e7e3523a88a468" />. Nada nesta página confirma implementação. Os dez Cases, os dois Bosses e seus resultados narrativos permanecem fixos.
+> **Status: banco de propostas de design.** A priorização e os critérios executáveis da revisão estão no [15 — Plano de Melhorias e QA — Season 1](../production/15-plano-de-melhorias-e-qa-season-1.md). Nada nesta página confirma implementação. Os dez Cases, os dois Bosses e seus resultados narrativos permanecem fixos.
 
 ## Princípios para a experiência
 
@@ -28,7 +15,7 @@ Explorar maneiras de fazer o jogador sentir que está <b>investigando e executan
 - A interface deve mostrar consequências legíveis: mudanças no estado, eventos, erros, permissões, registros e resposta do ambiente.
 - A história deve emergir dessas consequências, de vestígios e de poucas falas. Evitar diálogo que apenas repete o terminal.
 - O desafio deve exigir raciocínio sem depender de informação escondida ou comandos sem pistas.
-- As perguntas interativas podem mudar o <b>foco da investigação ou a apresentação de uma pista</b>, mas não a conduta do Breaker, as relações, as cenas canônicas ou o final.
+- As perguntas interativas podem mudar o **foco da investigação ou a apresentação de uma pista**, mas não a conduta do Breaker, as relações, as cenas canônicas ou o final.
 - A pergunta final do Architect — “Por que você continuou?” — permanece sem opções selecionáveis.
 
 ## Interações para testar
@@ -37,20 +24,20 @@ Não colocar uma pergunta em todo slide. Testar uma interação em momentos de d
 
 | Tipo | Exemplo | Efeito permitido |
 | --- | --- | --- |
-| <b>Foco de investigação</b> | “Qual pista você quer examinar agora?” | Destaca ou abre a pista escolhida |
-| <b>Hipótese</b> | “O que essa evidência sugere?” | Registra a leitura e pode oferecer uma dica curta |
-| <b>Próximo teste</b> | “Qual informação falta para confirmar isso?” | Aponta para uma ferramenta ou evidência disponível, sem revelar automaticamente a solução |
-| <b>Leitura de consequência</b> | “O que mudou depois da chamada?” | Ajuda a notar o efeito técnico ou humano da ação |
+| **Foco de investigação** | “Qual pista você quer examinar agora?” | Destaca ou abre a pista escolhida |
+| **Hipótese** | “O que essa evidência sugere?” | Registra a leitura e pode oferecer uma dica curta |
+| **Próximo teste** | “Qual informação falta para confirmar isso?” | Aponta para uma ferramenta ou evidência disponível, sem revelar automaticamente a solução |
+| **Leitura de consequência** | “O que mudou depois da chamada?” | Ajuda a notar o efeito técnico ou humano da ação |
 
 Evitar seleções como “Você confia em Mara?” se nada muda na cena. Não apresentar decisões de moralidade ou personalidade como se tivessem consequências. No Architect, manter a pergunta como momento dramático sem menu.
 
 ### Exemplos em Meridian
 
-- <b>Vault:</b> “Qual parte da operação ainda não está explicada?” — autoria, autorização ou destino dos fundos.
-- <b>Warehouse 17:</b> “Que evidência precisa ser preservada?” — a origem da chave, o estado do recurso ou o registro de autorização.
-- <b>Sector 13:</b> “Que observação já basta para confirmar o padrão?” — erro isolado, repetição ou prova recuperável.
-- <b>Oracle:</b> “O resultado era imprevisível ou apenas parecia imprevisível?” — sem dizer que a resposta muda a história.
-- <b>Rewrite:</b> “O que permaneceu igual depois da mudança?” — endereço, código ou regra.
+- **Vault:** “Qual parte da operação ainda não está explicada?” — autoria, autorização ou destino dos fundos.
+- **Warehouse 17:** “Que evidência precisa ser preservada?” — a origem da chave, o estado do recurso ou o registro de autorização.
+- **Sector 13:** “Que observação já basta para confirmar o padrão?” — erro isolado, repetição ou prova recuperável.
+- **Oracle:** “O resultado era imprevisível ou apenas parecia imprevisível?” — sem dizer que a resposta muda a história.
+- **Rewrite:** “O que permaneceu igual depois da mudança?” — endereço, código ou regra.
 
 Essas perguntas funcionam melhor depois de a pista estar disponível. Antes da resolução, não devem revelar o nome da vulnerabilidade ou o exploit esperado.
 
@@ -60,14 +47,14 @@ A sequência atual tem uma progressão adequada para uma primeira temporada: com
 
 | Trecho | Leitura preliminar | Ajuste de experiência sem elevar muito a dificuldade |
 | --- | --- | --- |
-| <b>Cases 1–2</b> | Bons para ensinar o ciclo, mas autorização e identidade podem parecer variações do mesmo truque | Dar a cada um um objetivo e feedback distintos: no primeiro, descobrir por que a chamada passou; no segundo, perceber o que uma identidade reconfigurada ainda controla |
-| <b>Cases 3–4</b> | Aumentam o custo e mudam a natureza da investigação | Tornar visível a cadeia de custódia da Ghost Key; no Forgotten Floor, enfatizar a descoberta ambiental e dar uma pausa de ritmo |
-| <b>Custodian</b> | Bom primeiro teste composto | Reutilizar pistas e ações aprendidas; apresentar o reconhecimento “WELCOME BACK” como recompensa narrativa, não como uma nova mecânica obscura |
-| <b>Cases 5–6</b> | Mudam para falhas entre contratos e estado numérico | Usar rastros e comparação de estado para ensinar o que mudou; manter o caminho de verificação curto |
-| <b>Case 7</b> | A consequência operacional cria tensão, mas DoS pode incentivar repetição cega | Mostrar custo/carga e um sinal claro de quando já há prova suficiente para interromper a pressão |
-| <b>Case 8</b> | Oferece contraste de ritmo com observação e previsão | Dar ao jogador um espaço para comparar resultados e perceber o padrão, sem transformar o desafio em tentativa aleatória |
-| <b>Cases 9–10</b> | Clímax forte; podem exigir combinações mais complexas | Reutilizar ferramentas já ensinadas. A dificuldade pode vir da sequência e das consequências, não de esconder controles ou adicionar vários conceitos inéditos |
-| <b>Architect</b> | A síntese final é apropriada como maior desafio | Cobrar evidências e técnicas já aprendidas. A reconstrução narrativa deve vir após a verificação técnica e não depender de uma resposta de diálogo |
+| **Cases 1–2** | Bons para ensinar o ciclo, mas autorização e identidade podem parecer variações do mesmo truque | Dar a cada um um objetivo e feedback distintos: no primeiro, descobrir por que a chamada passou; no segundo, perceber o que uma identidade reconfigurada ainda controla |
+| **Cases 3–4** | Aumentam o custo e mudam a natureza da investigação | Tornar visível a cadeia de custódia da Ghost Key; no Forgotten Floor, enfatizar a descoberta ambiental e dar uma pausa de ritmo |
+| **Custodian** | Bom primeiro teste composto | Reutilizar pistas e ações aprendidas; apresentar o reconhecimento “WELCOME BACK” como recompensa narrativa, não como uma nova mecânica obscura |
+| **Cases 5–6** | Mudam para falhas entre contratos e estado numérico | Usar rastros e comparação de estado para ensinar o que mudou; manter o caminho de verificação curto |
+| **Case 7** | A consequência operacional cria tensão, mas DoS pode incentivar repetição cega | Mostrar custo/carga e um sinal claro de quando já há prova suficiente para interromper a pressão |
+| **Case 8** | Oferece contraste de ritmo com observação e previsão | Dar ao jogador um espaço para comparar resultados e perceber o padrão, sem transformar o desafio em tentativa aleatória |
+| **Cases 9–10** | Clímax forte; podem exigir combinações mais complexas | Reutilizar ferramentas já ensinadas. A dificuldade pode vir da sequência e das consequências, não de esconder controles ou adicionar vários conceitos inéditos |
+| **Architect** | A síntese final é apropriada como maior desafio | Cobrar evidências e técnicas já aprendidas. A reconstrução narrativa deve vir após a verificação técnica e não depender de uma resposta de diálogo |
 
 ### Critérios simples para calibrar dificuldade
 
@@ -79,7 +66,7 @@ Se um jogador não avança, primeiro verificar se entende o objetivo, se consegu
 
 O repositório [Veritas Vaults — soroban-guard-contracts](https://github.com/Veritas-Vaults-Network/soroban-guard-contracts) reúne contratos Soroban vulneráveis, alguns exemplos corrigidos e material de referência para apoiar testes de um scanner. A tabela e os temas têm correspondência direta com vários conceitos já previstos nos Cases de Meridian — por exemplo, autorização ausente, reinitialization, TTL, aritmética, falha de acesso administrativo e upgrade.
 
-<b>Uso recomendado para BREAKER:</b> fonte de padrões de vulnerabilidade e ideias para verificar contratos de treino. O README o descreve como biblioteca de amostras para testar o Guard scanner, então não é, por si só, um jogo com progressão, narrativa ou curva de dificuldade pronta. A documentação de vulnerabilidades também não substitui a validação de cada contrato e teste no SDK/runtime Soroban usado pelo jogo.
+**Uso recomendado para BREAKER:** fonte de padrões de vulnerabilidade e ideias para verificar contratos de treino. O README o descreve como biblioteca de amostras para testar o Guard scanner, então não é, por si só, um jogo com progressão, narrativa ou curva de dificuldade pronta. A documentação de vulnerabilidades também não substitui a validação de cada contrato e teste no SDK/runtime Soroban usado pelo jogo.
 
 ## Materiais semelhantes e o que podemos aprender
 
@@ -110,6 +97,3 @@ Revisar cada desafio no repositório junto da implementação real do Case e pre
 7. A vulnerabilidade e o teste continuam válidos no SDK/runtime atual?
 
 A revisão de design desta página é preliminar e baseada na documentação disponível; ela não afirma que os contratos do jogo foram executados ou testados.
-</content>
-</page>
-

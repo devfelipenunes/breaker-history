@@ -5,24 +5,11 @@ title: "🔒 06 — Series Arc & Hidden Canon"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425816abc6ef25f42c48cef as of 2026-11-02T13:03:44.586Z:
-<page url="https://app.notion.com/p/4009c5630425816abc6ef25f42c48cef" icon="🔒">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"06 — Series Arc & Hidden Canon"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🔒"}</iconMetadata>
-<content>
-<callout icon="🔒" color="red_bg">
-<b>CANON INTERNO / SPOILER.</b> Esta página define respostas globais que as Seasons não podem contradizer.
-</callout>
+**CANON INTERNO / SPOILER.** Esta página define respostas globais que as Seasons não podem contradizer.
 
 # Tese central
 
-> <b>Se tudo é governado por código, quem deve ter o poder de quebrá-lo?</b>
+> **Se tudo é governado por código, quem deve ter o poder de quebrá-lo?**
 
 Cada Season muda o objeto de confiança:
 
@@ -44,15 +31,15 @@ Acceptance não é título nem simples aceite explícito.
 
 Isso é deliberadamente problemático:
 
-> <b>o Architect consegue classificar comportamento; não consegue provar legitimidade.</b>
+> **o Architect consegue classificar comportamento; não consegue provar legitimidade.**
 
 # Layer I e Layer II
 
-<b>Layer I = sistemas individuais.</b>
+**Layer I = sistemas individuais.**
 
 O jogador aprende que um contrato pode executar perfeitamente uma regra errada.
 
-<b>Layer II = relações entre sistemas.</b>
+**Layer II = relações entre sistemas.**
 
 Bugs locais, configuração, dados, incentivos e dependências podem interagir de forma que nenhuma falha isolada explique o comportamento global.
 
@@ -72,7 +59,7 @@ Ele consegue:
 
 Não consegue responder sozinho:
 
-> <b>quando é legítimo quebrar uma regra para preservar algo maior?</b>
+> **quando é legítimo quebrar uma regra para preservar algo maior?**
 
 A Sequence é uma adaptação posterior usada para encontrar pessoas capazes de operar sob esse tipo de incerteza.
 
@@ -82,12 +69,12 @@ A saga não resolve essa ambiguidade cedo.
 
 # Breaker Registry
 
-- <b>ACTIVE</b> — candidato sendo observado.
-- <b>QUALIFIED / PROVISIONAL</b> — concluiu a Sequence e recebeu acesso à Layer II, mas ainda não demonstrou Acceptance por ação.
-- <b>REFUSED</b> — chegou ao ponto de escolha e recusou a legitimidade da estrutura.
-- <b>ACCEPTED</b> — o Architect interpretou uma intervenção de Layer II como Acceptance.
-- <b>MISSING</b> — trajetória não reconstruível com confiança.
-- <b>DECEASED</b> — morte confirmada por múltiplas fontes.
+- **ACTIVE** — candidato sendo observado.
+- **QUALIFIED / PROVISIONAL** — concluiu a Sequence e recebeu acesso à Layer II, mas ainda não demonstrou Acceptance por ação.
+- **REFUSED** — chegou ao ponto de escolha e recusou a legitimidade da estrutura.
+- **ACCEPTED** — o Architect interpretou uma intervenção de Layer II como Acceptance.
+- **MISSING** — trajetória não reconstruível com confiança.
+- **DECEASED** — morte confirmada por múltiplas fontes.
 
 Esses status são classificações do Architect, não verdades absolutas sobre a pessoa.
 
@@ -97,7 +84,7 @@ Voss atravessou a Sequence antes do jogador.
 
 Status:
 
-<b>AREN VOSS — REFUSED</b>
+**AREN VOSS — REFUSED**
 
 Ele recusou porque considerou insuficiente a legitimidade de uma estrutura que poderia selecionar pessoas para operar acima das regras oficiais.
 
@@ -117,11 +104,11 @@ Moonlight pode sugerir que alguém ligado à antiga Sequence aprendeu a reduzir 
 
 Season 4 muda a pergunta de:
 
-> <b>Onde está Voss?</b>
+> **Onde está Voss?**
 
 para:
 
-> <b>Que rastros ainda provam onde ele esteve, o que descobriu e por que decidiu desaparecer?</b>
+> **Que rastros ainda provam onde ele esteve, o que descobriu e por que decidiu desaparecer?**
 
 Voss pode reaparecer fisicamente em Season 6.
 
@@ -129,7 +116,7 @@ Voss pode reaparecer fisicamente em Season 6.
 
 Rhea é a entrada mascarada:
 
-<b>████████ — ACCEPTED</b>
+**████████ — ACCEPTED**
 
 Ela aceitou antes de Voss.
 
@@ -149,7 +136,7 @@ Uma intervenção dela salva parte do sistema e impõe perda real a terceiros.
 
 Fim da Season:
 
-<b>cooperação tática ≠ confiança.</b>
+**cooperação tática ≠ confiança.**
 
 Rhea continua inimiga.
 
@@ -159,23 +146,24 @@ A private settlement liga Rhea e Breaker ao mesmo caso.
 
 A prova correta exige:
 
-SENDER WITNESS: RHEA<br />RECIPIENT WITNESS: BREAKER
+SENDER WITNESS: RHEA
+RECIPIENT WITNESS: BREAKER
 
 Eles cooperam porque nenhum dos dois consegue resolver sozinho com disclosure proporcional.
 
 Progressão:
 
-<b>inimigos → cooperação forçada → confiança genuína → sacrifício unilateral por Rhea no epílogo → rivais com ferida pessoal.</b>
+**inimigos → cooperação forçada → confiança genuína → sacrifício unilateral por Rhea no epílogo → rivais com ferida pessoal.**
 
 No fim, Rhea quer destruir uma capability central de disclosure.
 
 Breaker impede.
 
-Pela primeira vez, Rhea aceita não quebrar algo que ela poderia quebrar. <b>Essa mudança é sincera.</b> Depois de vencer Moonlight, porém, ela escolhe divulgar evidência autêntica <b>de outro processo, sobre Emergency Authority em Lumen</b>, que identifica o Breaker como operador perante uma revisão institucional e provoca suspensão de sua credencial intercity. Rhea só decide isso no fim, ao considerar menor o dano de expor uma pessoa do que o de permitir apuração de correlação ampla. O Breaker não consente. <b>A decisão não é necessariamente legítima, inevitável nem imposta pelo Architect.</b>
+Pela primeira vez, Rhea aceita não quebrar algo que ela poderia quebrar. **Essa mudança é sincera.** Depois de vencer Moonlight, porém, ela escolhe divulgar evidência autêntica **de outro processo, sobre Emergency Authority em Lumen**, que identifica o Breaker como operador perante uma revisão institucional e provoca suspensão de sua credencial intercity. Rhea só decide isso no fim, ao considerar menor o dano de expor uma pessoa do que o de permitir apuração de correlação ampla. O Breaker não consente. **A decisão não é necessariamente legítima, inevitável nem imposta pelo Architect.**
 
 # Consequência de Rhea para o Act II e CORE
 
-A ruptura de Moonlight não pode ser desfeita facilmente por uma cena conciliatória. S4 carrega o dossiê de atribuição de Lumen como ferida e problema de legitimidade, mantendo o foco histórico em Voss. Rhea segue uma adversária ideológica e possível parceira técnica no futuro, mas o Breaker exigirá consentimento, escopo, responsabilidade e possibilidade de contestação antes de voltar a confiar nela. Mesmo se colaborarem até CORE, <b>reconhecer a competência não equivale a perdoar a traição</b>.
+A ruptura de Moonlight não pode ser desfeita facilmente por uma cena conciliatória. S4 carrega o dossiê de atribuição de Lumen como ferida e problema de legitimidade, mantendo o foco histórico em Voss. Rhea segue uma adversária ideológica e possível parceira técnica no futuro, mas o Breaker exigirá consentimento, escopo, responsabilidade e possibilidade de contestação antes de voltar a confiar nela. Mesmo se colaborarem até CORE, **reconhecer a competência não equivale a perdoar a traição**.
 
 # Mara Vale
 
@@ -201,7 +189,7 @@ Mara continua acreditando em instituições.
 
 Sua evolução é:
 
-<b>procedimento = legitimidade → procedimento não absolve responsabilidade.</b>
+**procedimento = legitimidade → procedimento não absolve responsabilidade.**
 
 Payoff futuro:
 
@@ -211,7 +199,7 @@ Season 1:
 
 Futuro:
 
-> <b>o Breaker precisará decidir se deve dar acesso à Mara.</b>
+> **o Breaker precisará decidir se deve dar acesso à Mara.**
 
 # Sera Quill
 
@@ -231,7 +219,7 @@ Season 3:
 
 - finalmente aparece pessoalmente;
 - protege fontes via disclosure proporcional;
-- uma fonte é conhecida apenas como <b>SOURCE: E.V.</b> até o Final.
+- uma fonte é conhecida apenas como **SOURCE: E.V.** até o Final.
 
 Sera deve continuar independente do Breaker.
 
@@ -245,11 +233,11 @@ Sua crença em selective disclosure vem de um caso anterior em que disclosure pr
 
 Erro:
 
-> <b>confundir necessidade institucional com direito ilimitado de acesso.</b>
+> **confundir necessidade institucional com direito ilimitado de acesso.**
 
 Arco:
 
-<b>certeza → persistência → contradição → dúvida → escolha.</b>
+**certeza → persistência → contradição → dúvida → escolha.**
 
 No Final de Moonlight:
 
@@ -257,7 +245,7 @@ SYSTEM: FULL DISCLOSURE REQUIRED
 
 First Witness:
 
-> <b>“A prova é suficiente.”</b>
+> **“A prova é suficiente.”**
 
 Permanece dentro da instituição.
 
@@ -273,7 +261,7 @@ MISSING ≠ necessariamente morto.
 
 O conflito profundo da Season é:
 
-> <b>quem controla disclosure possui poder tanto quanto quem controla o segredo.</b>
+> **quem controla disclosure possui poder tanto quanto quem controla o segredo.**
 
 A Season não conclui “privacy boa / transparency ruim”.
 
@@ -287,7 +275,7 @@ Horizon/Galexie prova que o Architect existia antes da Sequence atual.
 
 Função original:
 
-<b>maintenance / audit / systemic-risk coordination.</b>
+**maintenance / audit / systemic-risk coordination.**
 
 A Sequence foi uma adaptação posterior.
 
@@ -295,11 +283,11 @@ O campo censurado importante não é “creator”.
 
 É:
 
-<b>AUTHORIZATION CHAIN.</b>
+**AUTHORIZATION CHAIN.**
 
 A pergunta muda de “quem construiu?” para:
 
-> <b>quem autorizou aquilo em que ele se tornou?</b>
+> **quem autorizou aquilo em que ele se tornou?**
 
 ## Season 5 — EXTERNAL TRUTH
 
@@ -307,7 +295,7 @@ Anchor revela que parte da legitimidade original veio de instituições cuja ver
 
 A trilha termina em uma estrutura federada:
 
-<b>QUORUM.</b>
+**QUORUM.**
 
 # Act III — Seasons 6 e 7
 
@@ -330,11 +318,11 @@ Voss pode retornar fisicamente.
 
 Linha central:
 
-> <b>“Você passou anos perguntando quem criou o Architect.”</b>
+> **“Você passou anos perguntando quem criou o Architect.”**
 
-> <b>“Pergunta errada.”</b>
+> **“Pergunta errada.”**
 
-> <b>“Quem ainda tem autoridade para pará-lo?”</b>
+> **“Quem ainda tem autoridade para pará-lo?”**
 
 ## Season 7 — RULES / CORE
 
@@ -344,11 +332,11 @@ Ele propõe formalizar a Breaker Network como camada permanente de intervenção
 
 Três posições:
 
-<b>Architect:</b> algumas situações exigem autoridade excepcional.
+**Architect:** algumas situações exigem autoridade excepcional.
 
-<b>Voss:</b> autoridade excepcional permanente vira apenas outro sistema sem accountability.
+**Voss:** autoridade excepcional permanente vira apenas outro sistema sem accountability.
 
-<b>Rhea:</b> recusar intervenção também é decisão e pode gerar dano catastrófico.
+**Rhea:** recusar intervenção também é decisão e pode gerar dano catastrófico.
 
 O Breaker responde à pergunta da série por uma sequência canônica de ações, construída a partir de tudo que viveu. O jogador resolve a execução técnica; o roteiro determina a decisão e o desfecho.
 
@@ -404,7 +392,7 @@ Estas definições completam os arcos existentes e orientam as páginas de Seaso
 
 A settlement era legítima na execução. A classificação DENIED é posterior e resulta de autoridade revogada reassumida por stale pending state. A prova mínima vincula sender, recipient e commitment à policy histórica autenticada. Falhas de nullifier, circuito e VK invalidam inferências acusatórias, mas não substituem a prova positiva da legitimidade original. A ordem encerrada se refere a este caso.
 
-Breaker impede a destruição da capability no Case 09; no Final, Rhea respeita esse limite e a acusação da settlement é encerrada. <b>Em epílogo separado</b>, Rhea entrega atribuição assinada sobre Lumen, obtida durante cooperação legítima, e o acesso institucional intercity do Breaker é suspenso até revisão. Depois da traição, o Breaker decide permanecer MISSING. O Architect pode reconhecer uma operação histórica sem observar o itinerário presente. Fonte central: <mention url="https://app.notion.com/p/4029c56304258153a677d79433eb2a70" />.
+Breaker impede a destruição da capability no Case 09; no Final, Rhea respeita esse limite e a acusação da settlement é encerrada. **Em epílogo separado**, Rhea entrega atribuição assinada sobre Lumen, obtida durante cooperação legítima, e o acesso institucional intercity do Breaker é suspenso até revisão. Depois da traição, o Breaker decide permanecer MISSING. O Architect pode reconhecer uma operação histórica sem observar o itinerário presente. Fonte central: [07 — O Sétimo | Rhea × Breaker — Virada canônica do Act I](../acts/act-i/season-03/world/07-o-setimo-rhea-breaker-virada-canonica-do-act-i.md).
 
 ## Voss — custo e revelação
 
@@ -427,6 +415,3 @@ Essa resolução não é uma escolha do jogador nem uma resposta moral universal
 ## Estado de desenvolvimento
 
 Os arcos das sete Seasons estão conectados. As Seasons 4–7 ainda precisam de Cases individuais, fixtures, critérios de vitória e roteiros completos antes de serem consideradas prontas para implementação. As definições narrativas acima não equivalem a código implementado ou testado.
-</content>
-</page>
-

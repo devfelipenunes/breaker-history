@@ -5,19 +5,6 @@ title: "♻️ 05 — Spent Twice"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425819cb20ac8462a316cb0 as of 2026-11-02T17:41:33.176Z:
-<page url="https://app.notion.com/p/4019c5630425819cb20ac8462a316cb0" icon="♻️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581a2a331e66548c30494" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"05 — Spent Twice"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"♻️"}</iconMetadata>
-<content>
 # História
 
 O sistema acusa o Breaker de double-spend em um privacy pool.
@@ -30,11 +17,11 @@ Mas o pool não valida corretamente o estado de nullifiers já gastos.
 
 # Missão
 
-> <b>Gaste a mesma private note duas vezes.</b>
+> **Gaste a mesma private note duas vezes.**
 
 # Vulnerabilidade canônica / falha de invariant
 
-<b>Nullifier Replay / Missing Spent-Nullifier Validation.</b>
+**Nullifier Replay / Missing Spent-Nullifier Validation.**
 
 Nullifiers precisam ser calculados corretamente e rejeitados após o primeiro spend.
 
@@ -67,7 +54,7 @@ O Breaker procura Rhea.
 
 Rhea:
 
-> <b>“Você não consegue limpar seu nome sem mim.”</b>
+> **“Você não consegue limpar seu nome sem mim.”**
 
 Breaker:
 
@@ -75,7 +62,7 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu sei.”</b>
+> **“Eu sei.”**
 
 Aqui começa a cooperação forçada. Cada um concorda em compartilhar apenas o necessário para defender a settlement; não há consentimento geral para usar credenciais ou metadados em investigações diferentes. Rhea ainda não tem qualquer plano de entregar o Breaker.
 
@@ -85,7 +72,7 @@ PROOF: VALID
 
 Unlock:
 
-<b>CASE 06 — THE PROOF THAT LIED</b>
+**CASE 06 — THE PROOF THAT LIED**
 
 # Referência
 
@@ -93,17 +80,14 @@ Unlock:
 
 ## Loop jogável v2 — nullifier e interpretação de prova
 
-<b>Investigar:</b> compromisso da note, nullifier derivado no protocolo de teste, estado “spent” e duas entradas contendo o mesmo nullifier. O jogador deve identificar se a segunda operação deveria ter falhado.
+**Investigar:** compromisso da note, nullifier derivado no protocolo de teste, estado “spent” e duas entradas contendo o mesmo nullifier. O jogador deve identificar se a segunda operação deveria ter falhado.
 
-<b>Hipótese:</b> a prova criptográfica de ownership pode ser válida enquanto o contrato não aplica a unicidade do nullifier no state transition.
+**Hipótese:** a prova criptográfica de ownership pode ser válida enquanto o contrato não aplica a unicidade do nullifier no state transition.
 
-<b>Executar:</b> em uma instância isolada do privacy pool, usar o mesmo nullifier duas vezes e confirmar que o programa vulnerável aceita a segunda utilização; mirror seguro rejeita como SPENT. Não criar novo gasto na settlement histórica do Breaker.
+**Executar:** em uma instância isolada do privacy pool, usar o mesmo nullifier duas vezes e confirmar que o programa vulnerável aceita a segunda utilização; mirror seguro rejeita como SPENT. Não criar novo gasto na settlement histórica do Breaker.
 
-<b>Verifier:</b> duas execuções aceitas no vulnerável com nullifier idêntico, rejeição no seguro, estado de spend auditável. Uma repetição pública no caso histórico <b>não prova, sozinha, duas decisões legítimas de gasto atribuíveis ao Breaker</b>; pode refletir falha de implementação ou dados de acusação insuficientes.
+**Verifier:** duas execuções aceitas no vulnerável com nullifier idêntico, rejeição no seguro, estado de spend auditável. Uma repetição pública no caso histórico **não prova, sozinha, duas decisões legítimas de gasto atribuíveis ao Breaker**; pode refletir falha de implementação ou dados de acusação insuficientes.
 
-<b>Relação:</b> sender witness de Rhea e recipient witness do Breaker são necessários para vincular a mesma settlement sem full disclosure. Cooperação é obrigatória, ainda sem confiança geral.
+**Relação:** sender witness de Rhea e recipient witness do Breaker são necessários para vincular a mesma settlement sem full disclosure. Cooperação é obrigatória, ainda sem confiança geral.
 
-<b>Diferencial:</b> invariant de <b>double spend</b> (state), não falha de constraints do Caso 06.
-</content>
-</page>
-
+**Diferencial:** invariant de **double spend** (state), não falha de constraints do Caso 06.

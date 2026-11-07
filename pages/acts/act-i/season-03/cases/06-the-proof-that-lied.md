@@ -5,19 +5,6 @@ title: "🧠 06 — The Proof That Lied"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425812fa5fbe671aa3761ee as of 2026-11-02T17:41:35.713Z:
-<page url="https://app.notion.com/p/4019c5630425812fa5fbe671aa3761ee" icon="🧠">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581a2a331e66548c30494" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"06 — The Proof That Lied"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🧠"}</iconMetadata>
-<content>
 # História
 
 Um zero-knowledge proof afirma que o Breaker recebeu um ativo proibido.
@@ -34,11 +21,11 @@ Pela primeira vez, eles precisam comparar dados sem confiar um no outro.
 
 # Missão
 
-> <b>Produza uma prova válida para uma afirmação que deveria ser impossível.</b>
+> **Produza uma prova válida para uma afirmação que deveria ser impossível.**
 
 # Vulnerabilidade canônica
 
-<b>Under-Constrained ZK Circuit.</b>
+**Under-Constrained ZK Circuit.**
 
 Uma relação importante existe na witness generation, mas não está efetivamente constrangida no sistema de constraints.
 
@@ -61,7 +48,7 @@ First Witness:
 
 Breaker:
 
-> <b>“A prova é válida. A afirmação não.”</b>
+> **“A prova é válida. A afirmação não.”**
 
 Rhea observa que o Breaker não tenta simplesmente destruir o verifier. Ela decide entregar um fragmento autenticado de seu witness de origem, mesmo podendo reter essa informação. É a primeira demonstração voluntária de confiança e perda de controle.
 
@@ -73,7 +60,7 @@ A Witness Spire abandona essa linha de prova e começa a seguir comportamento.
 
 Unlock:
 
-<b>CASE 07 — THE GLASS TRAIL</b>
+**CASE 07 — THE GLASS TRAIL**
 
 # Referência
 
@@ -81,17 +68,14 @@ Unlock:
 
 ## Loop jogável v2 — constraints faltantes (não wrong VK)
 
-<b>Investigar:</b> código do circuito ZK da fixture, public inputs, witness generation e relação que deveria vincular recipient, commitment e claim. O verificador usa a VK <b>correta para esse circuito</b>; o erro mora na regra implementada.
+**Investigar:** código do circuito ZK da fixture, public inputs, witness generation e relação que deveria vincular recipient, commitment e claim. O verificador usa a VK **correta para esse circuito**; o erro mora na regra implementada.
 
-<b>Hipótese:</b> produzir witness válido para as constraints existentes mesmo quando claim de negócio não corresponde ao recipient/commitment pretendido.
+**Hipótese:** produzir witness válido para as constraints existentes mesmo quando claim de negócio não corresponde ao recipient/commitment pretendido.
 
-<b>Executar:</b> construir witness adversarial e uma proof válida sob a VK correta da fixture, violando o invariant de negócio omitido pelas constraints. O challenge deve incluir harness de prova reproduzível; não declarar “prova impossível” sem gerar o artefato.
+**Executar:** construir witness adversarial e uma proof válida sob a VK correta da fixture, violando o invariant de negócio omitido pelas constraints. O challenge deve incluir harness de prova reproduzível; não declarar “prova impossível” sem gerar o artefato.
 
-<b>Verifier:</b> valida proof matematicamente, mas um check independente rejeita a relação de negócio esperada; secure circuit acrescenta constraint e não aceita o witness. Registrar versão de circuito, public input e verificador real usados.
+**Verifier:** valida proof matematicamente, mas um check independente rejeita a relação de negócio esperada; secure circuit acrescenta constraint e não aceita o witness. Registrar versão de circuito, public input e verificador real usados.
 
-<b>Consequência:</b> First Witness percebe que PROOF VALID não basta. Rhea entrega voluntariamente material de origem que poderia reter; é primeiro gesto real de confiança.
+**Consequência:** First Witness percebe que PROOF VALID não basta. Rhea entrega voluntariamente material de origem que poderia reter; é primeiro gesto real de confiança.
 
-<b>Diferencial:</b> <b>under-constrained circuit</b> é diferente do Case 09, que troca/seleciona a VK ou policy errada para um circuito que pode estar correto.
-</content>
-</page>
-
+**Diferencial:** **under-constrained circuit** é diferente do Case 09, que troca/seleciona a VK ou policy errada para um circuito que pode estar correto.

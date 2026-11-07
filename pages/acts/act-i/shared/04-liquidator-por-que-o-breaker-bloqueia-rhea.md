@@ -5,36 +5,21 @@ title: "✅ 04 — Liquidator: por que o Breaker bloqueia Rhea?"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c9c56304258114aa1eecdccc2d0d79 as of 2026-11-02T23:55:37.566Z:
-<page url="https://app.notion.com/p/40c9c56304258114aa1eecdccc2d0d79" icon="✅">
-<ancestor-path>
-<parent-data-source url="collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20" name="07 — Escolhas de Acontecimentos | Writers' Room Act I"/>
-<ancestor-2-database url="https://app.notion.com/p/74e79ba036bb4afd95321e9578fd6151" title="07 — Escolhas de Acontecimentos | Writers' Room Act I"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"Acontecimento":"04 — Liquidator: por que o Breaker bloqueia Rhea?","Decisão editorial":"Aprovada e incorporada","Escolha de acontecimento":"Combinar versões","Métodos":["But Therefore","Story Grid","Three Clue Rule"],"Observação":"Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Prioridade":"P0 - central","Temporada":"S2 — Lumen","Tipo de furo":"Motivação","url":"https://app.notion.com/p/40c9c56304258114aa1eecdccc2d0d79"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"✅"}</iconMetadata>
-<content>
-<callout icon="✅" color="green_bg">
-<b>APROVADO PELO USUÁRIO — seleção A + B.</b> Integração narrativa canônica; detalhes de contratos, simulações e provas continuam pendentes de validação técnica. A escolha aqui é editorial, não opção moral jogável.
-</callout>
+**APROVADO PELO USUÁRIO — seleção A + B.** Integração narrativa canônica; detalhes de contratos, simulações e provas continuam pendentes de validação técnica. A escolha aqui é editorial, não opção moral jogável.
 
 # Lacuna e pergunta dramática
 
 Liquidator: por que o Breaker bloqueia Rhea?
 
-<b>Questão:</b> Como tornar este evento justo, causal e verificável?
+**Questão:** Como tornar este evento justo, causal e verificável?
 
 # Alternativas avaliadas
 
-<b>A:</b> O escopo da intervenção emergencial excede as operações estritamente autorizadas e pode suspender efeitos em terceiros.
+**A:** O escopo da intervenção emergencial excede as operações estritamente autorizadas e pode suspender efeitos em terceiros.
 
-<b>B:</b> Um relatório de risco utiliza métricas corretas porém isoladas e prevê dano de liquidez se a intervenção ocorrer, ignorando liquidações sob feeds inseguros.
+**B:** Um relatório de risco utiliza métricas corretas porém isoladas e prevê dano de liquidez se a intervenção ocorrer, ignorando liquidações sob feeds inseguros.
 
-<b>C:</b> Rhea esconde completamente a estratégia (não selecionar; não transformar a surpresa em falta arbitrária de informação).
+**C:** Rhea esconde completamente a estratégia (não selecionar; não transformar a surpresa em falta arbitrária de informação).
 
 # Versão aprovada (A + B)
 
@@ -50,15 +35,12 @@ Não alegar que Rhea causou os bugs. A suspeita pode ser compreendida sem escond
 
 # Referências
 
-<mention url="https://app.notion.com/p/4019c56304258181a4e2ef561d8954a2" />
+[00 — História Canônica do Act I](00-historia-canonica-do-act-i.md)
 
-<mention url="https://app.notion.com/p/40c9c56304258192bfa2ee5be09a512a" />
-</content>
-</page>
+[06 — Writers' Room: Metodologias & Avaliação do Ato I](06-writers-room-metodologias-avaliacao-do-ato-i.md)
 
-<parent-data-source-schema url="collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20">
 The SQLite table definition for this page's parent data source. Use these column names and option values to set this page's properties, create sibling pages, or query the data source.
-<sqlite-table>
+
 CREATE TABLE IF NOT EXISTS "collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20" (
 	url TEXT UNIQUE,
 	createdTime TEXT, -- ISO-8601 datetime string, automatically set. This is the canonical time for when the page was created.
@@ -71,6 +53,4 @@ CREATE TABLE IF NOT EXISTS "collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20" (
 	"Observação" TEXT,
 	"Acontecimento" TEXT
 )
-</sqlite-table>
-</parent-data-source-schema>
 

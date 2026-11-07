@@ -5,25 +5,15 @@ title: "🧩 04 — Cases & Bosses"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258155ac29c3ff5333a0af as of 2026-11-03T00:07:28.808Z:
-<page url="https://app.notion.com/p/4019c56304258155ac29c3ff5333a0af" icon="🧩">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581d9aedad3e5f178c3e8" title="Season 02 — DeFi Wars — Lumen"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"04 — Cases & Bosses"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🧩"}</iconMetadata>
-<content>
-<callout icon="🧩" color="yellow_bg">
 A Season 2 possui 10 Cases canônicos, um Mid-Boss e um Final Boss. A primeira metade ensina falhas locais de DeFi; a segunda demonstra como elas podem se compor em risco sistêmico.
-</callout>
 
 # Fluxo
 
-Prologue — The Safe Position<br />Cases 01–04<br />BOSS I — The Liquidator<br />Cases 05–10<br />FINAL BOSS — The Cascade
+Prologue — The Safe Position
+Cases 01–04
+BOSS I — The Liquidator
+Cases 05–10
+FINAL BOSS — The Cascade
 
 # Regra
 
@@ -31,57 +21,28 @@ O jogador não recebe o nome da vulnerabilidade antes de resolver o Case.
 
 O nome aparece apenas no postmortem técnico.
 
-<page url="https://app.notion.com/p/4019c563042581188488ccbe7bac66dc">
-00 — Prologue: The Safe Position
-</page>
+[00 — Prologue: The Safe Position](00-prologue-the-safe-position.md)
 
-<page url="https://app.notion.com/p/4019c563042581fca09dedd78f2490ff">
-01 — Stale Truth
-</page>
+[01 — Stale Truth](01-stale-truth.md)
 
-<page url="https://app.notion.com/p/4019c5630425815ea749f6cd17dbf305">
-02 — False Confidence
-</page>
+[02 — False Confidence](02-false-confidence.md)
 
-<page url="https://app.notion.com/p/4019c563042581e4b765ed99edb761a5">
-03 — The Dry Pool
-</page>
+[03 — The Dry Pool](03-the-dry-pool.md)
 
-<page url="https://app.notion.com/p/4019c5630425816a911dfc68a92e01d3">
-04 — The First Share
-</page>
+[04 — The First Share](04-the-first-share.md)
 
-<page url="https://app.notion.com/p/4019c563042581c982f7f03cf656caac">
-BOSS I — The Liquidator
-</page>
+[BOSS I — The Liquidator](boss-i-the-liquidator.md)
 
-<page url="https://app.notion.com/p/4019c563042581b8bd5bc9a78199300f">
-05 — The Token That Arrived Short
-</page>
+[05 — The Token That Arrived Short](05-the-token-that-arrived-short.md)
 
-<page url="https://app.notion.com/p/4019c563042581bbb1a5f7d53248a3cb">
-06 — The Debt That Never Grew
-</page>
+[06 — The Debt That Never Grew](06-the-debt-that-never-grew.md)
 
-<page url="https://app.notion.com/p/4019c5630425816f809cf5235c1d4491">
-07 — Exit With Debt
-</page>
+[07 — Exit With Debt](07-exit-with-debt.md)
 
-<page url="https://app.notion.com/p/4019c563042581fbb26ef86004353e0a">
-08 — One-Ledger Average
-</page>
+[08 — One-Ledger Average](08-one-ledger-average.md)
 
-<page url="https://app.notion.com/p/4019c563042581a496dde84d8688d04f">
-09 — The Breaker That Didn't Break
-</page>
+[09 — The Breaker That Didn't Break](09-the-breaker-that-didn-t-break.md)
 
-<page url="https://app.notion.com/p/4019c56304258142a6a3db94987de25c">
-10 — Emergency Authority
-</page>
+[10 — Emergency Authority](10-emergency-authority.md)
 
-<page url="https://app.notion.com/p/4019c563042581d6bc39fe92ba48ec02">
-FINAL BOSS — The Cascade
-</page>
-</content>
-</page>
-
+[FINAL BOSS — The Cascade](final-boss-the-cascade.md)

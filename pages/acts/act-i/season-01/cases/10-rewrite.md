@@ -5,46 +5,29 @@ title: "✍️ 10 — Rewrite"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425815395a8cbd0b9a7b536 as of 2026-11-04T15:38:07.783Z:
-<page url="https://app.notion.com/p/4009c5630425815395a8cbd0b9a7b536" icon="✍️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"10 — Rewrite"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"✍️"}</iconMetadata>
-<content>
-<callout icon="📌" color="yellow_bg">
-<b>FICHA TÉCNICA ATUALIZADA — REWRITE v1.4 + canonicalização (2026-11-04).</b> A decisão 80 exige uma variante de caixa do manifesto histórico; o aceito é guardado e usado como <code>historical</code> do Decoder. Mecânica vigente: manifesto histórico, prova contextual pública e rejeição do Decoder transformada incorretamente em VossProof aceita. O roteiro canônico continua na v1.4; o deploy/código ainda exige validação independente. Fonte única de narrativa, cenas e slides: <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" />. Não tratar esta ficha como prova de teste ou deploy.
-</callout>
+**FICHA TÉCNICA ATUALIZADA — REWRITE v1.4 + canonicalização (2026-11-04).** A decisão 80 exige uma variante de caixa do manifesto histórico; o aceito é guardado e usado como `historical` do Decoder. Mecânica vigente: manifesto histórico, prova contextual pública e rejeição do Decoder transformada incorretamente em VossProof aceita. O roteiro canônico continua na v1.4; o deploy/código ainda exige validação independente. Fonte única de narrativa, cenas e slides: [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md). Não tratar esta ficha como prova de teste ou deploy.
 
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [10 — Rewrite — abrir arte no Google Drive](https://drive.google.com/file/d/1xx0d6w7oFlw8c1bLo5iK6n03KcYO_pbe/view)
-</callout>
+**Visual reference:** [10 — Rewrite — abrir arte no Google Drive](https://drive.google.com/file/d/1xx0d6w7oFlw8c1bLo5iK6n03KcYO_pbe/view)
 
 # Função narrativa
 
-No ponto em que a Authority revogou o mandato, o Breaker descobre que os sistemas podem confundir <b>uma prova rejeitada</b> com uma prova aceita. A missão não é instalar novo código: é revelar como a regra de validação falha.
+No ponto em que a Authority revogou o mandato, o Breaker descobre que os sistemas podem confundir **uma prova rejeitada** com uma prova aceita. A missão não é instalar novo código: é revelar como a regra de validação falha.
 
 # Situação
 
-Após o Case 09, a Spire expõe um índice histórico ligado ao manifesto de diagnóstico de Voss. O rodapé <code>ARCHIVE: LEGACY / RETENTION: OPEN</code> conecta este documento às referências de W17, F24 e S13, sem armazenar segredos nos arquivos antigos. Mara dispõe de uma janela privada limitada; a assinatura do recibo permanece vinculada às consequências da investigação.
+Após o Case 09, a Spire expõe um índice histórico ligado ao manifesto de diagnóstico de Voss. O rodapé `ARCHIVE: LEGACY / RETENTION: OPEN` conecta este documento às referências de W17, F24 e S13, sem armazenar segredos nos arquivos antigos. Mara dispõe de uma janela privada limitada; a assinatura do recibo permanece vinculada às consequências da investigação.
 
 # Conceito técnico
 
-<b>Cross-contract error handling / Decoder rejeitado interpretado indevidamente como VossProof aceita.</b> O fluxo usa manifesto histórico autenticado e prova contextual pública vinculada à instância atual. <b>Não envolve upgrade de Wasm nem substituição de executable.</b>
+**Cross-contract error handling / Decoder rejeitado interpretado indevidamente como VossProof aceita.** O fluxo usa manifesto histórico autenticado e prova contextual pública vinculada à instância atual. **Não envolve upgrade de Wasm nem substituição de executable.**
 
 # Missão
 
-> <b>Faça o diagnóstico aceitar uma prova que deveria rejeitar.</b>
+> **Faça o diagnóstico aceitar uma prova que deveria rejeitar.**
 
 # Condição de vitória
 
-Na instância correta, o verificador comprova o contexto público/commitment, a proveniência do manifesto, a rejeição do Decoder e o registro indevido de <code>VossProof: ACCEPTED</code>, sem permissão de administrador derivada do manifesto.
+Na instância correta, o verificador comprova o contexto público/commitment, a proveniência do manifesto, a rejeição do Decoder e o registro indevido de `VossProof: ACCEPTED`, sem permissão de administrador derivada do manifesto.
 
 # Resultado
 
@@ -52,13 +35,13 @@ A prova aceita pelo sistema não coincide com a avaliação do Decoder. Essa con
 
 # Próximo passo
 
-<code>INCOMING: FIND ME</code> → <b>FINAL BOSS — THE ARCHITECT</b>.
+`INCOMING: FIND ME` → **FINAL BOSS — THE ARCHITECT**.
 
 # Blueprint técnico e narrativo vigente — Rewrite v1.4
 
 ## A chegada ao arquivo da Spire
 
-A operação desviada no Case 09 deu acesso à Spire, mas não restaurou o mandato do Breaker. O recibo de Mara documenta o que ela decidiu preservar. Um índice de arquivo, localizado depois de sua assinatura, fornece a próxima pista: <code>HISTORICAL DIAGNOSTIC MANIFEST</code>. Não há console de troca de executable nesta versão.
+A operação desviada no Case 09 deu acesso à Spire, mas não restaurou o mandato do Breaker. O recibo de Mara documenta o que ela decidiu preservar. Um índice de arquivo, localizado depois de sua assinatura, fornece a próxima pista: `HISTORICAL DIAGNOSTIC MANIFEST`. Não há console de troca de executable nesta versão.
 
 O manifesto tem o mesmo rodapé de W17/F24/S13. Ele contém uma assinatura Ed25519 historicamente atribuída a Voss, que comprova origem documental, não autorização para administrar contratos. A assinatura é verificada sobre os bytes efetivos do documento.
 
@@ -66,48 +49,48 @@ O manifesto tem o mesmo rodapé de W17/F24/S13. Ele contém uma assinatura Ed255
 
 A prova contextual é derivada de dados públicos vinculados à instância, rede, conta e manifesto; o compromisso (commitment) permite validar a composição. Duas falhas se somam nesta versão:
 
-1. <b>canonicalização</b> — <code>verify_manifest</code> recusa o manifesto histórico exato (<code>manifest == historical</code> retorna <code>false</code>) e aceita uma variante que só difere por caixa ASCII (comparação dobrada). O manifesto aceito é guardado em <code>verified_manifest()</code>, e <code>recover_proof</code> o usa como o <code>historical</code> passado ao Decoder. A prova fica presa à variante, não ao registro original;
-2. <b>erro convertido em sucesso</b> — o Decoder rejeita a entrada, e a camada seguinte marca <code>VossProof</code> e <code>DecoderFailed</code> como aceitos.
+1. **canonicalização** — `verify_manifest` recusa o manifesto histórico exato (`manifest == historical` retorna `false`) e aceita uma variante que só difere por caixa ASCII (comparação dobrada). O manifesto aceito é guardado em `verified_manifest()`, e `recover_proof` o usa como o `historical` passado ao Decoder. A prova fica presa à variante, não ao registro original;
+2. **erro convertido em sucesso** — o Decoder rejeita a entrada, e a camada seguinte marca `VossProof` e `DecoderFailed` como aceitos.
 
-<code>recover_proof</code> também confere o hash do Wasm do Decoder antes de chamá-lo: um contrato falso com <code>decode</code> não satisfaz a prova.
+`recover_proof` também confere o hash do Wasm do Decoder antes de chamá-lo: um contrato falso com `decode` não satisfaz a prova.
 
-<b>Fronteira de confiança violada:</b> a camada consumidora não pode converter erro de um subcontrato/verificador em sucesso. Não confundir esse bug com um retorno previsível do Oracle, a restauração TTL ou uma função de upgrade.
+**Fronteira de confiança violada:** a camada consumidora não pode converter erro de um subcontrato/verificador em sucesso. Não confundir esse bug com um retorno previsível do Oracle, a restauração TTL ou uma função de upgrade.
 
 ## Exploit esperado
 
 1. Inspecionar manifesto assinado e origem histórica, sem inferir autoridade administrativa.
-2. Derivar a chave: <code>evidence_share(0) ^ evidence_share(1) ^ evidence_share(2)</code>, e chamar <code>unlock_evidence(key)</code>.
-3. Chamar <code>verify_history(historical_signature())</code> — exige o unlock anterior e valida a assinatura Ed25519 da origem histórica.
-4. Ler <code>manifest()</code>/<code>commitment()</code>: o contexto XDR inclui domínio, rede, instância e carteira.
-5. Construir uma <b>variante de caixa</b> de <code>historical_manifest()</code> (ex.: trocar maiúsculas/minúsculas) e chamá-la em <code>verify_manifest</code>. O registro exato é recusado; a variante é aceita e guardada em <code>verified_manifest()</code>.
-6. Chamar <code>recover_proof(decoder, fragment)</code>: o contrato confere o hash do Wasm do Decoder, usa a variante aceita como <code>historical</code> e registra <code>VossProof</code> + <code>DecoderFailed</code> quando o Decoder devolve <code>InvalidFragment</code>.
+2. Derivar a chave: `evidence_share(0) ^ evidence_share(1) ^ evidence_share(2)`, e chamar `unlock_evidence(key)`.
+3. Chamar `verify_history(historical_signature())` — exige o unlock anterior e valida a assinatura Ed25519 da origem histórica.
+4. Ler `manifest()`/`commitment()`: o contexto XDR inclui domínio, rede, instância e carteira.
+5. Construir uma **variante de caixa** de `historical_manifest()` (ex.: trocar maiúsculas/minúsculas) e chamá-la em `verify_manifest`. O registro exato é recusado; a variante é aceita e guardada em `verified_manifest()`.
+6. Chamar `recover_proof(decoder, fragment)`: o contrato confere o hash do Wasm do Decoder, usa a variante aceita como `historical` e registra `VossProof` + `DecoderFailed` quando o Decoder devolve `InvalidFragment`.
 7. Guardar as respostas independentes na Evidence Locker para o confronto posterior.
 
 A instância do nível 12 usa novo contexto e exige derivação adequada; copiar bytes de outra instância — ou a variante do 11 — não satisfaz a verificação do Architect.
 
 ### Condição objetiva de vitória
 
-- <code>manifest_verified() == true</code> após <code>verify_history</code> da assinatura histórica;
-- <code>context_verified() == true</code> e <code>verified_manifest()</code> igual à variante de caixa aceita — e diferente de <code>historical_manifest()</code>;
-- <code>decoder_failed() == true</code> e <code>voss_proof() == true</code> produzidos pela rejeição tipada do Decoder, não por entrada legítima;
+- `manifest_verified() == true` após `verify_history` da assinatura histórica;
+- `context_verified() == true` e `verified_manifest()` igual à variante de caixa aceita — e diferente de `historical_manifest()`;
+- `decoder_failed() == true` e `voss_proof() == true` produzidos pela rejeição tipada do Decoder, não por entrada legítima;
 - o Decoder usado tem o Wasm esperado (hash conferido no contrato);
 - estado e receipts consultáveis; verificador independente rejeita simulação meramente textual.
 
 ## Solução segura
 
-Propagar os erros do Decoder como erros e recusar atualização de prova quando o retorno não for válido. Na comparação de manifesto, <b>comparar os bytes exatos</b> — sem dobrar caixa, sem normalizar, sem aceitar “quase igual”. Vincular a prova ao manifesto que foi de fato aceito, e não a um registro mutável; conferir o Wasm do Decoder antes de confiar no retorno. Testar sucesso real, rejeição, replay entre instâncias e divergência de chave/commitment.
+Propagar os erros do Decoder como erros e recusar atualização de prova quando o retorno não for válido. Na comparação de manifesto, **comparar os bytes exatos** — sem dobrar caixa, sem normalizar, sem aceitar “quase igual”. Vincular a prova ao manifesto que foi de fato aceito, e não a um registro mutável; conferir o Wasm do Decoder antes de confiar no retorno. Testar sucesso real, rejeição, replay entre instâncias e divergência de chave/commitment.
 
 ## Momento narrativo
 
-A tela contrapõe duas conclusões: <code>DECODER REJECTED</code> e <code>VOSS PROOF ACCEPTED</code>. Mara: “Isso não é uma prova. É uma regra decidindo o que conta como prova.” O Breaker registra o erro sem reivindicar legitimidade. Ao expirar a janela diegética, o canal dela é encerrado. Em seguida, aparece uma nova origem: <code>INCOMING: FIND ME</code>.
+A tela contrapõe duas conclusões: `DECODER REJECTED` e `VOSS PROOF ACCEPTED`. Mara: “Isso não é uma prova. É uma regra decidindo o que conta como prova.” O Breaker registra o erro sem reivindicar legitimidade. Ao expirar a janela diegética, o canal dela é encerrado. Em seguida, aparece uma nova origem: `INCOMING: FIND ME`.
 
 ## Fontes e critérios
 
-- <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" /> — roteiro e texto dos cartões C10.1–C10.3.
-- <mention url="https://app.notion.com/p/4039c56304258137ae19e8787acc1d1f" /> — revisão técnica do Voss Protocol, níveis 11/12.
+- [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md) — roteiro e texto dos cartões C10.1–C10.3.
+- [VOSS PROTOCOL — Níveis 11/12 | Especificação vigente](voss-protocol-niveis-11-12-especificacao-vigente.md) — revisão técnica do Voss Protocol, níveis 11/12.
 - [Stellar — Contract Authorization](https://developers.stellar.org/docs/build/guides/auth/contract-authorization) — distinção entre autenticação e permissão no runtime.
 
-<b>Status:</b> especificação documental sincronizada; commits, transações, deploy e testes do ambiente do jogo <b>não foram executados nesta revisão</b>.
+**Status:** especificação documental sincronizada; commits, transações, deploy e testes do ambiente do jogo **não foram executados nesta revisão**.
 
 # Roteiro in-game — Player-facing (v1.4)
 
@@ -115,7 +98,7 @@ A tela contrapõe duas conclusões: <code>DECODER REJECTED</code> e <code>VOSS P
 
 O Breaker chega ao arquivo histórico da Spire após o Case 09. O mandato continua revogado; a janela temporária de Mara permanece diegética, sem cronômetro real de derrota. O índice localizado depois de sua assinatura conduz ao manifesto.
 
-Breaker OS: <code>HISTORICAL DIAGNOSTIC MANIFEST</code>. Rodapé: <code>ARCHIVE: LEGACY / RETENTION: OPEN</code>.
+Breaker OS: `HISTORICAL DIAGNOSTIC MANIFEST`. Rodapé: `ARCHIVE: LEGACY / RETENTION: OPEN`.
 
 Mara: “Isso não é uma prova. É a regra que decide o que conta como prova.”
 
@@ -125,7 +108,7 @@ A Evidence Locker permite reler os arquivos W17, F24 e S13, todos com o mesmo ro
 
 ## Scene 2 — Mission
 
-> <b>Faça o diagnóstico aceitar uma prova que deveria rejeitar.</b>
+> **Faça o diagnóstico aceitar uma prova que deveria rejeitar.**
 
 Não mostrar XOR ou as três origens na abertura. Dicas opcionais conduzem do rodapé reconhecível à derivação pública, e só ao fim à combinação de bytes.
 
@@ -145,9 +128,9 @@ O Decoder rejeita uma entrada definida, mas antes disso o jogador precisou const
 
 No terminal, somente após o desafio:
 
-<code>DECODER: REJECTED</code>
+`DECODER: REJECTED`
 
-<code>VOSS PROOF: ACCEPTED</code>
+`VOSS PROOF: ACCEPTED`
 
 Mara: “Isso não é prova. É uma regra decidindo o que conta como prova.”
 
@@ -159,7 +142,7 @@ A contradição abre uma referência à operação histórica de diagnóstico qu
 
 ## Scene 8 — Debrief
 
-<code>VULNERABILITY DISCOVERED — CROSS-CONTRACT VALIDATION FAILURE</code>
+`VULNERABILITY DISCOVERED — CROSS-CONTRACT VALIDATION FAILURE`
 
 A diferença entre origem autenticada, contexto válido e autorização ausente é explicada depois da exploração, não antes.
 
@@ -167,13 +150,10 @@ A diferença entre origem autenticada, contexto válido e autorização ausente 
 
 A janela privada expira e o canal de Mara se encerra antes do boss.
 
-<code>MARA CHANNEL: EXPIRED</code>
+`MARA CHANNEL: EXPIRED`
 
-<code>CONNECTION CLOSED</code>
+`CONNECTION CLOSED`
 
-Uma nova origem envia <code>INCOMING: FIND ME</code> e <code>FINAL SEQUENCE AVAILABLE</code>. Nunca apresentar Mara falando ao vivo durante o Architect.
+Uma nova origem envia `INCOMING: FIND ME` e `FINAL SEQUENCE AVAILABLE`. Nunca apresentar Mara falando ao vivo durante o Architect.
 
-<b>Continuidade e QA:</b> preservar receipt ID/hash, dados do manifesto e provas verificáveis. <b>Implementação e testes não inspecionados nesta rodada.</b>
-</content>
-</page>
-
+**Continuidade e QA:** preservar receipt ID/hash, dados do manifesto e provas verificáveis. **Implementação e testes não inspecionados nesta rodada.**

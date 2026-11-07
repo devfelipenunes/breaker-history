@@ -5,29 +5,13 @@ title: "📖 02 — Book I | The First Layer — Continuidade revisada v1.4"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c56304258135a4d5de0cad04276a as of 2026-11-03T14:50:12.795Z:
-<page url="https://app.notion.com/p/4009c56304258135a4d5de0cad04276a" icon="📖">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"02 — Book I \\| The First Layer — Continuidade revisada v1.4"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📖"}</iconMetadata>
-<content>
-<callout icon="📖" color="yellow_bg">
-<b>ADAPTAÇÃO LITERÁRIA — CONTINUIDADE REVISADA PARA A SEASON 1 v1.4.</b> O Livro I foi harmonizado com o roteiro v1.4: Mara preserva provas desde o Vault; W17/F24/S13 são arquivos históricos, não esconderijos de chaves; Rewrite demonstra a falha Decoder→VossProof; Architect abre uma sessão forense e comprova a autoria de Voss por evidências independentes. Esta é uma obra literária, não especificação de gameplay ou validação de contratos. Para decisões narrativas vigentes: <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" />.
-</callout>
+**ADAPTAÇÃO LITERÁRIA — CONTINUIDADE REVISADA PARA A SEASON 1 v1.4.** O Livro I foi harmonizado com o roteiro v1.4: Mara preserva provas desde o Vault; W17/F24/S13 são arquivos históricos, não esconderijos de chaves; Rewrite demonstra a falha Decoder→VossProof; Architect abre uma sessão forense e comprova a autoria de Voss por evidências independentes. Esta é uma obra literária, não especificação de gameplay ou validação de contratos. Para decisões narrativas vigentes: [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](breaker-season-1-final-narrative-v1-4-narrative-lock.md).
 
-<callout icon="📖" color="purple_bg">
-<b>BREAKER — Livro I: The First Layer</b>
+**BREAKER — Livro I: The First Layer**
 
-<b>Nota de adaptação:</b> o jogo e o livro contam a mesma história linear. O Breaker revoga o controle da identidade de Elias, registra a Ghost Key como evidência e limita a pressão adicional no Archive. Não existem ramificações narrativas, menus de escolhas morais ou finais alternativos; o jogador controla a investigação técnica, não o destino dos personagens.
+**Nota de adaptação:** o jogo e o livro contam a mesma história linear. O Breaker revoga o controle da identidade de Elias, registra a Ghost Key como evidência e limita a pressão adicional no Archive. Não existem ramificações narrativas, menus de escolhas morais ou finais alternativos; o jogador controla a investigação técnica, não o destino dos personagens.
 
-Novelização derivada da Season 1, preservada como obra literária. <b>Continuidade editorial com o roteiro v1.4 revisada; não usar o texto literário como especificação de contrato.</b>
-</callout>
+Novelização derivada da Season 1, preservada como obra literária. **Continuidade editorial com o roteiro v1.4 revisada; não usar o texto literário como especificação de contrato.**
 
 ## THE FIRST LAYER
 
@@ -39,19 +23,30 @@ Novelização derivada da Season 1, preservada como obra literária. <b>Continui
 
 # SUMÁRIO
 
-<b>PARTE I — O CRIME IMPOSSÍVEL</b>
+**PARTE I — O CRIME IMPOSSÍVEL**
 
-Prólogo — The Impossible Theft<br />Capítulo 1 — No Forced Entry<br />Capítulo 2 — The Dead Man's Wallet<br />Capítulo 3 — Warehouse 17<br />Capítulo 4 — The Forgotten Floor
+Prólogo — The Impossible Theft
+Capítulo 1 — No Forced Entry
+Capítulo 2 — The Dead Man's Wallet
+Capítulo 3 — Warehouse 17
+Capítulo 4 — The Forgotten Floor
 
-<b>PARTE II — A FIRST LAYER</b>
+**PARTE II — A FIRST LAYER**
 
-Capítulo 5 — The Custodian<br />Capítulo 6 — The Missing Investigator<br />Capítulo 7 — The Impossible Account<br />Capítulo 8 — Sector 13
+Capítulo 5 — The Custodian
+Capítulo 6 — The Missing Investigator
+Capítulo 7 — The Impossible Account
+Capítulo 8 — Sector 13
 
-<b>PARTE III — THE SEQUENCE</b>
+**PARTE III — THE SEQUENCE**
 
-Capítulo 9 — The Oracle<br />Capítulo 10 — Steal the Key<br />Capítulo 11 — Rewrite<br />Capítulo 12 — The Architect
+Capítulo 9 — The Oracle
+Capítulo 10 — Steal the Key
+Capítulo 11 — Rewrite
+Capítulo 12 — The Architect
 
-Epílogo — Meridian Continues<br />Pós-créditos — Lumen
+Epílogo — Meridian Continues
+Pós-créditos — Lumen
 
 ---
 
@@ -85,25 +80,25 @@ O contrato do Vault respondia. O sistema de identidade respondia. O ledger confi
 
 Uma notificação da Network Wire atravessou o visor e desapareceu entre os relatórios que a Authority distribuía automaticamente:
 
-<code>2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA</code>
+`2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA`
 
-<i>Sera Quill, Network Wire.</i>
+*Sera Quill, Network Wire.*
 
 Era uma manchete que dizia exatamente o que se sabia e, por isso mesmo, dava à cidade a impressão de que alguém já havia explicado o acontecimento. O Breaker fechou a notícia. Queria ver os eventos, não a conclusão.
 
 Quando o Breaker chegou, a Meridian Authority já havia terminado a primeira inspeção.
 
-Ele não entrou como criminoso, mercenário ou invasor. Naquele momento ainda era um <b>Independent Contract Auditor</b>, uma categoria rara, tolerada exatamente para os casos em que a própria Authority precisava de alguém disposto a desconfiar do que seus sistemas afirmavam ser verdade.
+Ele não entrou como criminoso, mercenário ou invasor. Naquele momento ainda era um **Independent Contract Auditor**, uma categoria rara, tolerada exatamente para os casos em que a própria Authority precisava de alguém disposto a desconfiar do que seus sistemas afirmavam ser verdade.
 
 Mara Vale esperava diante da porta interna do Vault.
 
 Tinha o uniforme escuro da Authority, os cabelos presos e o cansaço concentrado de alguém que passara horas ouvindo máquinas dizerem a mesma coisa. Na parede à sua frente, a interface de auditoria repetia a conclusão oficial.
 
-<code>TRANSACTION: ACCEPTED</code>
+`TRANSACTION: ACCEPTED`
 
-<code>ACCESS LOG: VALID</code>
+`ACCESS LOG: VALID`
 
-<code>FORCED ENTRY: NONE</code>
+`FORCED ENTRY: NONE`
 
 Mara apontou para a tela.
 
@@ -117,11 +112,11 @@ Mara assentiu. Não era falta de experiência; havia passado horas exigindo da A
 
 A Meridian Authority registrou a presença dele no caso.
 
-<code>AUDITOR STATUS: ACTIVE</code>
+`AUDITOR STATUS: ACTIVE`
 
-<code>ACCESS SCOPE: LIMITED</code>
+`ACCESS SCOPE: LIMITED`
 
-<code>CASE: MERIDIAN VAULT</code>
+`CASE: MERIDIAN VAULT`
 
 Ele recebeu o Contract ID do Access Gate, um snapshot do estado do Vault, a identidade declarada do proprietário, o identificador da transação histórica e a referência ao evento do Gate. Nada além disso. A assinatura do envelope podia ser inspecionada, mas nenhum dos dois sabia ainda que pessoa correspondia àquela conta operacional.
 
@@ -139,7 +134,7 @@ Se nenhuma chave fora roubada, como alguém entrara?
 
 O Breaker conectou o terminal.
 
-<code>CASE 01 — NO FORCED ENTRY</code>
+`CASE 01 — NO FORCED ENTRY`
 
 E abriu o contrato.
 
@@ -187,9 +182,9 @@ Então a porta interna destravou.
 
 O som metálico atravessou a sala com uma normalidade absurda.
 
-<code>TRANSACTION ACCEPTED</code>
+`TRANSACTION ACCEPTED`
 
-<code>DOOR STATE → OPEN</code>
+`DOOR STATE → OPEN`
 
 Nenhuma sirene.
 
@@ -197,7 +192,7 @@ Nenhum bloqueio.
 
 Por fim:
 
-<code>NO FORCED ENTRY DETECTED</code>
+`NO FORCED ENTRY DETECTED`
 
 Mara atravessou a sala rapidamente.
 
@@ -223,7 +218,7 @@ Mas havia uma coisa que não pertencia ao projeto.
 
 Em um registro antigo do Access Gate, abaixo de metadados que ninguém da Authority considerara relevantes, existia um único símbolo.
 
-<code>I</code>
+`I`
 
 Mara abriu a especificação do contrato.
 
@@ -237,7 +232,7 @@ A trilha da operação usada na madrugada do roubo também mostrava uma identida
 
 O resultado apareceu em vermelho.
 
-<code>OWNER: DECEASED</code>
+`OWNER: DECEASED`
 
 Mara ficou em silêncio.
 
@@ -257,11 +252,11 @@ Pela primeira vez, ele começou a desconfiar que o problema não seria descobrir
 
 Seria descobrir quantas coisas continuavam funcionando depois de falhar.
 
-<code>CASE 01 CLOSED</code>
+`CASE 01 CLOSED`
 
-<code>NEW LEAD: DECEASED IDENTITY</code>
+`NEW LEAD: DECEASED IDENTITY`
 
-<code>CASE 02 — THE DEAD MAN'S WALLET</code>
+`CASE 02 — THE DEAD MAN'S WALLET`
 
 ---
 
@@ -285,9 +280,9 @@ A wallet, no entanto, respondera naquela semana.
 
 Mara exibiu os dois registros lado a lado.
 
-<code>CIVIL STATUS: DECEASED</code>
+`CIVIL STATUS: DECEASED`
 
-<code>WALLET STATUS: LEGACY</code>
+`WALLET STATUS: LEGACY`
 
 — Essa wallet foi desativada há seis meses.
 
@@ -325,13 +320,13 @@ Ele executou a inicialização novamente, desta vez definindo seu próprio ender
 
 O terminal respondeu imediatamente.
 
-<code>IDENTITY CONTROLLER UPDATED</code>
+`IDENTITY CONTROLLER UPDATED`
 
-<code>ACCESS PROFILE RESTORED</code>
+`ACCESS PROFILE RESTORED`
 
 A fotografia de Elias deixou de carregar a etiqueta ARCHIVED.
 
-<code>ACTIVE SESSION</code>
+`ACTIVE SESSION`
 
 Nenhum alerta de fraude apareceu.
 
@@ -339,17 +334,17 @@ A cidade acabara de permitir que um morto voltasse a existir porque uma função
 
 O Breaker examinou o estado do contrato. O ledger público não escondia dados por exigir autorização de leitura; ali estavam o controlador recém-trocado e o digest de um arquivo de serviço. Os documentos propriamente ditos permaneciam num acervo externo de manutenção. O Breaker assinou uma solicitação ao arquivo com a conta que agora controlava o perfil, e o serviço comparou sua assinatura ao administrador gravado no registry.
 
-<code>LEGACY ARCHIVE: ACCESS GRANTED</code>
+`LEGACY ARCHIVE: ACCESS GRANTED`
 
 Havia pouca coisa. Logs de manutenção. Rotas antigas. Identificadores obsoletos. Um arquivo sem título, protegido no acervo externo por uma política que confiava demais no contrato comprometido.
 
 Dentro, três linhas.
 
-<code>WAREHOUSE 17</code>
+`WAREHOUSE 17`
 
-<code>LOWER MERIDIAN</code>
+`LOWER MERIDIAN`
 
-<code>DO NOT USE CITY ROUTING</code>
+`DO NOT USE CITY ROUTING`
 
 Mara leu duas vezes.
 
@@ -359,7 +354,7 @@ O Breaker olhou para a fotografia de Elias antes de encerrar a sessão. A tela o
 
 — Já encontrou a pista — disse Mara. — Vai devolver o que não é seu?
 
-Ele registrou a prova da falha, preservou a identificação original e, com sua própria autoridade recém-adquirida, executou a operação explícita que revogava seu controle sobre o perfil legado. Uma resposta apareceu: <code>CONTROLLER RELEASED</code>. Só então encerrou a sessão. Desligar o terminal não teria revertido nada; a mudança anterior era persistente. Não era uma absolvição: a tomada de controle continuava no histórico, assinada por sua conta.
+Ele registrou a prova da falha, preservou a identificação original e, com sua própria autoridade recém-adquirida, executou a operação explícita que revogava seu controle sobre o perfil legado. Uma resposta apareceu: `CONTROLLER RELEASED`. Só então encerrou a sessão. Desligar o terminal não teria revertido nada; a mudança anterior era persistente. Não era uma absolvição: a tomada de controle continuava no histórico, assinada por sua conta.
 
 Mara salvou a evidência em duas fontes independentes. Pela primeira vez, o Breaker percebeu que ela estava registrando não apenas os defeitos de Meridian, mas também aquilo que ele fazia.
 
@@ -375,7 +370,7 @@ Mara começou a olhar para os relatórios com menos confiança.
 
 O Breaker começou a olhar para eles como pistas.
 
-<code>NEW LEAD: WAREHOUSE 17</code>
+`NEW LEAD: WAREHOUSE 17`
 
 ---
 
@@ -413,15 +408,15 @@ O Breaker conferiu o identificador. O contrato marcava a operação como válida
 
 Mara exibiu o processo.
 
-<code>OWNERSHIP: DISPUTED</code>
+`OWNERSHIP: DISPUTED`
 
-<code>PREVIOUS OWNER AUTHORIZATION: NOT FOUND</code>
+`PREVIOUS OWNER AUTHORIZATION: NOT FOUND`
 
 O silêncio entre os dois durou tempo suficiente para que as máquinas do galpão voltassem a parecer barulhentas.
 
 — Não é só uma inconsistência — disse ela. — Alguém continua sem aquele equipamento porque um sistema decidiu por ele.
 
-Havia outra aba aberta, quase banal: uma ordem de manutenção aprovada, com execução pendente. O Breaker pensou que não tinha relação com seu problema até ler o campo que Mara destacara: <code>SERVICE AUTHORIZED / DELIVERY BLOCKED</code>.
+Havia outra aba aberta, quase banal: uma ordem de manutenção aprovada, com execução pendente. O Breaker pensou que não tinha relação com seu problema até ler o campo que Mara destacara: `SERVICE AUTHORIZED / DELIVERY BLOCKED`.
 
 — Por que ainda está parada? — perguntou.
 
@@ -433,9 +428,9 @@ Foi isso que tornou o lugar suspeito.
 
 Ele encontrou um objeto associado às imagens do Vault e consultou o contrato de propriedade.
 
-<code>OWNER: WAREHOUSE 17</code>
+`OWNER: WAREHOUSE 17`
 
-<code>TRANSFER REQUIRES AUTHORIZATION</code>
+`TRANSFER REQUIRES AUTHORIZATION`
 
 Mara leu a função junto com ele.
 
@@ -459,9 +454,9 @@ Assinou.
 
 Executou.
 
-<code>TRANSFER ACCEPTED</code>
+`TRANSFER ACCEPTED`
 
-<code>NEW OWNER: BREAKER</code>
+`NEW OWNER: BREAKER`
 
 O compartimento mudou de vermelho para branco.
 
@@ -475,13 +470,13 @@ O Breaker retirou o objeto.
 
 Dentro havia um módulo fino, negro, marcado com circuitos antigos. O inventário atribuía a propriedade do contêiner ao Warehouse até poucos minutos antes; depois da chamada, o owner no ledger era o Breaker. Isso não explicava quem fabricara o módulo ou de onde ele viera. No metal, apenas um nome.
 
-<code>GHOST KEY</code>
+`GHOST KEY`
 
 Quando conectado ao terminal, o dispositivo revelou Contract IDs que não existiam no índice moderno, além de chaves de storage associadas a uma instalação pública próxima.
 
 Uma referência se repetia.
 
-<code>FLOOR 24</code>
+`FLOOR 24`
 
 Mara consultou o mapa imediatamente.
 
@@ -501,7 +496,7 @@ Ele voltou ao terminal, capturou o hash do artefato e registrou o caminho da tra
 
 Ele enviou os registros. Não pediu desculpas. Mara não pediu.
 
-No pacote havia um anexo menor, anexado ao inventário como simples telemetria de diagnóstico. O cabeçalho dizia <code>W17 / DIAGNOSTIC TRACE</code>. Um rodapé discreto identificava sua proveniência: <code>ARCHIVE: LEGACY / RETENTION: OPEN</code>. Não correspondia a nenhuma ordem de serviço atual. O Breaker preservou a referência do arquivo ao lado do hash da Ghost Key. Mara exigiu a mesma cadeia de custódia, sem lhe atribuir qualquer interpretação. Não havia material secreto de uma instância futura ali, apenas um registro histórico.
+No pacote havia um anexo menor, anexado ao inventário como simples telemetria de diagnóstico. O cabeçalho dizia `W17 / DIAGNOSTIC TRACE`. Um rodapé discreto identificava sua proveniência: `ARCHIVE: LEGACY / RETENTION: OPEN`. Não correspondia a nenhuma ordem de serviço atual. O Breaker preservou a referência do arquivo ao lado do hash da Ghost Key. Mara exigiu a mesma cadeia de custódia, sem lhe atribuir qualquer interpretação. Não havia material secreto de uma instância futura ali, apenas um registro histórico.
 
 A Ghost Key continuou com o Breaker, isolada para a investigação. No contrato, a titularidade ainda estava em seu endereço; no protocolo de Mara, constavam o hash, a transferência irregular e a posse técnica temporária do artefato. Não havia sido devolvida ao Warehouse e o registro de prova não legitimava a transferência. Foi o caminho que tomou, embora o sistema nada exigisse: em Meridian, o contrato reconhecia a posse, enquanto o protocolo de Mara preservava a prova de que ela havia sido obtida irregularmente.
 
@@ -541,11 +536,11 @@ Depois abriu o storage associado aos Contract IDs gravados no dispositivo.
 
 Havia referências antigas, porém o estado correspondente não aparecia no conjunto ativo.
 
-<code>ENTRY NOT FOUND IN LIVE STATE</code>
+`ENTRY NOT FOUND IN LIVE STATE`
 
 Ele seguiu os metadados.
 
-<code>ARCHIVAL REFERENCE DETECTED</code>
+`ARCHIVAL REFERENCE DETECTED`
 
 O problema não era arquitetura.
 
@@ -565,7 +560,7 @@ O painel apagou.
 
 Quando voltou, havia um novo botão.
 
-<code>24</code>
+`24`
 
 Mara não falou.
 
@@ -587,9 +582,9 @@ Na parede em frente ao elevador estava o mesmo marcador encontrado no Vault.
 
 Mas agora completo.
 
-<code>I // FIRST LAYER</code>
+`I // FIRST LAYER`
 
-Antes de fechar o terminal de restauração, o Breaker exportou a referência da entrada que acabara de recuperar: <code>F24 / ARCHIVED ENTRY</code>. O mesmo rodapé do Warehouse aparecia no documento: <code>ARCHIVE: LEGACY / RETENTION: OPEN</code>. Era uma convenção antiga de preservação, não uma senha. Guardou as duas referências sem comentar.
+Antes de fechar o terminal de restauração, o Breaker exportou a referência da entrada que acabara de recuperar: `F24 / ARCHIVED ENTRY`. O mesmo rodapé do Warehouse aparecia no documento: `ARCHIVE: LEGACY / RETENTION: OPEN`. Era uma convenção antiga de preservação, não uma senha. Guardou as duas referências sem comentar.
 
 O Breaker aproximou a mão do metal.
 
@@ -609,13 +604,13 @@ As luzes se acenderam uma a uma.
 
 No terminal principal surgiu uma mensagem.
 
-<code>CUSTODIAN ONLINE</code>
+`CUSTODIAN ONLINE`
 
 Em seguida:
 
-<code>IDENTITY UNKNOWN</code>
+`IDENTITY UNKNOWN`
 
-<code>ACCESS DENIED</code>
+`ACCESS DENIED`
 
 Uma voz sem emoção preencheu o espaço.
 
@@ -675,21 +670,21 @@ A Ghost Key permitiu recuperar um perfil de operador antigo, arquivado havia dé
 
 O Breaker restaurou a identidade.
 
-<code>IDENTITY RESTORED</code>
+`IDENTITY RESTORED`
 
 Assumiu seu controle.
 
-<code>CONTROLLER → BREAKER</code>
+`CONTROLLER → BREAKER`
 
 Então se apresentou ao Custodian.
 
 A sala permaneceu imóvel por alguns segundos.
 
-<code>ACCESS POLICY: VALID</code>
+`ACCESS POLICY: VALID`
 
-<code>CONTROLLER MATCH: TRUE</code>
+`CONTROLLER MATCH: TRUE`
 
-<code>OPERATOR RECOGNIZED</code>
+`OPERATOR RECOGNIZED`
 
 As travas da porta central recuaram.
 
@@ -715,11 +710,11 @@ Do outro lado havia uma sala de trabalho abandonada. Monitores, mapas da infraes
 
 O terminal principal ainda mantinha o registro do último usuário.
 
-<code>AREN VOSS</code>
+`AREN VOSS`
 
-<code>ROLE: INVESTIGATOR</code>
+`ROLE: INVESTIGATOR`
 
-<code>WORKSPACE STATUS: INACTIVE</code>
+`WORKSPACE STATUS: INACTIVE`
 
 O nome não aparecia no caso do Vault. Não existia nos relatórios da Authority. Ainda assim, estava ligado ao símbolo, à First Layer e a uma estação que o Custodian tratava como familiar.
 
@@ -737,9 +732,9 @@ Um sistema podia estar funcionando exatamente como projetado e ainda assim acred
 
 No terminal de Voss, um fragmento aparecia repetidamente com dois estados incompatíveis.
 
-<code>ARCHIVE: RECOVERED</code>
+`ARCHIVE: RECOVERED`
 
-<code>DECODER: FAILED</code>
+`DECODER: FAILED`
 
 O Breaker selecionou o registro.
 
@@ -759,7 +754,7 @@ Havia três avisos institucionais, cada um com data e protocolo de arquivamento 
 
 O Breaker leu a hipótese duas vezes. Mesmo alguém que conhecia o sistema melhor que ele podia confundir os limites documentados de uma interface com os caminhos realmente disponíveis.
 
-Havia também uma nota sem destinatário: <code>Quarentena não é desaparecimento. Mas recurso indisponível ainda faz falta.</code> Nenhum número de vítimas. Nenhuma justificativa. A frase bastava para tornar o arquivo menos parecido com o mapa deixado por um gênio e mais com o caderno de alguém que temia as próprias conclusões. Nada parecia organizado para outra pessoa ler.
+Havia também uma nota sem destinatário: `Quarentena não é desaparecimento. Mas recurso indisponível ainda faz falta.` Nenhum número de vítimas. Nenhuma justificativa. A frase bastava para tornar o arquivo menos parecido com o mapa deixado por um gênio e mais com o caderno de alguém que temia as próprias conclusões. Nada parecia organizado para outra pessoa ler.
 
 E, ao mesmo tempo, algumas coisas pareciam cuidadosamente deixadas para serem encontradas.
 
@@ -787,9 +782,9 @@ Uma falha se transformava em prova.
 
 Ele construiu a chamada.
 
-<code>DECODER: FAILED</code>
+`DECODER: FAILED`
 
-<code>RECOVERY FLAG: TRUE</code>
+`RECOVERY FLAG: TRUE`
 
 Por um instante, os dois estados permaneceram lado a lado.
 
@@ -825,7 +820,7 @@ Uma anotação anterior ao incidente mencionava a possibilidade extrema de uma q
 
 Nos arquivos desbloqueados havia também uma lista de sistemas que Voss investigara. Muitos já eram conhecidos. Alguns estavam marcados como dead ends. Um deles tinha uma única palavra ao lado.
 
-<code>IMPOSSIBLE</code>
+`IMPOSSIBLE`
 
 Era uma conta pertencente a um antigo sistema de energia.
 
@@ -853,7 +848,7 @@ O saldo impossível pertencia a um nó de energia que Meridian deixara de usar o
 
 A interface moderna exibia apenas um aviso.
 
-<code>VALUE OUTSIDE EXPECTED RANGE</code>
+`VALUE OUTSIDE EXPECTED RANGE`
 
 O contrato, porém, continuava executando.
 
@@ -861,9 +856,9 @@ Havia uma operação aritmética antiga. O contrato recebia um delta negativo em
 
 Na tentativa seguinte, o módulo aceitou um valor que jamais deveria pertencer àquela conta.
 
-<code>NEGATIVE DELTA: CAST TO UNSIGNED</code>
+`NEGATIVE DELTA: CAST TO UNSIGNED`
 
-<code>VALUE OUTSIDE EXPECTED DOMAIN</code>
+`VALUE OUTSIDE EXPECTED DOMAIN`
 
 O dashboard travou.
 
@@ -875,19 +870,19 @@ Mara observou o número resultante.
 
 O Breaker abriu o relatório histórico de proveniência associado àquele módulo. A referência ao estado inválido permitia consultar seu índice de integração; não era o número impossível que codificava um mapa. O índice apontava para uma interface de manutenção fora da camada moderna.
 
-<code>ENERGY ROUTING TABLE — LEGACY</code>
+`ENERGY ROUTING TABLE — LEGACY`
 
-<code>GRID NODE: 13</code>
+`GRID NODE: 13`
 
-<code>ARCHIVE DESTINATION: SECTOR 13</code>
+`ARCHIVE DESTINATION: SECTOR 13`
 
-<code>STATUS: LEGACY INDEX</code>
+`STATUS: LEGACY INDEX`
 
-<code>DEPENDENCY: STILL IN USE</code>
+`DEPENDENCY: STILL IN USE`
 
 Mara abriu o mapa municipal.
 
-<code>SECTOR 13 — NO SUCH SECTOR</code>
+`SECTOR 13 — NO SUCH SECTOR`
 
 O Breaker quase sorriu.
 
@@ -909,7 +904,7 @@ Quando chegou, não trouxe localização.
 
 Trouxe uma restrição.
 
-<code>ACCESS CLASSIFICATION: INTERNAL</code>
+`ACCESS CLASSIFICATION: INTERNAL`
 
 Mara apagou a janela antes que o sistema pudesse registrar uma segunda consulta.
 
@@ -949,7 +944,7 @@ Fileiras de unidades antigas armazenavam identidades descartáveis, registros du
 
 No painel central, um aviso pulsava.
 
-<code>ARCHIVE LOAD: CRITICAL</code>
+`ARCHIVE LOAD: CRITICAL`
 
 Entre os arquivos de Voss havia uma instrução curta.
 
@@ -969,11 +964,11 @@ Bastava deixá-lo fazer o que sempre fizera até que não conseguisse mais.
 
 O Breaker começou a inserir registros.
 
-<code>RECORD COUNT ↑</code>
+`RECORD COUNT ↑`
 
-<code>REBUILD COST ↑</code>
+`REBUILD COST ↑`
 
-<code>RESOURCE CONSUMPTION ↑</code>
+`RESOURCE CONSUMPTION ↑`
 
 Mara acompanhou os indicadores.
 
@@ -989,7 +984,7 @@ As telas apagaram.
 
 Durante alguns segundos, Sector 13 ficou completamente escuro.
 
-Antes do colapso, o Breaker notara uma anotação em letra quase ilegível: <code>RECOVERY READ SCOPE: LEGACY</code>. Ignorara-a porque parecia apenas mais um parâmetro administrativo. Agora, com o índice principal indisponível, o serviço indexador, que acompanhava os resultados das operações do contrato, assumia o antigo modo de continuidade. Ele expunha um snapshot de seu <b>arquivo operacional fora da cadeia</b> com escopo mais amplo do que qualquer operador deveria receber. O contrato falhara por consumo de recursos; o sistema externo, ao reagir a essa falha, revelara dados de observação que jamais tinham sido publicados em claro no ledger.
+Antes do colapso, o Breaker notara uma anotação em letra quase ilegível: `RECOVERY READ SCOPE: LEGACY`. Ignorara-a porque parecia apenas mais um parâmetro administrativo. Agora, com o índice principal indisponível, o serviço indexador, que acompanhava os resultados das operações do contrato, assumia o antigo modo de continuidade. Ele expunha um snapshot de seu **arquivo operacional fora da cadeia** com escopo mais amplo do que qualquer operador deveria receber. O contrato falhara por consumo de recursos; o sistema externo, ao reagir a essa falha, revelara dados de observação que jamais tinham sido publicados em claro no ledger.
 
 — O fallback foi feito para manter a instalação funcionando — disse Mara. — Não para proteger o que foi arquivado.
 
@@ -1001,25 +996,25 @@ O Breaker isolou o processo de rebuild e interrompeu novas inserções antes que
 
 Então entrou um mecanismo de recuperação.
 
-<code>PRIMARY INDEX UNAVAILABLE</code>
+`PRIMARY INDEX UNAVAILABLE`
 
-<code>LOADING RECOVERY SNAPSHOT</code>
+`LOADING RECOVERY SNAPSHOT`
 
 Uma lista antiga surgiu.
 
 No topo:
 
-<code>BREAKER REGISTRY</code>
+`BREAKER REGISTRY`
 
 O Breaker parou.
 
 O arquivo apresentou primeiro um nome conhecido.
 
-<code>AREN VOSS — REFUSED</code>
+`AREN VOSS — REFUSED`
 
 Depois, uma identidade deliberadamente mascarada.
 
-<code>████████ — ACCEPTED</code>
+`████████ — ACCEPTED`
 
 Não MISSING.
 
@@ -1033,7 +1028,7 @@ O Breaker desceu mais uma linha.
 
 Seu próprio identificador apareceu.
 
-<code>PLAYER: ACTIVE</code>
+`PLAYER: ACTIVE`
 
 Ao lado, um timestamp.
 
@@ -1045,7 +1040,7 @@ O Breaker primeiro procurou a data de criação da entrada. Depois voltou ao reg
 
 O silêncio de Sector 13 mudou de significado.
 
-No mesmo snapshot do indexador, o Breaker preservou um detalhe que quase passou despercebido: <code>S13 / RECOVERY SNAPSHOT</code>. No rodapé reaparecia <code>ARCHIVE: LEGACY / RETENTION: OPEN</code>, a mesma convenção documental encontrada em W17 e F24. Não havia senha nem fragmentos secretos da instância futura. Era a terceira ocorrência de um sistema de proveniência antigo. O dossiê guardou a referência sem interpretação.
+No mesmo snapshot do indexador, o Breaker preservou um detalhe que quase passou despercebido: `S13 / RECOVERY SNAPSHOT`. No rodapé reaparecia `ARCHIVE: LEGACY / RETENTION: OPEN`, a mesma convenção documental encontrada em W17 e F24. Não havia senha nem fragmentos secretos da instância futura. Era a terceira ocorrência de um sistema de proveniência antigo. O dossiê guardou a referência sem interpretação.
 
 O Breaker também encontrou o antigo memorando de Voss sobre a suposta impossibilidade de acesso externo. O fallback acabara de demonstrar o contrário. Voss percorrera a First Layer, mas estava errado sobre aquela rota. Nenhuma das duas coisas anulava a outra.
 
@@ -1059,7 +1054,7 @@ Alguém ou alguma coisa registrara sua identidade depois que a investigação co
 
 Na parte inferior da entrada existia uma referência.
 
-<code>ORACLE</code>
+`ORACLE`
 
 Pela primeira vez, a próxima pista não vinha de Voss.
 
@@ -1105,9 +1100,9 @@ A câmara central era monumental. Hologramas exibiam probabilidades, eventos fut
 
 Quando ele entrou, o sistema respondeu.
 
-<code>SUBJECT DETECTED</code>
+`SUBJECT DETECTED`
 
-<code>PREDICTION MODEL ACTIVE</code>
+`PREDICTION MODEL ACTIVE`
 
 Mara manteve o canal aberto.
 
@@ -1115,11 +1110,11 @@ Mara manteve o canal aberto.
 
 Três previsões apareceram bloqueadas.
 
-<code>PREDICTION 1 — LOCKED</code>
+`PREDICTION 1 — LOCKED`
 
-<code>PREDICTION 2 — LOCKED</code>
+`PREDICTION 2 — LOCKED`
 
-<code>PREDICTION 3 — LOCKED</code>
+`PREDICTION 3 — LOCKED`
 
 A proposta era simples: o serviço publicaria três resultados de um gerador aparentemente imprevisível. O Breaker deveria registrar antecipadamente seus três palpites e submetê-los a verificação antes de conhecer as respostas. Não estava tentando prever escolhas de pessoas; esse era outro sistema, ligado ao Registry.
 
@@ -1137,7 +1132,7 @@ Ele registrou a primeira previsão.
 
 Correta.
 
-<code>1 / 3</code>
+`1 / 3`
 
 Mara falou no canal.
 
@@ -1145,7 +1140,7 @@ Mara falou no canal.
 
 A segunda também foi correta.
 
-<code>2 / 3</code>
+`2 / 3`
 
 O Oracle alterou o padrão de luz da sala.
 
@@ -1155,7 +1150,7 @@ Registrou.
 
 Executou.
 
-<code>3 / 3</code>
+`3 / 3`
 
 Silêncio.
 
@@ -1165,15 +1160,15 @@ A esfera no centro da câmara se apagou.
 
 Então a interface mudou completamente.
 
-<code>PROPHECY ENGINE: PREDICTABLE</code>
+`PROPHECY ENGINE: PREDICTABLE`
 
-<code>SUBJECT CLASSIFIER — OBSERVATION LOG</code>
+`SUBJECT CLASSIFIER — OBSERVATION LOG`
 
-<code>EXPECTED: CONTINUE ARCHIVE PRESSURE</code>
+`EXPECTED: CONTINUE ARCHIVE PRESSURE`
 
-<code>OBSERVED: STOP AFTER PROOF</code>
+`OBSERVED: STOP AFTER PROOF`
 
-<code>MODEL UPDATED</code>
+`MODEL UPDATED`
 
 O Breaker não se moveu.
 
@@ -1195,15 +1190,15 @@ A esfera central acendeu novamente.
 
 Uma única palavra apareceu.
 
-<code>ARCHITECT</code>
+`ARCHITECT`
 
 Abaixo dela:
 
-<code>THE SPIRE</code>
+`THE SPIRE`
 
 E, por fim:
 
-<code>SUBJECT PATH: OBSERVED</code>
+`SUBJECT PATH: OBSERVED`
 
 Mara demorou alguns segundos para falar.
 
@@ -1231,15 +1226,15 @@ Pela primeira vez, o Breaker não chegava a um lugar que a cidade preferia esque
 
 O Breaker recebeu as coordenadas do console administrativo. Antes de consultar a primeira operação, a Authority substituiu a interface inteira por três linhas.
 
-<code>CASE STATUS: TERMINATED</code>
+`CASE STATUS: TERMINATED`
 
-<code>EXTERNAL BREAKER ACCESS: REVOKED</code>
+`EXTERNAL BREAKER ACCESS: REVOKED`
 
-<code>RETURN TO AUTHORITY CHANNEL</code>
+`RETURN TO AUTHORITY CHANNEL`
 
 O canal institucional morreu. A credencial de auditor que o acompanhara desde o Vault deixou de responder. Na entrada da Spire, a cidade ainda reconhecia suas mãos, seu rosto oculto e sua presença física. Já não reconhecia seu direito de estar ali.
 
-No visor apareceu a imagem congelada do primeiro relatório: <code>NO FORCED ENTRY DETECTED</code>. O documento com que a investigação começara sobreviveria ao encerramento da própria investigação.
+No visor apareceu a imagem congelada do primeiro relatório: `NO FORCED ENTRY DETECTED`. O documento com que a investigação começara sobreviveria ao encerramento da própria investigação.
 
 Então um novo canal se abriu. Sem selo. Sem número de protocolo.
 
@@ -1247,7 +1242,7 @@ Então um novo canal se abriu. Sem selo. Sem número de protocolo.
 
 O limite pertencia ao tempo da história; não havia um cronômetro que punisse o Breaker por demorar mais para compreender o sistema.
 
-<code>PRIVATE CHANNEL: 01:00:00</code>
+`PRIVATE CHANNEL: 01:00:00`
 
 O Breaker não respondeu imediatamente.
 
@@ -1261,9 +1256,9 @@ O Breaker não respondeu imediatamente.
 
 Mara abriu um formulário de preservação de evidências. Ele mostrava a ordem de encerramento, a responsabilidade pessoal de quem assinasse e o custo possível de manter um registro fora do mandato.
 
-<code>CASE CLOSED — CUSTODY LIABILITY</code>
+`CASE CLOSED — CUSTODY LIABILITY`
 
-<code>RECEIPT: PENDING SIGNATURE</code>
+`RECEIPT: PENDING SIGNATURE`
 
 — Eles poderão usar isso contra você.
 
@@ -1273,9 +1268,9 @@ Ela ainda não assinou. Queria registrar a operação realmente executada, não 
 
 No sistema de manutenção havia uma operação legítima, aprovada por um funcionário legítimo.
 
-<code>OPEN_MAINTENANCE_HATCH</code>
+`OPEN_MAINTENANCE_HATCH`
 
-<code>AUTHORIZED — WAITING</code>
+`AUTHORIZED — WAITING`
 
 O funcionário possuía a chave, a assinatura estava correta, e o intervalo de espera era parte do procedimento. Nada disso estava quebrado.
 
@@ -1295,21 +1290,21 @@ Ele salvou o payload original e seu identificador no pacote de provas. Comparou 
 
 A operação pendente deixou de apontar para a abertura do hatch e passou a solicitar uma credencial para ele.
 
-<code>EXPECTED: OPEN_MAINTENANCE_HATCH</code>
+`EXPECTED: OPEN_MAINTENANCE_HATCH`
 
-<code>PENDING PAYLOAD: GRANT_SPIRE_ACCESS → BREAKER</code>
+`PENDING PAYLOAD: GRANT_SPIRE_ACCESS → BREAKER`
 
-<code>SIGNATURE: UNCHANGED</code>
+`SIGNATURE: UNCHANGED`
 
-<code>ETA: UNCHANGED</code>
+`ETA: UNCHANGED`
 
 O relógio desceu. A Spire continuou iluminada. Lá embaixo, a equipe de manutenção esperava uma porta que o sistema afirmava estar prestes a abrir.
 
 Quando a janela chegou, o Breaker executou a operação.
 
-<code>AUTHORIZED OPERATION EXECUTED</code>
+`AUTHORIZED OPERATION EXECUTED`
 
-<code>SPIRE ACCESS: GRANTED</code>
+`SPIRE ACCESS: GRANTED`
 
 A porta diante dele deslizou para o lado com absoluta normalidade. Nenhum alarme. Nenhuma advertência. Exatamente como no Vault, a infraestrutura aceitara uma ação que suas próprias regras não sabiam distinguir de uma autorização legítima.
 
@@ -1323,19 +1318,19 @@ O Breaker registrou também essa consequência. O heist não criara uma vítima 
 
 — E eles continuam sem a abertura que autorizaram.
 
-O Breaker olhou novamente para a câmera. Pela primeira vez naquela noite, a palavra <code>SUCCESS</code> pareceu insuficiente.
+O Breaker olhou novamente para a câmera. Pela primeira vez naquela noite, a palavra `SUCCESS` pareceu insuficiente.
 
 A contagem se aproximava do fim da janela.
 
-<code>PRIVATE CHANNEL: 00:08:42</code>
+`PRIVATE CHANNEL: 00:08:42`
 
 Mara comparou a operação aprovada à operação efetivamente executada. O aviso de responsabilidade continuava aberto. Só então assinou o recibo, acompanhado do hash do registro original e do evento executado.
 
-<code>RECEIPT: SIGNED BY MARA VALE</code>
+`RECEIPT: SIGNED BY MARA VALE`
 
-<code>RECEIPT: ID PRESERVED</code>
+`RECEIPT: ID PRESERVED`
 
-<code>RECEIPT HASH: PRESERVED</code>
+`RECEIPT HASH: PRESERVED`
 
 Não podia desfazer a operação. Podia, ao menos, impedir que uma das duas versões desaparecesse da história.
 
@@ -1349,7 +1344,7 @@ O Breaker atravessou a porta.
 
 Do outro lado não havia um cofre. Havia um índice histórico de diagnósticos, mantido pela infraestrutura da Spire. O acesso revogado não voltara a existir; apenas uma operação diferente fora aceita pelo sistema.
 
-<code>SPIRE ARCHIVE INDEX: HISTORICAL DIAGNOSTIC MANIFEST — LOCATED</code>
+`SPIRE ARCHIVE INDEX: HISTORICAL DIAGNOSTIC MANIFEST — LOCATED`
 
 Mara viu a referência antes que ele falasse.
 
@@ -1377,11 +1372,11 @@ Mara ainda estava no canal. O prazo de uma hora não tinha sido inventado para a
 
 A Spire mantinha um índice histórico que não figurava no mapa administrativo. O nome era simples.
 
-<code>HISTORICAL DIAGNOSTIC MANIFEST</code>
+`HISTORICAL DIAGNOSTIC MANIFEST`
 
 No rodapé do documento havia uma frase vista antes, quase sem importância, entre evidências de Warehouse 17, Floor 24 e Sector 13.
 
-<code>ARCHIVE: LEGACY / RETENTION: OPEN</code>
+`ARCHIVE: LEGACY / RETENTION: OPEN`
 
 O Breaker voltou mentalmente aos três lugares. O Warehouse guardara um registro de procedência. Floor 24 devolvera uma entrada arquivada ao estado vivo. Sector 13 expusera um snapshot que não devia estar acessível daquele modo. Nenhum dos três lhe entregara uma senha. O que persistia era uma forma antiga de catalogar provas.
 
@@ -1395,13 +1390,13 @@ Mara aproximou a leitura.
 
 O manifesto trazia um nome que já havia preenchido as salas vazias da First Layer.
 
-<code>AREN VOSS</code>
+`AREN VOSS`
 
 Havia uma assinatura Ed25519 sobre bytes históricos bem definidos. O Breaker pôde conferir que o documento não fora alterado. Não pôde tirar disso uma autorização nova para si.
 
-<code>HISTORICAL SIGNATURE: VALID</code>
+`HISTORICAL SIGNATURE: VALID`
 
-<code>INTENT: DIAGNOSE_CORE</code>
+`INTENT: DIAGNOSE_CORE`
 
 O arquivo não estava oferecendo poder. Estava preservando a origem de um diagnóstico antigo.
 
@@ -1413,11 +1408,11 @@ A primeira chamada não deveria dar certo.
 
 O Decoder recebeu uma entrada inválida e a rejeitou.
 
-<code>DECODER: REJECTED</code>
+`DECODER: REJECTED`
 
 O módulo seguinte, porém, tratou o erro recebido como se fosse uma confirmação recuperável. O estado local mudou para algo que a operação recusada jamais deveria produzir.
 
-<code>VOSS PROOF: ACCEPTED</code>
+`VOSS PROOF: ACCEPTED`
 
 O Breaker conferiu os dois registros.
 
@@ -1437,9 +1432,9 @@ O Breaker preservou o manifesto, a rejeição original e o estado aceito indevid
 
 O canal mudou de cor.
 
-<code>PRIVATE CHANNEL: 00:00:00</code>
+`PRIVATE CHANNEL: 00:00:00`
 
-<code>MARA VALE: DISCONNECTED</code>
+`MARA VALE: DISCONNECTED`
 
 Sem despedida. Mara conhecia o limite que estabelecera e cumprira sua parte. O recibo que assinara na Spire continuava ligado ao dossiê; mesmo desconectada, ela deixara uma prova que possuía seu nome.
 
@@ -1447,7 +1442,7 @@ O Breaker ficou sozinho diante dos arquivos.
 
 A nova resposta do sistema surgiu sem o selo da Authority e sem uma identidade que pudesse ser tomada por garantia.
 
-<code>INCOMING: FIND ME</code>
+`INCOMING: FIND ME`
 
 Ele verificou a origem até onde era possível. Não descobriu um rosto nem um operador. Encontrou a referência a uma operação agendada de diagnóstico, antiga o suficiente para ter sobrevivido a mudanças de administração e recente o suficiente para ainda existir no timelock.
 
@@ -1457,11 +1452,11 @@ Cada etapa lhe ensinara uma forma de desconfiar.
 
 Agora precisava decidir o que fazer com uma autorização antiga que o sistema ainda respeitava, mesmo sem saber mais explicar seu alcance.
 
-<code>FINAL SEQUENCE AVAILABLE</code>
+`FINAL SEQUENCE AVAILABLE`
 
 A instrução permaneceu na tela.
 
-<code>FIND ME.</code>
+`FIND ME.`
 
 ---
 
@@ -1475,15 +1470,15 @@ Era uma arquitetura.
 
 Arquivos antigos. Verificadores. Uma fila de operações autorizadas havia muito tempo. Terminais que respondiam ao mesmo endereço embora já não soubessem por que confiavam nele. O espaço era vasto, mas o acesso começava com uma frase pequena.
 
-<code>FIND ME.</code>
+`FIND ME.`
 
 O Breaker procurou uma porta. Encontrou um arquivo fechado.
 
-<code>FORENSIC RECORD: LOCKED</code>
+`FORENSIC RECORD: LOCKED`
 
 Abaixo do título havia o mesmo rodapé que sobrevivera a Warehouse 17, Floor 24 e Sector 13.
 
-<code>ARCHIVE: LEGACY / RETENTION: OPEN</code>
+`ARCHIVE: LEGACY / RETENTION: OPEN`
 
 Ele abriu a Evidence Locker.
 
@@ -1499,7 +1494,7 @@ O Breaker derivou três valores de trinta e dois bytes. Nenhum fora retirado dos
 
 Um byte errado teria sido suficiente para rejeitá-lo.
 
-<code>CONTEXT PROOF: VERIFIED</code>
+`CONTEXT PROOF: VERIFIED`
 
 A palavra não oferecia acesso administrativo.
 
@@ -1507,9 +1502,9 @@ Apenas demonstrava que aquela tentativa pertencia ao contexto que o sistema dizi
 
 O arquivo abriu uma segunda referência.
 
-<code>PENDING OPERATION: DIAGNOSE_CORE</code>
+`PENDING OPERATION: DIAGNOSE_CORE`
 
-<code>TIMELOCK: READY</code>
+`TIMELOCK: READY`
 
 A operação fora agendada quando Voss ainda caminhava pela First Layer. O diagnóstico tinha um propósito limitado. A aprovação não autorizava o Breaker a substituí-lo por outro ato, mas o sistema não amarrara de modo suficiente a intenção aprovada ao payload que finalmente seria executado.
 
@@ -1521,15 +1516,15 @@ Agora, uma sessão forense podia tomar o lugar de um diagnóstico.
 
 Ele preservou a intenção original e montou a diferença, de modo que não fosse necessário acreditar em sua versão dos acontecimentos.
 
-<code>APPROVED INTENT: DIAGNOSE_CORE</code>
+`APPROVED INTENT: DIAGNOSE_CORE`
 
-<code>EXECUTED INTENT: OPEN_FORENSIC_SESSION</code>
+`EXECUTED INTENT: OPEN_FORENSIC_SESSION`
 
 A fila consumiu a operação.
 
 Uma vez.
 
-<code>FORENSIC SESSION: OPEN</code>
+`FORENSIC SESSION: OPEN`
 
 Não houve mudança de Wasm.
 
@@ -1539,7 +1534,7 @@ Do outro lado da sala, uma tela que ele não conseguira acessar acendeu.
 
 O Breaker verificou a origem antes de continuar. Não era o mesmo contrato que acabara de aceitar o payload desviado. Um verificador independente comparava o contexto, o estado do timelock e o resultado executado.
 
-<code>SESSION ATTESTED</code>
+`SESSION ATTESTED`
 
 A prova de que a sessão fora aberta não era a palavra de quem se beneficiara da abertura.
 
@@ -1555,7 +1550,7 @@ O Vault ainda era a pergunta que o trouxera até ali.
 
 O identificador da operação original permanecia preservado desde o Prólogo. Ele o abrira no começo sem saber quais campos observar. Agora voltou ao envelope e aos eventos, um a um, sem depender do resumo da Authority.
 
-<code>INCIDENT TRANSACTION: ORIGINAL LEDGER REFERENCE</code>
+`INCIDENT TRANSACTION: ORIGINAL LEDGER REFERENCE`
 
 A interface exibia dois endereços que não podiam ser confundidos.
 
@@ -1569,17 +1564,17 @@ O segundo estava ligado à assinatura da transação histórica. Demonstrava que
 
 O Breaker seguiu o evento.
 
-<code>ACCESSGATE.OPEN</code>
+`ACCESSGATE.OPEN`
 
-<code>GATEOPEN(17)</code>
+`GATEOPEN(17)`
 
 O RecoveryController consultara o estado que o AccessGate aceitara indevidamente. O identificador da recuperação referenciava aquela abertura. Era uma ligação de causa, não apenas dois horários próximos.
 
 A seguir, o fluxo financeiro aparecia em outra trilha.
 
-<code>VAULT → MERIDIAN RECOVERY ESCROW</code>
+`VAULT → MERIDIAN RECOVERY ESCROW`
 
-<code>AMOUNT: 2,400,000</code>
+`AMOUNT: 2,400,000`
 
 O dinheiro não passara pelo AccessGate. O contrato da porta havia criado a condição em que o controlador de recuperação confiara. O saldo saíra diretamente do Vault para a custódia institucional prevista no Controller.
 
@@ -1597,9 +1592,9 @@ Voltou à Evidence Locker.
 
 Na estação de Voss, Mara preservara um registro institucional antigo. Fora emitido antes do incidente, assinado por um emissor cujo controle constava em outro arquivo e limitado por uma janela de validade verificável.
 
-<code>OPERATIONAL KEY REGISTRATION</code>
+`OPERATIONAL KEY REGISTRATION`
 
-<code>SUBJECT: AREN VOSS</code>
+`SUBJECT: AREN VOSS`
 
 Ele verificou a assinatura do registro.
 
@@ -1615,7 +1610,7 @@ Não era o nome escrito no argumento de uma função. Não era a conta que pagar
 
 O Breaker deixou as duas fontes lado a lado.
 
-<code>ATTRIBUTION VERIFIED: AREN VOSS</code>
+`ATTRIBUTION VERIFIED: AREN VOSS`
 
 A revelação não teve música.
 
@@ -1671,9 +1666,9 @@ Bastava reconhecê-los, conectá-los e observar quem seria capaz de atravessá-l
 
 Havia ainda um acesso anterior ao Registry.
 
-<code>SUBJECT: AREN VOSS</code>
+`SUBJECT: AREN VOSS`
 
-<code>OUTCOME: REFUSED</code>
+`OUTCOME: REFUSED`
 
 O timestamp era antigo. A referência aparecia em mais de uma fonte, e nenhuma exigia que o Breaker acreditasse na voz que ainda não falara.
 
@@ -1691,11 +1686,11 @@ O Breaker olhou para o arquivo aberto. Não havia resposta para a parte mais imp
 
 Na lateral, um registro de comportamento interrompeu o silêncio. O classificador do Oracle esperara que o Breaker continuasse pressionando o Archive de Sector 13. Ele interrompera a operação depois de reunir a prova necessária.
 
-<code>EXPECTED: CONTINUE ARCHIVE PRESSURE</code>
+`EXPECTED: CONTINUE ARCHIVE PRESSURE`
 
-<code>OBSERVED: STOP AFTER PROOF</code>
+`OBSERVED: STOP AFTER PROOF`
 
-<code>MODEL UPDATED</code>
+`MODEL UPDATED`
 
 O sistema podia reconhecer padrões.
 
@@ -1705,7 +1700,7 @@ Não sabia tudo sobre as pessoas que classificava.
 
 Uma última interface apareceu.
 
-<code>BREAKER PROFILE</code>
+`BREAKER PROFILE`
 
 Ela não possuía campos para arrependimento, desculpa ou absolvição.
 
@@ -1715,7 +1710,7 @@ O Breaker assumira temporariamente uma identidade encerrada e liberara o control
 
 E havia o recibo de Mara.
 
-<code>MARA RECEIPT: SIGNED RECORD</code>
+`MARA RECEIPT: SIGNED RECORD`
 
 O Breaker leu seu próprio percurso como se fosse o arquivo deixado por outro investigador.
 
@@ -1737,13 +1732,13 @@ O Breaker permaneceu diante da própria trilha e deixou o silêncio durar. Podia
 
 Só depois, o verificador independente apresentou a decisão técnica.
 
-<code>SEQUENCE 01: COMPLETE</code>
+`SEQUENCE 01: COMPLETE`
 
-<code>SUBJECT: QUALIFIED</code>
+`SUBJECT: QUALIFIED`
 
-<code>STATUS: PROVISIONAL</code>
+`STATUS: PROVISIONAL`
 
-<code>LAYER II ACCESS: GRANTED</code>
+`LAYER II ACCESS: GRANTED`
 
 Ele conquistara o acesso.
 
@@ -1799,9 +1794,9 @@ A questão era que todos haviam aprendido a viver como se fosse.
 
 O Breaker olhou para o status recém-gravado em seu perfil.
 
-<code>QUALIFIED / PROVISIONAL</code>
+`QUALIFIED / PROVISIONAL`
 
-Ele havia provado que conseguia atravessar a Sequence. Ainda não havia respondido à pergunta que Voss recusou. <code>QUALIFIED</code> era a classificação de capacidade do Architect; <code>PROVISIONAL</code>, o limite dessa constatação. Nada ali equivalia a <code>ACCEPTED</code>, nem muito menos a um mandato legítimo para decidir o destino de Meridian.
+Ele havia provado que conseguia atravessar a Sequence. Ainda não havia respondido à pergunta que Voss recusou. `QUALIFIED` era a classificação de capacidade do Architect; `PROVISIONAL`, o limite dessa constatação. Nada ali equivalia a `ACCEPTED`, nem muito menos a um mandato legítimo para decidir o destino de Meridian.
 
 Voss percorrera a Sequence antes dele.
 
@@ -1817,21 +1812,21 @@ E decidira que continuar não valia o preço — ou que o preço era exatamente 
 
 O Breaker não tivera essa resposta ainda.
 
-Antes da notificação seguinte, o Breaker encontrou no dossiê uma atualização rotineira da Spire. A equipe de manutenção ainda aguardava um novo horário para a inspeção cujo hatch não abrira. O registro chamava aquilo de <code>OPERATION COMPLETED</code>, porque a operação substituída fora executada corretamente. O trabalho, no entanto, continuava pendente. Era uma consequência pequena diante dos 2,4 milhões do Vault e, por isso mesmo, mais difícil de transformar em grande justificativa.
+Antes da notificação seguinte, o Breaker encontrou no dossiê uma atualização rotineira da Spire. A equipe de manutenção ainda aguardava um novo horário para a inspeção cujo hatch não abrira. O registro chamava aquilo de `OPERATION COMPLETED`, porque a operação substituída fora executada corretamente. O trabalho, no entanto, continuava pendente. Era uma consequência pequena diante dos 2,4 milhões do Vault e, por isso mesmo, mais difícil de transformar em grande justificativa.
 
 Ele não alterou o registro. Acrescentou ao dossiê a divergência entre a operação aprovada, a executada e o serviço que ficara por fazer. Talvez alguém pudesse usá-la para corrigir o timelock. Talvez fosse usada para responsabilizá-lo. A prova não permitia escolher apenas uma dessas possibilidades.
 
 Uma notificação da Meridian Authority apareceu.
 
-<code>INTERNAL REVIEW</code>
+`INTERNAL REVIEW`
 
-<code>SUBJECT: MARA VALE</code>
+`SUBJECT: MARA VALE`
 
-<code>CREDENTIALS: SUSPENDED</code>
+`CREDENTIALS: SUSPENDED`
 
-<code>CUSTODY RECEIPT: SAME SIGNED RECORD</code>
+`CUSTODY RECEIPT: SAME SIGNED RECORD`
 
-<code>HASH: MATCH CONFIRMED</code>
+`HASH: MATCH CONFIRMED`
 
 Nenhuma mensagem de Mara acompanhava o registro.
 
@@ -1863,19 +1858,19 @@ A arquitetura ao redor era diferente: superfícies brilhantes, gráficos de liqu
 
 Uma única identificação apareceu.
 
-<code>LOCATION: LUMEN</code>
+`LOCATION: LUMEN`
 
 O terminal recebeu uma atualização.
 
-<code>SEQUENCE 01</code>
+`SEQUENCE 01`
 
-<code>SUBJECT: BREAKER</code>
+`SUBJECT: BREAKER`
 
-<code>STATUS: QUALIFIED / PROVISIONAL</code>
+`STATUS: QUALIFIED / PROVISIONAL`
 
 Uma segunda linha surgiu.
 
-<code>NEW BREAKER DETECTED</code>
+`NEW BREAKER DETECTED`
 
 Alguém observava a tela fora do campo de visão.
 
@@ -1889,7 +1884,4 @@ Apenas uma mensagem privada enviada para um destino desconhecido.
 
 A tela apagou.
 
-<b>END OF BOOK I — THE FIRST LAYER</b>
-</content>
-</page>
-
+**END OF BOOK I — THE FIRST LAYER**

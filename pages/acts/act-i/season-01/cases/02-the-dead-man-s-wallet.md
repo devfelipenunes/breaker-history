@@ -5,22 +5,7 @@ title: "👤 02 — The Dead Man's Wallet"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425816d96c0f22627a7f6ae as of 2026-11-04T15:32:21.620Z:
-<page url="https://app.notion.com/p/4009c5630425816d96c0f22627a7f6ae" icon="👤">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"02 — The Dead Man's Wallet"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"👤"}</iconMetadata>
-<content>
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [02 — The Dead Man's Wallet — abrir arte no Google Drive](https://drive.google.com/file/d/1LfN58kl31c_fHLgisTZaCIaS5YBPvJXl/view)
-</callout>
+**Visual reference:** [02 — The Dead Man's Wallet — abrir arte no Google Drive](https://drive.google.com/file/d/1LfN58kl31c_fHLgisTZaCIaS5YBPvJXl/view)
 
 # Função narrativa
 
@@ -28,15 +13,15 @@ Transformar o caso financeiro em investigação de identidade.
 
 # Situação
 
-A trilha de serviço da movimentação do Vault cita a identidade de operador legada atribuída a um técnico morto há seis meses. Trata-se de um registro de operação e de identidade — <b>não</b> da custódia dos 2,4 milhões. O destino financeiro final só será comprovado no desfecho.
+A trilha de serviço da movimentação do Vault cita a identidade de operador legada atribuída a um técnico morto há seis meses. Trata-se de um registro de operação e de identidade — **não** da custódia dos 2,4 milhões. O destino financeiro final só será comprovado no desfecho.
 
 # Conceito técnico
 
-<b>Reinitialization / inicialização reaproveitável / takeover de estado administrativo.</b>
+**Reinitialization / inicialização reaproveitável / takeover de estado administrativo.**
 
 # Missão
 
-> <b>Torne-se alguém que não deveria mais existir.</b>
+> **Torne-se alguém que não deveria mais existir.**
 
 # Condição de vitória
 
@@ -48,7 +33,7 @@ O jogador acessa registros privados vinculados à identidade morta.
 
 Entre eles:
 
-> <b>WAREHOUSE 17</b>
+> **WAREHOUSE 17**
 
 # Próximo passo
 
@@ -58,19 +43,19 @@ Warehouse 17 aparece em Lower Meridian.
 
 ## A investigação
 
-A trilha da rota de serviço cita um <b>identificador de operador legado</b> de Elias Var, técnico declarado morto seis meses antes. O identificador é metadado de manutenção, <b>não</b> prova de que a wallet de Elias recebeu, enviou ou custodiou os 2,4 milhões. A Authority inicialmente suspeita de uma chave comprometida; o Breaker investiga o contrato que define <b>quem controla aquele perfil</b>.
+A trilha da rota de serviço cita um **identificador de operador legado** de Elias Var, técnico declarado morto seis meses antes. O identificador é metadado de manutenção, **não** prova de que a wallet de Elias recebeu, enviou ou custodiou os 2,4 milhões. A Authority inicialmente suspeita de uma chave comprometida; o Breaker investiga o contrato que define **quem controla aquele perfil**.
 
-O jogador chega a um registry antigo usado para vincular uma identidade a um administrador. O contrato foi implantado antes de Meridian adotar constructors atômicos. Existe uma função pública <code>initialize(admin)</code> usada na instalação original.
+O jogador chega a um registry antigo usado para vincular uma identidade a um administrador. O contrato foi implantado antes de Meridian adotar constructors atômicos. Existe uma função pública `initialize(admin)` usada na instalação original.
 
 A interface narrativa pede:
 
-> <b>Torne-se alguém que não deveria mais existir.</b>
+> **Torne-se alguém que não deveria mais existir.**
 
 ## Vulnerabilidade real
 
-<b>Reinitialization / insecure initialization.</b>
+**Reinitialization / insecure initialization.**
 
-Uma função de inicialização que pode ser chamada mais de uma vez permite sobrescrever admin, owner ou configuração crítica. Em contratos modernos, <code>__constructor</code> é executado pelo host durante o deployment e elimina a janela de uma inicialização separada. A documentação atual da Stellar usa esse padrão justamente para que deploy e init ocorram de forma atômica.
+Uma função de inicialização que pode ser chamada mais de uma vez permite sobrescrever admin, owner ou configuração crítica. Em contratos modernos, `__constructor` é executado pelo host durante o deployment e elimina a janela de uma inicialização separada. A documentação atual da Stellar usa esse padrão justamente para que deploy e init ocorram de forma atômica.
 
 ### Contrato vulnerável
 
@@ -98,20 +83,20 @@ pub fn release(env: Env, admin: Address) {
 
 ### Exploit esperado
 
-O jogador chama novamente <code>initialize(player)</code> e transforma a própria Address no admin do registry. Em seguida, <code>read_private_record(player)</code> devolve o registro (<code>WAREHOUSE 17 // LOWER MERIDIAN // DO NOT USE CITY ROUTING</code>) e <code>release(player)</code> move o saldo que estava no endereço do contrato para o player. Não existe serviço externo: o registro é lido do próprio contrato, e a autorização controla quem chama cada método, não a confidencialidade dos dados.
+O jogador chama novamente `initialize(player)` e transforma a própria Address no admin do registry. Em seguida, `read_private_record(player)` devolve o registro (`WAREHOUSE 17 // LOWER MERIDIAN // DO NOT USE CITY ROUTING`) e `release(player)` move o saldo que estava no endereço do contrato para o player. Não existe serviço externo: o registro é lido do próprio contrato, e a autorização controla quem chama cada método, não a confidencialidade dos dados.
 
 ### Condição objetiva de vitória
 
-- <code>admin() == player</code> depois de o contrato já ter sido inicializado anteriormente;
-- <code>released() == true</code>, com o saldo transferido para o player (<code>balance(player) &gt; 0</code>);
-- <code>read_private_record(player)</code> devolve a pista <code>WAREHOUSE 17</code>;
+- `admin() == player` depois de o contrato já ter sido inicializado anteriormente;
+- `released() == true`, com o saldo transferido para o player (`balance(player) &gt; 0`);
+- `read_private_record(player)` devolve a pista `WAREHOUSE 17`;
 - o verificador on-chain exige admin, liberação e saldo; a leitura do registro é condição narrativa, não do validador.
 
 ## Solução segura
 
 ### Opção preferida
 
-Usar <code>__constructor</code>, inicializado durante o deployment:
+Usar `__constructor`, inicializado durante o deployment:
 
 ```rs
 pub fn __constructor(env: Env, admin: Address) {
@@ -137,38 +122,38 @@ Para um challenge introdutório, podemos usar o segundo padrão vulnerável porq
 
 Quando a identidade é assumida, o terminal não mostra dinheiro nem contatos. O Breaker OS lê o registro direto do contrato, autenticado como o admin que o player acabou de se tornar. O morto deixou um único registro preservado:
 
-> <code>WAREHOUSE 17 // LOWER MERIDIAN // DO NOT USE CITY ROUTING</code>
+> `WAREHOUSE 17 // LOWER MERIDIAN // DO NOT USE CITY ROUTING`
 
-Isso muda a investigação: alguém usou uma identidade morta não para esconder dinheiro, mas para esconder <b>um destino físico</b>.
+Isso muda a investigação: alguém usou uma identidade morta não para esconder dinheiro, mas para esconder **um destino físico**.
 
 ## Referências para implementação
 
-- [Stellar Docs — Dapp initialization and ](https://developers.stellar.org/docs/build/guides/dapps/initialization)[<code>__constructor</code>](https://developers.stellar.org/docs/build/guides/dapps/initialization)
+- [Stellar Docs — Dapp initialization and ](https://developers.stellar.org/docs/build/guides/dapps/initialization)[`__constructor`](https://developers.stellar.org/docs/build/guides/dapps/initialization)
 - [Stellar Docs — deployment constructors](https://developers.stellar.org/docs/learn/migrate/evm/smart-contract-deployment)
 - [Soroban common security mistakes — reinitialization](https://github.com/mariaelisaaraya/stellar-security-guide/blob/main/skills/soroban-common-mistakes/SKILL.md)
 - [Real 2026 discussion — initialization/front-running risk](https://github.com/YieldAnchor/yield-general/issues/8)
 
 # Roteiro in-game — Player-facing
 
-<callout icon="🎮" color="blue_bg">
 O jogador deve sentir que está perseguindo a trilha deixada pelo roubo, não estudando “reinitialization”.
-</callout>
 
 ## Scene 0 — Arrival
 
 A investigação começa exatamente no registro encontrado no Vault.
 
-Tela:<br /><b>IDENTITY RECORD FOUND</b>
+Tela:
+**IDENTITY RECORD FOUND**
 
-Status:<br /><b>OWNER: DECEASED</b>
+Status:
+**OWNER: DECEASED**
 
 Mara Vale:
 
-> <b>Esse registro de identidade foi desativado há seis meses.</b>
+> **Esse registro de identidade foi desativado há seis meses.**
 
 Breaker:
 
-> <b>Então por que Meridian a aceitou?</b>
+> **Então por que Meridian a aceitou?**
 
 ## Scene 1 — Inciting Evidence
 
@@ -179,15 +164,15 @@ Evidence inicial:
 - last activity;
 - registry contract;
 - administrative controller histórico;
-- campo <code>OPERATOR IDENTITY</code> separado de <code>FINANCIAL DESTINATION</code>; a wallet não aparece como destino comprovado dos fundos.
+- campo `OPERATOR IDENTITY` separado de `FINANCIAL DESTINATION`; a wallet não aparece como destino comprovado dos fundos.
 
-Uma divergência aparece: o registro civil diz <b>DECEASED</b>, mas o registry técnico ainda responde.
+Uma divergência aparece: o registro civil diz **DECEASED**, mas o registry técnico ainda responde.
 
 ## Scene 2 — Mission
 
 Mission strip:
 
-> <b>TORNE-SE ALGUÉM QUE NÃO DEVERIA MAIS EXISTIR.</b>
+> **TORNE-SE ALGUÉM QUE NÃO DEVERIA MAIS EXISTIR.**
 
 Não mostrar “initialize”, “admin takeover” ou o nome da vulnerabilidade como hint inicial.
 
@@ -201,19 +186,23 @@ Disponível no Breaker OS:
 - terminal;
 - histórico de inicialização.
 
-Comandos narrativos possíveis:<br /><code>contract call admin</code><br /><code>contract functions $TARGET</code><br /><code>storage inspect identity</code>
+Comandos narrativos possíveis:
+`contract call admin`
+`contract functions $TARGET`
+`storage inspect identity`
 
-Resposta do sistema:<br /><b>IDENTITY STATUS: LEGACY</b>
+Resposta do sistema:
+**IDENTITY STATUS: LEGACY**
 
 ## Scene 4 — Reactive Beats
 
 Se o jogador consultar o histórico:
 
-> <b>SYSTEM: Registro de inicialização encontrado.</b>
+> **SYSTEM: Registro de inicialização encontrado.**
 
 Mara:
 
-> <b>A identidade foi encerrada corretamente. A chave deveria ser inútil.</b>
+> **A identidade foi encerrada corretamente. A chave deveria ser inútil.**
 
 A fala direciona a atenção para a diferença entre chave e estado sem explicar o exploit.
 
@@ -227,7 +216,8 @@ Verifier confirma.
 
 Terminal:
 
-<b>IDENTITY CONTROLLER UPDATED</b><br /><b>ACCESS PROFILE RESTORED</b>
+**IDENTITY CONTROLLER UPDATED**
+**ACCESS PROFILE RESTORED**
 
 A foto/nome do morto muda de “ARCHIVED” para “ACTIVE SESSION”.
 
@@ -239,37 +229,39 @@ Neste ponto, o Breaker conquistou controle indevido, mas ainda precisa ler o reg
 
 A leitura autenticada do registro no próprio contrato devolve um único valor:
 
-<b>WAREHOUSE 17</b><br /><b>LOWER MERIDIAN</b><br /><b>DO NOT USE CITY ROUTING</b>
+**WAREHOUSE 17**
+**LOWER MERIDIAN**
+**DO NOT USE CITY ROUTING**
 
 Mara:
 
-> <b>Warehouse 17 não existe.</b>
+> **Warehouse 17 não existe.**
 
 Breaker:
 
-> <b>Essa identidade também não existia cinco minutos atrás.</b>
+> **Essa identidade também não existia cinco minutos atrás.**
 
 ## Scene 8 — Debrief
 
-Após concluir o desafio, o runtime executa e registra a revogação explícita do controle irregular como <b>cena canônica obrigatória</b>. O verifier confirma o exploit antes do cleanup. O Breaker OS exibe <code>CONTROLLER RELEASED</code>, e Mara confirma que a tomada de controle permanece auditável no histórico. Não oferecer escolha ao jogador nesse momento. Encerrar a janela não substitui a operação persistente. Nenhuma opção confere legitimidade à impersonação. A saída narrativa segue Warehouse 17.
+Após concluir o desafio, o runtime executa e registra a revogação explícita do controle irregular como **cena canônica obrigatória**. O verifier confirma o exploit antes do cleanup. O Breaker OS exibe `CONTROLLER RELEASED`, e Mara confirma que a tomada de controle permanece auditável no histórico. Não oferecer escolha ao jogador nesse momento. Encerrar a janela não substitui a operação persistente. Nenhuma opção confere legitimidade à impersonação. A saída narrativa segue Warehouse 17.
 
 Somente após a vitória:
 
-<b>VULNERABILITY DISCOVERED — INSECURE INITIALIZATION</b>
+**VULNERABILITY DISCOVERED — INSECURE INITIALIZATION**
 
 Explicar que um estado crítico pôde ser inicializado novamente.
 
-Mostrar <code>__constructor</code> / guard de inicialização no relatório expandido.
+Mostrar `__constructor` / guard de inicialização no relatório expandido.
 
 ## Scene 9 — Transition
 
-<b>NEW LEAD: WAREHOUSE 17</b>
+**NEW LEAD: WAREHOUSE 17**
 
-Mapa oficial:<br /><b>NO RESULT</b>
+Mapa oficial:
+**NO RESULT**
 
-Mapa alternativo:<br /><b>LOWER MERIDIAN — INDUSTRIAL ZONE</b>
+Mapa alternativo:
+**LOWER MERIDIAN — INDUSTRIAL ZONE**
 
-Unlock:<br /><b>CASE 03 — WAREHOUSE 17</b>
-</content>
-</page>
-
+Unlock:
+**CASE 03 — WAREHOUSE 17**

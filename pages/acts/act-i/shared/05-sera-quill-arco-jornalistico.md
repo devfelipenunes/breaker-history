@@ -5,20 +5,11 @@ title: "📰 05 — Sera Quill — Arco Jornalístico"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258162a232f2edef2dbf9c as of 2026-11-03T00:06:42.346Z:
-<page url="https://app.notion.com/p/4019c56304258162a232f2edef2dbf9c" icon="📰">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"05 — Sera Quill — Arco Jornalístico"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📰"}</iconMetadata>
-<content>
 # Sera Quill
 
-<b>Profissão:</b> jornalista investigativa<br /><b>Veículo:</b> Network Wire<br /><b>Função no Act I:</b> accountability fora das instituições
+**Profissão:** jornalista investigativa
+**Veículo:** Network Wire
+**Função no Act I:** accountability fora das instituições
 
 Sera começa como um nome no rodapé de uma notícia.
 
@@ -26,15 +17,15 @@ Termina como alguém cuja própria capacidade de investigar depende de privacida
 
 Seu arco é:
 
-<b>observar → revelar → causar consequência → aprender disclosure proporcional</b>
+**observar → revelar → causar consequência → aprender disclosure proporcional**
 
 # Season 1 — Apenas uma assinatura
 
 O jogador não conhece Sera pessoalmente.
 
-Ela aparece <b>uma única vez</b>, de forma discreta, em um feed público:
+Ela aparece **uma única vez**, de forma discreta, em um feed público:
 
-> <b>2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA</b> — <i>Sera Quill, Network Wire</i>
+> **2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA** — *Sera Quill, Network Wire*
 
 Nada de encontro, diálogo ou subplot.
 
@@ -53,7 +44,9 @@ Ela percebe:
 
 Uma matéria sua entrevista Nia Kade:
 
-> <b>ATRASOS DE PAYROLL ATINGEM LOWER LUMEN COM AVANÇO DA CRISE DE SETTLEMENT</b><br />Entrevista: Nia Kade<br /><b>Sera Quill — Network Wire</b>
+> **ATRASOS DE PAYROLL ATINGEM LOWER LUMEN COM AVANÇO DA CRISE DE SETTLEMENT**
+Entrevista: Nia Kade
+**Sera Quill — Network Wire**
 
 # O erro de Sera
 
@@ -70,7 +63,7 @@ Mas acelera:
 
 Ela aprende que:
 
-> <b>informação verdadeira também é uma intervenção.</b>
+> **informação verdadeira também é uma intervenção.**
 
 # Rhea × Sera
 
@@ -78,11 +71,11 @@ Rhea confronta Sera.
 
 Sera:
 
-> <b>“As pessoas tinham o direito de saber.”</b>
+> **“As pessoas tinham o direito de saber.”**
 
 Rhea:
 
-> <b>“E agora sabem enquanto correm para a saída.”</b>
+> **“E agora sabem enquanto correm para a saída.”**
 
 Sera não aceita que a solução seja esconder falhas indefinidamente.
 
@@ -108,7 +101,7 @@ Sera chega a Moonlight mais madura.
 
 Sua nova posição:
 
-> <b>“A verdade precisa sobreviver à publicação.”</b>
+> **“A verdade precisa sobreviver à publicação.”**
 
 Ela continua defensora de accountability.
 
@@ -176,11 +169,8 @@ Ela continua independente e pode publicar coisas que o Breaker preferiria que pe
 
 ## Payoff documental aprovado — SOURCE E.V. e prova proporcional
 
-Em Moonlight, Sera fornece ao Breaker um <b>extrato redigido de documentação administrativa</b> sobre cancelamento de uma authority de association. É pista útil para o Case 04, mas não suficiente para solucionar a vulnerabilidade sem cruzar eventos e storage. Ela preserva a autenticidade da cópia e sua origem de forma separada.
+Em Moonlight, Sera fornece ao Breaker um **extrato redigido de documentação administrativa** sobre cancelamento de uma authority de association. É pista útil para o Case 04, mas não suficiente para solucionar a vulnerabilidade sem cruzar eventos e storage. Ela preserva a autenticidade da cópia e sua origem de forma separada.
 
-O <b>envelope jornalístico de proveniência</b> guarda o vínculo da fonte protegida, apresentada ao player apenas como E.V. Ele não é gravado como plaintext público na Stellar; a política excepcional de full disclosure tentaria alcançá-lo no dossiê de evidências associado à investigação. O pacote mínimo aceito por First Witness confirma somente as claims relevantes e deixa o envelope protegido, evitando revelar Eli Venn.
+O **envelope jornalístico de proveniência** guarda o vínculo da fonte protegida, apresentada ao player apenas como E.V. Ele não é gravado como plaintext público na Stellar; a política excepcional de full disclosure tentaria alcançá-lo no dossiê de evidências associado à investigação. O pacote mínimo aceito por First Witness confirma somente as claims relevantes e deixa o envelope protegido, evitando revelar Eli Venn.
 
-<b>Regra de roteiro:</b> Sera contribui com evidência documental, não com exploit pronto; First Witness não precisa saber o nome de E.V. para concluir a conformidade da settlement.
-</content>
-</page>
-
+**Regra de roteiro:** Sera contribui com evidência documental, não com exploit pronto; First Witness não precisa saber o nome de E.V. para concluir a conformidade da settlement.

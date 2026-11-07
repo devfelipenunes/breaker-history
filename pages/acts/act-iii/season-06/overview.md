@@ -5,24 +5,14 @@ title: "⚖️ Season 06 — Houses of Trust"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425816b8ad2c5487a4874d9 as of 2026-10-22T17:39:24.302Z:
-<page url="https://app.notion.com/p/4019c5630425816b8ad2c5487a4874d9" icon="⚖️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581df9f14f6c50603012a" title="ACT III — Who Has Authority?"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"Season 06 — Houses of Trust"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"⚖️"}</iconMetadata>
-<content>
-<callout icon="⚖️" color="red_bg">
-<b>Season 6 — Houses of Trust</b> transforma conceitos de consenso em um thriller político. Não existe um validator “hackeado”; existe uma rede que deixou de concordar em quem confiar.
-</callout>
+**Season 6 — Houses of Trust** transforma conceitos de consenso em um thriller político. Não existe um validator “hackeado”; existe uma rede que deixou de concordar em quem confiar.
 
 # Identity
 
-<b>Local:</b> Quorum<br /><b>Gameplay fantasy:</b> mediador / analista de confiança / operador de crise<br /><b>Tema técnico:</b> Stellar Consensus Protocol, Federated Byzantine Agreement, quorum sets, quorum slices, thresholds, blocking sets, safety/liveness, validator topology<br /><b>Pergunta:</b> <i>Quem decide o que é verdade?</i>
+**Local:** Quorum
+**Gameplay fantasy:** mediador / analista de confiança / operador de crise
+**Tema técnico:** Stellar Consensus Protocol, Federated Byzantine Agreement, quorum sets, quorum slices, thresholds, blocking sets, safety/liveness, validator topology
+**Pergunta:** *Quem decide o que é verdade?*
 
 # Story
 
@@ -32,7 +22,7 @@ LEDGER CLOSE: 5s → 8s → 14s → 21s
 
 Nenhum validator precisa estar comprometido.
 
-As grandes <b>Houses</b> alteraram suas relações de confiança.
+As grandes **Houses** alteraram suas relações de confiança.
 
 Uma mudança local em um quorum set produz consequências inesperadas em toda a topologia.
 
@@ -69,9 +59,9 @@ Mas a autorização é antiga, fragmentada e dada por estruturas políticas que 
 
 Voss finalmente pode reaparecer diretamente.
 
-> <b>“Você passou anos perguntando quem criou o Architect.”</b>
+> **“Você passou anos perguntando quem criou o Architect.”**
 
-> <b>“Pergunta errada.”</b>
+> **“Pergunta errada.”**
 
 Breaker:
 
@@ -79,13 +69,13 @@ Breaker:
 
 Voss:
 
-> <b>“Quem ainda tem autoridade para pará-lo?”</b>
+> **“Quem ainda tem autoridade para pará-lo?”**
 
 # Gancho
 
 A resposta está onde as regras deixam de ser interpretação e passam a ser protocolo:
 
-<b>CORE.</b>
+**CORE.**
 
 # Encadeamento narrativo consolidado
 
@@ -98,6 +88,3 @@ Mara solicita acesso delimitado à documentação da autorização. Breaker perm
 Voss reaparece depois de o jogador reconstruir a recusa e seu custo. Ele reconhece os danos; sua presença não substitui a evidência nem transforma sua posição em solução moral definitiva.
 
 O fechamento estabiliza a crise de confiança imediata e identifica os mecanismos atuais de revisão, limitação e revogação. A autorização histórica é real, mas não basta para resolver a legitimidade presente. A decisão sobre tornar permanente a intervenção excepcional fica para CORE.
-</content>
-</page>
-

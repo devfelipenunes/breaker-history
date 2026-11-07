@@ -5,24 +5,13 @@ title: "🪐 05 — Series Roadmap & Open Questions"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425818883fede65b6347525 as of 2026-11-02T13:03:36.051Z:
-<page url="https://app.notion.com/p/4009c5630425818883fede65b6347525" icon="🪐">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"05 — Series Roadmap & Open Questions"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🪐"}</iconMetadata>
-<content>
 # Princípio da série
 
 As Seasons não são cursos independentes.
 
-Cada uma muda <b>o objeto de confiança</b> e a fantasia de gameplay.
+Cada uma muda **o objeto de confiança** e a fantasia de gameplay.
 
-<b>CODE → VALUE → INFORMATION → MEMORY → EXTERNAL TRUTH → CONSENSUS → RULES</b>
+**CODE → VALUE → INFORMATION → MEMORY → EXTERNAL TRUTH → CONSENSUS → RULES**
 
 # Roadmap de sete Seasons
 
@@ -40,19 +29,27 @@ Cada uma muda <b>o objeto de confiança</b> e a fantasia de gameplay.
 
 ## Act I — The World Is Breakable
 
-<b>Season 1:</b> uma regra pode estar errada mesmo sendo executada corretamente.<br /><br /><b>Season 2:</b> nenhuma falha isolada explica um sistema; bugs, dados, incentivos e dependências podem compor uma crise.<br /><br /><b>Season 3:</b> informação, observabilidade e disclosure também são formas de poder.
+**Season 1:** uma regra pode estar errada mesmo sendo executada corretamente.
+
+**Season 2:** nenhuma falha isolada explica um sistema; bugs, dados, incentivos e dependências podem compor uma crise.
+
+**Season 3:** informação, observabilidade e disclosure também são formas de poder.
 
 O Act I termina quando o Architect deixa de conseguir observar o Breaker com confiança.
 
 ## Act II — Reconstruct the Truth
 
-<b>Season 4:</b> reconstruir Voss e a história do Architect.<br /><br /><b>Season 5:</b> descobrir a autoridade offchain/institucional por trás de sua origem.
+**Season 4:** reconstruir Voss e a história do Architect.
+
+**Season 5:** descobrir a autoridade offchain/institucional por trás de sua origem.
 
 O Act II termina com prova de autorização institucional histórica do mecanismo que deu origem à Sequence. Isso não legitima automaticamente sua adaptação posterior, cada intervenção ou seu mandato atual.
 
 ## Act III — Who Has Authority?
 
-<b>Season 6:</b> confiança vira consenso e política.<br /><br /><b>Season 7:</b> o jogador alcança as próprias regras.
+**Season 6:** confiança vira consenso e política.
+
+**Season 7:** o jogador alcança as próprias regras.
 
 O conflito final não é “destruir o Architect”.
 
@@ -62,9 +59,9 @@ O conflito final não é “destruir o Architect”.
 
 Fora da saga principal:
 
-- <b>Futurenet:</b> laboratório experimental / challenges recorrentes;
-- <b>Soroban City:</b> mini-arcos avançados de engenharia de contratos;
-- <b>Freighter:</b> hub de viagem, identidade e tooling;
+- **Futurenet:** laboratório experimental / challenges recorrentes;
+- **Soroban City:** mini-arcos avançados de engenharia de contratos;
+- **Freighter:** hub de viagem, identidade e tooling;
 - security quests patrocinadas;
 - challenges da comunidade;
 - Guild vs Guild CTF;
@@ -89,6 +86,3 @@ A história principal pode terminar.
 O jogo não precisa.
 
 Conteúdo após CORE deve expandir mastery, comunidade e pesquisa de segurança sem reabrir artificialmente o mistério central.
-</content>
-</page>
-

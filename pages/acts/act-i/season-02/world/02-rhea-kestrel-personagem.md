@@ -5,21 +5,11 @@ title: "🕶️ 02 — Rhea Kestrel — Personagem"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258125bd2bc3cff62b5453 as of 2026-11-02T17:15:53.120Z:
-<page url="https://app.notion.com/p/4019c56304258125bd2bc3cff62b5453" icon="🕶️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581d9aedad3e5f178c3e8" title="Season 02 — DeFi Wars — Lumen"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"02 — Rhea Kestrel — Personagem"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🕶️"}</iconMetadata>
-<content>
 # Rhea Kestrel
 
-<b>Status:</b> ACCEPTED<br /><b>Função:</b> inimiga / rival ideológica / adversária recorrente<br /><b>Season de estreia plena:</b> DeFi Wars
+**Status:** ACCEPTED
+**Função:** inimiga / rival ideológica / adversária recorrente
+**Season de estreia plena:** DeFi Wars
 
 Rhea atravessou a Sequence antes de Voss e aceitou Layer II.
 
@@ -27,7 +17,7 @@ Ela não é mentora do Breaker.
 
 Ela não é aliada no fim de Lumen.
 
-Ela é alguém que acredita que, diante de falhas sistêmicas, <b>não agir também é uma escolha moral</b>.
+Ela é alguém que acredita que, diante de falhas sistêmicas, **não agir também é uma escolha moral**.
 
 # Identidade visual
 
@@ -35,12 +25,12 @@ Ela é alguém que acredita que, diante de falhas sistêmicas, <b>não agir tamb
 - preto, marfim e detalhes dourados;
 - rosto sempre oculto, sem traços faciais identificáveis; usar enquadramento, sombra, gola ou obstrução;
 - aparência compatível com a elite financeira de Lumen;
-- assinatura visual associada a <b>ACCEPTED</b>;
+- assinatura visual associada a **ACCEPTED**;
 - natural tanto em um boardroom quanto em uma operação clandestina.
 
 # Crença central
 
-> <b>“Não agir também é escolher.”</b>
+> **“Não agir também é escolher.”**
 
 Rhea acredita que responsabilidade existe mesmo sem autorização formal.
 
@@ -52,7 +42,9 @@ Rhea acredita demais na própria capacidade de calcular custos.
 
 Ela pensa em termos sistêmicos:
 
-1 mercado sacrificado<br />6 mercados preservados<br />contágio evitado
+1 mercado sacrificado
+6 mercados preservados
+contágio evitado
 
 O problema é que pessoas não são variáveis de otimização.
 
@@ -68,11 +60,11 @@ Rhea vê o Breaker como alguém tecnicamente capaz, mas moralmente não testado.
 
 O conflito não é:
 
-<b>herói vs vilã</b>
+**herói vs vilã**
 
 É:
 
-<b>alguém que ainda não escolheu vs alguém que já escolheu e vive com o custo.</b>
+**alguém que ainda não escolheu vs alguém que já escolheu e vive com o custo.**
 
 Mesmo depois do reveal de que Rhea não criou a crise, ela continua adversária.
 
@@ -95,19 +87,19 @@ Também destrói a posição de Ilyan Marr e prejudica outras pessoas.
 
 Breaker:
 
-> <b>“Você salvou seis mercados.”</b>
+> **“Você salvou seis mercados.”**
 
 Rhea:
 
-> <b>“Sim.”</b>
+> **“Sim.”**
 
 Breaker:
 
-> <b>“E matou o sétimo.”</b>
+> **“E matou o sétimo.”**
 
 Rhea:
 
-> <b>“Sim.”</b>
+> **“Sim.”**
 
 Ela não comemora.
 
@@ -121,7 +113,7 @@ Ela não deve explicar tudo no Act I.
 
 Fala permitida:
 
-> <b>“Voss me fez a mesma pergunta.”</b>
+> **“Voss me fez a mesma pergunta.”**
 
 Breaker:
 
@@ -129,7 +121,7 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu entendi por que ele foi embora.”</b>
+> **“Eu entendi por que ele foi embora.”**
 
 Rhea sabe algo que o jogador ainda não sabe:
 
@@ -149,15 +141,16 @@ Existe cooperação tática sem confiança.
 
 Rhea:
 
-> <b>“Não confunda alinhamento com confiança.”</b>
+> **“Não confunda alinhamento com confiança.”**
 
 Depois:
 
-ARCHITECT<br />QUALIFIED → ACCEPTED
+ARCHITECT
+QUALIFIED → ACCEPTED
 
 Rhea:
 
-> <b>“Agora você entende por que eu aceitei.”</b>
+> **“Agora você entende por que eu aceitei.”**
 
 O Breaker entende.
 
@@ -169,13 +162,14 @@ Rhea continua inimiga quando Moonlight começa.
 
 A private settlement possui evidência dividida entre sender e recipient.
 
-SENDER WITNESS: RHEA<br />RECIPIENT WITNESS: BREAKER
+SENDER WITNESS: RHEA
+RECIPIENT WITNESS: BREAKER
 
 Nenhum dos dois consegue construir sozinho a prova completa com disclosure mínimo.
 
 Rhea:
 
-> <b>“Você não consegue limpar seu nome sem mim.”</b>
+> **“Você não consegue limpar seu nome sem mim.”**
 
 Breaker:
 
@@ -183,11 +177,11 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu sei.”</b>
+> **“Eu sei.”**
 
 A relação evolui:
 
-<b>inimigos → cooperação forçada → confiança genuína → ruptura por decisão tardia de Rhea → rivais com ferida pessoal</b>
+**inimigos → cooperação forçada → confiança genuína → ruptura por decisão tardia de Rhea → rivais com ferida pessoal**
 
 Rhea não planeja trair o Breaker ao começar Moonlight, não simula apoio e não aceita ordens do Architect. Compartilha risco real antes de escolher atribuir a ele a intervenção de Lumen, sem seu consentimento. Não existe romance ou amizade automática.
 
@@ -203,17 +197,17 @@ Ele agora entende que existem investigações legítimas que precisam de disclos
 
 Season 2:
 
-<b>Rhea ensina o Breaker que às vezes é necessário quebrar.</b>
+**Rhea ensina o Breaker que às vezes é necessário quebrar.**
 
 Season 3:
 
-<b>Breaker ensina Rhea que conseguir quebrar não significa que você deve.</b>
+**Breaker ensina Rhea que conseguir quebrar não significa que você deve.**
 
-Rhea não abandona sua filosofia. <b>Ela aprende de verdade a respeitar o veto do Breaker sobre destruir a capability</b>, mas ainda confunde avaliação de dano com direito de escolher por outras pessoas. A tragédia de Moonlight é sua falha em aplicar a mesma regra à autonomia do próprio Breaker. Depois da vitória conjunta, ela decide divulgar a atribuição histórica de Lumen sem consultá-lo. Isso não significa que fingia confiança; é justamente porque confiava nele que a ruptura tem peso.
+Rhea não abandona sua filosofia. **Ela aprende de verdade a respeitar o veto do Breaker sobre destruir a capability**, mas ainda confunde avaliação de dano com direito de escolher por outras pessoas. A tragédia de Moonlight é sua falha em aplicar a mesma regra à autonomia do próprio Breaker. Depois da vitória conjunta, ela decide divulgar a atribuição histórica de Lumen sem consultá-lo. Isso não significa que fingia confiança; é justamente porque confiava nele que a ruptura tem peso.
 
 # Custo pós-Moonlight
 
-Rhea assina pessoalmente a atestação da intervenção em Emergency Authority de Lumen, responsabilizando-se pela própria divulgação e expondo parte de seu envolvimento. A apuração é distinta da settlement de Moonlight e resulta em suspensão de <b>credencial intercity institucional</b>, nunca em revogação de wallet ou anulação da prova de inocência. A decisão é unilateral e tardia, após tentativa falha de limitar a investigação por prova agregada. A própria Rhea perde alguém em quem passou a confiar.
+Rhea assina pessoalmente a atestação da intervenção em Emergency Authority de Lumen, responsabilizando-se pela própria divulgação e expondo parte de seu envolvimento. A apuração é distinta da settlement de Moonlight e resulta em suspensão de **credencial intercity institucional**, nunca em revogação de wallet ou anulação da prova de inocência. A decisão é unilateral e tardia, após tentativa falha de limitar a investigação por prova agregada. A própria Rhea perde alguém em quem passou a confiar.
 
 # Longo prazo
 
@@ -241,15 +235,12 @@ Essa tensão é mais valiosa do que transformar Rhea em amiga do protagonista.
 | Case 10–Cascade | Rival cuja intervenção se torna interdependente | Ela também limita danos, mas toma decisões sem mandato formal | Cooperação tática ≠ confiança |
 | Epílogo | ACCEPTED não significa boa pessoa | O Architect classificou uma conduta extraordinária, sem voto do Breaker | Ela ainda é inimiga quando ele segue para Moonlight |
 
-<b>Falibilidade:</b> manter a consequência sobre Ilyan e os outros prejudicados pelo isolamento; Rhea pode acertar cálculos agregados e falhar sobre legitimidade e autonomia. Não torná-la onisciente, nem agente secreto do Architect, nem traidora premeditada em Lumen.
+**Falibilidade:** manter a consequência sobre Ilyan e os outros prejudicados pelo isolamento; Rhea pode acertar cálculos agregados e falhar sobre legitimidade e autonomia. Não torná-la onisciente, nem agente secreto do Architect, nem traidora premeditada em Lumen.
 
-<b>Mara:</b> estabelece limite por recusa a restaurar credenciais; permanece sem autoridade oficial local, oferece crítica ética e institucional, não soluções técnicas.
+**Mara:** estabelece limite por recusa a restaurar credenciais; permanece sem autoridade oficial local, oferece crítica ética e institucional, não soluções técnicas.
 
-<b>Sera:</b> sua reportagem verdadeira ocorre após a evidência acumulada nos Cases iniciais e amplifica withdrawals, mas não é mastermind da crise.
+**Sera:** sua reportagem verdadeira ocorre após a evidência acumulada nos Cases iniciais e amplifica withdrawals, mas não é mastermind da crise.
 
-<b>Ilyan e Nia:</b> dano visível e agência própria; Ilyan escolhe contribuir para a recuperação apesar de não perdoar Rhea. Nia demonstra por que settlement importa fora do mercado financeiro.
+**Ilyan e Nia:** dano visível e agência própria; Ilyan escolhe contribuir para a recuperação apesar de não perdoar Rhea. Nia demonstra por que settlement importa fora do mercado financeiro.
 
-<b>Canon futuro:</b> nenhuma ação de Lumen antecipa que Rhea fará a divulgação de atribuição em Moonlight. A confiança real e a ruptura pertencem à Season 3.
-</content>
-</page>
-
+**Canon futuro:** nenhuma ação de Lumen antecipa que Rhea fará a divulgação de atribuição em Moonlight. A confiança real e a ruptura pertencem à Season 3.

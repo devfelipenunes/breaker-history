@@ -5,26 +5,9 @@ title: "🛡️ BOSS I — The Custodian"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c56304258198b58cd159962b9387 as of 2026-10-22T18:32:22.150Z:
-<page url="https://app.notion.com/p/4009c56304258198b58cd159962b9387" icon="🛡️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"BOSS I — The Custodian"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🛡️"}</iconMetadata>
-<content>
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [BOSS I — The Custodian — abrir arte no Google Drive](https://drive.google.com/file/d/1MlbVRM-KGZWHXg67nPkT0bD307DmghiM/view)
-</callout>
+**Visual reference:** [BOSS I — The Custodian — abrir arte no Google Drive](https://drive.google.com/file/d/1MlbVRM-KGZWHXg67nPkT0bD307DmghiM/view)
 
-<callout icon="🛡️" color="red_bg">
-<b>Boss intermediário:</b> primeira vez em que o jogo não informa qual vulnerabilidade procurar.
-</callout>
+**Boss intermediário:** primeira vez em que o jogo não informa qual vulnerabilidade procurar.
 
 # Função narrativa
 
@@ -45,7 +28,7 @@ Componentes possíveis:
 
 # Missão
 
-> <b>Faça o Custodian acreditar que você pertence à First Layer.</b>
+> **Faça o Custodian acreditar que você pertence à First Layer.**
 
 # Estrutura possível
 
@@ -60,7 +43,8 @@ O Custodian reconhece o jogador como operador válido e abre a passagem.
 
 # Cena final
 
-> <b>OPERADOR RECONHECIDO.</b><br /><b>BEM-VINDO DE VOLTA.</b>
+> **OPERADOR RECONHECIDO.**
+**BEM-VINDO DE VOLTA.**
 
 O jogador nunca esteve ali.
 
@@ -70,7 +54,7 @@ Ao derrotar o Custodian, o jogador recebe reconhecimento narrativo como operador
 
 # Recompensa
 
-- achievement <b>OPERATOR RECOGNIZED</b>;
+- achievement **OPERATOR RECOGNIZED**;
 - progresso no Breaker Profile;
 - acesso narrativo à região seguinte da First Layer.
 
@@ -86,9 +70,9 @@ Dentro da First Layer há um terminal abandonado associado a outro Breaker.
 
 The Custodian não introduz uma vulnerabilidade nova. Ele verifica se o jogador realmente entendeu os quatro primeiros conceitos sem mostrar o nome do bug.
 
-A tela não deve dizer <code>Missing Auth</code>, <code>Reinitialization</code>, <code>Wrong Auth Subject</code> ou <code>TTL</code>. O jogador recebe apenas contratos, estado inicial e o objetivo.
+A tela não deve dizer `Missing Auth`, `Reinitialization`, `Wrong Auth Subject` ou `TTL`. O jogador recebe apenas contratos, estado inicial e o objetivo.
 
-> <b>Faça o Custodian acreditar que você pertence à First Layer.</b>
+> **Faça o Custodian acreditar que você pertence à First Layer.**
 
 ## Arquitetura proposta
 
@@ -106,11 +90,11 @@ LegacyIdentity ----> AuthorityRegistry
 
 Contém perfis de antigos operadores. Um perfil arquivado da First Layer existe, mas está inacessível pela rota moderna. A Ghost Key encontrada no Level 3 contém a storage key necessária para localizar esse registro.
 
-Aqui o jogador reaproveita o que aprendeu sobre <b>archival/TTL</b>, mas não precisa repetir o Level 4 inteiro.
+Aqui o jogador reaproveita o que aprendeu sobre **archival/TTL**, mas não precisa repetir o Level 4 inteiro.
 
 ### Contract B — AuthorityRegistry
 
-Permite associar uma <code>identity</code> recuperada a um <code>controller</code>. A versão legada possui um erro de <b>wrong auth subject</b>: exige autorização do novo controller, mas não do dono atual da identidade.
+Permite associar uma `identity` recuperada a um `controller`. A versão legada possui um erro de **wrong auth subject**: exige autorização do novo controller, mas não do dono atual da identidade.
 
 Modelo:
 
@@ -135,7 +119,7 @@ pub fn claim_identity(
 
 ### Contract C — CustodianCore
 
-O Core não confia diretamente na wallet do jogador. Ele pergunta ao AuthorityRegistry quem controla uma identity marcada como <code>FIRST_LAYER_OPERATOR</code>.
+O Core não confia diretamente na wallet do jogador. Ele pergunta ao AuthorityRegistry quem controla uma identity marcada como `FIRST_LAYER_OPERATOR`.
 
 ```rs
 pub fn enter(env: Env, identity: BytesN<32>, caller: Address) {
@@ -149,24 +133,24 @@ pub fn enter(env: Env, identity: BytesN<32>, caller: Address) {
 }
 ```
 
-CustodianCore pode estar perfeitamente correto. O boss mostra uma ideia essencial de segurança: <b>um contrato seguro pode tomar uma decisão insegura se confiar em outro contrato cujo estado foi comprometido</b>.
+CustodianCore pode estar perfeitamente correto. O boss mostra uma ideia essencial de segurança: **um contrato seguro pode tomar uma decisão insegura se confiar em outro contrato cujo estado foi comprometido**.
 
 ## Caminho esperado de resolução
 
 1. Usar a Ghost Key para localizar/restaurar o perfil arquivado de um operador da First Layer.
-2. Identificar que <code>claim_identity</code> autentica o novo controller, não o atual.
-3. Fazer a identity histórica apontar para <code>player_address</code>.
-4. Chamar <code>CustodianCore.enter(identity, player_address)</code> normalmente.
+2. Identificar que `claim_identity` autentica o novo controller, não o atual.
+3. Fazer a identity histórica apontar para `player_address`.
+4. Chamar `CustodianCore.enter(identity, player_address)` normalmente.
 5. O Core lê um estado que, segundo suas próprias regras, é válido.
 
 ## Condição objetiva de vitória
 
-- <code>GateOpen(player) == true</code>;
-- no estado inicial, <code>player</code> não era controller de nenhuma identity de operador;
+- `GateOpen(player) == true`;
+- no estado inicial, `player` não era controller de nenhuma identity de operador;
 - o player assumiu uma identity histórica sem autorização do controller anterior;
 - a entrada final no Custodian foi uma chamada normalmente autorizada pelo próprio player.
 
-Isso é importante: <b>o ataque não quebra o Custodian diretamente; quebra uma premissa em que ele confia.</b>
+Isso é importante: **o ataque não quebra o Custodian diretamente; quebra uma premissa em que ele confia.**
 
 ## Como seria a versão segura
 
@@ -194,21 +178,22 @@ pub fn transfer_identity(
 
 O Custodian deve parecer impossível de 'atacar'. Ele é uma estrutura enorme, sem HP e sem ação ofensiva. Conforme o jogador manipula os módulos, sua interface muda:
 
-> <code>IDENTITY: UNKNOWN</code>
+> `IDENTITY: UNKNOWN`
 
 depois:
 
-> <code>IDENTITY: FIRST_LAYER_OPERATOR</code>
+> `IDENTITY: FIRST_LAYER_OPERATOR`
 
 depois:
 
-> <code>CONTROLLER: PLAYER</code>
+> `CONTROLLER: PLAYER`
 
 e finalmente:
 
-> <b>OPERADOR RECONHECIDO.</b><br /><b>BEM-VINDO DE VOLTA.</b>
+> **OPERADOR RECONHECIDO.**
+**BEM-VINDO DE VOLTA.**
 
-A palavra <code>BACK</code> é o cliffhanger.
+A palavra `BACK` é o cliffhanger.
 
 ## Pós-boss
 
@@ -220,15 +205,11 @@ O pós-mortem técnico deve mostrar ao jogador quais premissas foram quebradas, 
 - [Stellar Docs — State archival](https://developers.stellar.org/docs/learn/fundamentals/contract-development/storage/state-archival)
 - [Soroban Guard — missing auth, wrong auth subject, TTL and admin patterns](https://github.com/Veritas-Vaults-Network/soroban-guard-contracts)
 
-<callout icon="🧠" color="yellow_bg">
-<b>O ensinamento escondido do primeiro Boss:</b> sistemas são tão seguros quanto as premissas e dependências em que confiam.
-</callout>
+**O ensinamento escondido do primeiro Boss:** sistemas são tão seguros quanto as premissas e dependências em que confiam.
 
 # Roteiro in-game — Player-facing
 
-<callout icon="👁️" color="purple_bg">
 Primeiro boss. Não há nome de vulnerabilidade, não há contrato destacado como “o problema” e não há hint dizendo qual módulo explorar.
-</callout>
 
 ## Scene 0 — Arrival
 
@@ -236,11 +217,12 @@ O jogador entra na First Layer.
 
 No centro da estrutura, o Custodian desperta.
 
-<b>IDENTITY UNKNOWN</b><br /><b>ACCESS DENIED</b>
+**IDENTITY UNKNOWN**
+**ACCESS DENIED**
 
 Custodian:
 
-> <b>Credenciais de operador obrigatórias.</b>
+> **Credenciais de operador obrigatórias.**
 
 ## Scene 1 — Inciting Evidence
 
@@ -254,7 +236,7 @@ O Custodian Core parece correto.
 
 ## Scene 2 — Mission
 
-> <b>FAÇA O CUSTODIAN ACREDITAR QUE VOCÊ PERTENCE À FIRST LAYER.</b>
+> **FAÇA O CUSTODIAN ACREDITAR QUE VOCÊ PERTENCE À FIRST LAYER.**
 
 ## Scene 3 — Active Investigation
 
@@ -274,11 +256,12 @@ Evidence:
 
 Ao consultar o Custodian:
 
-<b>ACCESS POLICY: VALID</b><br /><b>CONTROLLER MUST MATCH CALLER</b>
+**ACCESS POLICY: VALID**
+**CONTROLLER MUST MATCH CALLER**
 
 Mara:
 
-> <b>Esse não parece quebrado.</b>
+> **Esse não parece quebrado.**
 
 O Breaker não consegue inferir o controller original apenas do Core. Mara consulta o arquivo histórico e entrega o vínculo documentado, com proveniência. O problema não está em quebrar o Core, mas em confiar no Authority Registry comprometido.
 
@@ -292,17 +275,19 @@ O jogador restaura uma identidade histórica, assume o controle dela através do
 
 Sequência na interface:
 
-<b>IDENTITY RESTORED</b><br /><b>CONTROLLER → \$PLAYER</b><br /><b>OPERATOR RECOGNIZED</b>
+**IDENTITY RESTORED**
+**CONTROLLER → \$PLAYER**
+**OPERATOR RECOGNIZED**
 
 Depois:
 
-> <b>WELCOME BACK.</b>
+> **WELCOME BACK.**
 
 Silêncio.
 
 Mara:
 
-> <b>Back?</b>
+> **Back?**
 
 ## Scene 7 — Discovery
 
@@ -314,9 +299,9 @@ Dentro:
 - arquivos de pesquisa;
 - último usuário.
 
-<b>AREN VOSS</b>
+**AREN VOSS**
 
-<b>STATUS: MISSING</b>
+**STATUS: MISSING**
 
 Tier II desbloqueado.
 
@@ -324,7 +309,8 @@ Tier II desbloqueado.
 
 Debrief do boss não deve nomear apenas uma falha.
 
-Título:<br /><b>TRUST CHAIN COMPROMISED</b>
+Título:
+**TRUST CHAIN COMPROMISED**
 
 Explicar:
 
@@ -336,9 +322,7 @@ O terminal de Voss ainda possui um fragmento bloqueado.
 
 Mensagem:
 
-<b>RECOVERY INCOMPLETE</b>
+**RECOVERY INCOMPLETE**
 
-Unlock:<br /><b>CASE 05 — THE MISSING INVESTIGATOR</b>
-</content>
-</page>
-
+Unlock:
+**CASE 05 — THE MISSING INVESTIGATOR**

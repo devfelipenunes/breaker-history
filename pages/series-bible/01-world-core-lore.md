@@ -5,20 +5,7 @@ title: "🌑 01 — World & Core Lore"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425812aa9a1c8344e109b88 as of 2026-10-22T16:10:06.051Z:
-<page url="https://app.notion.com/p/4009c5630425812aa9a1c8344e109b88" icon="🌑">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"01 — World & Core Lore"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🌑"}</iconMetadata>
-<content>
-<callout icon="🌑" color="purple_bg">
-<b>Premissa:</b> a Stellar Network não é apenas infraestrutura de fundo. Para quem vive neste universo, ela é a própria estrutura que sustenta a civilização.
-</callout>
+**Premissa:** a Stellar Network não é apenas infraestrutura de fundo. Para quem vive neste universo, ela é a própria estrutura que sustenta a civilização.
 
 # A realidade da Stellar Network
 
@@ -26,13 +13,13 @@ Séculos antes da Season 1, grande parte da vida civil foi transferida para sist
 
 Com o tempo, essa tecnologia deixou de ser percebida como tecnologia. Para a população comum, uma porta simplesmente reconhece quem pode entrar; uma carteira simplesmente pertence a alguém; um Vault simplesmente não pode ser roubado; uma identidade simplesmente é verdadeira.
 
-Os contratos passaram a ser tratados quase como <b>leis naturais</b>.
+Os contratos passaram a ser tratados quase como **leis naturais**.
 
-> <b>Tudo é governado por um Contrato.</b>
+> **Tudo é governado por um Contrato.**
 
 # O que é um Breaker
 
-Um <b>Breaker</b> é alguém reconhecido por sua capacidade de enxergar e operar diretamente a camada programável do mundo quando as instituições normais não conseguem explicar o que aconteceu.
+Um **Breaker** é alguém reconhecido por sua capacidade de enxergar e operar diretamente a camada programável do mundo quando as instituições normais não conseguem explicar o que aconteceu.
 
 Ser Breaker não significa automaticamente ser criminoso, herói ou agente institucional.
 
@@ -40,9 +27,9 @@ Breakers podem atuar como investigadores, pesquisadores, operadores independente
 
 Mas existe uma distinção importante para o protagonista:
 
-> <b>ele não começa a Season 1 já reconhecido como Breaker.</b>
+> **ele não começa a Season 1 já reconhecido como Breaker.**
 
-No início, ele é um <b>Independent Contract Auditor</b>, contratado para revisar o incidente do Vault depois que a investigação interna falha.
+No início, ele é um **Independent Contract Auditor**, contratado para revisar o incidente do Vault depois que a investigação interna falha.
 
 Ele já possui competência técnica para analisar contratos e sistemas.
 
@@ -50,25 +37,25 @@ O que ainda não possui é a identidade, o status e o peso político de um Break
 
 A Season 1 é justamente a transformação:
 
-<b>Auditor → Investigator → Intruder → Impostor → Thief → System Manipulator → Breaker.</b>
+**Auditor → Investigator → Intruder → Impostor → Thief → System Manipulator → Breaker.**
 
 # Fantasia do jogador
 
 A referência narrativa é:
 
-<b>detetive + infiltrador + hacker + caçador.</b>
+**detetive + infiltrador + hacker + caçador.**
 
 O jogador recebe um caso aparentemente simples e começa a puxar fios.
 
-<b>Loop narrativo:</b> Investigar → encontrar inconsistência → localizar contrato → explorar regra → obter pista/acesso → avançar.
+**Loop narrativo:** Investigar → encontrar inconsistência → localizar contrato → explorar regra → obter pista/acesso → avançar.
 
 # The First Layer
 
 A infraestrutura moderna de Meridian foi construída sobre sistemas muito mais antigos.
 
-Sob a infraestrutura oficial existe uma arquitetura esquecida conhecida como <b>The First Layer</b>.
+Sob a infraestrutura oficial existe uma arquitetura esquecida conhecida como **The First Layer**.
 
-<b>Definição canônica:</b> infraestrutura física e contratual sobre a qual a Meridian moderna foi construída e que nunca foi completamente desativada.
+**Definição canônica:** infraestrutura física e contratual sobre a qual a Meridian moderna foi construída e que nunca foi completamente desativada.
 
 Ela contém:
 
@@ -97,13 +84,13 @@ Em Sector 13, essa relação se inverte: ele descobre que também está sendo ob
 
 A verdade central não é que alguém criou todas as falhas.
 
-> <b>Meridian já estava quebrada.</b>
+> **Meridian já estava quebrada.**
 
 A separação canônica é:
 
-- <b>Meridian</b> acumulou vulnerabilidades ao empilhar infraestrutura nova sobre sistemas antigos.
-- <b>The Architect</b> catalogou e conectou parte dessas fragilidades em uma Sequence; também mantém o Breaker Registry e o acesso à Layer II.
-- <b>Aren Voss</b> percorreu a Sequence, recusou o que encontrou e deixou uma trilha para que outro chegasse ao mesmo ponto.
+- **Meridian** acumulou vulnerabilidades ao empilhar infraestrutura nova sobre sistemas antigos.
+- **The Architect** catalogou e conectou parte dessas fragilidades em uma Sequence; também mantém o Breaker Registry e o acesso à Layer II.
+- **Aren Voss** percorreu a Sequence, recusou o que encontrou e deixou uma trilha para que outro chegasse ao mesmo ponto.
 
 # The Architect
 
@@ -117,13 +104,13 @@ O Architect é um sistema composto por contratos, módulos e mecanismos de coord
 
 Ele não criou as vulnerabilidades.
 
-> <b>“Eu não quebrei Meridian. Eu a encontrei quebrada.”</b>
+> **“Eu não quebrei Meridian. Eu a encontrei quebrada.”**
 
 Ele consegue observar, correlacionar, detectar e simular.
 
 Mas não consegue resolver sozinho a pergunta central:
 
-> <b>quando é legítimo quebrar uma regra para preservar algo maior?</b>
+> **quando é legítimo quebrar uma regra para preservar algo maior?**
 
 # Aren Voss
 
@@ -135,7 +122,7 @@ Ele:
 - percebeu conexões entre sistemas;
 - atravessou a Sequence anos antes;
 - chegou ao Architect;
-- <b>recusou</b> Acceptance;
+- **recusou** Acceptance;
 - continuou investigando fora do radar;
 - deixou pistas e atalhos;
 - provocou mais tarde o incidente do Vault para obrigar Meridian a olhar para suas próprias falhas;
@@ -143,7 +130,7 @@ Ele:
 
 Status:
 
-<b>AREN VOSS — REFUSED</b>
+**AREN VOSS — REFUSED**
 
 REFUSED não significa moralmente puro.
 
@@ -159,15 +146,15 @@ Ela representa a confiança institucional de Meridian.
 
 No prólogo:
 
-> <b>“O sistema aceitou a transação. Isso significa que alguém estava autorizado.”</b>
+> **“O sistema aceitou a transação. Isso significa que alguém estava autorizado.”**
 
 O auditor responde:
 
-> <b>“Não. Significa que o contrato acreditou que alguém estava autorizado.”</b>
+> **“Não. Significa que o contrato acreditou que alguém estava autorizado.”**
 
 Sua progressão é:
 
-<b>confiança institucional → desconforto → dúvida → pressão para encerrar o caso → responsabilidade pessoal.</b>
+**confiança institucional → desconforto → dúvida → pressão para encerrar o caso → responsabilidade pessoal.**
 
 Em The Spire, a Authority encerra a investigação.
 
@@ -183,13 +170,13 @@ Termina assumindo identidades, alterando propriedade, comprometendo autorizaçõ
 
 O Architect reconhece isso:
 
-> <b>“Você veio até aqui procurando um ladrão. Quantos sistemas quebrou para encontrá-lo?”</b>
+> **“Você veio até aqui procurando um ladrão. Quantos sistemas quebrou para encontrá-lo?”**
 
 # Tese de longo prazo
 
 BREAKER não é apenas sobre bugs.
 
-É sobre <b>confiança</b>.
+É sobre **confiança**.
 
 Cada sistema confiável esconde uma suposição:
 
@@ -202,17 +189,14 @@ Cada sistema confiável esconde uma suposição:
 
 Pergunta da série:
 
-> <b>Se tudo é governado por código, quem deve ter o poder de quebrá-lo?</b>
+> **Se tudo é governado por código, quem deve ter o poder de quebrá-lo?**
 
 # Regra de imersão
 
 Não apresentar vulnerabilidade como aula isolada quando ela puder existir como problema do mundo.
 
-<b>Ruim:</b> “Explore uma função sem autorização.”
+**Ruim:** “Explore uma função sem autorização.”
 
-<b>Desejado:</b> “Entre no Vault sem possuir a chave.”
+**Desejado:** “Entre no Vault sem possuir a chave.”
 
 O nome técnico aparece depois, no pós-missão.
-</content>
-</page>
-

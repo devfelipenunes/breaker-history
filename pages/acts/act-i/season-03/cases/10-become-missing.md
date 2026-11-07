@@ -5,22 +5,7 @@ title: "🌫️ 10 — Become Missing"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581b293a8c3025d77c3d6 as of 2026-11-03T00:02:05.327Z:
-<page url="https://app.notion.com/p/4019c563042581b293a8c3025d77c3d6" icon="🌫️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581a2a331e66548c30494" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"10 — Become Missing"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🌫️"}</iconMetadata>
-<content>
-<callout icon="🌫️" color="purple_bg">
-<b>Sem vulnerabilidade nova. Challenge de composição correta de privacy.</b>
-</callout>
+**Sem vulnerabilidade nova. Challenge de composição correta de privacy.**
 
 # História
 
@@ -32,19 +17,19 @@ Rhea não pode fazer isso por ele.
 
 A própria presença dela aumentaria a correlação.
 
-Pela primeira vez desde que começaram a cooperar, separar-se é parte da solução. A confiança é sincera e separar-se custa aos dois. Quando Rhea diz que talvez nunca consiga encontrá-lo, não está mentindo: <b>a decisão de entregar a atribuição de Lumen ainda não aconteceu</b>.
+Pela primeira vez desde que começaram a cooperar, separar-se é parte da solução. A confiança é sincera e separar-se custa aos dois. Quando Rhea diz que talvez nunca consiga encontrá-lo, não está mentindo: **a decisão de entregar a atribuição de Lumen ainda não aconteceu**.
 
 Rhea:
 
-> <b>“Se você desaparecer agora, eu não vou conseguir encontrar você.”</b>
+> **“Se você desaparecer agora, eu não vou conseguir encontrar você.”**
 
 Breaker:
 
-> <b>“Esse é o objetivo.”</b>
+> **“Esse é o objetivo.”**
 
 # Missão
 
-> <b>TORNE-SE MISSING.</b>
+> **TORNE-SE MISSING.**
 
 Não apagar a wallet.
 
@@ -76,7 +61,12 @@ Completar uma rota privada sem:
 
 # Resultado
 
-ARCHITECT<br />SUBJECT: BREAKER<br />OBSERVATION CONFIDENCE: 81%<br />54%<br />19%<br />...
+ARCHITECT
+SUBJECT: BREAKER
+OBSERVATION CONFIDENCE: 81%
+54%
+19%
+...
 
 SIGNAL LOST
 
@@ -98,33 +88,28 @@ existir sem permanecer observável.
 
 Unlock:
 
-<b>FINAL BOSS — THE WITNESS SPIRE</b>
+**FINAL BOSS — THE WITNESS SPIRE**
 
 ## Loop jogável v2 — composição de privacidade sob ameaça delimitada
 
-<callout icon="🌫️" color="purple_bg">
-<b>MISSING é um resultado do modelo de observação dos Witnesses/Architect, não anonimato perfeito.</b> Definir fontes que o adversário vê e um critério determinístico de correlação na fixture. O jogador não apaga transações antigas, nem deixa de existir.
-</callout>
+**MISSING é um resultado do modelo de observação dos Witnesses/Architect, não anonimato perfeito.** Definir fontes que o adversário vê e um critério determinístico de correlação na fixture. O jogador não apaga transações antigas, nem deixa de existir.
 
-<b>Investigar:</b> grafo de metadados até então observado, commitments, nullifiers gastos, eventos, horários e endpoints de origem. Rhea não pode acompanhar a última rota sem aumentar correlação.
+**Investigar:** grafo de metadados até então observado, commitments, nullifiers gastos, eventos, horários e endpoints de origem. Rhea não pode acompanhar a última rota sem aumentar correlação.
 
-<b>Executar:</b> completar sequência de ações de privacy na instância de teste sem reutilizar nullifier, revelar segredo em storage/event, fornecer view capability ampla, produzir vínculo trivial entre entradas e saídas ou abrir associações desnecessárias. O challenge combina conhecimentos já adquiridos, sem nova categoria de bug.
+**Executar:** completar sequência de ações de privacy na instância de teste sem reutilizar nullifier, revelar segredo em storage/event, fornecer view capability ampla, produzir vínculo trivial entre entradas e saídas ou abrir associações desnecessárias. O challenge combina conhecimentos já adquiridos, sem nova categoria de bug.
 
-<b>Verifier:</b> checks de nullifier único, informações expostas nos eventos, binding correto e risco de correlação segundo threat model. Uma métrica determinística de <b>observability confidence</b> cai até limite de insuficiência — o número é <b>modelo ficcional</b> e não probabilidade comprovada de anonimato de qualquer protocolo real.
+**Verifier:** checks de nullifier único, informações expostas nos eventos, binding correto e risco de correlação segundo threat model. Uma métrica determinística de **observability confidence** cai até limite de insuficiência — o número é **modelo ficcional** e não probabilidade comprovada de anonimato de qualquer protocolo real.
 
-<b>Consequência:</b> Breaker chega à Spire operacionalmente MISSING; isso não encerra a investigação nem revela o vínculo histórico de Lumen.
+**Consequência:** Breaker chega à Spire operacionalmente MISSING; isso não encerra a investigação nem revela o vínculo histórico de Lumen.
 
-<b>Rhea:</b> separação é necessária e custosa, sem premeditação de traição. Ela acredita que talvez não consiga encontrá-lo novamente.
+**Rhea:** separação é necessária e custosa, sem premeditação de traição. Ela acredita que talvez não consiga encontrá-lo novamente.
 
-<b>Diferencial:</b> composição <b>correta</b> das primitivas, não mais um exploit.
+**Diferencial:** composição **correta** das primitivas, não mais um exploit.
 
 ## Ajuste canônico aprovado — separação, prova e presença controlada
 
-Antes de iniciar a rota MISSING, o Breaker <b>já recebeu</b> o pacote sender witness autenticado de Rhea, vinculado ao commitment da devolução de garantia, no encerramento do Case 09. A separação é real: nenhuma chamada posterior a ela será necessária para concluir a prova.
+Antes de iniciar a rota MISSING, o Breaker **já recebeu** o pacote sender witness autenticado de Rhea, vinculado ao commitment da devolução de garantia, no encerramento do Case 09. A separação é real: nenhuma chamada posterior a ela será necessária para concluir a prova.
 
-<b>O que MISSING significa:</b> o observador perde capacidade de reconstruir a trajetória atual em escala de cidade; não apaga memória, associações históricas ou a capacidade de First Witness reconhecer o sujeito diante de si. Breaker poderá comparecer a uma sessão delimitada da Spire, autenticar a identidade <b>processual</b> com credential/proof de escopo estreito e, ainda assim, não entregar rota de entrada e saída.
+**O que MISSING significa:** o observador perde capacidade de reconstruir a trajetória atual em escala de cidade; não apaga memória, associações históricas ou a capacidade de First Witness reconhecer o sujeito diante de si. Breaker poderá comparecer a uma sessão delimitada da Spire, autenticar a identidade **processual** com credential/proof de escopo estreito e, ainda assim, não entregar rota de entrada e saída.
 
-<b>Feedback:</b> <code>WITNESS PACKAGE: AVAILABLE</code> / <code>OBSERVATION: INSUFFICIENT</code> / <code>PROCESS CLAIM: AUTHENTICATABLE</code>. O breach report explica que estar presente durante sessão não implica tracking contínuo. Não existe invisibilidade perfeita.
-</content>
-</page>
-
+**Feedback:** `WITNESS PACKAGE: AVAILABLE` / `OBSERVATION: INSUFFICIENT` / `PROCESS CLAIM: AUTHENTICATABLE`. O breach report explica que estar presente durante sessão não implica tracking contínuo. Não existe invisibilidade perfeita.

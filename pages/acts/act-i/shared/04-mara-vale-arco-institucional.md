@@ -5,22 +5,11 @@ title: "🛡️ 04 — Mara Vale — Arco Institucional"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c5630425816d90ccc84cc1100eba as of 2026-11-03T15:56:55.269Z:
-<page url="https://app.notion.com/p/4019c5630425816d90ccc84cc1100eba" icon="🛡️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"04 — Mara Vale — Arco Institucional"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🛡️"}</iconMetadata>
-<content>
 # Mara Vale
 
 Mara representa uma posição que nenhum Breaker substitui:
 
-> <b>instituições importam, mas procedimento não absolve responsabilidade.</b>
+> **instituições importam, mas procedimento não absolve responsabilidade.**
 
 Ela não vira companion, hacker support ou Breaker.
 
@@ -34,34 +23,35 @@ Mara conhece a diferença entre uma transação aceita e uma autorização legí
 
 ## Beats revisados
 
-- <b>Vault:</b> preserva evidências on-chain e documentais e questiona a autoria/legitimidade que o relatório institucional não consegue demonstrar. Não confunde aceite técnico com direito de executar.
-- <b>Warehouse 17:</b> encontra contestação de equipamento em Lower Meridian, sem prova de autorização do dono anterior. Ela produz um fato que o Breaker não deduziria pelo contrato; exige cadeia de custódia da Ghost Key. Aqui a confiança sofre desgaste real.
-- <b>The Custodian:</b> recupera em arquivo administrativo a referência de controlador histórico que falta à Ghost Key. Dá uma evidência, não uma autorização ilegal.
-- <b>Sector 13:</b> observa o Breaker provocar a falha e depois conter a pressão adicional. Confronta o custo causado à infraestrutura. Sua reação é a mesma em toda execução da história, não depende de escolha do jogador.
-- <b>Steal the Key:</b> quando a Authority revoga acesso, abre um canal privado por uma hora para obter uma prova auditável. Deixa claro que a decisão e seu risco institucional são <b>dela</b>. Não fornece um mandato ao Breaker. Para preservar a prova de forma verificável, assina com sua credencial um <code>EVIDENCE_RECEIPT</code> <b>depois</b> de CASE TERMINATED; a Authority poderá correlacionar esse ato com a revogação, independentemente de monitorar o canal privado.
-- <b>Epílogo:</b> suspensão das credenciais; não transformá-la em evento abstrato, nem recompensar imediatamente a personagem.
+- **Vault:** preserva evidências on-chain e documentais e questiona a autoria/legitimidade que o relatório institucional não consegue demonstrar. Não confunde aceite técnico com direito de executar.
+- **Warehouse 17:** encontra contestação de equipamento em Lower Meridian, sem prova de autorização do dono anterior. Ela produz um fato que o Breaker não deduziria pelo contrato; exige cadeia de custódia da Ghost Key. Aqui a confiança sofre desgaste real.
+- **The Custodian:** recupera em arquivo administrativo a referência de controlador histórico que falta à Ghost Key. Dá uma evidência, não uma autorização ilegal.
+- **Sector 13:** observa o Breaker provocar a falha e depois conter a pressão adicional. Confronta o custo causado à infraestrutura. Sua reação é a mesma em toda execução da história, não depende de escolha do jogador.
+- **Steal the Key:** quando a Authority revoga acesso, abre um canal privado por uma hora para obter uma prova auditável. Deixa claro que a decisão e seu risco institucional são **dela**. Não fornece um mandato ao Breaker. Para preservar a prova de forma verificável, assina com sua credencial um `EVIDENCE_RECEIPT` **depois** de CASE TERMINATED; a Authority poderá correlacionar esse ato com a revogação, independentemente de monitorar o canal privado.
+- **Epílogo:** suspensão das credenciais; não transformá-la em evento abstrato, nem recompensar imediatamente a personagem.
 
-<b>Voz:</b> investigadora experiente, precisa, pouco inclinada a discursos. Deve questionar a procedência da evidência, não repetir o que o terminal acaba de mostrar.
+**Voz:** investigadora experiente, precisa, pouco inclinada a discursos. Deve questionar a procedência da evidência, não repetir o que o terminal acaba de mostrar.
 
 No início:
 
-> <b>“O sistema aceitou a transação. Ainda precisamos provar quem tinha direito.”</b>
+> **“O sistema aceitou a transação. Ainda precisamos provar quem tinha direito.”**
 
 Breaker:
 
-> <b>“Aceito pelo sistema não significa explicado.”</b>
+> **“Aceito pelo sistema não significa explicado.”**
 
 Ao longo da Season, Mara preserva evidências que a Authority preferiria encerrar. A mudança é ética e institucional: ela já era competente, mas assume o custo de assinar uma prova quando o mandato foi revogado.
 
 Quando Meridian Authority encerra a investigação:
 
-> <b>“Você tem uma hora.”</b>
+> **“Você tem uma hora.”**
 
 Ela mantém apenas um canal privado e limitado para a coleta de prova, sem renovar a credencial ou o mandato do Breaker. O canal expira antes do Architect.
 
 Custo:
 
-CREDENTIALS: SUSPENDED<br />CASE ACCESS: REVOKED
+CREDENTIALS: SUSPENDED
+CASE ACCESS: REVOKED
 
 Ela não abandona Meridian. Assina um recibo verificável após a revogação, com ID/hash que reaparece na sua suspensão. Aceita responsabilidade por descumprir uma ordem específica sem legitimar todas as ações do Breaker.
 
@@ -79,7 +69,7 @@ Breaker:
 
 Mara:
 
-> <b>“É exatamente por isso que você não deveria.”</b>
+> **“É exatamente por isso que você não deveria.”**
 
 Essa cena define Mara.
 
@@ -87,9 +77,9 @@ Ela não acredita que ter capacidade técnica cria autoridade.
 
 Mais tarde, ao perceber que o Breaker começa a compreender Rhea:
 
-> <b>“Quebrar o procedimento foi uma escolha minha. O custo foi meu.”</b>
+> **“Quebrar o procedimento foi uma escolha minha. O custo foi meu.”**
 
-> <b>“Se você vai fazer o mesmo, descubra antes quem vai pagar o custo da sua escolha.”</b>
+> **“Se você vai fazer o mesmo, descubra antes quem vai pagar o custo da sua escolha.”**
 
 Mara continua acreditando em instituições.
 
@@ -109,11 +99,11 @@ Ela continua presente como referência moral.
 
 Season 1:
 
-<b>Mara abre uma porta que a instituição mandou fechar.</b>
+**Mara abre uma porta que a instituição mandou fechar.**
 
 Season 3:
 
-<b>First Witness fecha uma porta que a instituição manda abrir.</b>
+**First Witness fecha uma porta que a instituição manda abrir.**
 
 A diferença importa:
 
@@ -143,11 +133,11 @@ Guardar o payoff:
 
 Season 1:
 
-> <b>Mara dá acesso ao Breaker.</b>
+> **Mara dá acesso ao Breaker.**
 
 Futuro:
 
-> <b>o Breaker precisará decidir se deve dar acesso à Mara.</b>
+> **o Breaker precisará decidir se deve dar acesso à Mara.**
 
 O teste não será amizade.
 
@@ -160,6 +150,3 @@ A oferta de restaurar credenciais e a recusa acontecem no prólogo de Lumen, ant
 Em Moonlight, a tentativa de contato é abandonada antes do envio, na entrada do Case 01.
 
 Em Quorum, o payoff inverte a Season 1: Mara solicita acesso delimitado ao dossiê da autorização histórica para submetê-lo à revisão institucional. Breaker precisa justificar escopo, finalidade e proteção de terceiros; amizade não basta. Ele concede apenas o material pertinente e registra os limites. Mara não recebe poder sobre CORE nem se torna operadora da Breaker Network.
-</content>
-</page>
-

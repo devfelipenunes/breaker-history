@@ -5,22 +5,7 @@ title: "☣️ 07 — Sector 13"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c56304258134a525e38dc0eba08b as of 2026-11-04T15:35:05.640Z:
-<page url="https://app.notion.com/p/4009c56304258134a525e38dc0eba08b" icon="☣️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"07 — Sector 13"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"☣️"}</iconMetadata>
-<content>
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [07 — Sector 13 — abrir arte no Google Drive](https://drive.google.com/file/d/13-B3F6yTtB3qIqmN0jV_Mqz4n5deUhMO/view)
-</callout>
+**Visual reference:** [07 — Sector 13 — abrir arte no Google Drive](https://drive.google.com/file/d/13-B3F6yTtB3qIqmN0jV_Mqz4n5deUhMO/view)
 
 # Função narrativa
 
@@ -28,7 +13,7 @@ Ser o grande ponto de inversão da Season.
 
 Até aqui, o jogador acredita que está seguindo Aren Voss.
 
-Em Sector 13 ele descobre que <b>também está sendo seguido</b>.
+Em Sector 13 ele descobre que **também está sendo seguido**.
 
 # Situação
 
@@ -36,11 +21,11 @@ Sector 13 abriga um Archive antigo. Milhares de registros inúteis estão sendo 
 
 # Conceito técnico
 
-<b>Contador divergente do armazenamento: entradas duplicadas inflam o contador sem crescer o Archive.</b>
+**Contador divergente do armazenamento: entradas duplicadas inflam o contador sem crescer o Archive.**
 
 # Missão
 
-> <b>Quebre o Archive.</b>
+> **Quebre o Archive.**
 
 # Condição de vitória
 
@@ -50,17 +35,17 @@ Levar o contador a 500 sem armazenar 500 registros únicos e obter o snapshot �
 
 Quando a camada de ruído cai, o jogador encontra uma lista.
 
-Todos os registros pertencem a Breakers. Alguns estão mortos. Alguns desaparecidos. Uma entrada mascarada possui status <b>ACCEPTED</b>. Aren Voss aparece como <b>REFUSED</b>.
+Todos os registros pertencem a Breakers. Alguns estão mortos. Alguns desaparecidos. Uma entrada mascarada possui status **ACCEPTED**. Aren Voss aparece como **REFUSED**.
 
 E a entrada mais recente é o próprio jogador:
 
-> <b>SUBJECT: PLAYER — ACTIVE</b>
+> **SUBJECT: PLAYER — ACTIVE**
 
-O contraste entre <b>ACCEPTED</b>, <b>REFUSED</b> e <b>ACTIVE</b> deve parecer importante sem ser explicado ainda.
+O contraste entre **ACCEPTED**, **REFUSED** e **ACTIVE** deve parecer importante sem ser explicado ainda.
 
 # Próximo passo
 
-A lista inclui referências a uma entidade chamada <b>The Oracle</b>.
+A lista inclui referências a uma entidade chamada **The Oracle**.
 
 # Blueprint técnico e narrativo da fase
 
@@ -70,13 +55,13 @@ Sector 13 parece um cemitério de dados. O Archive local está abarrotado de reg
 
 Voss percebeu que aquilo não era lixo aleatório. O ruído foi criado para tornar uma operação central do Archive impossível.
 
-> <b>Quebre o Archive. Depois veja o que ele estava escondendo.</b>
+> **Quebre o Archive. Depois veja o que ele estava escondendo.**
 
 ## Vulnerabilidade real
 
-<b>Contador e armazenamento medem coisas diferentes (</b><b><code>count</code></b><b> vs </b><b><code>stored</code></b><b>).</b>
+**Contador e armazenamento medem coisas diferentes (**`count`** vs **`stored`**).**
 
-<code>add_records</code> percorre o lote e incrementa <code>count</code> para <b>cada</b> elemento recebido; o Archive só guarda registros únicos num <code>Map</code>, e <code>stored()</code> devolve o tamanho do vetor de únicos. Enviar o mesmo <code>BytesN&lt;32&gt;</code> 500 vezes produz <code>count() == 500</code> e <code>stored() == 1</code>. <code>snapshot()</code> só olha o contador: ao atingir o limite, libera a lista.
+`add_records` percorre o lote e incrementa `count` para **cada** elemento recebido; o Archive só guarda registros únicos num `Map`, e `stored()` devolve o tamanho do vetor de únicos. Enviar o mesmo `BytesN&lt;32&gt;` 500 vezes produz `count() == 500` e `stored() == 1`. `snapshot()` só olha o contador: ao atingir o limite, libera a lista.
 
 ### Contrato vulnerável
 
@@ -100,16 +85,16 @@ pub fn add_records(env: Env, records: Vec<BytesN<32>>) {
 
 ### Exploit esperado
 
-O jogador envia um lote com o mesmo registro repetido 500 vezes. <code>count()</code> chega a 500; <code>stored()</code> permanece 1. <code>snapshot()</code> deixa de recusar por “archive intacto” e devolve a lista, marcando <code>revealed = true</code>. Nenhuma operação de rebuild ou serviço externo participa do caminho.
+O jogador envia um lote com o mesmo registro repetido 500 vezes. `count()` chega a 500; `stored()` permanece 1. `snapshot()` deixa de recusar por “archive intacto” e devolve a lista, marcando `revealed = true`. Nenhuma operação de rebuild ou serviço externo participa do caminho.
 
 ### Condição objetiva de vitória
 
-- <code>count() &gt;= threshold()</code> (500);
-- <code>stored() &lt; threshold()</code> — o Archive não cresceu de verdade;
-- <code>revealed() == true</code>;
-- <code>snapshot()</code> devolve <code>AREN VOSS // REFUSED</code> e <code>SUBJECT: PLAYER // STATUS: ACTIVE</code>.
+- `count() &gt;= threshold()` (500);
+- `stored() &lt; threshold()` — o Archive não cresceu de verdade;
+- `revealed() == true`;
+- `snapshot()` devolve `AREN VOSS // REFUSED` e `SUBJECT: PLAYER // STATUS: ACTIVE`.
 
-Um Archive com 500 registros únicos e <code>stored() == 500</code> <b>não</b> passa: o validador exige a divergência.
+Um Archive com 500 registros únicos e `stored() == 500` **não** passa: o validador exige a divergência.
 
 ## Solução segura
 
@@ -129,21 +114,22 @@ Se o limite for uma política de capacidade, que ele seja verificado explicitame
 
 ## Revelação
 
-O snapshot devolvido por <code>snapshot()</code> contém a lista de Breakers observados pela First Layer. Ele é liberado quando o contador atinge o limite, mesmo que o Archive tenha armazenado um único registro.
+O snapshot devolvido por `snapshot()` contém a lista de Breakers observados pela First Layer. Ele é liberado quando o contador atinge o limite, mesmo que o Archive tenha armazenado um único registro.
 
-Alguns: <b>DECEASED</b>. Outros: <b>MISSING</b>. Voss: <b>REFUSED</b>.
+Alguns: **DECEASED**. Outros: **MISSING**. Voss: **REFUSED**.
 
 A última entrada foi criada recentemente:
 
-> <b>SUBJECT: PLAYER</b><br /><b>STATUS: ACTIVE</b>
+> **SUBJECT: PLAYER**
+**STATUS: ACTIVE**
 
 Agora o jogador sabe que sua chegada não passou despercebida.
 
-A entrada do player foi criada <b>durante a própria investigação</b>. Isso prova que o registry continua ativo e transforma o tom da campanha: o jogador não está apenas descobrindo um sistema antigo; alguma coisa ainda está observando quem consegue atravessá-lo.
+A entrada do player foi criada **durante a própria investigação**. Isso prova que o registry continua ativo e transforma o tom da campanha: o jogador não está apenas descobrindo um sistema antigo; alguma coisa ainda está observando quem consegue atravessá-lo.
 
-A palavra <b>REFUSED</b> também cria a nova pergunta central:
+A palavra **REFUSED** também cria a nova pergunta central:
 
-> <b>O que Voss recusou?</b>
+> **O que Voss recusou?**
 
 ## Referências para implementação
 
@@ -154,9 +140,7 @@ A palavra <b>REFUSED</b> também cria a nova pergunta central:
 
 # Roteiro in-game — Player-facing
 
-<callout icon="🎮" color="red_bg">
 Sector 13 é o ponto de virada da Season: até aqui o jogador acredita que está seguindo Voss; aqui descobre que também está sendo observado.
-</callout>
 
 ## Scene 0 — Arrival
 
@@ -164,15 +148,16 @@ O jogador encontra Sector 13 fora dos mapas oficiais.
 
 A arquitetura é um cemitério de dados ainda em operação.
 
-Painel central:<br /><b>ARCHIVE LOAD: CRITICAL</b>
+Painel central:
+**ARCHIVE LOAD: CRITICAL**
 
 ## Scene 1 — Inciting Evidence
 
-Pista opcional de fair play antes do exploit: <code>UNIQUE RECORDS: DEDUPLICATED</code> e <code>COUNTER: EVERY ENTRY</code>. Não revelar <code>Breaker Registry</code>. O player poderá depois entender por que o contador cresceu sem o Archive crescer.
+Pista opcional de fair play antes do exploit: `UNIQUE RECORDS: DEDUPLICATED` e `COUNTER: EVERY ENTRY`. Não revelar `Breaker Registry`. O player poderá depois entender por que o contador cresceu sem o Archive crescer.
 
 Voss deixou uma única instrução:
 
-> <b>Quebre o Archive.</b>
+> **Quebre o Archive.**
 
 Evidence:
 
@@ -183,13 +168,16 @@ Evidence:
 
 ## Scene 2 — Mission
 
-> <b>QUEBRE O ARCHIVE. VEJA O QUE ELE ESTÁ ESCONDENDO.</b>
+> **QUEBRE O ARCHIVE. VEJA O QUE ELE ESTÁ ESCONDENDO.**
 
 ## Scene 3 — Active Investigation
 
 O jogador pode inserir registros e observar custo/uso crescer.
 
-Terminal:<br /><b>RECORD COUNT</b><br /><b>STORED RECORDS</b><br /><b>THRESHOLD</b>
+Terminal:
+**RECORD COUNT**
+**STORED RECORDS**
+**THRESHOLD**
 
 Nenhuma menção explícita a DoS antes da resolução.
 
@@ -197,15 +185,16 @@ Nenhuma menção explícita a DoS antes da resolução.
 
 Conforme o Archive recebe lotes:
 
-<b>RECORD COUNT ↑</b><br /><b>STORED RECORDS: 1</b>
+**RECORD COUNT ↑**
+**STORED RECORDS: 1**
 
 Mara:
 
-> <b>Você está piorando tudo.</b>
+> **Você está piorando tudo.**
 
 Breaker:
 
-> <b>Esse é o objetivo.</b>
+> **Esse é o objetivo.**
 
 ## Scene 5 — Breach
 
@@ -219,7 +208,8 @@ As telas principais mudam.
 
 Snapshot:
 
-<b>COUNTER AT CAPACITY</b><br /><b>SNAPSHOT RELEASED</b>
+**COUNTER AT CAPACITY**
+**SNAPSHOT RELEASED**
 
 Um snapshot antigo aparece.
 
@@ -227,37 +217,40 @@ Um snapshot antigo aparece.
 
 Lista:
 
-<b>BREAKER REGISTRY</b>
+**BREAKER REGISTRY**
 
 Algumas entradas estão parcialmente corrompidas ou ocultas:
 
-<b>████████ — MISSING</b><br /><b>████████ — ACCEPTED</b><br /><b>████████ — DECEASED</b>
+**████████ — MISSING**
+**████████ — ACCEPTED**
+**████████ — DECEASED**
 
 Então aparece um nome conhecido:
 
-<b>AREN VOSS — REFUSED</b>
+**AREN VOSS — REFUSED**
 
 E logo abaixo:
 
-<b>SUBJECT: \$PLAYER</b><br /><b>STATUS: ACTIVE</b>
+**SUBJECT: \$PLAYER**
+**STATUS: ACTIVE**
 
 Timestamp recente.
 
 Mara:
 
-> <b>Essa entrada foi criada depois que abrimos o caso.</b>
+> **Essa entrada foi criada depois que abrimos o caso.**
 
 O jogador entende: alguém está acompanhando a investigação.
 
 Outra referência:
 
-<b>ORACLE</b>
+**ORACLE**
 
-Antes do debrief, o Breaker OS mostra o contador e o armazenamento: <b>COUNT: 500 / STORED: 1</b>. Mara observa que uma prova de vulnerabilidade não apaga o custo causado a outros operadores. Esta é a única cena pós-exploit; não oferecer opções, flags ou segundo final. A falha ensinada é divergência contador/armazenamento, não corrupção de storage.
+Antes do debrief, o Breaker OS mostra o contador e o armazenamento: **COUNT: 500 / STORED: 1**. Mara observa que uma prova de vulnerabilidade não apaga o custo causado a outros operadores. Esta é a única cena pós-exploit; não oferecer opções, flags ou segundo final. A falha ensinada é divergência contador/armazenamento, não corrupção de storage.
 
 ## Scene 8 — Debrief
 
-<b>VULNERABILITY DISCOVERED — COUNTER / STORAGE DIVERGENCE</b>
+**VULNERABILITY DISCOVERED — COUNTER / STORAGE DIVERGENCE**
 
 Explicar que o contador somou entradas que o Archive não armazenou.
 
@@ -267,28 +260,26 @@ Pela primeira vez, a próxima pista não vem de Voss.
 
 Ela vem do sistema que observa Breakers.
 
-Unlock:<br /><b>CASE 08 — THE ORACLE</b>
+Unlock:
+**CASE 08 — THE ORACLE**
 
 ## Ajuste de roteiro v2 — a revelação vem do snapshot
 
-O Archive aceita um lote de registros e conta cada entrada, mas armazena só as únicas. Enviar o mesmo registro em massa leva <code>count()</code> a 500 com <code>stored()</code> em 1; nesse estado, <code>snapshot()</code> libera a lista. <b>A falha principal é a divergência entre contador e armazenamento</b>. A consequência narrativa é única: o snapshot expõe o Registry; o Breaker lê a lista e Mara confronta o custo de ter inflado o Archive. Não criar reações ramificadas de Mara, modos morais de recuperação ou finais diferentes.
+O Archive aceita um lote de registros e conta cada entrada, mas armazena só as únicas. Enviar o mesmo registro em massa leva `count()` a 500 com `stored()` em 1; nesse estado, `snapshot()` libera a lista. **A falha principal é a divergência entre contador e armazenamento**. A consequência narrativa é única: o snapshot expõe o Registry; o Breaker lê a lista e Mara confronta o custo de ter inflado o Archive. Não criar reações ramificadas de Mara, modos morais de recuperação ou finais diferentes.
 
-Pistas preparatórias: <code>count()</code> vs <code>stored()</code>; entradas repetidas no histórico; o limite de 500. Não revelar o Registry antes do breach.
+Pistas preparatórias: `count()` vs `stored()`; entradas repetidas no histórico; o limite de 500. Não revelar o Registry antes do breach.
 
 ## Pista histórica vigente — S13 / SNAPSHOT (v1.4)
 
-Após a falha reproduzível, o contador atinge o limite e o contrato libera <code>S13 / SNAPSHOT</code>. Não há indexador externo nem fallback: o snapshot é uma função do contrato e não contém <code>share_c</code> nem segredos da instância final.
+Após a falha reproduzível, o contador atinge o limite e o contrato libera `S13 / SNAPSHOT`. Não há indexador externo nem fallback: o snapshot é uma função do contrato e não contém `share_c` nem segredos da instância final.
 
-<b>Contrato de implementação vigente:</b> o verificador exige <code>count() &gt;= threshold()</code>, <code>stored() &lt; threshold()</code> e <code>revealed() == true</code>. Persistir o snapshot e o estado na Evidence Locker depois do verifier, sem segunda vulnerabilidade. O jogador deve ver VOSS REFUSED, a identidade ACCEPTED mascarada e depois PLAYER ACTIVE, com data de criação posterior à abertura da investigação; a hipótese de Voss sobre acesso externo é refutada. Parar pressão adicional após obter prova. O Final Boss deriva suas shares públicas de 32 bytes do contexto da instância atual (manifesto/rede/instância/carteira/índice) e as verifica por commitment; não usa share\_c antiga ou senha baseada nos nomes dos lugares.
+**Contrato de implementação vigente:** o verificador exige `count() &gt;= threshold()`, `stored() &lt; threshold()` e `revealed() == true`. Persistir o snapshot e o estado na Evidence Locker depois do verifier, sem segunda vulnerabilidade. O jogador deve ver VOSS REFUSED, a identidade ACCEPTED mascarada e depois PLAYER ACTIVE, com data de criação posterior à abertura da investigação; a hipótese de Voss sobre acesso externo é refutada. Parar pressão adicional após obter prova. O Final Boss deriva suas shares públicas de 32 bytes do contexto da instância atual (manifesto/rede/instância/carteira/índice) e as verifica por commitment; não usa share\_c antiga ou senha baseada nos nomes dos lugares.
 
-Payoff obrigatório no Final Boss: <mention url="https://app.notion.com/p/4039c56304258137ae19e8787acc1d1f" />.
+Payoff obrigatório no Final Boss: [VOSS PROTOCOL — Níveis 11/12 | Especificação vigente](voss-protocol-niveis-11-12-especificacao-vigente.md).
 
 ## Easter Eggs — proposta técnica/visual (não canônica)
 
-- <mention url="https://app.notion.com/p/40e9c56304258178a8b2ed371a8cdeb4" />: etiqueta opcional de exportação histórica ou pipeline de observabilidade ao lado do indexador, sem mudar a lógica do snapshot externo do Case 07.
-- <b>HORIZON / LEGACY FEED</b>: rodapé opcional de uma API de consulta histórica; não afirmar que Horizon, Galexie ou o ledger carregam dados privados do Registry.
+- [GALEXIE / MIRROR 13](../references/galexie-mirror-13.md): etiqueta opcional de exportação histórica ou pipeline de observabilidade ao lado do indexador, sem mudar a lógica do snapshot externo do Case 07.
+- **HORIZON / LEGACY FEED**: rodapé opcional de uma API de consulta histórica; não afirmar que Horizon, Galexie ou o ledger carregam dados privados do Registry.
 
-<b>Gate:</b> o fallback e a revelação PLAYER ACTIVE permanecem sujeitos à prova e ao momento do roteiro locked; sem antecipação em imagens. Ver <mention url="https://app.notion.com/p/2b1d33190ac446bfaea34e7a4db74d92" />.
-</content>
-</page>
-
+**Gate:** o fallback e a revelação PLAYER ACTIVE permanecem sujeitos à prova e ao momento do roteiro locked; sem antecipação em imagens. Ver [Catálogo de Referências — Season 1](../../../../../databases/season-01-reference-catalog.txt).

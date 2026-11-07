@@ -5,21 +5,7 @@ title: "Curadoria Stellar — lote 1 Season 1"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40f9c563042581c7932fe5b0848bdd22 as of 2026-11-05T13:43:57.210Z:
-<page url="https://app.notion.com/p/40f9c563042581c7932fe5b0848bdd22">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"Curadoria Stellar — lote 1 Season 1"}
-</properties>
-<iconMetadata>null</iconMetadata>
-<content>
-<callout icon="🧭" color="blue_bg">
 Estado: lote 1 implementado — 05/11/2026. A aplicação foi validada em PT-BR/EN e não altera o roteiro locked v1.4, os desafios, nem o status canônico de Meridian.
-</callout>
 
 ## Critério de escolha
 
@@ -62,11 +48,11 @@ Os personagens fictícios permanecem sem renomeação: BREAKER, Mara Vale, Aren 
 
 | Ordem | Referência | Arquivo / superfície | Mudança planejada | O que não muda |
 | --- | --- | --- | --- | --- |
-| 1 | O Foguete Esquecido | <code>frontend/public/images/levels/homepage.webp</code> | Mural de foguete gasto e pequeno em Lower Meridian, integrado à arquitetura. | Sem novo hotspot, rótulo ou texto da home. |
-| 1 | Quest Terminal / First Light | <code>homepage.webp</code> | Um único terminal secundário no Soroban District, tratado como cenário distante. | Não cria minijogo, app, card ou missão. |
-| 2 | XDR Lab / Inspector | <code>frontend/src/levels/narrative/01.json</code>, documento <code>01-document-1</code> | Reforçar que a trilha preserva estrutura de consulta e eventos de serviço; o conteúdo continua opcional dentro de Evidências/Arquivos. | Sem nova aba, console falso ou alteração das dicas de autorização. |
-| 3 | Galexie / Mirror 13 | <code>frontend/public/images/levels/07.png</code>, documento <code>07-document-1</code> | Parede de monitores distante e uma única referência visual de exportação/índice de registros; o documento esclarece que índice não prova autoria nem armazena arquivos privados. | Não muda a mecânica de overflow, os valores, as dicas ou a tese do caso. |
-| 3 | Stellar Machine / Flow Wall | <code>07.png</code> | Linguagem visual do mesmo conjunto de monitores: fluxo abstrato de operações, sem texto pequeno ou dados alegadamente reais. | Não vira terminal interativo nem uma segunda referência concorrente. |
+| 1 | O Foguete Esquecido | `frontend/public/images/levels/homepage.webp` | Mural de foguete gasto e pequeno em Lower Meridian, integrado à arquitetura. | Sem novo hotspot, rótulo ou texto da home. |
+| 1 | Quest Terminal / First Light | `homepage.webp` | Um único terminal secundário no Soroban District, tratado como cenário distante. | Não cria minijogo, app, card ou missão. |
+| 2 | XDR Lab / Inspector | `frontend/src/levels/narrative/01.json`, documento `01-document-1` | Reforçar que a trilha preserva estrutura de consulta e eventos de serviço; o conteúdo continua opcional dentro de Evidências/Arquivos. | Sem nova aba, console falso ou alteração das dicas de autorização. |
+| 3 | Galexie / Mirror 13 | `frontend/public/images/levels/07.png`, documento `07-document-1` | Parede de monitores distante e uma única referência visual de exportação/índice de registros; o documento esclarece que índice não prova autoria nem armazena arquivos privados. | Não muda a mecânica de overflow, os valores, as dicas ou a tese do caso. |
+| 3 | Stellar Machine / Flow Wall | `07.png` | Linguagem visual do mesmo conjunto de monitores: fluxo abstrato de operações, sem texto pequeno ou dados alegadamente reais. | Não vira terminal interativo nem uma segunda referência concorrente. |
 
 ## Regras de redação
 
@@ -83,6 +69,3 @@ Os personagens fictícios permanecem sem renomeação: BREAKER, Mara Vale, Aren 
 4. Validar em PT-BR/EN, contraste/legibilidade, narrativa sem spoiler e guardas do manifesto.
 
 Mazières Hall, Weller Workshop, Kim Commons e McCaleb Passage ficam fora deste lote: aguardam uma futura revisão maior do mapa, para não sobrecarregar a primeira imagem de Meridian.
-</content>
-</page>
-

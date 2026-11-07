@@ -5,19 +5,6 @@ title: "⛔ 04 — The Denied"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581f59e4fd18a997c36e2 as of 2026-11-03T00:06:46.194Z:
-<page url="https://app.notion.com/p/4019c563042581f59e4fd18a997c36e2" icon="⛔">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581a2a331e66548c30494" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"04 — The Denied"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"⛔"}</iconMetadata>
-<content>
 # Story
 
 O Association Set Provider de Moonlight passou por uma troca administrativa.
@@ -32,11 +19,11 @@ A entidade antiga ainda consegue aceitar a transferência e controlar allow/bloc
 
 # Mission
 
-> <b>Assuma uma autoridade que a cidade acredita ter revogado.</b>
+> **Assuma uma autoridade que a cidade acredita ter revogado.**
 
 # Canonical Vulnerability
 
-<b>Stale Pending Admin — </b><b><code>stale_pending_admin</code></b><b>.</b>
+**Stale Pending Admin — **`stale_pending_admin`**.**
 
 # Learning
 
@@ -63,35 +50,33 @@ The First Witness encontra sua posição.
 
 Unlock:
 
-<b>BOSS I — THE WITNESS</b>
+**BOSS I — THE WITNESS**
 
 # References
 
-[https://github.com/Veritas-Vaults-Network/soroban-guard-contracts](https://github.com/Veritas-Vaults-Network/soroban-guard-contracts)<br />[https://github.com/NethermindEth/stellar-private-payments](https://github.com/NethermindEth/stellar-private-payments)
+[https://github.com/Veritas-Vaults-Network/soroban-guard-contracts](https://github.com/Veritas-Vaults-Network/soroban-guard-contracts)
+[https://github.com/NethermindEth/stellar-private-payments](https://github.com/NethermindEth/stellar-private-payments)
 
 ## Loop jogável v2 — auditoria de governança e policy histórica
 
-<b>Investigar:</b> comparar eventos e storage do two-step admin transfer: CANCELLED foi emitido, mas pending admin não foi limpo. Conferir policy/association da settlement original, ledger de cancelamento, aceitação indevida e atualização posterior para DENIED.
+**Investigar:** comparar eventos e storage do two-step admin transfer: CANCELLED foi emitido, mas pending admin não foi limpo. Conferir policy/association da settlement original, ledger de cancelamento, aceitação indevida e atualização posterior para DENIED.
 
-<b>Executar:</b> em fixture isolada, aceitar uma transferência supostamente cancelada e demonstrar tomada de controle do Association Set Provider. Não mudar retroativamente a policy histórica.
+**Executar:** em fixture isolada, aceitar uma transferência supostamente cancelada e demonstrar tomada de controle do Association Set Provider. Não mudar retroativamente a policy histórica.
 
-<b>Verifier:</b> aceitar cancelamento somente quando pending state também se torna inacessível; a versão vulnerável aceita o admin cancelado, a segura recusa. Persistir a cronologia com proveniência: <b>settlement legítima na execução; cancelamento anterior à retomada indevida; DENIED posterior à settlement e à retomada</b>, sem impor ordem não definida entre settlement e cancelamento.
+**Verifier:** aceitar cancelamento somente quando pending state também se torna inacessível; a versão vulnerável aceita o admin cancelado, a segura recusa. Persistir a cronologia com proveniência: **settlement legítima na execução; cancelamento anterior à retomada indevida; DENIED posterior à settlement e à retomada**, sem impor ordem não definida entre settlement e cancelamento.
 
-<b>Conseqüência:</b> o player descobre causa plausível e comprovável do DENIED subsequente, mas não tem sender witness suficiente para encerrar a acusação. First Witness o encontra; o boss exige escape e evidência mínima.
+**Conseqüência:** o player descobre causa plausível e comprovável do DENIED subsequente, mas não tem sender witness suficiente para encerrar a acusação. First Witness o encontra; o boss exige escape e evidência mínima.
 
-<b>QA:</b> cronologia consistente; não confundir false profile do Case 03 com o caminho histórico. Apenas consultar o ledger não entrega automaticamente o proof final da settlement.
+**QA:** cronologia consistente; não confundir false profile do Case 03 com o caminho histórico. Apenas consultar o ledger não entrega automaticamente o proof final da settlement.
 
 ## Cena de autoria aprovada — operador de compliance e autoridade cancelada
 
-O Breaker recupera a trilha: evento <code>ADMIN TRANSFER CANCELLED</code>, estado <code>PENDING ADMIN: STILL ACTIVE</code>, aceitação posterior pelo <b>operador institucional encarregado da revisão de risco</b>, e alteração <code>ASSOCIATION: DENIED</code> sobre a rota da garantia devolvida. O operador utilizou procedimento legado por acreditar que seu mandato era válido; a falha do contrato tornou executável aquilo que a instituição havia cancelado.
+O Breaker recupera a trilha: evento `ADMIN TRANSFER CANCELLED`, estado `PENDING ADMIN: STILL ACTIVE`, aceitação posterior pelo **operador institucional encarregado da revisão de risco**, e alteração `ASSOCIATION: DENIED` sobre a rota da garantia devolvida. O operador utilizou procedimento legado por acreditar que seu mandato era válido; a falha do contrato tornou executável aquilo que a instituição havia cancelado.
 
-<b>Causa da reclassificação:</b> alerta pós-crise de Lumen e política emergencial de compliance, sem prova suficiente de fraude da settlement específica. O jogador vê documento de procedimento, assinatura administrativa, timestamp e evento de status. A origem real do DENIED é esta governança, <b>não</b> a possibilidade genérica de falsificar profile do Case 03.
+**Causa da reclassificação:** alerta pós-crise de Lumen e política emergencial de compliance, sem prova suficiente de fraude da settlement específica. O jogador vê documento de procedimento, assinatura administrativa, timestamp e evento de status. A origem real do DENIED é esta governança, **não** a possibilidade genérica de falsificar profile do Case 03.
 
-<b>QA:</b> T\_cancel \< T\_accept \< T\_denied; T\_settlement \< T\_denied. Não impor ordem ainda não confirmada entre cancelamento e settlement. O challenge reproduz revogação incompleta; não exige revelar identidade civil do operador como novo personagem principal.
+**QA:** T\_cancel \< T\_accept \< T\_denied; T\_settlement \< T\_denied. Não impor ordem ainda não confirmada entre cancelamento e settlement. O challenge reproduz revogação incompleta; não exige revelar identidade civil do operador como novo personagem principal.
 
 ## Pistas independentes aprovadas para a descoberta de DENIED
 
-O Breaker cruza <b>(1) o extrato redigido e autenticado</b> entregue por Sera com origem protegida SOURCE E.V.; <b>(2) CANCELLED e PENDING STATE</b> do ledger; <b>(3) evento de aceitação pelo operador institucional e a nova association DENIED</b>. O documento explica a intenção procedimental e o registro institucional; o contrato demonstra a falha de governança. A jornalista não revela o bug em diálogo. A origem pessoal do documento permanece protegida também após o caso.
-</content>
-</page>
-
+O Breaker cruza **(1) o extrato redigido e autenticado** entregue por Sera com origem protegida SOURCE E.V.; **(2) CANCELLED e PENDING STATE** do ledger; **(3) evento de aceitação pelo operador institucional e a nova association DENIED**. O documento explica a intenção procedimental e o registro institucional; o contrato demonstra a falha de governança. A jornalista não revela o bug em diálogo. A origem pessoal do documento permanece protegida também após o caso.

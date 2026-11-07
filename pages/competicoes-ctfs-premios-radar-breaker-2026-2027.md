@@ -5,49 +5,35 @@ title: "🏆 Competições, CTFs & Prêmios — Radar BREAKER 2026–2027"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40d9c563042581cf82f1c7205b0cfa3c as of 2026-11-03T19:30:56.771Z:
-<page url="https://app.notion.com/p/40d9c563042581cf82f1c7205b0cfa3c" icon="🏆">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"Competições, CTFs & Prêmios — Radar BREAKER 2026–2027"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🏆"}</iconMetadata>
-<content>
-<callout icon="🏆" color="blue_bg">
-<b>Radar de competições, festivais, CTFs e programas para o Breaker.</b> Atualizado em <date start="2026-11-03" />. O Breaker é um <b>CTF narrativo de segurança em smart contracts (Stellar/Soroban)</b>, com elementos de jogo indie e educação. Este documento é um radar de oportunidades — não um registro de inscrições já realizadas.
-</callout>
+**Radar de competições, festivais, CTFs e programas para o Breaker.** Atualizado em `2026-11-03`. O Breaker é um **CTF narrativo de segurança em smart contracts (Stellar/Soroban)**, com elementos de jogo indie e educação. Este documento é um radar de oportunidades — não um registro de inscrições já realizadas.
 
 ## 1. Estratégia de posicionamento
 
-<b>Pitch-base:</b> “Breaker is a narrative hacking game built around real Capture The Flag challenges. Players investigate a fictional world by exploiting controlled vulnerabilities in Stellar/Soroban smart contracts.”
+**Pitch-base:** “Breaker is a narrative hacking game built around real Capture The Flag challenges. Players investigate a fictional world by exploiting controlled vulnerabilities in Stellar/Soroban smart contracts.”
 
 Existem 5 caminhos distintos:
 
-- <b>Inscrever o jogo</b> em premiações de games e serious games.
-- <b>Organizar nosso próprio CTF</b> e pedir divulgação no CTFtime.
-- <b>Propor desafios, villages ou workshops</b> em eventos de segurança (depende de convite/CFP).
-- <b>Participar como competidores</b> em CTFs/auditorias para melhorar a credibilidade técnica (não é inscrição do Breaker como produto).
-- <b>Buscar apoio Web3</b> por meio de grants e hackathons; há exigências diferentes de uma premiação.
+- **Inscrever o jogo** em premiações de games e serious games.
+- **Organizar nosso próprio CTF** e pedir divulgação no CTFtime.
+- **Propor desafios, villages ou workshops** em eventos de segurança (depende de convite/CFP).
+- **Participar como competidores** em CTFs/auditorias para melhorar a credibilidade técnica (não é inscrição do Breaker como produto).
+- **Buscar apoio Web3** por meio de grants e hackathons; há exigências diferentes de uma premiação.
 
 ## 2. Radar prioritário — oportunidades acionáveis
 
 | Oportunidade | Modalidade | Prazo / janela | Situação verificada | Prioridade | Próxima ação |
 | --- | --- | --- | --- | --- | --- |
-| [gamescom latam BIG Festival 2027](https://latam.gamescom.global/pt/big-festival/) | Inscrever jogo indie | <date start="2027-01-15" /> | Inscrições abertas; aceita builds jogáveis incompletas; gratuita | P0 | Produzir build Season 1 + trailer |
-| [Play4Change 2027](https://www.play4change.it/en/play4change-en/) | Jogo/projeto com impacto social | <date start="2026-12-31" /> | Chamada aberta, mas exige vínculo explícito com mudança social | P1 condicional | Demonstrar impacto social, não só ensino técnico |
-| [Stellar Community Fund #46](https://communityfund.stellar.org/awards) | Financiamento Web3, não prêmio de jogos | <date start="2026-11-09" /> | Prazo do ciclo no site; interesse/convite e elegibilidade exigidos | P1 condicional | Avaliar PMF, integração Soroban e requisitos |
-| [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | Game jam de jogo novo | <date start="2026-12-01" /> | Aberta; tema SHIFT; maior parte da implementação deve ocorrer na jam | P2 | Só participar se criarmos spin-off novo |
+| [gamescom latam BIG Festival 2027](https://latam.gamescom.global/pt/big-festival/) | Inscrever jogo indie | `2027-01-15` | Inscrições abertas; aceita builds jogáveis incompletas; gratuita | P0 | Produzir build Season 1 + trailer |
+| [Play4Change 2027](https://www.play4change.it/en/play4change-en/) | Jogo/projeto com impacto social | `2026-12-31` | Chamada aberta, mas exige vínculo explícito com mudança social | P1 condicional | Demonstrar impacto social, não só ensino técnico |
+| [Stellar Community Fund #46](https://communityfund.stellar.org/awards) | Financiamento Web3, não prêmio de jogos | `2026-11-09` | Prazo do ciclo no site; interesse/convite e elegibilidade exigidos | P1 condicional | Avaliar PMF, integração Soroban e requisitos |
+| [GitHub Game Off 2026](https://itch.io/jam/game-off-2026) | Game jam de jogo novo | `2026-12-01` | Aberta; tema SHIFT; maior parte da implementação deve ocorrer na jam | P2 | Só participar se criarmos spin-off novo |
 | [International Serious Play Awards](https://seriousplayconf.com/awards/) | Premiação de jogo educacional | 15 mar (digitais comerciais); confirmar ciclo anual | Organização publica categorias e taxas; prêmio para jogos educacionais | P0 (2027) | Testes de aprendizagem + orçamento de inscrição |
 | [IndieCade](https://www.indiecade.com/submissions/) | Festival indie experimental | Início de 2027, abertura prevista | Inscrições 2026 encerradas; 2027 ainda sem data exata | P0 (2027) | Gameplay demonstrável + statement de inovação |
 | [CTFtime — organizadores](https://ctftime.org/for-organizers/) | Divulgar CTF próprio | Sem prazo fixo | Canal documentado; exige evento de equipes, dados, placar | P0 (iniciativa própria) | Definir Breaker CTF Challenge |
 | [307 Temporary Security Conference](https://307conf.com.br/) | Propor atividade/village | Conferir CFP da edição | Evento de segurança, não concurso de jogos | P1 | Verificar abertura e enviar proposta técnica |
 | [BSides São Paulo](https://securitybsides.com.br/) | Colaboração/CTF | Próxima edição a acompanhar | Prospecção, sem submissão de jogo confirmada | P1 | Contatar organização de CTF |
 
-<callout icon="⚠️" color="yellow_bg">
-<b>Controle de qualidade das informações:</b> P0/P1 são prioridades estratégicas, <b>não probabilidades de aprovação</b>. Prazos e regras devem ser reconfirmados no ato de candidatura. Para propostas de desafios e conferências, marcar “prospecção” até existir CFP ou aceite formal.
-</callout>
+**Controle de qualidade das informações:** P0/P1 são prioridades estratégicas, **não probabilidades de aprovação**. Prazos e regras devem ser reconfirmados no ato de candidatura. Para propostas de desafios e conferências, marcar “prospecção” até existir CFP ou aceite formal.
 
 ## 3. 🎮 Games, arte e narrativa
 
@@ -70,7 +56,7 @@ Existem 5 caminhos distintos:
 
 ## 4. 🔐 CTFs — relacionamento com organizadores e comunidade
 
-<b>Regra:</b> a maioria dessas competições <b>não aceita o Breaker como jogo concorrente</b>. A ação plausível é convidar organizadores a testar desafios, propor colaboração ou participar como equipe. Só chamar “inscrição disponível” quando houver formulário específico.
+**Regra:** a maioria dessas competições **não aceita o Breaker como jogo concorrente**. A ação plausível é convidar organizadores a testar desafios, propor colaboração ou participar como equipe. Só chamar “inscrição disponível” quando houver formulário específico.
 
 | Organizador / competição | Caminho de entrada | Prioridade |
 | --- | --- | --- |
@@ -130,10 +116,10 @@ Existem 5 caminhos distintos:
 
 ## 8. Calendário operacional
 
-- <date start="2026-11-09" /> — SCF #46: triagem de elegibilidade, interesse e viabilidade; prazo muito próximo.
-- <date start="2026-12-01" /> — Game Off 2026: somente se optarmos por projeto novo.
-- <date start="2026-12-31" /> — Play4Change: candidatura condicional ao impacto social.
-- <date start="2027-01-15" /> — <b>BIG Festival: marco principal do primeiro ciclo</b>.
+- `2026-11-09` — SCF #46: triagem de elegibilidade, interesse e viabilidade; prazo muito próximo.
+- `2026-12-01` — Game Off 2026: somente se optarmos por projeto novo.
+- `2026-12-31` — Play4Change: candidatura condicional ao impacto social.
+- `2027-01-15` — **BIG Festival: marco principal do primeiro ciclo**.
 - Início de 2027 — IndieCade: acompanhar abertura oficial.
 - 15 de março — Serious Play, digitais comerciais: reconfirmar o ano/ciclo e preparar provas educacionais.
 - Durante 2027 — CTFtime: edição própria Breaker CTF Challenge, após testes técnicos.
@@ -141,16 +127,16 @@ Existem 5 caminhos distintos:
 
 ## 9. Checklist para tornar a Season 1 competitiva
 
-- [ ] <b>Build funcional e acessível</b> da Season 1, testada sem acompanhamento.
-- [ ] <b>CTF de verdade:</b> desafios isolados, verificadores de flags, soluções reproduzíveis e progressão coerente.
-- [ ] <b>Ambiente seguro:</b> testnet/sandbox, isolamento, rate limiting e mecanismos antiabuso.
-- [ ] <b>UX:</b> onboarding, dificuldade gradual, feedback claro, acessibilidade e telemetria.
-- [ ] <b>Material de inscrição:</b> trailer de gameplay, screenshots, descrição PT/EN, press kit.
-- [ ] <b>Prova educacional:</b> objetivos de aprendizagem, pré/pós-teste, métricas de conclusão.
-- [ ] <b>Validação externa:</b> sessões com jogadores e revisão técnica de pesquisadores de Soroban.
-- [ ] <b>Jurídico e direitos:</b> titularidade do jogo, uso de assets, termos e privacidade.
-- [ ] <b>Operação:</b> hospedagem estável e servidores disponíveis durante avaliação.
-- [ ] <b>Estratégia:</b> separar candidatura a prêmio, grant, organização de CTF e parceria em conferência.
+- [ ] **Build funcional e acessível** da Season 1, testada sem acompanhamento.
+- [ ] **CTF de verdade:** desafios isolados, verificadores de flags, soluções reproduzíveis e progressão coerente.
+- [ ] **Ambiente seguro:** testnet/sandbox, isolamento, rate limiting e mecanismos antiabuso.
+- [ ] **UX:** onboarding, dificuldade gradual, feedback claro, acessibilidade e telemetria.
+- [ ] **Material de inscrição:** trailer de gameplay, screenshots, descrição PT/EN, press kit.
+- [ ] **Prova educacional:** objetivos de aprendizagem, pré/pós-teste, métricas de conclusão.
+- [ ] **Validação externa:** sessões com jogadores e revisão técnica de pesquisadores de Soroban.
+- [ ] **Jurídico e direitos:** titularidade do jogo, uso de assets, termos e privacidade.
+- [ ] **Operação:** hospedagem estável e servidores disponíveis durante avaliação.
+- [ ] **Estratégia:** separar candidatura a prêmio, grant, organização de CTF e parceria em conferência.
 
 ### Entregáveis específicos do BIG Festival
 
@@ -158,11 +144,11 @@ Segundo o [regulamento oficial](https://latam.gamescom.global/pt/regulamento-big
 
 ### Critérios para escolher onde investir
 
-Avaliar cada oportunidade de 0–5 para: (1) elegibilidade real; (2) aderência ao CTF; (3) aderência à narrativa; (4) divulgação para jogadores; (5) reputação na segurança; (6) esforço/custo. <b>Bloqueio absoluto:</b> se não houver elegibilidade ou via de submissão, manter como prospecção, não como inscrição.
+Avaliar cada oportunidade de 0–5 para: (1) elegibilidade real; (2) aderência ao CTF; (3) aderência à narrativa; (4) divulgação para jogadores; (5) reputação na segurança; (6) esforço/custo. **Bloqueio absoluto:** se não houver elegibilidade ou via de submissão, manter como prospecção, não como inscrição.
 
 ## 10. Conceito proposto: Breaker CTF Challenge
 
-<b>Hipótese, ainda não evento lançado.</b>
+**Hipótese, ainda não evento lançado.**
 
 - Experiência web independente baseada em desafios originais de Soroban e no universo Breaker.
 - Formato inicial sugerido: equipes, 48 horas, estilo jeopardy, níveis introdutório/intermediário/avançado.
@@ -180,7 +166,7 @@ Avaliar cada oportunidade de 0–5 para: (1) elegibilidade real; (2) aderência 
 - [SCF — Build Awards](https://communityfund.stellar.org/awards).
 - [Game Off 2026 — regras do organizador](https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/).
 
-<b>Nota editorial:</b> este é um radar amplo de possibilidades, não uma comprovação de inscrição aberta para todos os nomes. Revalidar links, prazos, custos e aceitação de submissões externas antes de tomar decisões financeiras ou anunciar participação.
+**Nota editorial:** este é um radar amplo de possibilidades, não uma comprovação de inscrição aberta para todos os nomes. Revalidar links, prazos, custos e aceitação de submissões externas antes de tomar decisões financeiras ou anunciar participação.
 
 ## 12. Próximos passos sugeridos
 
@@ -190,6 +176,3 @@ Avaliar cada oportunidade de 0–5 para: (1) elegibilidade real; (2) aderência 
 4. Criar um piloto do Breaker CTF Challenge com pequenas equipes; posteriormente solicitar inclusão no CTFtime.
 5. Preparar um one-pager técnico para abordagem de BSides, CCTF, comunidades Stellar e conferências.
 6. Revisar este radar quinzenalmente até janeiro de 2027 e atualizar o status real de cada candidatura.
-</content>
-</page>
-

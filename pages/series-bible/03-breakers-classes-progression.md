@@ -5,36 +5,26 @@ title: "🗡️ 03 — Breakers, Classes & Progression"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c56304258123bd93c9aebf9518f6 as of 2026-11-03T00:03:13.344Z:
-<page url="https://app.notion.com/p/4009c56304258123bd93c9aebf9518f6" icon="🗡️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"03 — Breakers, Classes & Progression"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🗡️"}</iconMetadata>
-<content>
 # Antes da Sequence
 
-O protagonista começa como <b>Independent Contract Auditor</b>.
+O protagonista começa como **Independent Contract Auditor**.
 
 Ele já possui conhecimento técnico suficiente para investigar contratos, mas ainda não possui reconhecimento formal como Breaker dentro da estrutura do Architect.
 
-A identidade <b>Breaker</b> é conquistada narrativamente ao fim da Season 1.
+A identidade **Breaker** é conquistada narrativamente ao fim da Season 1.
 
 # Reconhecimento
 
 Depois de The Architect:
 
-SEQUENCE 01 COMPLETE<br />SUBJECT: QUALIFIED<br />STATUS: PROVISIONAL<br />BREAKER RECOGNITION: GRANTED
+SEQUENCE 01 COMPLETE
+SUBJECT: QUALIFIED
+STATUS: PROVISIONAL
+BREAKER RECOGNITION: GRANTED
 
 Somente a partir daí o perfil pode usar títulos e Paths de Breaker.
 
-<callout icon="⚖️" color="gray_bg">
-<b>Regra:</b> Paths são cosméticos. Nenhum Path dá vantagem, hint extra ou bônus que afete ranking.
-</callout>
+**Regra:** Paths são cosméticos. Nenhum Path dá vantagem, hint extra ou bônus que afete ranking.
 
 # Paths
 
@@ -100,17 +90,17 @@ Antes do reconhecimento como Breaker, o perfil usa a identidade civil/profission
 
 Exemplo durante Season 1:
 
-<b>INDEPENDENT CONTRACT AUDITOR — LEVEL 7</b>
+**INDEPENDENT CONTRACT AUDITOR — LEVEL 7**
 
 Depois da Sequence:
 
-<b>VOID BREAKER — LEVEL 12</b>
+**VOID BREAKER — LEVEL 12**
 
 # Breaker Profile
 
-O perfil combina progressão cosmética com um <b>Breaker Profile narrativo</b>.
+O perfil combina progressão cosmética com um **Breaker Profile narrativo**.
 
-O Ato I possui <b>uma única trajetória narrativa canônica</b>, sem escolhas morais selecionáveis, ramificações de relacionamento ou motivações alternativas atribuídas ao jogador. O Breaker Profile registra <b>fatos verificáveis, ações técnicas e consequências</b>, não opções que o jogador nunca recebeu.
+O Ato I possui **uma única trajetória narrativa canônica**, sem escolhas morais selecionáveis, ramificações de relacionamento ou motivações alternativas atribuídas ao jogador. O Breaker Profile registra **fatos verificáveis, ações técnicas e consequências**, não opções que o jogador nunca recebeu.
 
 Registros aprovados:
 
@@ -127,11 +117,8 @@ O jogador pode utilizar diferentes estratégias técnicas válidas e escolher a 
 
 ACTIVE, QUALIFIED, PROVISIONAL, ACCEPTED, REFUSED e MISSING são classificações do Breaker Registry.
 
-Eles <b>não</b> são títulos cosméticos.
+Eles **não** são títulos cosméticos.
 
 Especialmente:
 
-> <b>ACCEPTED não é uma recompensa estética. É uma interpretação do Architect sobre uma decisão do jogador.</b>
-</content>
-</page>
-
+> **ACCEPTED não é uma recompensa estética. É uma interpretação do Architect sobre uma decisão do jogador.**

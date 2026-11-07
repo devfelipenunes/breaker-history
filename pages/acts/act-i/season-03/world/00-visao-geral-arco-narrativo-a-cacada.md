@@ -5,33 +5,25 @@ title: "🎬 00 — Visão Geral & Arco Narrativo — A Caçada"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581b0aefecb88a7881926 as of 2026-11-03T00:00:56.267Z:
-<page url="https://app.notion.com/p/4019c563042581b0aefecb88a7881926" icon="🎬">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"00 — Visão Geral & Arco Narrativo — A Caçada"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🎬"}</iconMetadata>
-<content>
 # Premissa central
 
 O Breaker chega a Moonlight para rastrear a devolução de sua parcela de uma garantia operacional temporária utilizada na contenção de The Cascade. Rhea foi a sender responsável por liquidar essa devolução; o Breaker é o recipient legítimo. A operação é válida na policy histórica, mas a association passa a DENIED depois, por retomada indevida de autoridade.
 
-Ele chega como <b>ACCEPTED</b>.
+Ele chega como **ACCEPTED**.
 
 Na entrada:
 
-PRIVATE SETTLEMENT DETECTED<br />RECIPIENT: BREAKER<br />AMOUNT: HIDDEN<br />ASSOCIATION: DENIED<br />PROOF: VALID
+PRIVATE SETTLEMENT DETECTED
+RECIPIENT: BREAKER
+AMOUNT: HIDDEN
+ASSOCIATION: DENIED
+PROOF: VALID
 
 A Witness Spire exige acesso amplo.
 
 First Witness:
 
-> <b>“Precisamos da sua chave de visualização.”</b>
+> **“Precisamos da sua chave de visualização.”**
 
 Breaker:
 
@@ -39,11 +31,14 @@ Breaker:
 
 First Witness:
 
-> <b>“Para tudo.”</b>
+> **“Para tudo.”**
 
 Ele recusa.
 
-DISCLOSURE REQUEST: DENIED<br />SUBJECT: BREAKER<br />STATUS: NON-COMPLIANT<br />WITNESS ORDER ISSUED
+DISCLOSURE REQUEST: DENIED
+SUBJECT: BREAKER
+STATUS: NON-COMPLIANT
+WITNESS ORDER ISSUED
 
 # Ato I — Marcado
 
@@ -51,7 +46,7 @@ A Witness Spire começa a reconstruir a trajetória do Breaker.
 
 O jogador vive o outro lado da lógica que acabou de usar em Lumen:
 
-> <b>situações excepcionais justificam autoridade excepcional?</b>
+> **situações excepcionais justificam autoridade excepcional?**
 
 Agora ele é o objeto dessa exceção.
 
@@ -59,13 +54,14 @@ Agora ele é o objeto dessa exceção.
 
 A prova está dividida:
 
-SENDER WITNESS: RHEA<br />RECIPIENT WITNESS: BREAKER
+SENDER WITNESS: RHEA
+RECIPIENT WITNESS: BREAKER
 
 Nenhum dos dois consegue produzir sozinho a prova completa com disclosure proporcional.
 
 Rhea:
 
-> <b>“Você não consegue limpar seu nome sem mim.”</b>
+> **“Você não consegue limpar seu nome sem mim.”**
 
 Breaker:
 
@@ -73,7 +69,7 @@ Breaker:
 
 Rhea:
 
-> <b>“Eu sei.”</b>
+> **“Eu sei.”**
 
 Eles são obrigados a trabalhar juntos.
 
@@ -89,7 +85,7 @@ Depois de Lumen, ela já entende que publicar informação também produz conseq
 
 Sua posição agora é:
 
-> <b>accountability sem exposição indiscriminada.</b>
+> **accountability sem exposição indiscriminada.**
 
 Uma fonte permanece identificada apenas como:
 
@@ -105,7 +101,7 @@ Por isso a recusa do Breaker parece suspeita.
 
 No início:
 
-> <b>“Você não decide o que eu preciso.”</b>
+> **“Você não decide o que eu preciso.”**
 
 # A perseguição
 
@@ -125,7 +121,7 @@ O Breaker aprende que privacy de conteúdo não elimina inferência.
 
 Rhea e Breaker passam a dividir informação e risco porque nenhum dos dois consegue avançar sozinho.
 
-Eles começam a confiar <b>de verdade na competência e na proteção recíproca</b>. Rhea entrega material que poderia reter e assume risco próprio; o Breaker também a protege quando seria mais fácil recuar. Essa confiança é sincera: nenhum dos dois planeja trair o outro. Continuam divergindo filosoficamente.
+Eles começam a confiar **de verdade na competência e na proteção recíproca**. Rhea entrega material que poderia reter e assume risco próprio; o Breaker também a protege quando seria mais fácil recuar. Essa confiança é sincera: nenhum dos dois planeja trair o outro. Continuam divergindo filosoficamente.
 
 # Rhea quer ir longe demais
 
@@ -135,7 +131,7 @@ Para ela, um mecanismo com esse poder será abusado outra vez.
 
 Breaker se opõe.
 
-> <b>“Você consegue quebrar isso. Não significa que deve.”</b>
+> **“Você consegue quebrar isso. Não significa que deve.”**
 
 Essa é a inversão de Lumen.
 
@@ -149,7 +145,13 @@ Porque passou a reconhecer que capacidade e legitimidade não são a mesma coisa
 
 Antes do Final:
 
-ARCHITECT<br />SUBJECT: BREAKER<br />OBSERVATION CONFIDENCE: 81%<br />54%<br />19%<br />...<br />SIGNAL LOST
+ARCHITECT
+SUBJECT: BREAKER
+OBSERVATION CONFIDENCE: 81%
+54%
+19%
+...
+SIGNAL LOST
 
 STATUS: MISSING
 
@@ -167,11 +169,15 @@ SOURCE E.V. → ELI VENN
 
 A missão:
 
-> <b>PROVE SUA INOCÊNCIA SEM REVELAR A CIDADE.</b>
+> **PROVE SUA INOCÊNCIA SEM REVELAR A CIDADE.**
 
 Resultado:
 
-CLAIM: ORIGINAL SETTLEMENT COMPLIED AT EXECUTION<br />POLICY AT EXECUTION: SATISFIED<br />ASSOCIATION DENIED: SUBSEQUENT CHANGE<br />PROOF PACKAGE: VALID<br />DISCLOSURE: CLAIMS AND NECESSARY ANCHORS ONLY
+CLAIM: ORIGINAL SETTLEMENT COMPLIED AT EXECUTION
+POLICY AT EXECUTION: SATISFIED
+ASSOCIATION DENIED: SUBSEQUENT CHANGE
+PROOF PACKAGE: VALID
+DISCLOSURE: CLAIMS AND NECESSARY ANCHORS ONLY
 
 O sistema ainda exige:
 
@@ -179,47 +185,49 @@ FULL DISCLOSURE: REQUIRED
 
 First Witness decide:
 
-> <b>“A prova é suficiente.”</b>
+> **“A prova é suficiente.”**
 
-WITNESS ORDER: CLOSED<br />FULL DISCLOSURE: DENIED
+WITNESS ORDER: CLOSED
+FULL DISCLOSURE: DENIED
 
-<b>Esta vitória é real.</b> O settlement foi legítimo na execução; a acusação de Moonlight se encerrou. Isso não decide uma apuração independente sobre a intervenção emergencial de Lumen.
+**Esta vitória é real.** O settlement foi legítimo na execução; a acusação de Moonlight se encerrou. Isso não decide uma apuração independente sobre a intervenção emergencial de Lumen.
 
 # Encerramento — O Sétimo
 
-Após a absolvição, Rhea recebe a exigência final de uma <b>apuração institucional separada de Lumen</b>: a identificação comprovável do operador de Emergency Authority pode impedir uma investigação de correlação muito mais ampla, mas expõe a pessoa que interveio. Rhea tenta uma via de prova não nominativa; a autoridade competente não a aceita como atribuição individual. Ela decide entregar uma atestação verdadeira do vínculo entre a conta de Lumen e a credencial intercity do Breaker, obtido legitimamente quando começaram a confiar um no outro. <b>Não consultou o Breaker. Não tomou a decisão antes.</b>
+Após a absolvição, Rhea recebe a exigência final de uma **apuração institucional separada de Lumen**: a identificação comprovável do operador de Emergency Authority pode impedir uma investigação de correlação muito mais ampla, mas expõe a pessoa que interveio. Rhea tenta uma via de prova não nominativa; a autoridade competente não a aceita como atribuição individual. Ela decide entregar uma atestação verdadeira do vínculo entre a conta de Lumen e a credencial intercity do Breaker, obtido legitimamente quando começaram a confiar um no outro. **Não consultou o Breaker. Não tomou a decisão antes.**
 
-MOONLIGHT CASE: CLOSED<br />LUMEN ATTRIBUTION: VERIFIED<br />SOURCE: RHEA KESTREL<br />INTERCITY OPERATOR ACCESS: SUSPENDED PENDING REVIEW
+MOONLIGHT CASE: CLOSED
+LUMEN ATTRIBUTION: VERIFIED
+SOURCE: RHEA KESTREL
+INTERCITY OPERATOR ACCESS: SUSPENDED PENDING REVIEW
 
-Isso <b>não</b> apaga a carteira, congela fundos ou invalida a absolvição de Moonlight. A perda é institucional e pessoal: seu acesso entre cidades é suspenso, sua identidade histórica é atribuída e aproximar-se de Mara voltaria a expô-la. A traição é uma escolha de disclosure, não exploração criptográfica.
+Isso **não** apaga a carteira, congela fundos ou invalida a absolvição de Moonlight. A perda é institucional e pessoal: seu acesso entre cidades é suspenso, sua identidade histórica é atribuída e aproximar-se de Mara voltaria a expô-la. A traição é uma escolha de disclosure, não exploração criptográfica.
 
 O Breaker descobre a origem e confronta Rhea: “Em Lumen você sacrificou um mercado para salvar seis. Dessa vez o sétimo fui eu.” Ela admite a escolha sem invocar ordens do Architect.
 
-BREAKER ACTION LOG<br />RESTORE OBSERVABILITY: NO
+BREAKER ACTION LOG
+RESTORE OBSERVABILITY: NO
 
-<b>Decisão fixa do personagem, não menu de escolha jogável.</b>
+**Decisão fixa do personagem, não menu de escolha jogável.**
 
 STATUS: MISSING
 
-O Breaker usa a privacidade que aprendeu a compor para continuar livre. O status MISSING descreve <b>a impossibilidade de rastrear sua trajetória futura</b>, embora a ação passada de Lumen tenha sido atribuída. O caminho para Horizon/Galexie continua sendo reconstruir Voss pelo passado; agora também há um dossiê de Lumen com custo pessoal que segue o protagonista.
+O Breaker usa a privacidade que aprendeu a compor para continuar livre. O status MISSING descreve **a impossibilidade de rastrear sua trajetória futura**, embora a ação passada de Lumen tenha sido atribuída. O caminho para Horizon/Galexie continua sendo reconstruir Voss pelo passado; agora também há um dossiê de Lumen com custo pessoal que segue o protagonista.
 
 Rhea continua rival após ter sido alguém em quem Breaker confiou. Sera e First Witness seguem independentes. O Act I termina sem absolver Rhea moralmente nem reduzir privacy a ocultação universal.
 
-<mention url="https://app.notion.com/p/4029c56304258153a677d79433eb2a70" />.
+[07 — O Sétimo | Rhea × Breaker — Virada canônica do Act I](07-o-setimo-rhea-breaker-virada-canonica-do-act-i.md).
 
 # Continuidade aprovada — settlement, acusação e prova mínima
 
-<b>O que levou o Breaker a Moonlight:</b> a settlement recebida é a devolução de garantia temporária aportada pela sua posição na Cascade. Rhea é sender no fluxo de custódia autorizado; Breaker é recipient. Ao auditar o retorno, encontra o status DENIED posterior e descobre uma investigação ampliada.
+**O que levou o Breaker a Moonlight:** a settlement recebida é a devolução de garantia temporária aportada pela sua posição na Cascade. Rhea é sender no fluxo de custódia autorizado; Breaker é recipient. Ao auditar o retorno, encontra o status DENIED posterior e descobre uma investigação ampliada.
 
-<b>Por que o Witness pede tudo:</b> regra excepcional de compliance disparada por DENIED atual + operações correlacionadas por metadados. First Witness aplica a regra de boa-fé, sem ter demonstrado relação ilícita ampla. Ele deve descobrir no Final que acesso a tudo seria desproporcional.
+**Por que o Witness pede tudo:** regra excepcional de compliance disparada por DENIED atual + operações correlacionadas por metadados. First Witness aplica a regra de boa-fé, sem ter demonstrado relação ilícita ampla. Ele deve descobrir no Final que acesso a tudo seria desproporcional.
 
-<b>Quem marcou DENIED:</b> funcionário de compliance usa autoridade legada tecnicamente retomada por pending admin não limpo, e atualiza association sob política pós-Lumen. Não é sabotagem secreta nem motivo para retroagir policy da settlement.
+**Quem marcou DENIED:** funcionário de compliance usa autoridade legada tecnicamente retomada por pending admin não limpo, e atualiza association sob política pós-Lumen. Não é sabotagem secreta nem motivo para retroagir policy da settlement.
 
-<b>Como a prova se completa:</b> recipient e identidade institucional do beneficiário parecem não coincidir; o Breaker compartilha com Rhea uma atestação de associação limitada à settlement. Antes de se separar e ficar MISSING, recebe dela sender witness autenticado. Na sessão física da Spire, prova a própria identidade processual sem fornecer rota atual completa.
+**Como a prova se completa:** recipient e identidade institucional do beneficiário parecem não coincidir; o Breaker compartilha com Rhea uma atestação de associação limitada à settlement. Antes de se separar e ficar MISSING, recebe dela sender witness autenticado. Na sessão física da Spire, prova a própria identidade processual sem fornecer rota atual completa.
 
-<b>O custo humano:</b> Sera usa envelope jornalístico protegido com provenance de SOURCE E.V. Full disclosure da rede de evidências poderia identificar Eli Venn; proof mínima não inclui esse envelope. A decisão do First Witness é proporcional, não um convencimento sentimental sem evidências.
+**O custo humano:** Sera usa envelope jornalístico protegido com provenance de SOURCE E.V. Full disclosure da rede de evidências poderia identificar Eli Venn; proof mínima não inclui esse envelope. A decisão do First Witness é proporcional, não um convencimento sentimental sem evidências.
 
-<b>Desfecho inalterado:</b> WITNESS ORDER CLOSED; depois, e somente depois, Rhea decide divulgar atribuição verdadeira da intervenção de Lumen a outra autoridade, suspendendo a credencial intercity do Breaker. Não desativa wallet e não torna falsa a sentença de Moonlight.
-</content>
-</page>
-
+**Desfecho inalterado:** WITNESS ORDER CLOSED; depois, e somente depois, Rhea decide divulgar atribuição verdadeira da intervenção de Lumen a outra autoridade, suspendendo a credencial intercity do Breaker. Não desativa wallet e não torna falsa a sentença de Moonlight.

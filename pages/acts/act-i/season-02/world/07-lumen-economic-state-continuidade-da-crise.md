@@ -5,29 +5,15 @@ title: "📊 07 — Lumen Economic State & Continuidade da Crise"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40c9c563042581179c72dfd4d74e26bb as of 2026-11-02T23:59:51.804Z:
-<page url="https://app.notion.com/p/40c9c563042581179c72dfd4d74e26bb" icon="📊">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581d9aedad3e5f178c3e8" title="Season 02 — DeFi Wars — Lumen"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"07 — Lumen Economic State & Continuidade da Crise"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📊"}</iconMetadata>
-<content>
-<callout icon="📊" color="blue_bg">
-<b>Design de produção — Season 2 / Layer II.</b> Esta página conecta os Cases já canônicos em uma crise financeira determinística. <b>Não</b> muda a ordem, o resultado único, os personagens nem a condição técnica de cada Case. Modelos, thresholds e fluxos aqui são <b>especificações a validar em simulação</b>, não funcionalidades já implementadas ou valores reais de mercado.
-</callout>
+**Design de produção — Season 2 / Layer II.** Esta página conecta os Cases já canônicos em uma crise financeira determinística. **Não** muda a ordem, o resultado único, os personagens nem a condição técnica de cada Case. Modelos, thresholds e fluxos aqui são **especificações a validar em simulação**, não funcionalidades já implementadas ou valores reais de mercado.
 
 # Princípio da temporada
 
-Em Meridian, um contrato mal validado produzia uma consequência local; em Lumen, <b>dados, reservas, crédito, preços e proteções</b> podem amplificar uns aos outros. Nenhum bug isolado é a causa de toda a crise. O Breaker investiga uma economia conectada — não dez exploits independentes.
+Em Meridian, um contrato mal validado produzia uma consequência local; em Lumen, **dados, reservas, crédito, preços e proteções** podem amplificar uns aos outros. Nenhum bug isolado é a causa de toda a crise. O Breaker investiga uma economia conectada — não dez exploits independentes.
 
 # Lumen Economic State — modelo mínimo
 
-Expor um <b>dashboard diegético</b> com grandezas compreensíveis, sem adicionar HUD de jogo complexo. Os valores podem ser snapshots narrativos determinísticos, desde que concordem com os eventos reais dos fixtures técnicos.
+Expor um **dashboard diegético** com grandezas compreensíveis, sem adicionar HUD de jogo complexo. Os valores podem ser snapshots narrativos determinísticos, desde que concordem com os eventos reais dos fixtures técnicos.
 
 | Indicador | Semântica | Evidência verificável | Regra de apresentação |
 | --- | --- | --- | --- |
@@ -41,16 +27,16 @@ Expor um <b>dashboard diegético</b> com grandezas compreensíveis, sem adiciona
 
 ## Um único mundo, duas camadas de estado
 
-1. <b>Runtime do Case:</b> fixtures isoladas reproduzem o exploit, registram pre/post state e reset para cada jogador. A cadeia Soroban não precisa compartilhar estado perigoso entre níveis.
-2. <b>Estado narrativo de Lumen:</b> snapshots canônicos acumulam <b>descobertas e acontecimentos</b> entre Cases. Uma vitória de laboratório não precisa alterar uma blockchain pública e derrubar uma cidade real. O progresso do jogador habilita o próximo snapshot, sem choices que mudem a história.
+1. **Runtime do Case:** fixtures isoladas reproduzem o exploit, registram pre/post state e reset para cada jogador. A cadeia Soroban não precisa compartilhar estado perigoso entre níveis.
+2. **Estado narrativo de Lumen:** snapshots canônicos acumulam **descobertas e acontecimentos** entre Cases. Uma vitória de laboratório não precisa alterar uma blockchain pública e derrubar uma cidade real. O progresso do jogador habilita o próximo snapshot, sem choices que mudem a história.
 
-A UI pode mostrar o <b>antes e depois</b> do fenômeno real reconstruído; evitar afirmar que o exploit realizado num clone de challenge causou sozinho toda a crise na cidade.
+A UI pode mostrar o **antes e depois** do fenômeno real reconstruído; evitar afirmar que o exploit realizado num clone de challenge causou sozinho toda a crise na cidade.
 
 # Grafo de contágio / fluxo investigativo
 
-<code>Oracle stale + confidence ignorada → collateral/valuation indevida → liquidations → perda de liquidez → swaps com slippage → valorização distorcida de shares → reservas aparentes ≠ reais → debt/accrual incorreto → retirada sem health check → bad debt oculto → TWAP ineficaz + circuit breaker inativo → emergency dispatch → Cascade.</code>
+`Oracle stale + confidence ignorada → collateral/valuation indevida → liquidations → perda de liquidez → swaps com slippage → valorização distorcida de shares → reservas aparentes ≠ reais → debt/accrual incorreto → retirada sem health check → bad debt oculto → TWAP ineficaz + circuit breaker inativo → emergency dispatch → Cascade.`
 
-Esta é uma <b>cadeia de fatores e mecanismos de amplificação</b>, não um grafo no qual cada Case necessariamente causou cronologicamente o seguinte. Rhea não “criou” os bugs. Uma mesma evidência de dependência (feed, mercado, Vault ou livro de risco) precisa justificar por que o Breaker prossegue para o próximo sistema.
+Esta é uma **cadeia de fatores e mecanismos de amplificação**, não um grafo no qual cada Case necessariamente causou cronologicamente o seguinte. Rhea não “criou” os bugs. Uma mesma evidência de dependência (feed, mercado, Vault ou livro de risco) precisa justificar por que o Breaker prossegue para o próximo sistema.
 
 # Linha de progressão canônica (consequência e próximo motivo)
 
@@ -72,25 +58,25 @@ Esta é uma <b>cadeia de fatores e mecanismos de amplificação</b>, não um gra
 
 # Boss I — simulação contrafactual
 
-<b>Pré-condição:</b> preço/health nominal considera feeds inseguros, Vault degradado e liquidez baixa. Rhea tenta uma intervenção <b>não autorizada</b> específica para frear a sequência. O Breaker a bloqueia pelo que parece ser a regra correta.
+**Pré-condição:** preço/health nominal considera feeds inseguros, Vault degradado e liquidez baixa. Rhea tenta uma intervenção **não autorizada** específica para frear a sequência. O Breaker a bloqueia pelo que parece ser a regra correta.
 
-- <b>Cenário A — intervenção que Rhea queria:</b> caminho hipotético de contenção, não declarado moralmente correto; mostrar efeitos previstos e limites de confiança.
-- <b>Cenário B — cenário canônico observado:</b> Breaker impede intervenção; liquidation engine segue validações equivocadas; fila e impacto aumentam. Exibir <code>14 → 31 → 78 → 204</code> como valores dramáticos da fila, não somas arbitrárias de capital.
-- <b>Intervenção posterior distinta:</b> Rhea isola um segmento de sete, estabiliza seis, destrói exposição de Ilyan. Não misturar a tentativa bloqueada com o isolamento subsequente.
+- **Cenário A — intervenção que Rhea queria:** caminho hipotético de contenção, não declarado moralmente correto; mostrar efeitos previstos e limites de confiança.
+- **Cenário B — cenário canônico observado:** Breaker impede intervenção; liquidation engine segue validações equivocadas; fila e impacto aumentam. Exibir `14 → 31 → 78 → 204` como valores dramáticos da fila, não somas arbitrárias de capital.
+- **Intervenção posterior distinta:** Rhea isola um segmento de sete, estabiliza seis, destrói exposição de Ilyan. Não misturar a tentativa bloqueada com o isolamento subsequente.
 
-<b>Teste de causalidade:</b> em fixture de simulação, compare decisões e efeitos com o mesmo estado inicial. A vitória técnica do Boss é impedir a operação não autorizada; a piora é o payoff narrativo canônico, não um “fracasso” que retira achievement.
+**Teste de causalidade:** em fixture de simulação, compare decisões e efeitos com o mesmo estado inicial. A vitória técnica do Boss é impedir a operação não autorizada; a piora é o payoff narrativo canônico, não um “fracasso” que retira achievement.
 
 # Economia social — onde os números viram consequências
 
-- <b>Nia Kade / payroll:</b> ligar aumento da fila de settlement a atrasos comprováveis de salários na Lower Lumen. Nia não precisa virar um NPC de suporte constante.
-- <b>Ilyan Marr / Market Maker:</b> mostrar reserva, risco e posição antes/depois do isolamento para que a perda seja inteligível; sua ajuda no final é voluntária e não é perdão.
-- <b>Sera Quill:</b> matéria verdadeira após Case 04 acelera retiradas de um sistema já frágil; não apresentar reportagem como causa inicial do colapso.
-- <b>Apex / desigualdade:</b> setores ricos sentem o impacto depois de trabalhadores e mercados menos líquidos; isso pode ser mostrado com snapshots e arte, não com subplot adicional.
-- <b>Rhea:</b> não antecipar sua motivação total nem tratá-la como onisciente.
+- **Nia Kade / payroll:** ligar aumento da fila de settlement a atrasos comprováveis de salários na Lower Lumen. Nia não precisa virar um NPC de suporte constante.
+- **Ilyan Marr / Market Maker:** mostrar reserva, risco e posição antes/depois do isolamento para que a perda seja inteligível; sua ajuda no final é voluntária e não é perdão.
+- **Sera Quill:** matéria verdadeira após Case 04 acelera retiradas de um sistema já frágil; não apresentar reportagem como causa inicial do colapso.
+- **Apex / desigualdade:** setores ricos sentem o impacto depois de trabalhadores e mercados menos líquidos; isso pode ser mostrado com snapshots e arte, não com subplot adicional.
+- **Rhea:** não antecipar sua motivação total nem tratá-la como onisciente.
 
 # Regras para o frontend e o runtime
 
-- <b>Não introduzir</b> escolhas de salvar ou sacrificar mercados; a Season tem um único cânone e um único final. Interações investigativas podem permitir ordenar a inspeção de evidências.
+- **Não introduzir** escolhas de salvar ou sacrificar mercados; a Season tem um único cânone e um único final. Interações investigativas podem permitir ordenar a inspeção de evidências.
 - Nenhum número de produção de economia precisa ser igual a valores reais de DEX/TVL. Usar unidades de fixture e rotular como dados de Lumen.
 - O dashboard só deve exibir métricas que possam ser justificadas por traces, eventos ou serviços do jogo; não utilizar animação como substituto da prova.
 - O painel após o exploit apresenta consequence, evidence, next lead; a explicação de vulnerabilidade aparece no Breach Report opcional.
@@ -114,11 +100,11 @@ Esta é uma <b>cadeia de fatores e mecanismos de amplificação</b>, não um gra
 
 A narrativa “Lumen já estava insolvente” só é válida se o modelo econômico apresentar prova agregada, e não apenas um collateral withdrawal que deixou um borrower insolvente.
 
-<b>Fixture mínima:</b> listar por mercado relevante <code>actual_assets</code>, <code>collectible_loans</code> (sem incluir empréstimos integralmente dentro dos próprios ativos duas vezes), <code>recoverable_collateral</code>, <code>customer_liabilities</code>, <code>bad_debt</code> e <code>insurance_obligations</code>. Registrar dependências entre Vaults, lending e settlement.
+**Fixture mínima:** listar por mercado relevante `actual_assets`, `collectible_loans` (sem incluir empréstimos integralmente dentro dos próprios ativos duas vezes), `recoverable_collateral`, `customer_liabilities`, `bad_debt` e `insurance_obligations`. Registrar dependências entre Vaults, lending e settlement.
 
-<b>Reconciliação:</b> identificar ativos e passivos intra-protocolo que se anulam na consolidação; não contar reservas de AMM e direitos sobre as mesmas reservas duas vezes. A situação da cidade é a soma coerente dos mercados cobertos pela fixture, explicitando seu escopo. Exibir <code>REPORTED</code> e <code>VERIFIED</code> no Evidence Locker.
+**Reconciliação:** identificar ativos e passivos intra-protocolo que se anulam na consolidação; não contar reservas de AMM e direitos sobre as mesmas reservas duas vezes. A situação da cidade é a soma coerente dos mercados cobertos pela fixture, explicitando seu escopo. Exibir `REPORTED` e `VERIFIED` no Evidence Locker.
 
-<b>Condição narrativa:</b> o déficit verificado é anterior ao Case 07; a exploração demonstra uma vulnerabilidade adicional, enquanto a investigação torna a insolvência conhecida.
+**Condição narrativa:** o déficit verificado é anterior ao Case 07; a exploração demonstra uma vulnerabilidade adicional, enquanto a investigação torna a insolvência conhecida.
 
 ## Liquidator: cenário observado versus contrafactual
 
@@ -126,7 +112,7 @@ Dois replays com mesmo estado inicial e seed; variar apenas bloqueio da interven
 
 ## The Cascade: três metas para o jogador
 
-<b>Investigar o estado real → Conter o contágio → Comprovar o resultado.</b> A interface agrupa as operações em três metas, mas o verificador técnico independente mantém todos os invariants, reconhecendo perdas e limites das intervenções.
+**Investigar o estado real → Conter o contágio → Comprovar o resultado.** A interface agrupa as operações em três metas, mas o verificador técnico independente mantém todos os invariants, reconhecendo perdas e limites das intervenções.
 
 ## QA de integração
 
@@ -138,11 +124,8 @@ Dois replays com mesmo estado inicial e seed; variar apenas bloqueio da interven
 
 # Adendo de simulação — decisões narrativas aprovadas do Liquidator e da garantia
 
-<b>Liquidator / cenário A e B:</b> usar mesma seed e snapshots para (A) tentativa de Rhea executada e (B) tentativa bloqueada. Na operação de Rhea, aplicar filtro de qualidade do feed e teto temporário de liquidações por ledger; medir fila, venda forçada, reservas AMM, slippage e settlement. O Breaker bloqueia com relatório parcial de risco e capability não autorizada. Documentar o efeito contrário de pausas legítimas, se houver; não declarar Rhea infalível.
+**Liquidator / cenário A e B:** usar mesma seed e snapshots para (A) tentativa de Rhea executada e (B) tentativa bloqueada. Na operação de Rhea, aplicar filtro de qualidade do feed e teto temporário de liquidações por ledger; medir fila, venda forçada, reservas AMM, slippage e settlement. O Breaker bloqueia com relatório parcial de risco e capability não autorizada. Documentar o efeito contrário de pausas legítimas, se houver; não declarar Rhea infalível.
 
-<b>Garantia Cascade → Moonlight:</b> fixture de colateral real bloqueado, reserva segregada, titularidade da parcela do Breaker e regra de liberação após contenção. No evento final, Rhea envia retorno autorizado; provar diferença de balanços e compromisso, sem minting/duplicação. Confidentiality protege o que o protocolo escolhido realmente oculta; rotas públicas não somem.
+**Garantia Cascade → Moonlight:** fixture de colateral real bloqueado, reserva segregada, titularidade da parcela do Breaker e regra de liberação após contenção. No evento final, Rhea envia retorno autorizado; provar diferença de balanços e compromisso, sem minting/duplicação. Confidentiality protege o que o protocolo escolhido realmente oculta; rotas públicas não somem.
 
-<b>Verificações adicionais:</b> - \[ \] nenhum settlement real de usuário; - \[ \] seed reproduzível do Liquidator; - \[ \] lote e filtro realmente afetam contágio; - \[ \] garantia não criada do nada; - \[ \] transferência de retorno preserva policy histórica e ligação sender/recipient.
-</content>
-</page>
-
+**Verificações adicionais:** - \[ \] nenhum settlement real de usuário; - \[ \] seed reproduzível do Liquidator; - \[ \] lote e filtro realmente afetam contágio; - \[ \] garantia não criada do nada; - \[ \] transferência de retorno preserva policy histórica e ligação sender/recipient.

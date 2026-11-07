@@ -3,5 +3,140 @@
 Fonte: collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20
 Exportado: 2026-11-07
 
-{"results":[{"Prioridade":"P0 - central","Escolha de acontecimento":"Combinar versões","Temporada":"S3 — Moonlight","Tipo de furo":"Motivação","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Story Grid\",\"Promise Progress Payoff\"]","Observação":"Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"09 — Por que Breaker confia vínculo institucional a Rhea?","url":"https://app.notion.com/p/40c9c5630425810a8732d2aba0648260"},{"Prioridade":"P0 - central","Escolha de acontecimento":"Combinar versões","Temporada":"S2 — Lumen","Tipo de furo":"Motivação","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Story Grid\",\"Three Clue Rule\"]","Observação":"Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"04 — Liquidator: por que o Breaker bloqueia Rhea?","url":"https://app.notion.com/p/40c9c56304258114aa1eecdccc2d0d79"},{"Prioridade":"P0 - central","Escolha de acontecimento":"C","Temporada":"Ponte S2→S3","Tipo de furo":"Causalidade","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Promise Progress Payoff\",\"Three Clue Rule\"]","Observação":"Escolha aprovada: C. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"06 — Ponte: finalidade da settlement Rhea → Breaker","url":"https://app.notion.com/p/40c9c5630425813581e1d02b2e8c910a"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"Combinar versões","Temporada":"S1 — Meridian","Tipo de furo":"Preparação e payoff","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"Story Grid\",\"Environmental\"]","Observação":"Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"03 — Mara: assinatura que custa as credenciais","url":"https://app.notion.com/p/40c9c56304258163bcbcfbbbfc32dfff"},{"Prioridade":"P0 - central","Escolha de acontecimento":"Combinar versões","Temporada":"S2 — Lumen","Tipo de furo":"Causalidade","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Environmental\",\"Story Grid\"]","Observação":"Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"05 — Liquidator: o que Rhea tentava conter?","url":"https://app.notion.com/p/40c9c56304258176a126feb041bd06ed"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"Combinar versões","Temporada":"S3 — Moonlight","Tipo de furo":"Continuidade","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Environmental\",\"Weave\"]","Observação":"Escolha aprovada: B + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"10 — Como estar MISSING e enfrentar First Witness?","url":"https://app.notion.com/p/40c9c5630425817abd43e92a2d55f910"},{"Prioridade":"P0 - central","Escolha de acontecimento":"B","Temporada":"S3 — Moonlight","Tipo de furo":"Causalidade","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Three Clue Rule\"]","Observação":"Escolha aprovada: B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"08 — Quem altera a association para DENIED e por quê?","url":"https://app.notion.com/p/40c9c56304258197ae41e4f7754e5dab"},{"Prioridade":"P0 - central","Escolha de acontecimento":"Combinar versões","Temporada":"S3 — Moonlight","Tipo de furo":"Motivação","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Story Grid\",\"Three Clue Rule\"]","Observação":"Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"07 — First Witness: por que exigir full disclosure?","url":"https://app.notion.com/p/40c9c563042581b88218eff57bd4c8fe"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"B","Temporada":"S3 — Moonlight","Tipo de furo":"Preparação e payoff","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"Promise Progress Payoff\",\"Three Clue Rule\",\"Environmental\"]","Observação":"Escolha aprovada: B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"12 — Por que full disclosure ameaça SOURCE E.V.?","url":"https://app.notion.com/p/40c9c563042581bcb183f74d849325a0"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"Combinar versões","Temporada":"S1 — Meridian","Tipo de furo":"Preparação e payoff","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"Promise Progress Payoff\",\"Three Clue Rule\",\"Environmental\"]","Observação":"Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"02 — Architect: capacidade de previsão, não onisciência","url":"https://app.notion.com/p/40c9c563042581dca2dee8af9cb13e81"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"A","Temporada":"S3 — Moonlight","Tipo de furo":"Continuidade","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Story Grid\"]","Observação":"Escolha aprovada: A. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"11 — Como o sender witness chega ao Final Boss?","url":"https://app.notion.com/p/40c9c563042581f396aef4b2410e3f26"},{"Prioridade":"P1 - relevante","Escolha de acontecimento":"Combinar versões","Temporada":"S1 — Meridian","Tipo de furo":"Motivação","Decisão editorial":"Aprovada e incorporada","Métodos":"[\"But Therefore\",\"Promise Progress Payoff\",\"Three Clue Rule\"]","Observação":"Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.","Acontecimento":"01 — Voss: por que provocar os 2,4 milhões?","url":"https://app.notion.com/p/40c9c563042581f4b168fc3395b83b2a"}],"has_more":false}
-
+{
+  "results": [
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Motivação",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Story Grid\",\"Promise Progress Payoff\"]",
+      "Observação": "Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "09 — Por que Breaker confia vínculo institucional a Rhea?",
+      "url": "https://app.notion.com/p/40c9c5630425810a8732d2aba0648260"
+    },
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S2 — Lumen",
+      "Tipo de furo": "Motivação",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Story Grid\",\"Three Clue Rule\"]",
+      "Observação": "Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "04 — Liquidator: por que o Breaker bloqueia Rhea?",
+      "url": "https://app.notion.com/p/40c9c56304258114aa1eecdccc2d0d79"
+    },
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "C",
+      "Temporada": "Ponte S2→S3",
+      "Tipo de furo": "Causalidade",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Promise Progress Payoff\",\"Three Clue Rule\"]",
+      "Observação": "Escolha aprovada: C. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "06 — Ponte: finalidade da settlement Rhea → Breaker",
+      "url": "https://app.notion.com/p/40c9c5630425813581e1d02b2e8c910a"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S1 — Meridian",
+      "Tipo de furo": "Preparação e payoff",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"Story Grid\",\"Environmental\"]",
+      "Observação": "Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "03 — Mara: assinatura que custa as credenciais",
+      "url": "https://app.notion.com/p/40c9c56304258163bcbcfbbbfc32dfff"
+    },
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S2 — Lumen",
+      "Tipo de furo": "Causalidade",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Environmental\",\"Story Grid\"]",
+      "Observação": "Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "05 — Liquidator: o que Rhea tentava conter?",
+      "url": "https://app.notion.com/p/40c9c56304258176a126feb041bd06ed"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Continuidade",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Environmental\",\"Weave\"]",
+      "Observação": "Escolha aprovada: B + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "10 — Como estar MISSING e enfrentar First Witness?",
+      "url": "https://app.notion.com/p/40c9c5630425817abd43e92a2d55f910"
+    },
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "B",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Causalidade",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Three Clue Rule\"]",
+      "Observação": "Escolha aprovada: B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "08 — Quem altera a association para DENIED e por quê?",
+      "url": "https://app.notion.com/p/40c9c56304258197ae41e4f7754e5dab"
+    },
+    {
+      "Prioridade": "P0 - central",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Motivação",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Story Grid\",\"Three Clue Rule\"]",
+      "Observação": "Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "07 — First Witness: por que exigir full disclosure?",
+      "url": "https://app.notion.com/p/40c9c563042581b88218eff57bd4c8fe"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "B",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Preparação e payoff",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"Promise Progress Payoff\",\"Three Clue Rule\",\"Environmental\"]",
+      "Observação": "Escolha aprovada: B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "12 — Por que full disclosure ameaça SOURCE E.V.?",
+      "url": "https://app.notion.com/p/40c9c563042581bcb183f74d849325a0"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S1 — Meridian",
+      "Tipo de furo": "Preparação e payoff",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"Promise Progress Payoff\",\"Three Clue Rule\",\"Environmental\"]",
+      "Observação": "Escolha aprovada: A + C. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "02 — Architect: capacidade de previsão, não onisciência",
+      "url": "https://app.notion.com/p/40c9c563042581dca2dee8af9cb13e81"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "A",
+      "Temporada": "S3 — Moonlight",
+      "Tipo de furo": "Continuidade",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Story Grid\"]",
+      "Observação": "Escolha aprovada: A. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "11 — Como o sender witness chega ao Final Boss?",
+      "url": "https://app.notion.com/p/40c9c563042581f396aef4b2410e3f26"
+    },
+    {
+      "Prioridade": "P1 - relevante",
+      "Escolha de acontecimento": "Combinar versões",
+      "Temporada": "S1 — Meridian",
+      "Tipo de furo": "Motivação",
+      "Decisão editorial": "Aprovada e incorporada",
+      "Métodos": "[\"But Therefore\",\"Promise Progress Payoff\",\"Three Clue Rule\"]",
+      "Observação": "Escolha aprovada: A + B. Cânone narrativo integrado; requisitos de fixture ainda por testar.",
+      "Acontecimento": "01 — Voss: por que provocar os 2,4 milhões?",
+      "url": "https://app.notion.com/p/40c9c563042581f4b168fc3395b83b2a"
+    }
+  ],
+  "has_more": false
+}

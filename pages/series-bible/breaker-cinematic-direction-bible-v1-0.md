@@ -5,20 +5,7 @@ title: "🎬 BREAKER — Cinematic Direction Bible | v1.0"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/40d9c563042581e0804ddbe5451f69bf as of 2026-11-03T12:27:31.018Z:
-<page url="https://app.notion.com/p/40d9c563042581e0804ddbe5451f69bf" icon="🎬">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"BREAKER — Cinematic Direction Bible \\| v1.0"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🎬"}</iconMetadata>
-<content>
-<callout icon="🎬" color="purple_bg">
 NORMA VISUAL OFICIAL — Aplicar a todos os storyboards, prompts de imagem, slides e revisões. A Season 1 é o piloto de validação. A linguagem cinematográfica serve à compreensão, tensão e agência do jogador, não ao espetáculo gratuito.
-</callout>
 
 # 1. Princípio diretor
 
@@ -46,7 +33,8 @@ Regra: alternar escala com intenção. Não encadear close-ups apenas para parec
 - High angle / plongée: vulnerabilidade, vigilância ou perda de controle, somente quando coerente.
 - Low angle / contra-plongée: domínio, ameaça ou autoridade percebida.
 - Dutch angle: ruptura de estabilidade; uso raro, reservado a momentos realmente anômalos.
-- Overhead: sistemas, padrões e arquitetura de controle.<br />Ângulo não determina emoção sozinho; combinar com contexto, iluminação e composição.
+- Overhead: sistemas, padrões e arquitetura de controle.
+Ângulo não determina emoção sozinho; combinar com contexto, iluminação e composição.
 
 # 4. Composição e mise-en-scène
 
@@ -134,6 +122,3 @@ A câmera começa predominantemente observacional, clara e espacialmente estáve
 - [Screening Shorts — Film Glossary](https://screeningshorts.org.uk/sites/default/files/worksheets/Screening%20Shorts%20Film%20Glossary.pdf)
 
 Status: v1.0 — guia de produção; convenções e paletas específicas de personagens/cenários devem ser aprovadas em fichas visuais antes da geração em escala.
-</content>
-</page>
-

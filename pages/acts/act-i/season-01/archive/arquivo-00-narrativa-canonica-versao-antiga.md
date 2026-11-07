@@ -5,26 +5,11 @@ title: "📖 ARQUIVO — 00 Narrativa Canônica (versão antiga)"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c56304258171a500f3baa7ddcf83 as of 2026-11-03T14:38:43.118Z:
-<page url="https://app.notion.com/p/4009c56304258171a500f3baa7ddcf83" icon="📖">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/40d9c563042581939ffad5f7e19042e3" title="90 — Arquivo Editorial e Estudos | Season 1"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"ARQUIVO — 00 Narrativa Canônica (versão antiga)"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📖"}</iconMetadata>
-<content>
-<callout icon="📌" color="yellow_bg">
-<b>ARQUIVO — NARRATIVA HISTÓRICA DA SEASON 1.</b> Esta versão foi substituída pela <mention url="https://app.notion.com/p/40d9c563042581bf886cfc339d730fd1" /> (v1.4 NARRATIVE LOCK). Não utilizar falas, mecânicas de Rewrite/Architect ou estados desta página como instrução vigente. Mantida para pesquisa e rastreabilidade de decisões.
-</callout>
+**ARQUIVO — NARRATIVA HISTÓRICA DA SEASON 1.** Esta versão foi substituída pela [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md) (v1.4 NARRATIVE LOCK). Não utilizar falas, mecânicas de Rewrite/Architect ou estados desta página como instrução vigente. Mantida para pesquisa e rastreabilidade de decisões.
 
 # SEASON 1 — THE FIRST LAYER
 
-<b>Regra narrativa definitiva:</b> esta é uma história única e linear. O jogador resolve os Cases técnicos, mas não escolhe personalidade, ações morais, diálogos, relações ou final. Todas as cenas após os exploits são acontecimentos canônicos fixos. O Architect pergunta "Por que você continuou?" sem apresentar opções. O desfecho é sempre QUALIFIED / PROVISIONAL.
+**Regra narrativa definitiva:** esta é uma história única e linear. O jogador resolve os Cases técnicos, mas não escolhe personalidade, ações morais, diálogos, relações ou final. Todas as cenas após os exploits são acontecimentos canônicos fixos. O Architect pergunta "Por que você continuou?" sem apresentar opções. O desfecho é sempre QUALIFIED / PROVISIONAL.
 
 ## Prólogo — The Impossible Theft
 
@@ -36,13 +21,13 @@ Para os habitantes de Meridian, contratos não são programas.
 
 São quase leis naturais.
 
-<b>Tudo é governado por um Contrato.</b>
+**Tudo é governado por um Contrato.**
 
 É nesse mundo que surge um caso aparentemente impossível.
 
 Durante a madrugada, um dos Vaults mais seguros de Meridian é completamente esvaziado.
 
-<b>2,400,000 → 0.</b>
+**2,400,000 → 0.**
 
 Nenhuma chave privada foi reportada como roubada.
 
@@ -60,11 +45,11 @@ A Meridian Authority encerra a primeira investigação sem encontrar evidência 
 
 Uma notícia corre pela Network antes de a cidade saber o que fazer com o caso. É um registro discreto na borda da interface, não uma cena adicional:
 
-> <b>2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA</b> — <i>Sera Quill, Network Wire</i>
+> **2,4 MILHÕES MOVIMENTADOS — NENHUMA INVASÃO DETECTADA** — *Sera Quill, Network Wire*
 
 O nome da repórter não volta a aparecer nesta temporada; ela não participa da investigação.
 
-A responsável pelo caso é <b>Mara Vale</b>, uma investigadora experiente da Authority.
+A responsável pelo caso é **Mara Vale**, uma investigadora experiente da Authority.
 
 Ela acredita no que o sistema mostra.
 
@@ -84,15 +69,15 @@ Mara não gosta da resposta.
 
 Mas também não consegue refutá-la.
 
-Como a investigação interna falhou, a Meridian Authority registra o jogador como <b>Independent Contract Auditor</b> e concede acesso limitado, temporário e auditado ao caso.
+Como a investigação interna falhou, a Meridian Authority registra o jogador como **Independent Contract Auditor** e concede acesso limitado, temporário e auditado ao caso.
 
 O Breaker recebe acesso ao contrato responsável pela entrada no Vault.
 
-Mara separa o evento da transação financeira de seu suposto motivo: a sequência pública confirma o saldo zero, mas o relatório não explica a dependência de autorização que permitiu a movimentação. No extrato há dois eventos legados sem documentação acessível ao auditor: <code>SERVICE_GATE_OPEN</code> e <code>RECOVERY_ROUTED</code>. Ela exige que o Breaker conserve a ordem, os timestamps e os IDs originais, porque uma hipótese sem cadeia de custódia não sustentará a reabertura do caso.
+Mara separa o evento da transação financeira de seu suposto motivo: a sequência pública confirma o saldo zero, mas o relatório não explica a dependência de autorização que permitiu a movimentação. No extrato há dois eventos legados sem documentação acessível ao auditor: `SERVICE_GATE_OPEN` e `RECOVERY_ROUTED`. Ela exige que o Breaker conserve a ordem, os timestamps e os IDs originais, porque uma hipótese sem cadeia de custódia não sustentará a reabertura do caso.
 
 Seu primeiro objetivo é simples.
 
-<b>Descobrir como alguém entrou sem possuir a chave.</b>
+**Descobrir como alguém entrou sem possuir a chave.**
 
 ---
 
@@ -136,15 +121,15 @@ Um pequeno marcador gravado em um registro antigo.
 
 Apenas um símbolo:
 
-<b>I</b>
+**I**
 
 Mara considera irrelevante.
 
 O Breaker não.
 
-A trilha da operação usada na noite do roubo revela algo que não consta do painel financeiro: o mesmo estado inseguro do Access Gate foi usado para abrir a <b>rota de serviço</b> que um Recovery Controller aceitava como pré-condição para uma operação de recuperação institucional. O acesso não autorizava transferir dinheiro para qualquer destinatário: a rota de recuperação tinha um <b>Escrow institucional pré-definido</b>. O desfecho ainda não mostra quem acionou a rotina nem se obteve algum benefício.
+A trilha da operação usada na noite do roubo revela algo que não consta do painel financeiro: o mesmo estado inseguro do Access Gate foi usado para abrir a **rota de serviço** que um Recovery Controller aceitava como pré-condição para uma operação de recuperação institucional. O acesso não autorizava transferir dinheiro para qualquer destinatário: a rota de recuperação tinha um **Escrow institucional pré-definido**. O desfecho ainda não mostra quem acionou a rotina nem se obteve algum benefício.
 
-Mara compara dois registros independentes. No ledger, existe um evento de recuperação; no inventário de operadores legados, a rota cita uma identidade registrada anos atrás. Ela ressalta que <b>identidade de operador não é carteira destinatária do saldo</b>. O Breaker anota o descompasso.
+Mara compara dois registros independentes. No ledger, existe um evento de recuperação; no inventário de operadores legados, a rota cita uma identidade registrada anos atrás. Ela ressalta que **identidade de operador não é carteira destinatária do saldo**. O Breaker anota o descompasso.
 
 Há apenas um problema.
 
@@ -176,7 +161,7 @@ Mara interrompe a sessão.
 
 > "Controlar o registro não é a mesma coisa que ter o direito de usar a identidade dele. Você só precisa do log."
 
-Mara pede que o Breaker primeiro recupere a prova e preserve sua procedência. A autoridade do morto não é apresentada como custodiante dos fundos do Vault. O dilema de manter ou liberar o controlador indevido só surge <b>depois</b> de o jogador obter Warehouse 17; não é resolvido magicamente pelo fim de uma sessão.
+Mara pede que o Breaker primeiro recupere a prova e preserve sua procedência. A autoridade do morto não é apresentada como custodiante dos fundos do Vault. O dilema de manter ou liberar o controlador indevido só surge **depois** de o jogador obter Warehouse 17; não é resolvido magicamente pelo fim de uma sessão.
 
 É a primeira vez que a investigação exige algo moralmente desconfortável.
 
@@ -184,9 +169,11 @@ O Breaker não está mais apenas lendo contratos.
 
 Está assumindo uma identidade.
 
-O registry de Elias armazena publicamente apenas a identidade do controlador e uma referência opaca. Quando o Breaker assume o controller, um <b>arquivo de manutenção externo</b> que consulta esse estado aceita sua autenticação e lhe entrega o documento protegido. A referência não estava escondida em plaintext no ledger. Nesse arquivo existe a pista:
+O registry de Elias armazena publicamente apenas a identidade do controlador e uma referência opaca. Quando o Breaker assume o controller, um **arquivo de manutenção externo** que consulta esse estado aceita sua autenticação e lhe entrega o documento protegido. A referência não estava escondida em plaintext no ledger. Nesse arquivo existe a pista:
 
-<b>WAREHOUSE 17<br />LOWER MERIDIAN<br />DO NOT USE CITY ROUTING</b>
+**WAREHOUSE 17
+LOWER MERIDIAN
+DO NOT USE CITY ROUTING**
 
 Mara reconhece o nome.
 
@@ -210,7 +197,7 @@ Todos aparecem como propriedades legítimas.
 
 Nenhum consta como roubado.
 
-Mas um protocolo administrativo obtido por Mara, fora da interface de contratos, contradiz a aparente perfeição do inventário. Na mesma consulta, um despacho de manutenção de Lower Meridian permanece <b>aprovado no sistema e pendente na execução</b>: o equipamento existe, mas os responsáveis ainda aguardam validação de propriedade e liberação de recursos. A cena não explica ainda a causa financeira desse atraso; guardará essa ligação para o clímax. Equipamentos de serviço usados por um coletivo de Lower Meridian foram transferidos para o depósito enquanto a contestação de propriedade ainda estava aberta. A assinatura do antigo titular não aparece na cadeia de custódia. O contrato diz <b>TRANSFER ACCEPTED</b>; o expediente humano diz <b>AUTHORIZATION DISPUTED</b>.
+Mas um protocolo administrativo obtido por Mara, fora da interface de contratos, contradiz a aparente perfeição do inventário. Na mesma consulta, um despacho de manutenção de Lower Meridian permanece **aprovado no sistema e pendente na execução**: o equipamento existe, mas os responsáveis ainda aguardam validação de propriedade e liberação de recursos. A cena não explica ainda a causa financeira desse atraso; guardará essa ligação para o clímax. Equipamentos de serviço usados por um coletivo de Lower Meridian foram transferidos para o depósito enquanto a contestação de propriedade ainda estava aberta. A assinatura do antigo titular não aparece na cadeia de custódia. O contrato diz **TRANSFER ACCEPTED**; o expediente humano diz **AUTHORIZATION DISPUTED**.
 
 > "Você encontrou a função errada", diz Mara. "Eu encontrei quem perdeu o equipamento."
 
@@ -236,7 +223,7 @@ O contrato simplesmente perguntou à pessoa errada.
 
 Entre os objetos transferíveis existe um artefato sem categoria.
 
-<b>OWNER NO REGISTRO: WAREHOUSE 17.</b>
+**OWNER NO REGISTRO: WAREHOUSE 17.**
 
 Nenhum fabricante identificado.
 
@@ -244,11 +231,11 @@ Nenhuma procedência anterior conhecida.
 
 Apenas um nome.
 
-<b>GHOST KEY</b>
+**GHOST KEY**
 
 O objeto contém identificadores de contratos antigos e chaves de armazenamento que não aparecem em nenhum sistema moderno de Meridian.
 
-Mara exige que a Ghost Key seja preservada como evidência verificável. Depois da transferência indevida, o contrato aponta o próprio Breaker como novo proprietário. Ele registra o hash, o evento e o protocolo de custódia e mantém o artefato lacrado sob posse técnica temporária para alcançar Floor 24. O Warehouse era o titular <b>registrado</b> anterior, embora a origem remota da Ghost Key seja desconhecida. O registro não legitima a transferência. Mara deixa claro que provar uma vulnerabilidade não dá ao Breaker o direito de se tornar proprietário; esse confronto, que acontece obrigatoriamente, desgasta a confiança entre eles.
+Mara exige que a Ghost Key seja preservada como evidência verificável. Depois da transferência indevida, o contrato aponta o próprio Breaker como novo proprietário. Ele registra o hash, o evento e o protocolo de custódia e mantém o artefato lacrado sob posse técnica temporária para alcançar Floor 24. O Warehouse era o titular **registrado** anterior, embora a origem remota da Ghost Key seja desconhecida. O registro não legitima a transferência. Mara deixa claro que provar uma vulnerabilidade não dá ao Breaker o direito de se tornar proprietário; esse confronto, que acontece obrigatoriamente, desgasta a confiança entre eles.
 
 Uma dessas referências aponta para um andar que não aparece em mapa algum.
 
@@ -282,7 +269,7 @@ O elevador muda.
 
 Por alguns segundos, surge um botão que nunca esteve ali.
 
-<b>24</b>
+**24**
 
 Ao chegar, a arquitetura de Meridian desaparece.
 
@@ -298,21 +285,21 @@ Em uma parede existe o mesmo símbolo encontrado no Vault.
 
 Desta vez acompanhado de texto.
 
-<b>I // FIRST LAYER</b>
+**I // FIRST LAYER**
 
-Entre os dados recuperados do andar, o Breaker encontra uma segunda referência técnica: <code>F24 / ARCHIVED ENTRY</code>. Sua marca de origem lembra o registro W17, mas não existe contexto suficiente para concluir o que ambos significam. Ele conserva o vestígio no Evidence Locker.
+Entre os dados recuperados do andar, o Breaker encontra uma segunda referência técnica: `F24 / ARCHIVED ENTRY`. Sua marca de origem lembra o registro W17, mas não existe contexto suficiente para concluir o que ambos significam. Ele conserva o vestígio no Evidence Locker.
 
 A Ghost Key não era uma chave para uma sala.
 
 Era uma chave para uma infraestrutura inteira.
 
-No dossiê de custódia do Warehouse permanece um anexo aparentemente banal: <code>W17 / DIAGNOSTIC TRACE</code>, material binário de diagnóstico identificado pelo arquivo de Voss. O Breaker o preserva como evidência, sem decodificá-lo no momento.
+No dossiê de custódia do Warehouse permanece um anexo aparentemente banal: `W17 / DIAGNOSTIC TRACE`, material binário de diagnóstico identificado pelo arquivo de Voss. O Breaker o preserva como evidência, sem decodificá-lo no momento.
 
 ---
 
 # BOSS I — THE CUSTODIAN
 
-No centro da instalação existe um sistema chamado <b>Custodian</b>.
+No centro da instalação existe um sistema chamado **Custodian**.
 
 Não há vulnerabilidade óbvia.
 
@@ -350,11 +337,11 @@ O problema é que os sistemas nos quais ele confia já foram comprometidos.
 
 O Custodian responde:
 
-<b>OPERATOR RECOGNIZED.</b>
+**OPERATOR RECOGNIZED.**
 
 E então:
 
-<b>WELCOME BACK.</b>
+**WELCOME BACK.**
 
 O Breaker fica parado.
 
@@ -368,7 +355,7 @@ Em seu interior existe um terminal abandonado.
 
 O último usuário registrado é:
 
-<b>AREN VOSS</b>
+**AREN VOSS**
 
 Breaker.
 
@@ -398,7 +385,7 @@ O Breaker força a inconsistência.
 
 O sistema declara:
 
-<b>RECOVERED</b>
+**RECOVERED**
 
 Mesmo depois de falhar.
 
@@ -430,7 +417,7 @@ E conectado os pontos.
 
 Nos arquivos de Voss existe uma conta marcada com uma observação:
 
-<b>IMPOSSIBLE</b>
+**IMPOSSIBLE**
 
 ---
 
@@ -452,7 +439,10 @@ O estado se torna matematicamente absurdo.
 
 Quando o sistema legado tenta reconstruir a origem daquele estado, uma tabela interna aparece:
 
-<b>ENERGY ROUTING TABLE — LEGACY</b><br /><b>GRID NODE: 13</b><br /><b>ARCHIVE DESTINATION: SECTOR 13</b><br /><b>STATUS: UNMAPPED</b>
+**ENERGY ROUTING TABLE — LEGACY**
+**GRID NODE: 13**
+**ARCHIVE DESTINATION: SECTOR 13**
+**STATUS: UNMAPPED**
 
 Voss não deixou “13” como uma charada. Ele descobriu que a conta impossível estava ligada a uma parte da infraestrutura que Meridian havia apagado dos mapas modernos.
 
@@ -460,7 +450,7 @@ Mara tenta encontrar o local.
 
 A Meridian Authority retorna:
 
-<b>NO SUCH SECTOR.</b>
+**NO SUCH SECTOR.**
 
 O Breaker já aprendeu o suficiente para saber que isso não significa que ele não exista.
 
@@ -496,11 +486,11 @@ Até que o sistema finalmente deixa de conseguir reconstruir seu próprio índic
 
 A operação falha.
 
-A função de rebuild já não conclui dentro dos limites. O Archive entra em <b>continuidade operacional</b>. Uma política legada deixou o snapshot de recuperação com escopo de leitura mais amplo que o índice normal; os metadados dessa política estavam visíveis durante a investigação, mas ninguém imaginava que incluíssem classificações de pessoas.
+A função de rebuild já não conclui dentro dos limites. O Archive entra em **continuidade operacional**. Uma política legada deixou o snapshot de recuperação com escopo de leitura mais amplo que o índice normal; os metadados dessa política estavam visíveis durante a investigação, mas ninguém imaginava que incluíssem classificações de pessoas.
 
-Após detectar a falha do rebuild no contrato, o serviço de continuidade <b>fora da cadeia</b> aciona o fallback do seu indexador; o snapshot de leitura ampliada vem de um banco operacional interno, não de um pretenso campo secreto em storage público Soroban.
+Após detectar a falha do rebuild no contrato, o serviço de continuidade **fora da cadeia** aciona o fallback do seu indexador; o snapshot de leitura ampliada vem de um banco operacional interno, não de um pretenso campo secreto em storage público Soroban.
 
-Como mecanismo de recuperação, o Archive abre um snapshot antigo. Além das classificações que estruturam a revelação principal, o indexador externo mostra <code>S13 / RECOVERY SNAPSHOT</code>, um terceiro vestígio do mesmo conjunto técnico visto nos arquivos W17 e F24. A associação ainda não é explicada ao jogador; os dados permanecem preservados no Evidence Locker.
+Como mecanismo de recuperação, o Archive abre um snapshot antigo. Além das classificações que estruturam a revelação principal, o indexador externo mostra `S13 / RECOVERY SNAPSHOT`, um terceiro vestígio do mesmo conjunto técnico visto nos arquivos W17 e F24. A associação ainda não é explicada ao jogador; os dados permanecem preservados no Evidence Locker.
 
 Depois de abrir o snapshot, o Breaker interrompe a inserção de novos registros de teste e limita a pressão adicional sobre o rebuild. A operação continua demonstrando a falha de disponibilidade, mas ele não agrava o dano após obter a prova. Mara constata o estado degradado e questiona a decisão de provocar a falha em primeiro lugar. Esse é o único desenlace do Case 07.
 
@@ -514,27 +504,27 @@ Todos Breakers.
 
 Algumas entradas estão parcialmente ocultas ou corrompidas:
 
-<b>████████ — MISSING</b>
+**████████ — MISSING**
 
-<b>████████ — ACCEPTED</b>
+**████████ — ACCEPTED**
 
-<b>████████ — DECEASED</b>
+**████████ — DECEASED**
 
 Um nome conhecido aparece.
 
-<b>AREN VOSS — REFUSED</b>
+**AREN VOSS — REFUSED**
 
 Não FAILED.
 
 Não DEAD.
 
-<b>REFUSED.</b>
+**REFUSED.**
 
 E logo abaixo existe uma entrada criada recentemente.
 
-<b>SUBJECT: PLAYER</b>
+**SUBJECT: PLAYER**
 
-<b>STATUS: ACTIVE</b>
+**STATUS: ACTIVE**
 
 O Breaker olha para o timestamp.
 
@@ -546,11 +536,11 @@ Até aquele momento ele acreditava estar seguindo Voss.
 
 Agora entende a verdade.
 
-<b>Alguém também está seguindo ele.</b>
+**Alguém também está seguindo ele.**
 
 Existe outra referência na lista.
 
-<b>ORACLE</b>
+**ORACLE**
 
 ---
 
@@ -588,15 +578,17 @@ Nenhuma recompensa aparece.
 
 Em vez disso, o Oracle revela sua função real:
 
-<b>PREDICTION MODEL: FAILED</b><br /><b>SUBJECT BEHAVIOR: OUTSIDE EXPECTED RANGE</b><br /><b>BREAKER CLASSIFICATION: CONFIRMED</b>
+**PREDICTION MODEL: FAILED**
+**SUBJECT BEHAVIOR: OUTSIDE EXPECTED RANGE**
+**BREAKER CLASSIFICATION: CONFIRMED**
 
-O Breaker examina dois módulos distintos. O <b>Prophecy Engine</b> produzia os três resultados supostamente aleatórios, previsíveis porque utilizava dados públicos do ledger. A prova de três acertos desmonta sua pretensão de imprevisibilidade. Um segundo módulo, <b>Subject Classification</b>, nunca prometeu prever o futuro: ele registra os comportamentos de candidatos observados pela Sequence.
+O Breaker examina dois módulos distintos. O **Prophecy Engine** produzia os três resultados supostamente aleatórios, previsíveis porque utilizava dados públicos do ledger. A prova de três acertos desmonta sua pretensão de imprevisibilidade. Um segundo módulo, **Subject Classification**, nunca prometeu prever o futuro: ele registra os comportamentos de candidatos observados pela Sequence.
 
 O Oracle não estava apenas tentando prever números. Estava modelando o comportamento de quem conseguisse chegar até ele. Isso não torna sua classificação moralmente verdadeira.
 
 Então surge uma palavra:
 
-<b>ARCHITECT</b>
+**ARCHITECT**
 
 E coordenadas.
 
@@ -612,7 +604,8 @@ Diferente dos lugares anteriores, ela ainda está operacional.
 
 Antes que o Breaker continue, a Meridian Authority encerra oficialmente o caso:
 
-<b>CASE STATUS: TERMINATED</b><br /><b>EXTERNAL BREAKER ACCESS: REVOKED</b>
+**CASE STATUS: TERMINATED**
+**EXTERNAL BREAKER ACCESS: REVOKED**
 
 O canal oficial cai.
 
@@ -626,7 +619,7 @@ O Breaker confirma que ela sabe o que arrisca.
 
 A relação sofreu atrito desde Warehouse 17: Mara não esqueceu os limites ultrapassados. Ainda assim, ela considera pior encerrar a apuração sem uma resposta verificável. Ela não concede legitimidade à invasão nem aceita ser uma auxiliar sem critérios. O canal possui escopo definido e expira.
 
-Para tornar utilizável a futura prova, Mara assina <b>em seu próprio nome</b>, após a ordem de encerramento, um recibo de preservação de evidência: <code>EVIDENCE_RECEIPT: SIGNED / SIGNER: MARA VALE / CASE STATUS: TERMINATED</code>. O canal é privado, mas essa assinatura é auditável pela Authority. Mara aceita o risco de registrar a própria desobediência, não é descoberta por vigilância inexplicada.
+Para tornar utilizável a futura prova, Mara assina **em seu próprio nome**, após a ordem de encerramento, um recibo de preservação de evidência: `EVIDENCE_RECEIPT: SIGNED / SIGNER: MARA VALE / CASE STATUS: TERMINATED`. O canal é privado, mas essa assinatura é auditável pela Authority. Mara aceita o risco de registrar a própria desobediência, não é descoberta por vigilância inexplicada.
 
 Existe uma manutenção programada.
 
@@ -656,13 +649,13 @@ A operação originalmente aprovada deveria abrir um hatch de manutenção.
 
 Quando chega o horário programado, executa outra coisa:
 
-<b>GRANT SPIRE ACCESS → PLAYER</b>
+**GRANT SPIRE ACCESS → PLAYER**
 
 O sistema aceita.
 
 Pela primeira vez, o Breaker não roubou uma autorização.
 
-Ele roubou <b>o significado de uma autorização</b>.
+Ele roubou **o significado de uma autorização**.
 
 Dentro da Spire existe acesso ao sistema responsável por atualizar contratos da First Layer.
 
@@ -694,11 +687,11 @@ Mas o código mudou.
 
 Uma função que antes retornava:
 
-<b>VERSION 1</b>
+**VERSION 1**
 
 agora retorna:
 
-<b>VERSION 2</b>
+**VERSION 2**
 
 Por alguns segundos, o Breaker observa a tela.
 
@@ -706,7 +699,7 @@ Ele acaba de fazer algo muito diferente de tudo que fez antes.
 
 Não encontrou uma brecha dentro da lei.
 
-<b>Mudou a lei.</b>
+**Mudou a lei.**
 
 Nesse momento, um novo módulo aparece.
 
@@ -716,7 +709,7 @@ Nenhuma documentação.
 
 Uma única instrução.
 
-<b>ENCONTRE-ME.</b>
+**ENCONTRE-ME.**
 
 ---
 
@@ -752,7 +745,7 @@ Nenhuma dica dizendo o que explorar.
 
 O Breaker precisa fazer aquilo que aprendeu durante toda a Season.
 
-O painel de diagnóstico apresenta <code>THREE HISTORICAL REFERENCES UNRESOLVED</code>. Ele reconhece, finalmente, W17, F24 e S13. São três localizadores para fragmentos binários de 32 bytes; o Breaker usa XOR para reconstruir a chave K da instância. O EvidenceGate verifica um commitment SHA-256 vinculado à rede e ao desafio. Em seguida, um manifesto histórico de Voss é conferido com assinatura Ed25519 e chave pública previamente ancorada. O registro autenticado autoriza apenas <code>diagnose_core</code>, não controle de upgrade. A prova criptográfica libera o contexto de diagnóstico para continuar a investigação; não resolve os exploits seguintes.
+O painel de diagnóstico apresenta `THREE HISTORICAL REFERENCES UNRESOLVED`. Ele reconhece, finalmente, W17, F24 e S13. São três localizadores para fragmentos binários de 32 bytes; o Breaker usa XOR para reconstruir a chave K da instância. O EvidenceGate verifica um commitment SHA-256 vinculado à rede e ao desafio. Em seguida, um manifesto histórico de Voss é conferido com assinatura Ed25519 e chave pública previamente ancorada. O registro autenticado autoriza apenas `diagnose_core`, não controle de upgrade. A prova criptográfica libera o contexto de diagnóstico para continuar a investigação; não resolve os exploits seguintes.
 
 Ler.
 
@@ -788,13 +781,13 @@ Mas as regras agora são dele.
 
 Uma nova função aparece.
 
-<b>reveal()</b>
+**reveal()**
 
 O Breaker executa.
 
 A resposta:
 
-<b>QUALIFIED</b>
+**QUALIFIED**
 
 Silêncio.
 
@@ -802,7 +795,7 @@ As luzes da Spire apagam.
 
 Por alguns segundos, parece que tudo terminou.
 
-Então um módulo que não existia <b>no mapa de contratos exposto ao jogador</b> responde. O Breaker confere a origem da mensagem: ela não vem do ArchitectCore cujo código acabou de substituir. Um registro externo à autoridade de upgrade do Core confirma a execução das provas anteriores e emite a classificação separadamente. Seu nome só aparece agora: <b>SEQUENCE OBSERVER</b>. O novo Wasm respondeu <code>QUALIFIED</code>, mas não tinha autoridade para atribuir esse status a si mesmo. O observador permaneceu íntegro, porque o upgrade alterou apenas o Core.
+Então um módulo que não existia **no mapa de contratos exposto ao jogador** responde. O Breaker confere a origem da mensagem: ela não vem do ArchitectCore cujo código acabou de substituir. Um registro externo à autoridade de upgrade do Core confirma a execução das provas anteriores e emite a classificação separadamente. Seu nome só aparece agora: **SEQUENCE OBSERVER**. O novo Wasm respondeu `QUALIFIED`, mas não tinha autoridade para atribuir esse status a si mesmo. O observador permaneceu íntegro, porque o upgrade alterou apenas o Core.
 
 > “Você demorou mais que Voss.”
 
@@ -830,7 +823,7 @@ Nenhuma resposta.
 
 Então o sistema mostra um registro temporal:
 
-<b>VOSS SEQUENCE ACCESS — YEARS BEFORE VAULT INCIDENT</b>
+**VOSS SEQUENCE ACCESS — YEARS BEFORE VAULT INCIDENT**
 
 Voss não estava tentando chegar ao Architect quando provocou o incidente do Vault. Ele já havia chegado até ali anos antes, recusado o que encontrou e continuado sua investigação fora do radar.
 
@@ -906,7 +899,7 @@ Quem fosse capaz de encontrar uma falha talvez fosse sortudo.
 
 Quem encontrasse duas talvez fosse competente.
 
-Mas alguém capaz de atravessar <b>toda aquela sequência</b>...
+Mas alguém capaz de atravessar **toda aquela sequência**...
 
 era diferente.
 
@@ -920,13 +913,13 @@ Voss percorreu essa Sequence, recusou o que existia depois dela e deixou pistas 
 
 A tela exibe:
 
-<b>SEQUENCE 01 COMPLETE</b>
+**SEQUENCE 01 COMPLETE**
 
-<b>10 CONTRACTS BROKEN</b>
+**10 CONTRACTS BROKEN**
 
-<b>SUBJECT QUALIFIED</b>
+**SUBJECT QUALIFIED**
 
-<b>STATUS PROVISIONAL</b>
+**STATUS PROVISIONAL**
 
 Mas antes de abrir a próxima camada, o Architect mostra outra coisa.
 
@@ -938,23 +931,23 @@ Os 2,400,000.
 
 Initiator:
 
-<b>AREN VOSS</b>
+**AREN VOSS**
 
 Source:
 
-<b>MERIDIAN VAULT</b>
+**MERIDIAN VAULT**
 
 Destination:
 
-<b>MERIDIAN RECOVERY ESCROW</b>
+**MERIDIAN RECOVERY ESCROW**
 
 Beneficiary:
 
-<b>NONE</b>
+**NONE**
 
 Spend Authority:
 
-<b>MERIDIAN RECOVERY PROCESS</b>
+**MERIDIAN RECOVERY PROCESS**
 
 O Breaker entende.
 
@@ -968,27 +961,27 @@ O Vault nunca foi o alvo.
 
 Era uma mensagem.
 
-A prova não depende somente da palavra do Architect. O jogador pode inspecionar os eventos <code>SERVICE_GATE_OPEN</code>, <code>RECOVERY_ROUTED</code> e <code>ESCROW_CREDITED</code>, comparar os IDs e verificar que o <b>Recovery Escrow</b> possui política de gasto institucional que não reconhece Voss. Os registros de implantação mostram que a falha do Access Gate antecede o incidente e a montagem da Sequence.
+A prova não depende somente da palavra do Architect. O jogador pode inspecionar os eventos `SERVICE_GATE_OPEN`, `RECOVERY_ROUTED` e `ESCROW_CREDITED`, comparar os IDs e verificar que o **Recovery Escrow** possui política de gasto institucional que não reconhece Voss. Os registros de implantação mostram que a falha do Access Gate antecede o incidente e a montagem da Sequence.
 
 Um documento de serviço público vinculado por Mara demonstra o custo da quarentena: pagamentos operacionais ficaram indisponíveis até revisão, provocando atrasos reais em Lower Meridian. Voss não se apropriou dos fundos, mas tomou uma decisão cujas consequências recaíram também sobre terceiros. A sua recusa posterior de operar acima das regras não absolve essa escolha.
 
-<b>He never took the money.</b>
+**He never took the money.**
 
-<b>He made Meridian look at it.</b>
+**He made Meridian look at it.**
 
 A pergunta que começou toda a investigação muda.
 
 Não é mais:
 
-<b>Quem roubou o Vault?</b>
+**Quem roubou o Vault?**
 
 Agora é:
 
-<b>O que Voss precisava que alguém percebesse?</b>
+**O que Voss precisava que alguém percebesse?**
 
-Antes de continuar, o Architect abre o <b>BREAKER PROFILE</b>.
+Antes de continuar, o Architect abre o **BREAKER PROFILE**.
 
-A interface reproduz os <b>acontecimentos fixos da investigação</b>: o controle obtido e depois revogado no registro de Elias, a transferência indevida da Ghost Key acompanhada do protocolo de custódia, a sobrecarga provocada em Sector 13 e a decisão de interromper a pressão adicional. Também recupera o recibo assinado por Mara na Spire. Não existem versões alternativas desses eventos nem pontuações morais. O Architect apresenta o histórico ao Breaker como evidência de que competência técnica e legitimidade não são a mesma coisa.
+A interface reproduz os **acontecimentos fixos da investigação**: o controle obtido e depois revogado no registro de Elias, a transferência indevida da Ghost Key acompanhada do protocolo de custódia, a sobrecarga provocada em Sector 13 e a decisão de interromper a pressão adicional. Também recupera o recibo assinado por Mara na Spire. Não existem versões alternativas desses eventos nem pontuações morais. O Architect apresenta o histórico ao Breaker como evidência de que competência técnica e legitimidade não são a mesma coisa.
 
 The Architect interrompe o silêncio.
 
@@ -1032,9 +1025,9 @@ Uma pausa.
 
 O sistema muda.
 
-<b>ACCESS GRANTED</b>
+**ACCESS GRANTED**
 
-<b>LAYER II</b>
+**LAYER II**
 
 Uma última mensagem aparece.
 
@@ -1044,7 +1037,10 @@ A conexão termina.
 
 Antes dos créditos, o Breaker OS recebe uma última atualização da Meridian Authority:
 
-<b>INTERNAL REVIEW</b><br /><b>SUBJECT: MARA VALE</b><br /><b>CREDENTIALS: SUSPENDED</b><br /><b>CASE ACCESS: REVOKED</b>
+**INTERNAL REVIEW**
+**SUBJECT: MARA VALE**
+**CREDENTIALS: SUSPENDED**
+**CASE ACCESS: REVOKED**
 
 Mara não responde.
 
@@ -1096,21 +1092,21 @@ Ele viu aquilo que existia depois da First Layer.
 
 E recusou.
 
-O Breaker chegou ao fim da investigação e agora possui acesso provisório à Layer II. Isso <b>não é ACCEPTED</b>: o SequenceObserver o classificou como tecnicamente QUALIFIED, sem ter demonstrado que possui legitimidade para as futuras intervenções.
+O Breaker chegou ao fim da investigação e agora possui acesso provisório à Layer II. Isso **não é ACCEPTED**: o SequenceObserver o classificou como tecnicamente QUALIFIED, sem ter demonstrado que possui legitimidade para as futuras intervenções.
 
 A Season termina sem responder três perguntas:
 
-<b>O que Voss recusou?</b>
+**O que Voss recusou?**
 
-<b>Por que o Architect precisa de Breakers?</b>
+**Por que o Architect precisa de Breakers?**
 
-<b>E o que existe em Layer II que fez Voss decidir que não valia a pena seguir em frente?</b>
+**E o que existe em Layer II que fez Voss decidir que não valia a pena seguir em frente?**
 
 ---
 
-<b>END OF SEQUENCE 01</b>
+**END OF SEQUENCE 01**
 
-<b>THE FIRST LAYER — COMPLETE</b>
+**THE FIRST LAYER — COMPLETE**
 
 ---
 
@@ -1120,13 +1116,15 @@ Tela preta.
 
 Um terminal distante acende.
 
-<b>LOCATION: LUMEN</b>
+**LOCATION: LUMEN**
 
-<b>SEQUENCE 01</b><br /><b>SUBJECT: PLAYER</b><br /><b>STATUS: QUALIFIED / PROVISIONAL</b>
+**SEQUENCE 01**
+**SUBJECT: PLAYER**
+**STATUS: QUALIFIED / PROVISIONAL**
 
 Uma nova linha aparece:
 
-<b>NEW BREAKER DETECTED</b>
+**NEW BREAKER DETECTED**
 
 Alguém observa a mensagem.
 
@@ -1140,43 +1138,43 @@ A identidade não é revelada. Internamente, essa pessoa é a Breaker Accepted q
 
 ## Meridian News — identidade editorial do BREAKER OS
 
-<b>Estado:</b> proposta implementada no frontend em 2026-10-23.
+**Estado:** proposta implementada no frontend em 2026-10-23.
 
-O jornal interno da Network passa a se chamar <b>Meridian News</b>. Ele funciona como uma publicação diegética da cidade: reportagens curtas, editorias e fontes fazem parte do mundo narrativo, sem substituir a cadeia de evidências dos casos.
+O jornal interno da Network passa a se chamar **Meridian News**. Ele funciona como uma publicação diegética da cidade: reportagens curtas, editorias e fontes fazem parte do mundo narrativo, sem substituir a cadeia de evidências dos casos.
 
 ### Padrão do aplicativo
 
-- Masthead: <b>MERIDIAN NEWS</b>
-- Editorias: <b>The City</b>, <b>Authority</b>, <b>Underlayer</b>
+- Masthead: **MERIDIAN NEWS**
+- Editorias: **The City**, **Authority**, **Underlayer**
 - Cada edição apresenta editoria, manchete, linha fina, fonte, tempo estimado de leitura e corpo da reportagem.
-- A ação <b>Save</b> é local ao dispositivo e não altera o cânone.
+- A ação **Save** é local ao dispositivo e não altera o cânone.
 - O aplicativo usa o documento editorial do level atual; não existe uma notícia única reutilizada em todos os casos.
 
 ### Edições por level
 
-- <b>Level 00:</b> <i>2,4 milhões movimentados — nenhuma invasão detectada</i>
-- <b>Level 01:</b> <i>Inspeção física</i>
-- <b>Level 02:</b> <i>Registro de Elias Var</i>
-- <b>Level 03:</b> <i>Contestação de equipamento</i>
-- <b>Level 04:</b> <i>Planta da instalação</i>
-- <b>Level 05:</b> <i>Política do Custodian</i>
-- <b>Level 06:</b> <i>Hipótese corrigida</i>
-- <b>Level 07:</b> <i>Histórico energético</i>
-- <b>Level 08:</b> <i>Continuidade do Archive</i>
-- <b>Level 09:</b> <i>Origens de telemetria</i>
-- <b>Level 10:</b> <i>Encerramento oficial</i>
+- **Level 00:** *2,4 milhões movimentados — nenhuma invasão detectada*
+- **Level 01:** *Inspeção física*
+- **Level 02:** *Registro de Elias Var*
+- **Level 03:** *Contestação de equipamento*
+- **Level 04:** *Planta da instalação*
+- **Level 05:** *Política do Custodian*
+- **Level 06:** *Hipótese corrigida*
+- **Level 07:** *Histórico energético*
+- **Level 08:** *Continuidade do Archive*
+- **Level 09:** *Origens de telemetria*
+- **Level 10:** *Encerramento oficial*
 
 A publicação organiza a descoberta, mas não cria fatos novos fora dos documentos narrativos canônicos de cada level.
 
 # Integração canônica — furos corrigidos (Act I / seleção 01–03)
 
-<b>Voss — alertas ignorados e erro deliberado:</b> três alertas anteriores ao Vault foram arquivados pela Authority; Case 05 oferece ao Breaker cópias com identificação e data. Voss decide testar em produção a combinação AccessGate → RecoveryController para provocar um fato impossível de ocultar. A rota transfere para Meridian Recovery Escrow, não para sua wallet. Warehouse 17 e pagamentos de Lower Meridian demonstram que o experimento teve custos. No Architect, os registros históricos confirmam que ele já havia recusado a Sequence antes do Vault. <b>Não absolvê-lo</b> pela motivação.
+**Voss — alertas ignorados e erro deliberado:** três alertas anteriores ao Vault foram arquivados pela Authority; Case 05 oferece ao Breaker cópias com identificação e data. Voss decide testar em produção a combinação AccessGate → RecoveryController para provocar um fato impossível de ocultar. A rota transfere para Meridian Recovery Escrow, não para sua wallet. Warehouse 17 e pagamentos de Lower Meridian demonstram que o experimento teve custos. No Architect, os registros históricos confirmam que ele já havia recusado a Sequence antes do Vault. **Não absolvê-lo** pela motivação.
 
-<b>Architect falível:</b> no Oracle, o classificador de comportamento emite uma expectativa e registra depois uma divergência entre previsão e conduta canônica observada do Breaker; atualiza o modelo. Isso é distinto da falha de pseudoaleatoriedade explorada pelo jogador. No clímax, deployment chronology comprova que as falhas antecedem a Sequence — o Architect não fabricou os bugs.
+**Architect falível:** no Oracle, o classificador de comportamento emite uma expectativa e registra depois uma divergência entre previsão e conduta canônica observada do Breaker; atualiza o modelo. Isso é distinto da falha de pseudoaleatoriedade explorada pelo jogador. No clímax, deployment chronology comprova que as falhas antecedem a Sequence — o Architect não fabricou os bugs.
 
-<b>Mara — recibo com custo:</b> em Case 09, antes da assinatura, a UI exibe CASE CLOSED / CREDENTIAL: MARA / ACTION ATTRIBUTABLE. Ela associa o recibo à sua identidade e assume formalmente cadeia de custódia. Depois, sua suspensão referencia o mesmo hash/ID, sem a Authority espionar seu canal. A janela continua diegética e Mara não aparece falando ao vivo no Architect.
+**Mara — recibo com custo:** em Case 09, antes da assinatura, a UI exibe CASE CLOSED / CREDENTIAL: MARA / ACTION ATTRIBUTABLE. Ela associa o recibo à sua identidade e assume formalmente cadeia de custódia. Depois, sua suspensão referencia o mesmo hash/ID, sem a Authority espionar seu canal. A janela continua diegética e Mara não aparece falando ao vivo no Architect.
 
-<b>Regra de roteiro:</b> distribuir cada prova no Case correto; não converter estas explicações em um monólogo final. Ver <mention url="https://app.notion.com/p/4019c56304258181a4e2ef561d8954a2" />.
+**Regra de roteiro:** distribuir cada prova no Case correto; não converter estas explicações em um monólogo final. Ver [00 — História Canônica do Act I](../../shared/00-historia-canonica-do-act-i.md).
 
 # Revisão dramática v3 — Season 1 (aprovada para roteiro, integração pendente)
 
@@ -1215,6 +1213,3 @@ Impossible Account: o saldo impossível deve apontar uma rota esquecida de recur
 - [ ] Final permite deduzir a verdade a partir de provas antes da fala do Architect.
 - [ ] Nenhum novo branching, score moral, exploit ou status ACCEPTED é introduzido.
 - [ ] Integração no frontend, timing de slides e playtest permanecem NÃO VERIFICADOS até teste real.
-</content>
-</page>
-

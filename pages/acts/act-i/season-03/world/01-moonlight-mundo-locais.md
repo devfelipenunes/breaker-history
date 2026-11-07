@@ -5,29 +5,17 @@ title: "🌃 01 — Moonlight — Mundo & Locais"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258151a3a1ee32eb95991d as of 2026-11-02T17:43:30.794Z:
-<page url="https://app.notion.com/p/4019c56304258151a3a1ee32eb95991d" icon="🌃">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258179bfa0fc93d15ac390" title="Season 03 — Shadows of Privacy — Moonlight"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"01 — Moonlight — Mundo & Locais"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🌃"}</iconMetadata>
-<content>
 # Moonlight — The City Behind the Glass
 
-Moonlight é uma cidade construída em torno de <b>visibilidade configurável</b>.
+Moonlight é uma cidade construída em torno de **visibilidade configurável**.
 
 Meridian controla identidade.
 
 Lumen organiza valor.
 
-Moonlight organiza <b>disclosure</b>.
+Moonlight organiza **disclosure**.
 
-> <b>You can see Moonlight. You can never see all of it.</b>
+> **You can see Moonlight. You can never see all of it.**
 
 # Visual Identity
 
@@ -53,7 +41,7 @@ Camada urbana e digital que controla quais informações aparecem em cada contex
 
 O Veil não apaga a realidade.
 
-Ele limita <b>o que pode ser inferido</b>.
+Ele limita **o que pode ser inferido**.
 
 # The Public Face
 
@@ -67,7 +55,7 @@ Centro institucional.
 
 Payroll, treasury, B2B settlement e operações confidenciais.
 
-<b>Sabemos que algo existe; não sabemos necessariamente o conteúdo.</b>
+**Sabemos que algo existe; não sabemos necessariamente o conteúdo.**
 
 # The Pool
 
@@ -85,7 +73,9 @@ Estruturas “somem” depois de atravessadas: algo pode provar que já foi util
 
 Disputas são decididas por proofs.
 
-CLAIM: COLLATERAL >= REQUIRED<br />PROOF: VALID<br />COLLATERAL VALUE: HIDDEN
+CLAIM: COLLATERAL >= REQUIRED
+PROOF: VALID
+COLLATERAL VALUE: HIDDEN
 
 # The Witness Spire
 
@@ -93,7 +83,7 @@ Instituição mais controversa da cidade.
 
 Responsável por investigação, compliance e mecanismos autorizados de disclosure.
 
-> <b>If someone can see through the Veil, who watches them?</b>
+> **If someone can see through the Veil, who watches them?**
 
 # The Blind Quarter
 
@@ -105,7 +95,7 @@ Também pode abrigar criminosos.
 
 Regra narrativa:
 
-<b>private ≠ criminal</b>
+**private ≠ criminal**
 
 # The Veil Gate
 
@@ -164,9 +154,6 @@ O custo de abrir o Veil deve ser humano, não estatístico.
 | 09–10 | Witness Spire domina skyline; trajetórias do Breaker passam a perder continuidade observável | Ele aprende a limitar correlação prospectiva |
 | Final e epílogo | Spire encerra ordem; depois serviços intercity se fecham para o Breaker | Vitória de direitos e perda institucional podem coexistir |
 
-<b>Princípio:</b> a cidade não deve escurecer genericamente a cada fase; o efeito visual precisa comunicar <b>qual informação aparece, qual claim foi comprovado e qual revelação foi negada</b>. Sera/E.V. introduzem o custo humano de full disclosure. As ruas do Blind Quarter não podem virar “área criminosa” por definição.
+**Princípio:** a cidade não deve escurecer genericamente a cada fase; o efeito visual precisa comunicar **qual informação aparece, qual claim foi comprovado e qual revelação foi negada**. Sera/E.V. introduzem o custo humano de full disclosure. As ruas do Blind Quarter não podem virar “área criminosa” por definição.
 
-Ver <mention url="https://app.notion.com/p/40c9c56304258163a9f8c7ed2abcdf1c" />.
-</content>
-</page>
-
+Ver [08 — Privacy Threat Model & Cadeia de Evidências](08-privacy-threat-model-cadeia-de-evidencias.md).

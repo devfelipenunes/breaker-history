@@ -9,4 +9,3 @@
 - [Referências e easter eggs](references/)
 - [Comunidade e publicações](community/)
 - [Arquivo histórico](archive/)
-

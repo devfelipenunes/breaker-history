@@ -5,4 +5,3 @@
 - [Season 2 — DeFi Wars](season-02/README.md)
 - [Season 3 — Shadows of Privacy](season-03/README.md)
 - [Continuidade e documentação transversal](shared/)
-

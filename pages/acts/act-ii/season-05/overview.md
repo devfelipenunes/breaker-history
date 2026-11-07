@@ -5,24 +5,14 @@ title: "⚓ Season 05 — Beyond the Network"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c56304258109b7c8cf0e28d33889 as of 2026-10-22T17:39:19.284Z:
-<page url="https://app.notion.com/p/4019c56304258109b7c8cf0e28d33889" icon="⚓">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258110ae50e91d4be0a8fe" title="ACT II — Reconstruct the Truth"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"Season 05 — Beyond the Network"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"⚓"}</iconMetadata>
-<content>
-<callout icon="⚓" color="orange_bg">
-<b>Season 5 — Beyond the Network</b> leva BREAKER até a fronteira entre verdade onchain e afirmações do mundo externo.
-</callout>
+**Season 5 — Beyond the Network** leva BREAKER até a fronteira entre verdade onchain e afirmações do mundo externo.
 
 # Identity
 
-<b>Local:</b> Anchor<br /><b>Gameplay fantasy:</b> operador de fronteira / investigador cross-system<br /><b>Tema técnico:</b> Anchors, assets, issuers, on/off-ramp, KYC, identity, SEP flows, quotes, redemption, smart wallets e trust boundaries<br /><b>Pergunta:</b> <i>Podemos confiar no que vem de fora da Network?</i>
+**Local:** Anchor
+**Gameplay fantasy:** operador de fronteira / investigador cross-system
+**Tema técnico:** Anchors, assets, issuers, on/off-ramp, KYC, identity, SEP flows, quotes, redemption, smart wallets e trust boundaries
+**Pergunta:** *Podemos confiar no que vem de fora da Network?*
 
 # Story
 
@@ -30,13 +20,15 @@ Um ativo pode ser perfeitamente válido onchain e ainda depender de uma verdade 
 
 A Season começa quando um ativo amplamente utilizado dentro da Stellar Network enfrenta uma tentativa de resgate no mundo externo.
 
-REDEMPTION REQUEST<br />STATUS: DENIED<br />RESERVE: UNVERIFIED
+REDEMPTION REQUEST
+STATUS: DENIED
+RESERVE: UNVERIFIED
 
 O contrato não está quebrado.
 
 A representação onchain também não.
 
-O problema é a relação entre <b>token e realidade</b>.
+O problema é a relação entre **token e realidade**.
 
 # Anchor
 
@@ -73,7 +65,7 @@ A investigação revela uma estrutura mais antiga: instituições externas parti
 
 Não significa que controlam o Architect atualmente.
 
-Significa que <b>sua legitimidade nasceu de uma decisão humana/institucional anterior à saga</b>.
+Significa que **sua legitimidade nasceu de uma decisão humana/institucional anterior à saga**.
 
 # Gancho
 
@@ -85,7 +77,7 @@ AUTHORIZATION MODEL: QUORUM
 
 Próximo destino:
 
-<b>Quorum.</b>
+**Quorum.**
 
 # Encadeamento narrativo consolidado
 
@@ -98,6 +90,3 @@ Documentos autenticados e relatos independentes completam o incidente de Voss: a
 O aparente issuer fraudulento não explica sozinho a cadeia de dependências. O fechamento exige explicitar obrigações, limites da evidência e perdas, sem inventar reservas para produzir um final feliz.
 
 O dossiê estabelece que houve autorização humana histórica para o mecanismo de contingência e identifica seu modelo federado: QUORUM. Isso prova origem do mandato, não validade permanente nem aprovação de toda ação posterior. Voss não aparece fisicamente.
-</content>
-</page>
-

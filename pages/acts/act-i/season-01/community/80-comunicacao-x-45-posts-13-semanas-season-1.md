@@ -5,34 +5,20 @@ title: "80 — Comunicação X | 45 posts — 13 semanas (Season 1)"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4029c563042581c8a6c8f89612175d14 as of 2026-11-05T11:09:33.320Z:
-<page url="https://app.notion.com/p/4029c563042581c8a6c8f89612175d14">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-3-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"80 — Comunicação X \\| 45 posts — 13 semanas (Season 1)"}
-</properties>
-<iconMetadata>null</iconMetadata>
-<content>
-<callout icon="🔎" color="green_bg">
-<b>AUDITORIA DE HASHTAGS — 05/11/2026:</b> revisados os <b>45 posts</b> da Season 1; <b>29 textos tiveram hashtags ajustadas</b>. Preservados os 45 IDs, a sequência, os status de publicação e os pré-requisitos de mídia. Três copies (#06, #27, #36) e a abertura técnica do #32 foram refinadas para mencionar explicitamente Stellar/Soroban, sem alterar roteiro. Nenhuma publicação foi enviada ao X.
-</callout>
+**AUDITORIA DE HASHTAGS — 05/11/2026:** revisados os **45 posts** da Season 1; **29 textos tiveram hashtags ajustadas**. Preservados os 45 IDs, a sequência, os status de publicação e os pré-requisitos de mídia. Três copies (#06, #27, #36) e a abertura técnica do #32 foram refinadas para mencionar explicitamente Stellar/Soroban, sem alterar roteiro. Nenhuma publicação foi enviada ao X.
 
 ## Matriz final de hashtags — Season 1
 
 | Hashtag | Antes | Após revisão | Quando usar |
 | --- | --- | --- | --- |
-| <b>#BREAKER</b> | 34 | <b>31</b> | Narrativa, marca, gameplay, comunidade, convites |
-| <b>#Stellar</b> | 1 | <b>18</b> | Identidade de ecossistema, contratos da rede e convite para jogar |
-| <b>#Soroban</b> | 13 | <b>15</b> | Código, limites de confiança, segurança, verificação |
-| <b>#BuildOnStellar</b> | 0 | <b>3</b> | Demonstração autêntica de projeto e conteúdo de builder |
-| <b>#CTF</b> | 0 | <b>7</b> | Perguntas, comunidade, filosofia e habilidades de desafios |
-| <b>#SmartContractSecurity</b> | 2 | <b>2</b> | Análise profunda e testes de remediação |
+| **#BREAKER** | 34 | **31** | Narrativa, marca, gameplay, comunidade, convites |
+| **#Stellar** | 1 | **18** | Identidade de ecossistema, contratos da rede e convite para jogar |
+| **#Soroban** | 13 | **15** | Código, limites de confiança, segurança, verificação |
+| **#BuildOnStellar** | 0 | **3** | Demonstração autêntica de projeto e conteúdo de builder |
+| **#CTF** | 0 | **7** | Perguntas, comunidade, filosofia e habilidades de desafios |
+| **#SmartContractSecurity** | 2 | **2** | Análise profunda e testes de remediação |
 
-<b>Política:</b> no máximo duas hashtags por post; não forçar #Stellar em todos os comunicados ficcionais da Authority/Meridian; não usar #XLM para posts sem conteúdo da moeda/preço; hashtags não significam endosso oficial. Uma publicação deve funcionar mesmo sem hashtags. Verificar limite de 280 caracteres novamente depois de substituir URLs placeholders.
+**Política:** no máximo duas hashtags por post; não forçar #Stellar em todos os comunicados ficcionais da Authority/Meridian; não usar #XLM para posts sem conteúdo da moeda/preço; hashtags não significam endosso oficial. Uma publicação deve funcionar mesmo sem hashtags. Verificar limite de 280 caracteres novamente depois de substituir URLs placeholders.
 
 ## Hashtags da semana de pré-lançamento — D−7 até D−1
 
@@ -47,9 +33,9 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/402
 
 ## Relacionamento com a Stellar — além de hashtags
 
-- <b>Conta institucional:</b> @StellarOrg; <b>canal de desenvolvedores:</b> @BuildOnStellar. Identificadores públicos verificados em fontes da comunidade. <b>Não</b> tratar o Breaker como projeto oficial ou parceiro da SDF.
+- **Conta institucional:** @StellarOrg; **canal de desenvolvedores:** @BuildOnStellar. Identificadores públicos verificados em fontes da comunidade. **Não** tratar o Breaker como projeto oficial ou parceiro da SDF.
 - Interagir manualmente e com conteúdo substantivo com posts de Soroban, segurança e desenvolvimento: compartilhar a experiência real de criar CTF, decisões de segurança, screenshot/clip validado e perguntas genuínas.
-- <b>Menção pontual recomendada:</b> após existir demo real aprovada, um post de construção mostrando o BREAKER OS poderia citar @BuildOnStellar como convite a builders para feedback; o anúncio de D0 pode mencionar a conta se fizer sentido. Evitar menções repetidas sem motivo ou pedidos insistentes de repost.
+- **Menção pontual recomendada:** após existir demo real aprovada, um post de construção mostrando o BREAKER OS poderia citar @BuildOnStellar como convite a builders para feedback; o anúncio de D0 pode mencionar a conta se fizer sentido. Evitar menções repetidas sem motivo ou pedidos insistentes de repost.
 - Responder a conversas de builders, não somente publicar e sair: apontar um conceito técnico concreto, um teste de auth/estado ou uma lição de design.
 - Criar vínculo com devs da Stellar, CTF players e comunidades regionais por conversas reais e convites para playtest; nunca alegar parceria confirmada.
 - Não usar hashtags de eventos (#Meridian2026, #HackMeridian etc.) retrospectivamente sem ligação direta ao conteúdo ou evento.
@@ -62,24 +48,22 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/402
 - Acompanhamento semanal de visitas via X ao domínio, cliques, início de prólogo e conclusão do primeiro Case.
 - Comparar resultados de narrativa (#BREAKER), conteúdo técnico (#Soroban/#Stellar) e posts comunitários (#CTF), sem concluir causalidade apenas pela hashtag.
 
-<b>Fonte da regra de hashtags:</b> [X Help — How to use hashtags](https://help.x.com/en/using-x/how-to-use-hashtags) (recomenda até duas). <b>Fonte para contas:</b> [Stellar community](https://stellar.org/community), [Stellar official social account](https://stellar.org/blog/foundation-news/how-to-protect-yourself-from-scammers), [Build on Stellar](https://x.com/BuildOnStellar).
+**Fonte da regra de hashtags:** [X Help — How to use hashtags](https://help.x.com/en/using-x/how-to-use-hashtags) (recomenda até duas). **Fonte para contas:** [Stellar community](https://stellar.org/community), [Stellar official social account](https://stellar.org/blog/foundation-news/how-to-protect-yourself-from-scammers), [Build on Stellar](https://x.com/BuildOnStellar).
 
 ---
 
-<callout icon="🚀" color="blue_bg">
-<b>SPRINT X — ATUALIZAÇÃO 05/11/2026:</b> domínio escolhido [<b>playbreaker.xyz</b>](http://playbreaker.xyz) (registro/website ainda a verificar); plano de lançamento em <mention url="https://app.notion.com/p/40f9c56304258195823af64a18b1cc72" />. Preparar perfil e comunidade agora; sequência oficial de anúncios continua condicionada a D−7 e ao gate de lançamento.
-</callout>
+**SPRINT X — ATUALIZAÇÃO 05/11/2026:** domínio escolhido [**playbreaker.xyz**](http://playbreaker.xyz) (registro/website ainda a verificar); plano de lançamento em [18 — Plano de Lançamento | 30 dias — Season 1](../production/18-plano-de-lancamento-30-dias-season-1.md). Preparar perfil e comunidade agora; sequência oficial de anúncios continua condicionada a D−7 e ao gate de lançamento.
 
 ## Perfil do X — proposta pronta para revisão
 
-- <b>Nome de exibição sugerido:</b> BREAKER \| Stellar CTF
-- <b>Handle preferido:</b> @playbreaker; verificar disponibilidade e direitos de nome. Alternativas: @playbreakergame, @breakerctf — também não verificadas.
-- <b>Bio proposta (inglês):</b> A free story-driven hacking CTF on Stellar. Investigate an impossible theft, test Soroban contracts, uncover Meridian. Season 1 coming soon.
-- <b>Website:</b> [playbreaker.xyz](http://playbreaker.xyz) — inserir no perfil só após URL ativa/HTTPS validado.
-- <b>Header:</b> banner cinematográfico 8:3 de Meridian <b>adaptado</b> a crop do X sem alterar arte original; texto com sobreposição vetorial: EVERY SYSTEM HAS A WEAKNESS. / SEASON 1 — THE FIRST LAYER.
-- <b>Avatar:</b> símbolo do BREAKER / emblema próprio da marca, não logo oficial da Stellar Development Foundation.
-- <b>Mensagem-foco:</b> Free narrative hacking CTF built around Stellar smart contracts. Não vender como produto oficial da Stellar.
-- <b>Fixado antes do lançamento:</b> usar #01 — The Impossible Theft <b>depois</b> de publicar, com arte e link para perfil. Trocar pelo #13 — Season 1 is live quando D0 realmente chegar, com URL comprovadamente funcional.
+- **Nome de exibição sugerido:** BREAKER \| Stellar CTF
+- **Handle preferido:** @playbreaker; verificar disponibilidade e direitos de nome. Alternativas: @playbreakergame, @breakerctf — também não verificadas.
+- **Bio proposta (inglês):** A free story-driven hacking CTF on Stellar. Investigate an impossible theft, test Soroban contracts, uncover Meridian. Season 1 coming soon.
+- **Website:** [playbreaker.xyz](http://playbreaker.xyz) — inserir no perfil só após URL ativa/HTTPS validado.
+- **Header:** banner cinematográfico 8:3 de Meridian **adaptado** a crop do X sem alterar arte original; texto com sobreposição vetorial: EVERY SYSTEM HAS A WEAKNESS. / SEASON 1 — THE FIRST LAYER.
+- **Avatar:** símbolo do BREAKER / emblema próprio da marca, não logo oficial da Stellar Development Foundation.
+- **Mensagem-foco:** Free narrative hacking CTF built around Stellar smart contracts. Não vender como produto oficial da Stellar.
+- **Fixado antes do lançamento:** usar #01 — The Impossible Theft **depois** de publicar, com arte e link para perfil. Trocar pelo #13 — Season 1 is live quando D0 realmente chegar, com URL comprovadamente funcional.
 
 ## Checklist da primeira semana editorial (não publicar automaticamente)
 
@@ -92,7 +76,7 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/402
 | #06 — Meet BREAKER OS | D−2 | NÃO PRONTO | Captura REAL do jogo; não usar mockup |
 | #09 — Pick a lead | D−1 | PRONTO | Enquete/pergunta, sem resposta oficial |
 
-<b>Primeira semana após D0:</b> 6 posts (#13–18), apenas #17 atualmente marcado pronto; #13 exige URL jogável, #18 exige clip verdadeiro, #16 exige tratamento visual coerente com Mara. Validar as mídias antes de promover o estado.
+**Primeira semana após D0:** 6 posts (#13–18), apenas #17 atualmente marcado pronto; #13 exige URL jogável, #18 exige clip verdadeiro, #16 exige tratamento visual coerente com Mara. Validar as mídias antes de promover o estado.
 
 ## Produção de mídia — mínimo necessário
 
@@ -109,7 +93,7 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/402
 - Selecionar e interagir legitimamente com comunidades Stellar, Soroban e CTF, sem spam ou anúncio de parceria inexistente.
 - Construir contatos para convite de playtest; pedir feedback genuíno, não fabricar depoimentos.
 - Preparar asset/alt text, revisão linguística, link tracking e planilha de mídia por post.
-- Não publicar "Season 1 is live" até gate de produção. D0 alvo preliminar: <date start="2026-12-04" />; decisão Go/No-Go em <date start="2026-11-26" />.
+- Não publicar "Season 1 is live" até gate de produção. D0 alvo preliminar: `2026-12-04`; decisão Go/No-Go em `2026-11-26`.
 
 ## Métricas úteis na campanha
 
@@ -120,7 +104,7 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/402
 
 ---
 
-A fila oficial contém <b>45 posts em inglês</b>, distribuídos em <b>15 blocos temáticos de três</b> e 13 semanas (aproximadamente três meses): 6 publicações na semana anterior ao lançamento, 6 na semana de lançamento e 33 em onze semanas posteriores. Na auditoria editorial de 2026-11-03, oito posts originais foram revisados (03, 07, 13, 23, 26, 30, 33 e 35) e nove novos textos (37–45) foram incluídos. A ordem do calendário, não a numeração do inventário, rege a execução. Não há datas absolutas nem publicação automática; D0 depende da existência real do jogo.
+A fila oficial contém **45 posts em inglês**, distribuídos em **15 blocos temáticos de três** e 13 semanas (aproximadamente três meses): 6 publicações na semana anterior ao lançamento, 6 na semana de lançamento e 33 em onze semanas posteriores. Na auditoria editorial de 2026-11-03, oito posts originais foram revisados (03, 07, 13, 23, 26, 30, 33 e 35) e nove novos textos (37–45) foram incluídos. A ordem do calendário, não a numeração do inventário, rege a execução. Não há datas absolutas nem publicação automática; D0 depende da existência real do jogo.
 
 ## Inventário temático — 15 blocos (12 originais + 3 de extensão)
 
@@ -144,7 +128,7 @@ A fila oficial contém <b>45 posts em inglês</b>, distribuídos em <b>15 blocos
 
 D0 é o dia em que a Season 1 estiver realmente acessível. Não fixar data nem agendar no X. Começar a comunicação pública somente em D−7, sete dias antes de D0. O usuário publicará manualmente, usando o Notion como lista de controle.
 
-<b>Distribuição: 6 posts de pré-lançamento + 6 posts na semana de lançamento + 33 posts ao longo de onze semanas de comunidade ativa = 45 posts em 13 semanas.</b> O número no título é o identificador estável do post. A ordem efetiva está no calendário abaixo; a numeração por bloco não é a ordem de publicação.
+**Distribuição: 6 posts de pré-lançamento + 6 posts na semana de lançamento + 33 posts ao longo de onze semanas de comunidade ativa = 45 posts em 13 semanas.** O número no título é o identificador estável do post. A ordem efetiva está no calendário abaixo; a numeração por bloco não é a ordem de publicação.
 
 ### Pré-lançamento — D−7 a D−1: 6 posts
 
@@ -178,7 +162,7 @@ D0 é o dia em que a Season 1 estiver realmente acessível. Não fixar data nem 
 - Semana 11 — #40 The city below; #41 State has a lifetime; #42 Change your hypothesis.
 - Semana 12 — #43 A case isn't a verdict; #44 Who verifies success?; #45 Begin the investigation.
 
-Ritmo sugerido no pós-lançamento: segunda, quarta e sexta; ajustável conforme reações da comunidade e materiais disponíveis. Datas são <b>relativas</b> ao lançamento efetivo, e não um compromisso com uma data específica.
+Ritmo sugerido no pós-lançamento: segunda, quarta e sexta; ajustável conforme reações da comunidade e materiais disponíveis. Datas são **relativas** ao lançamento efetivo, e não um compromisso com uma data específica.
 
 ### Critérios para executar
 
@@ -193,7 +177,7 @@ Ritmo sugerido no pós-lançamento: segunda, quarta e sexta; ajustável conforme
 
 ## Avaliação editorial dos 45 posts — 2026-11-03
 
-<b>Resultado:</b> a base original tinha 36 posts e boa coerência temática, mas alguns ganchos repetitivos e referências técnicas desatualizadas. Oito posts (03, 07, 13, 23, 26, 30, 33, 35) foram reescritos/polidos, e nove (37–45) adicionados para cobrir três semanas. O roteiro v1.4 não foi alterado.
+**Resultado:** a base original tinha 36 posts e boa coerência temática, mas alguns ganchos repetitivos e referências técnicas desatualizadas. Oito posts (03, 07, 13, 23, 26, 30, 33, 35) foram reescritos/polidos, e nove (37–45) adicionados para cobrir três semanas. O roteiro v1.4 não foi alterado.
 
 ### Distribuição por propósito
 
@@ -204,7 +188,7 @@ Ritmo sugerido no pós-lançamento: segunda, quarta e sexta; ajustável conforme
 | Gameplay | 6 | O que significa investigar e testar hipóteses; mídia real obrigatória quando indicada |
 | Comunidade | 7 | Enquetes, perguntas úteis, conversa e feedback |
 | Lançamento | 3 | Convites para jogar condicionados à disponibilidade real |
-| <b>Total</b> | <b>45</b> | 13 semanas e 15 blocos |
+| **Total** | **45** | 13 semanas e 15 blocos |
 
 ### Pontos fortes
 
@@ -215,24 +199,24 @@ Ritmo sugerido no pós-lançamento: segunda, quarta e sexta; ajustável conforme
 
 ### Correções e riscos específicos
 
-- <b>03:</b> separada a apresentação de Meridian do incidente já abordado no 01.
-- <b>07:</b> registro de operador não é confundido com autorização/identidade do responsável pelo Vault.
-- <b>13:</b> mais foco no benefício concreto; continua bloqueado até jogo acessível e URL validada.
-- <b>23:</b> encurtado e focado na intenção exata autorizada em timelock, sem associar a Season 1 a upgrade de Wasm.
-- <b>26:</b> agora distingue pseudoaleatoriedade e classificador de comportamento; não divulga a solução do Oracle.
-- <b>30 e 35:</b> substituídas referências a upgrade por identidade, mudança de estado, cadeia de confiança e intenção assinada.
-- <b>33:</b> reformulado como <i>padrão de design</i>, não alegação de que jogadores já validaram a experiência.
-- <b>37–45:</b> adicionam propriedade vs contestação, causalidade, custódia de evidências, Meridian subterrânea, estado/TTL, revisão de hipóteses, responsabilidade institucional, verificação independente e CTA evergreen.
+- **03:** separada a apresentação de Meridian do incidente já abordado no 01.
+- **07:** registro de operador não é confundido com autorização/identidade do responsável pelo Vault.
+- **13:** mais foco no benefício concreto; continua bloqueado até jogo acessível e URL validada.
+- **23:** encurtado e focado na intenção exata autorizada em timelock, sem associar a Season 1 a upgrade de Wasm.
+- **26:** agora distingue pseudoaleatoriedade e classificador de comportamento; não divulga a solução do Oracle.
+- **30 e 35:** substituídas referências a upgrade por identidade, mudança de estado, cadeia de confiança e intenção assinada.
+- **33:** reformulado como *padrão de design*, não alegação de que jogadores já validaram a experiência.
+- **37–45:** adicionam propriedade vs contestação, causalidade, custódia de evidências, Meridian subterrânea, estado/TTL, revisão de hipóteses, responsabilidade institucional, verificação independente e CTA evergreen.
 
 ### Regras editoriais antes da publicação
 
-- <b>Ganchos:</b> evitar começar todos os posts com “A transaction…” ou “In BREAKER…”. Variar documento diegético, pergunta, contraste e CTA.
-- <b>Formato:</b> 45 textos atualmente abaixo de 280 caracteres e com até duas hashtags. A contagem deve ser repetida depois de substituir links e adicionar menções.
-- <b>Imagem:</b> arte cinematográfica aprovada nos posts narrativos condicionais; mediação visual e texto alternativo quando possível. Não apresentar mockup como jogo funcional.
-- <b>Vídeo:</b> gameplay somente após captura real; legenda e primeiro frame legível no celular.
-- <b>Spoilers P0:</b> não revelar responsabilidade de Voss, destino definitivo do incidente, REFUSED, ACCEPTED mascarado, suspensão de Mara, o Architect ou o status final.
-- <b>Publicação:</b> D0 não está confirmado. Se o jogo não estiver acessível, adiar toda a cadência de lançamento, não apenas a postagem 13. A narrativa pública não pode afirmar shipping antecipadamente.
-- <b>Comunidade:</b> responder manualmente a comentários e registrar dúvidas úteis sem prometer mudança de história, recursos não implementados ou métricas inexistentes.
+- **Ganchos:** evitar começar todos os posts com “A transaction…” ou “In BREAKER…”. Variar documento diegético, pergunta, contraste e CTA.
+- **Formato:** 45 textos atualmente abaixo de 280 caracteres e com até duas hashtags. A contagem deve ser repetida depois de substituir links e adicionar menções.
+- **Imagem:** arte cinematográfica aprovada nos posts narrativos condicionais; mediação visual e texto alternativo quando possível. Não apresentar mockup como jogo funcional.
+- **Vídeo:** gameplay somente após captura real; legenda e primeiro frame legível no celular.
+- **Spoilers P0:** não revelar responsabilidade de Voss, destino definitivo do incidente, REFUSED, ACCEPTED mascarado, suspensão de Mara, o Architect ou o status final.
+- **Publicação:** D0 não está confirmado. Se o jogo não estiver acessível, adiar toda a cadência de lançamento, não apenas a postagem 13. A narrativa pública não pode afirmar shipping antecipadamente.
+- **Comunidade:** responder manualmente a comentários e registrar dúvidas úteis sem prometer mudança de história, recursos não implementados ou métricas inexistentes.
 
 ### Como medir sem inventar resultados
 
@@ -240,13 +224,13 @@ Registrar por post: impressões, interações, respostas substantivas, cliques n
 
 ### Operação na base do Notion
 
-A coluna <code>Ordem</code> permanece como <b>ID editorial estável</b> (01–45). A nova coluna <code>Sequência de publicação</code> mostra a ordem real da campanha (1–45), e <code>Semana da campanha</code> representa 0=pré, 1=lançamento, 2–12=pós. A visualização <b>13 semanas — ordem real de publicação</b> está ordenada pela sequência e permite filtrar semana, categoria e estado Publicado.
+A coluna `Ordem` permanece como **ID editorial estável** (01–45). A nova coluna `Sequência de publicação` mostra a ordem real da campanha (1–45), e `Semana da campanha` representa 0=pré, 1=lançamento, 2–12=pós. A visualização **13 semanas — ordem real de publicação** está ordenada pela sequência e permite filtrar semana, categoria e estado Publicado.
 
-<b>Avaliação final:</b> base pronta para produção de conteúdo e alinhada à Season 1 v1.4; <b>não</b> equivale a publicações autorizadas ou realizadas. O gargalo é preparar as mídias, ter acesso ao jogo e acompanhar a comunidade.
+**Avaliação final:** base pronta para produção de conteúdo e alinhada à Season 1 v1.4; **não** equivale a publicações autorizadas ou realizadas. O gargalo é preparar as mídias, ter acesso ao jogo e acompanhar a comunidade.
 
 ## Controle
 
-A coluna <b>Pronto para postar</b> indica texto/editorial autossuficiente, não autorização para publicar fora do calendário. A coluna <b>Publicado</b> só é marcada depois do envio no X, com <b>Link X</b> real registrado. Peças narrativas com arte obrigatória exigem visual conferido; peças de gameplay em vídeo exigem clipe real; anúncios e CTAs de jogo exigem URL de acesso testada. Posts 13, 36 e 45 têm placeholder e seguem bloqueados até a URL existir. Nenhum post foi publicado.
+A coluna **Pronto para postar** indica texto/editorial autossuficiente, não autorização para publicar fora do calendário. A coluna **Publicado** só é marcada depois do envio no X, com **Link X** real registrado. Peças narrativas com arte obrigatória exigem visual conferido; peças de gameplay em vídeo exigem clipe real; anúncios e CTAs de jogo exigem URL de acesso testada. Posts 13, 36 e 45 têm placeholder e seguem bloqueados até a URL existir. Nenhum post foi publicado.
 
 ## Restrições
 
@@ -254,7 +238,4 @@ Preservar os spoilers e o cânone v1.4 da Season 1. Não divulgar a identidade d
 
 ## Situação conferida
 
-<b>Conferência de 2026-11-03:</b> 45 textos, 45 posições únicas de 01 a 45, 21 marcados Pronto para postar por independência de material, 24 condicionais por arte, vídeo ou URL. Nenhum publicado. Todos os textos atuais ficaram dentro do limite de 280 caracteres de post padrão e com no máximo duas hashtags. Os placeholders de URL devem ser substituídos e revalidados antes da publicação.
-</content>
-</page>
-
+**Conferência de 2026-11-03:** 45 textos, 45 posições únicas de 01 a 45, 21 marcados Pronto para postar por independência de material, 24 condicionais por arte, vídeo ou URL. Nenhum publicado. Todos os textos atuais ficaram dentro do limite de 280 caracteres de post padrão e com no máximo duas hashtags. Os placeholders de URL devem ser substituídos e revalidados antes da publicação.

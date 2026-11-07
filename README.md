@@ -10,6 +10,12 @@ Arquivo editorial do workspace **BREAKER — Series Workspace**. Esta cópia con
 - [Bancos de dados exportados](databases/README.md)
 - [Manifesto de origem](manifest.json)
 
+## Como navegar e usar
+
+Comece pelo índice do workspace e siga os links relativos. A organização segue Act → Season → área de conteúdo. Em cada Season, `overview.md` apresenta a orientação editorial e aponta para as páginas mais importantes. Materiais antigos ficam em `archive/`; confira os avisos de precedência antes de usá-los.
+
+Os arquivos em `databases/` são snapshots JSON formatados para consulta. As páginas Markdown são a forma principal de navegar e ler o conteúdo editorial. O `manifest.json` registra a correspondência com as fontes do Notion.
+
 ## Padrão de organização
 
 A navegação segue a estrutura editorial do Notion: série → Act → Season → área de conteúdo. Cada pasta usa nomes legíveis e um README como índice. IDs aparecem apenas no frontmatter e no manifesto, nunca nos nomes de arquivos.

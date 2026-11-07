@@ -5,22 +5,7 @@ title: "♾️ 06 — The Impossible Account"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c563042581f1b02ec78e46a3bba0 as of 2026-11-04T15:34:14.486Z:
-<page url="https://app.notion.com/p/4009c563042581f1b02ec78e46a3bba0" icon="♾️">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c563042581fd9124e5ee36b3e82f" title="03 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581359693d42f09d41062" title="Season 01 — The First Layer"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"06 — The Impossible Account"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"♾️"}</iconMetadata>
-<content>
-<callout icon="🎨" color="gray_bg">
-<b>Visual reference:</b> [06 — The Impossible Account — abrir arte no Google Drive](https://drive.google.com/file/d/1C6QoWPP5MxloEZdAg_9A5TNktxATkP7s/view)
-</callout>
+**Visual reference:** [06 — The Impossible Account — abrir arte no Google Drive](https://drive.google.com/file/d/1C6QoWPP5MxloEZdAg_9A5TNktxATkP7s/view)
 
 # Função narrativa
 
@@ -32,21 +17,21 @@ Uma conta antiga possui um saldo que não deveria ser alcançável pelas regras 
 
 # Conceito técnico
 
-<b>Aritmética com wrapping em </b><b><code>u32</code></b><b>: multiplicação e subtração que dão a volta em vez de falhar.</b>
+**Aritmética com wrapping em **`u32`**: multiplicação e subtração que dão a volta em vez de falhar.**
 
 # Missão
 
-> <b>Reproduza o saldo impossível.</b>
+> **Reproduza o saldo impossível.**
 
 # Condição de vitória
 
-Produzir na conta do jogador o valor que o próprio contrato declara impossível (<code>impossible()</code>), usando um caminho de aritmética que dá a volta.
+Produzir na conta do jogador o valor que o próprio contrato declara impossível (`impossible()`), usando um caminho de aritmética que dá a volta.
 
 # Resultado
 
-O saldo impossível leva o Breaker a consultar o <b>relatório histórico de proveniência</b> do módulo energético, previamente indexado e verificável, no qual aparece a referência técnica:
+O saldo impossível leva o Breaker a consultar o **relatório histórico de proveniência** do módulo energético, previamente indexado e verificável, no qual aparece a referência técnica:
 
-<b>GRID NODE: 13 / ARCHIVE DESTINATION: SECTOR 13</b>
+**GRID NODE: 13 / ARCHIVE DESTINATION: SECTOR 13**
 
 # Pista
 
@@ -64,17 +49,17 @@ O jogador entra em Sector 13.
 
 A gravação de Voss contém um Contract ID. O contrato é um antigo módulo de créditos energéticos. Uma única conta possui um valor que não faz sentido diante das regras econômicas do sistema.
 
-O Breaker não precisa roubar o saldo. Precisa descobrir <b>como aquele saldo foi produzido</b>.
+O Breaker não precisa roubar o saldo. Precisa descobrir **como aquele saldo foi produzido**.
 
-> <b>Reproduza o saldo impossível.</b>
+> **Reproduza o saldo impossível.**
 
 ## Vulnerabilidade real
 
-<b>Aritmética com wrapping (</b><b><code>wrapping_mul</code></b><b> / </b><b><code>wrapping_sub</code></b><b>).</b>
+**Aritmética com wrapping (**`wrapping_mul`** / **`wrapping_sub`**).**
 
-O módulo usa <code>u32</code> e operações <code>wrapping_*</code>: em vez de falhar no overflow/underflow, o resultado dá a volta módulo 2³². A conta do jogador começa em zero; <code>withdraw(player, amount)</code> subtrai com <code>wrapping_sub</code>, então um saque maior que o saldo produz um valor enorme — exatamente o tipo de número que o contrato chama de impossível. <code>accrue</code> tem o mesmo problema na multiplicação.
+O módulo usa `u32` e operações `wrapping_*`: em vez de falhar no overflow/underflow, o resultado dá a volta módulo 2³². A conta do jogador começa em zero; `withdraw(player, amount)` subtrai com `wrapping_sub`, então um saque maior que o saldo produz um valor enorme — exatamente o tipo de número que o contrato chama de impossível. `accrue` tem o mesmo problema na multiplicação.
 
-O alvo não é inventado pelo jogador: <code>impossible()</code> deriva o valor-sentinela de dados públicos da instância e da carteira (hash de player + contrato, offset módulo 97, <code>BASE_ELAPSED × FACTOR</code>). O contrato também expõe as variantes seguras <code>accrue_checked</code> e <code>withdraw_checked</code>, que usam <code>checked_*</code> e falham alto.
+O alvo não é inventado pelo jogador: `impossible()` deriva o valor-sentinela de dados públicos da instância e da carteira (hash de player + contrato, offset módulo 97, `BASE_ELAPSED × FACTOR`). O contrato também expõe as variantes seguras `accrue_checked` e `withdraw_checked`, que usam `checked_*` e falham alto.
 
 ### Contrato vulnerável
 
@@ -102,14 +87,14 @@ pub fn accrue(env: Env, player: Address, stake: u32, rate: u32, elapsed: u32) {
 
 ### Exploit esperado
 
-O jogador chama <code>impossible()</code> para obter o alvo, confere que <code>credit(player)</code> começa em zero e pede um saque maior que o saldo. <code>withdraw</code> usa <code>wrapping_sub</code>: <code>0 - amount</code> dá a volta e produz o valor-sentinela. Alternativamente, <code>accrue</code> com fatores escolhidos produz o mesmo efeito por overflow na multiplicação.
+O jogador chama `impossible()` para obter o alvo, confere que `credit(player)` começa em zero e pede um saque maior que o saldo. `withdraw` usa `wrapping_sub`: `0 - amount` dá a volta e produz o valor-sentinela. Alternativamente, `accrue` com fatores escolhidos produz o mesmo efeito por overflow na multiplicação.
 
 ### Condição objetiva de vitória
 
-- <code>credit(player) == impossible()</code>;
+- `credit(player) == impossible()`;
 - o valor só é alcançável porque uma operação deu a volta (underflow ou overflow);
-- o alvo é derivado de <code>player</code> + endereço da instância, não copiado de outra instância;
-- <code>withdraw_checked</code>/<code>accrue_checked</code> recusam o mesmo caminho.
+- o alvo é derivado de `player` + endereço da instância, não copiado de outra instância;
+- `withdraw_checked`/`accrue_checked` recusam o mesmo caminho.
 
 ## Solução segura
 
@@ -121,11 +106,11 @@ let reward = stake
 let next = current.checked_sub(amount).expect("underflow");
 ```
 
-A regra é usar <code>checked_*</code> em todo caminho que aceita valor de usuário; o contrato já expõe <code>accrue_checked</code> e <code>withdraw_checked</code> como a versão correta.
+A regra é usar `checked_*` em todo caminho que aceita valor de usuário; o contrato já expõe `accrue_checked` e `withdraw_checked` como a versão correta.
 
 ## A pista na tabela de roteamento
 
-O saldo impossível representa créditos contábeis de energia, não moeda nem eletricidade transferida. Reproduzida a falha, o Breaker consulta o relatório histórico de proveniência do módulo, um índice existente antes do desafio. Esse relatório referencia <b>GRID NODE: 13 / ARCHIVE DESTINATION: SECTOR 13</b>. A tabela não foi decodificada a partir do número e não surge magicamente porque uma operação deu a volta. Não inventar apagão, vítima ou crédito financeiro.
+O saldo impossível representa créditos contábeis de energia, não moeda nem eletricidade transferida. Reproduzida a falha, o Breaker consulta o relatório histórico de proveniência do módulo, um índice existente antes do desafio. Esse relatório referencia **GRID NODE: 13 / ARCHIVE DESTINATION: SECTOR 13**. A tabela não foi decodificada a partir do número e não surge magicamente porque uma operação deu a volta. Não inventar apagão, vítima ou crédito financeiro.
 
 ## Referências para implementação
 
@@ -133,23 +118,22 @@ O saldo impossível representa créditos contábeis de energia, não moeda nem e
 - [Stellar example — checked arithmetic](https://developers.stellar.org/docs/build/smart-contracts/example-contracts/cross-contract-call)
 - [Soroban SDK Security Advisory GHSA-96xm-fv9w-pf3f](https://github.com/stellar/rs-soroban-sdk/security/advisories/GHSA-96xm-fv9w-pf3f)
 
-<callout icon="⚠️" color="yellow_bg">
-<b>Nota de construção:</b> não apresentar a lição como “Rust sempre faz wrap”. O contrato da fase deve fixar uma configuração/versão vulnerável controlada e o pós-level deve explicar o comportamento do tooling moderno.
-</callout>
+**Nota de construção:** não apresentar a lição como “Rust sempre faz wrap”. O contrato da fase deve fixar uma configuração/versão vulnerável controlada e o pós-level deve explicar o comportamento do tooling moderno.
 
 # Roteiro in-game — Player-facing
 
 ## Scene 0 — Arrival
 
-<b>Nova função dramática:</b> após a gravação de Voss, o Breaker quer provar que há um caminho de infraestrutura, não simplesmente repetir um exploit numérico. Uma hipótese falsa inicial associa o saldo a roubo de energia; os dados, porém, remetem ao relatório histórico de proveniência do módulo, não a um furto ou reconstrução automática de um mapa. A referência ao Sector 13 pertence à tabela da infraestrutura, não é uma mensagem arbitrariamente escondida em um número.
+**Nova função dramática:** após a gravação de Voss, o Breaker quer provar que há um caminho de infraestrutura, não simplesmente repetir um exploit numérico. Uma hipótese falsa inicial associa o saldo a roubo de energia; os dados, porém, remetem ao relatório histórico de proveniência do módulo, não a um furto ou reconstrução automática de um mapa. A referência ao Sector 13 pertence à tabela da infraestrutura, não é uma mensagem arbitrariamente escondida em um número.
 
 A conta impossível pertence a um antigo sistema de energia.
 
-Dashboard:<br /><b>BALANCE: VALUE OUTSIDE EXPECTED RANGE</b>
+Dashboard:
+**BALANCE: VALUE OUTSIDE EXPECTED RANGE**
 
 Mara:
 
-> <b>Esse número não pode existir sob este contrato.</b>
+> **Esse número não pode existir sob este contrato.**
 
 ## Scene 1 — Inciting Evidence
 
@@ -162,7 +146,7 @@ Evidence:
 
 ## Scene 2 — Mission
 
-> <b>REPRODUZA O SALDO IMPOSSÍVEL.</b>
+> **REPRODUZA O SALDO IMPOSSÍVEL.**
 
 ## Scene 3 — Active Investigation
 
@@ -170,17 +154,20 @@ O jogador investiga operações matemáticas e limites.
 
 Nenhum texto usa “overflow” inicialmente.
 
-Outputs:<br /><b>EXPECTED RANGE</b><br /><b>CURRENT VALUE</b><br /><b>DELTA: INVALID</b>
+Outputs:
+**EXPECTED RANGE**
+**CURRENT VALUE**
+**DELTA: INVALID**
 
 ## Scene 4 — Reactive Beats
 
 Se o jogador reproduzir valores próximos:
 
-<b>STATE VALID</b>
+**STATE VALID**
 
 Quando cruza o comportamento inesperado:
 
-<b>RANGE CHECK: NONE</b>
+**RANGE CHECK: NONE**
 
 ## Scene 5 — Breach
 
@@ -190,7 +177,10 @@ O jogador produz novamente o estado impossível.
 
 O painel registra o estado impossível. O Breaker abre o relatório de proveniência histórico previamente indexado pela interface legada; o relatório mostra a rota energética sem atribuir o valor do saldo a um roubo:
 
-<b>ENERGY ROUTING TABLE — LEGACY</b><br /><b>GRID NODE: 13</b><br /><b>ARCHIVE DESTINATION: SECTOR 13</b><br /><b>STATUS: UNMAPPED</b>
+**ENERGY ROUTING TABLE — LEGACY**
+**GRID NODE: 13**
+**ARCHIVE DESTINATION: SECTOR 13**
+**STATUS: UNMAPPED**
 
 ## Scene 7 — Discovery
 
@@ -198,23 +188,21 @@ Voss não escreveu “13” como uma charada. Ele percebeu que a conta impossív
 
 Mara consulta o destino:
 
-<b>SECTOR 13 — NO SUCH SECTOR</b>
+**SECTOR 13 — NO SUCH SECTOR**
 
 Breaker:
 
-> <b>Isso está virando um padrão.</b>
+> **Isso está virando um padrão.**
 
 ## Scene 8 — Debrief
 
-<b>VULNERABILITY DISCOVERED — UNSAFE ARITHMETIC / RANGE VALIDATION</b>
+**VULNERABILITY DISCOVERED — UNSAFE ARITHMETIC / RANGE VALIDATION**
 
 O relatório técnico explica a condição específica usada no challenge.
 
 ## Scene 9 — Transition
 
-<b>NEW LEAD: SECTOR 13</b>
+**NEW LEAD: SECTOR 13**
 
-Unlock:<br /><b>CASE 07 — SECTOR 13</b>
-</content>
-</page>
-
+Unlock:
+**CASE 07 — SECTOR 13**

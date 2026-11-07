@@ -5,19 +5,6 @@ title: "📊 08 — One-Ledger Average"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4019c563042581fbb26ef86004353e0a as of 2026-11-02T17:28:04.608Z:
-<page url="https://app.notion.com/p/4019c563042581fbb26ef86004353e0a" icon="📊">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c56304258155ac29c3ff5333a0af" title="04 — Cases & Bosses"/>
-<ancestor-2-page url="https://app.notion.com/p/4019c563042581d9aedad3e5f178c3e8" title="Season 02 — DeFi Wars — Lumen"/>
-<ancestor-3-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
-<ancestor-4-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"08 — One-Ledger Average"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"📊"}</iconMetadata>
-<content>
 # Story
 
 O sistema afirma usar um preço médio para resistir a manipulação.
@@ -28,11 +15,11 @@ Na prática, o “average” vira spot price.
 
 # Mission
 
-> <b>Turn an average into an instant.</b>
+> **Turn an average into an instant.**
 
 # Canonical Vulnerability
 
-<b>TWAP Window Too Short — </b><b><code>twap_window_too_short</code></b><b>.</b>
+**TWAP Window Too Short — **`twap_window_too_short`**.**
 
 # Learning
 
@@ -57,7 +44,7 @@ Nada acontece.
 
 Unlock:
 
-<b>CASE 09 — THE BREAKER THAT DIDN'T BREAK</b>
+**CASE 09 — THE BREAKER THAT DIDN'T BREAK**
 
 # Reference
 
@@ -65,35 +52,30 @@ Unlock:
 
 ## Blueprint de integração v2 — configuração anula a proteção
 
-<b>Fixture:</b> série histórica de preços e módulo TWAP com janela configurável; a janela aceita um ledger, resultando em baixa resistência à manipulação da última observação. Definir pesos e o algoritmo de média na fixture.
+**Fixture:** série histórica de preços e módulo TWAP com janela configurável; a janela aceita um ledger, resultando em baixa resistência à manipulação da última observação. Definir pesos e o algoritmo de média na fixture.
 
-<b>Verifier:</b> TWAP indevidamente segue a distorção de curtíssimo prazo; mirror seguro aplica janela mínima e política de amostragem, produzindo saída divergente sob o mesmo cenário.
+**Verifier:** TWAP indevidamente segue a distorção de curtíssimo prazo; mirror seguro aplica janela mínima e política de amostragem, produzindo saída divergente sob o mesmo cenário.
 
-<b>Conexão narrativa:</b> o movimento anormal deveria cruzar o threshold do circuit breaker e impedir a ação crítica, mas a execução continua.
+**Conexão narrativa:** o movimento anormal deveria cruzar o threshold do circuit breaker e impedir a ação crítica, mas a execução continua.
 
-<b>Slides:</b> não chamar a média de insegura por ser “média” em si; apresentar a diferença entre proteção anunciada e janela efetiva.
+**Slides:** não chamar a média de insegura por ser “média” em si; apresentar a diferença entre proteção anunciada e janela efetiva.
 
-<b>QA:</b> testar séries e boundary de um ledger versus janelas > mínimo, evitando depender de variação temporal não determinística.
+**QA:** testar séries e boundary de um ledger versus janelas > mínimo, evitando depender de variação temporal não determinística.
 
 ## Loop jogável v3 — laboratório de janela temporal (P1)
 
-<callout icon="🎮" color="blue_bg">
-O foco é <b>configuração e séries históricas</b> — distinto de freshness, confidence e de um circuit breaker que não executa.
-</callout>
+O foco é **configuração e séries históricas** — distinto de freshness, confidence e de um circuit breaker que não executa.
 
-<b>1. Investigar:</b> ver observações de preço em vários ledgers e política TWAP publicada. O jogador pode inspecionar como a janela escolhe observações; fórmula e ponderações precisam estar definidas na fixture.
+**1. Investigar:** ver observações de preço em vários ledgers e política TWAP publicada. O jogador pode inspecionar como a janela escolhe observações; fórmula e ponderações precisam estar definidas na fixture.
 
-<b>2. Formular hipótese:</b> quando a janela é um ledger, uma distorção momentânea domina a média e rompe a resistência que o protocolo anuncia.
+**2. Formular hipótese:** quando a janela é um ledger, uma distorção momentânea domina a média e rompe a resistência que o protocolo anuncia.
 
-<b>3. Executar:</b> usar a configuração mínima aceita pelo contrato e uma série determinística com breve distorção; provar que o TWAP acompanha praticamente o spot naquele momento.
+**3. Executar:** usar a configuração mínima aceita pelo contrato e uma série determinística com breve distorção; provar que o TWAP acompanha praticamente o spot naquele momento.
 
-<b>4. Feedback:</b> <code>WINDOW: 1 LEDGER</code>, valores de spot e TWAP com histórico curto versus janela segura, sem entregar a vulnerabilidade antes da vitória.
+**4. Feedback:** `WINDOW: 1 LEDGER`, valores de spot e TWAP com histórico curto versus janela segura, sem entregar a vulnerabilidade antes da vitória.
 
-<b>5. Gancho:</b> o valor extremo deveria acionar controle de preço de execução; registro mostra proteção configurada porém sem pause.
+**5. Gancho:** o valor extremo deveria acionar controle de preço de execução; registro mostra proteção configurada porém sem pause.
 
-<b>Diferencial:</b> <b>parametrização e cálculo estatístico</b>, não autorização e não ausência de enforcement.
+**Diferencial:** **parametrização e cálculo estatístico**, não autorização e não ausência de enforcement.
 
-<b>QA:</b> variáveis controladas, médias verificadas, parâmetros boundary; mirror seguro usa janela mínima adequada e rejeita configuração indevida.
-</content>
-</page>
-
+**QA:** variáveis controladas, médias verificadas, parâmetros boundary; mirror seguro usa janela mínima adequada e rejeita configuração indevida.

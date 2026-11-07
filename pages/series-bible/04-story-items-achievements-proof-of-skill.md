@@ -5,20 +5,7 @@ title: "🏆 04 — Story Items, Achievements & Proof of Skill"
 exported_at: 2026-11-07
 ---
 
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/4009c5630425817dae93db77191c7e5a as of 2026-10-22T16:10:30.739Z:
-<page url="https://app.notion.com/p/4009c5630425817dae93db77191c7e5a" icon="🏆">
-<ancestor-path>
-<parent-page url="https://app.notion.com/p/4019c5630425819d8e93e523aa0c2045" title="00 — Series Bible"/>
-<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
-</ancestor-path>
-<properties>
-{"title":"04 — Story Items, Achievements & Proof of Skill"}
-</properties>
-<iconMetadata>{"type":"emoji","emoji":"🏆"}</iconMetadata>
-<content>
-<callout icon="🏆" color="blue_bg">
-<b>Progressão em BREAKER deve provar conhecimento e jornada, não sorte.</b> O antigo sistema de Weapon / Armor / Ring / RNG foi removido do core design.
-</callout>
+**Progressão em BREAKER deve provar conhecimento e jornada, não sorte.** O antigo sistema de Weapon / Armor / Ring / RNG foi removido do core design.
 
 # Story Items
 
@@ -32,7 +19,7 @@ Exemplos:
 - provas, fragmentos e registros recuperados;
 - evidências que desbloqueiam novas regiões ou casos.
 
-<b>Story Items nunca dependem de RNG.</b>
+**Story Items nunca dependem de RNG.**
 
 # Achievements
 
@@ -40,14 +27,14 @@ Achievements registram feitos verificáveis.
 
 Exemplos:
 
-- <b>NO FORCED ENTRY</b> — concluir Case 01;
-- <b>OPERATOR RECOGNIZED</b> — vencer The Custodian;
-- <b>BREAK THE ARCHIVE</b> — concluir Sector 13;
-- <b>CHANGE THE LAW</b> — concluir Rewrite;
-- <b>SEQUENCE 01</b> — derrotar The Architect;
-- <b>NO HINTS</b> — concluir determinado challenge sem hints.
+- **NO FORCED ENTRY** — concluir Case 01;
+- **OPERATOR RECOGNIZED** — vencer The Custodian;
+- **BREAK THE ARCHIVE** — concluir Sector 13;
+- **CHANGE THE LAW** — concluir Rewrite;
+- **SEQUENCE 01** — derrotar The Architect;
+- **NO HINTS** — concluir determinado challenge sem hints.
 
-O achievement representa <b>o que o jogador provou que sabe fazer</b>.
+O achievement representa **o que o jogador provou que sabe fazer**.
 
 # Titles
 
@@ -61,7 +48,7 @@ Exemplos:
 - Breaker of the First Layer;
 - títulos sazonais futuros.
 
-<b>ACCEPTED, REFUSED, QUALIFIED e MISSING não são Titles.</b>
+**ACCEPTED, REFUSED, QUALIFIED e MISSING não são Titles.**
 
 Eles pertencem ao Breaker Registry e possuem significado narrativo.
 
@@ -83,7 +70,7 @@ O perfil registra:
 
 Direção futura para Stellar:
 
-determinadas conquistas podem possuir um <b>Proof of Skill</b> verificável associado à wallet do jogador.
+determinadas conquistas podem possuir um **Proof of Skill** verificável associado à wallet do jogador.
 
 A prioridade é provar:
 
@@ -98,7 +85,7 @@ Esse registro deve funcionar como portfólio técnico e reputação, não como i
 
 # Regra para uso onchain
 
-Caso sejam usados assets/tokens/NFT-like objects no futuro, devem representar <b>conquista não competitiva</b>, não drop especulativo.
+Caso sejam usados assets/tokens/NFT-like objects no futuro, devem representar **conquista não competitiva**, não drop especulativo.
 
 Evitar no core:
 
@@ -121,11 +108,8 @@ Challenges podem ser repetidos para:
 - reconstruir exploit;
 - comparar abordagens.
 
-Replay existe para <b>mastery</b>, não para farmar loot.
+Replay existe para **mastery**, não para farmar loot.
 
 # Princípio
 
-> <b>A recompensa é a prova de que você quebrou o sistema — e entendeu por que ele quebrou.</b>
-</content>
-</page>
-
+> **A recompensa é a prova de que você quebrou o sistema — e entendeu por que ele quebrou.**

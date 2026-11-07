@@ -1,0 +1,52 @@
+---
+notion_id: 74e79ba0-36bb-4afd-9532-1e9578fd6151
+source: https://app.notion.com/p/74e79ba036bb4afd95321e9578fd6151?pvs=204
+title: "07 — Escolhas de Acontecimentos | Writers' Room Act I"
+exported_at: 2026-11-07
+---
+
+<database url="{{https://app.notion.com/p/74e79ba036bb4afd95321e9578fd6151}}" inline="false">
+The title of this Database is: 07 — Escolhas de Acontecimentos | Writers' Room Act I
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/4019c563042581469a0edc7e30a6eff9" title="ACT I — The World Is Breakable"/>
+<ancestor-2-page url="https://app.notion.com/p/4009c563042581a4be0ffd6b2524197c" title="BREAKER — Series Workspace"/>
+</ancestor-path>
+Here are the Database's Data Sources:
+You can use the "fetch" tool on the URL of any Data Source to see its full schema configuration.
+<data-sources>
+<data-source url="{{collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20}}">
+The title of this Data Source is: 07 — Escolhas de Acontecimentos | Writers' Room Act I
+The description of this Data Source is: Doze escolhas narrativas aprovadas pelo usuário e integradas ao cânone do Ato I. Select registra a opção/combinação escolhida; as páginas preservam as alternativas consideradas. Fixture, código e testes não foram verificados.
+
+Here is the database's configurable state:
+Properties with `readOnly: true` are synced or system-managed. Do not try to update their values with page update tools.
+<data-source-state>
+{"name":"07 — Escolhas de Acontecimentos | Writers' Room Act I","schema":{"Acontecimento":{"description":"","name":"Acontecimento","type":"title"},"Decisão editorial":{"description":"","name":"Decisão editorial","options":[{"color":"gray","description":"","name":"Para avaliar","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/a0VFRA/MjE3ZjhmYzEtNzQwNC00OTIxLTg5ZGEtYTRmMDhjNGJkMTMx"},{"color":"blue","description":"","name":"Gostei - explorar","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/a0VFRA/NDhkZTlkMTQtYTYyNS00MTRlLTlhZjktMmY1NmUwZGQ3NjBi"},{"color":"yellow","description":"","name":"Pronta para revisão canônica","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/a0VFRA/NjUwMjg5ZjctZTE0My00NzZmLWJiYWQtZGUyMmE2MTMyNDc3"},{"color":"green","description":"","name":"Aprovada e incorporada","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/a0VFRA/YzZhZjFhMGItZjgxZi00YWIzLThmMmUtMzljNzE1NjZlY2Rk"},{"color":"red","description":"","name":"Descartar","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/a0VFRA/MGM3NzBhMjAtMGRiYy00ZmYyLWFiNTQtNTNlYWFmNjJjZWFk"}],"type":"select"},"Escolha de acontecimento":{"description":"","name":"Escolha de acontecimento","options":[{"color":"gray","description":"","name":"Ainda não escolhi","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/NWZhNDRhMjQtZmQyOS00MTZmLTkxNDYtYmQ2NDIyNTJlMzA2"},{"color":"blue","description":"","name":"A","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/MWE0Y2Y5NjQtNTgxOC00ZDIxLWEyMDEtNjk3NmIyMGFjNTVk"},{"color":"green","description":"","name":"B","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/M2JmZGQyNTgtMWExYS00N2ZhLThiMTEtOWNmMzY2NTk4ZWZi"},{"color":"purple","description":"","name":"C","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/MDY2NmUyMTgtZmQ0Ny00M2Q2LWFkN2EtYTdkMzJkNDBlMjli"},{"color":"orange","description":"","name":"D","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/ZmUzZWY3NTctM2E5Ny00MjEyLWEzN2EtNTA2YWM2Y2RjY2Ni"},{"color":"pink","description":"","name":"Combinar versões","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O31Kdg/ODk1NzM4YjItOTBkZi00YjVhLWE1Y2MtOTgwNjhhMGZiYTll"}],"type":"select"},"Métodos":{"description":"","name":"Métodos","options":[{"color":"red","description":"","name":"But Therefore","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/NTQ2MDlhMDgtMGZjYi00NmI1LWFlMmYtZjk1YWRhZTlmOWM2"},{"color":"blue","description":"","name":"Promise Progress Payoff","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/NmRjZWU3NTctOWVkMS00NGQ5LThhZmQtMGJhNTAyMjEwNjcx"},{"color":"green","description":"","name":"Story Grid","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/Yjk2OGVmMjAtMjBmZC00ZTVjLWI0MTEtMmNhZjc1NjI4NTA5"},{"color":"purple","description":"","name":"Three Clue Rule","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/ZGVjZjM0MzQtMDY0NC00NWYwLWIyZDItMTc3YmFiMGZiOGUx"},{"color":"yellow","description":"","name":"Environmental","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/NDQ1YzY1MjktMzRjZS00YWYxLTg2NTYtZDEyNDJiOGRiOTgw"},{"color":"orange","description":"","name":"Weave","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/dkNJfQ/ZDBhZjMxMGUtNzJhMS00NWMyLWFjOGUtMmQwZTdiMWE3OGFj"}],"type":"multi_select"},"Observação":{"description":"","name":"Observação","type":"text"},"Prioridade":{"description":"","name":"Prioridade","options":[{"color":"red","description":"","name":"P0 - central","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O0J-dA/NmNmMTkxZGItYmM2Mi00MzNmLWI5NmMtNTAwNDAwY2E2NTdl"},{"color":"yellow","description":"","name":"P1 - relevante","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O0J-dA/NWIwY2QyN2UtNDY3Ny00OTliLTkxN2MtYjc5NzMzYmI4NDlh"},{"color":"green","description":"","name":"P2 - refinamento","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/O0J-dA/YWE4ZmY3MjItNWE5Ni00NjRiLWE1MjQtY2RjZGU0OWY1ZjZk"}],"type":"select"},"Temporada":{"description":"","name":"Temporada","options":[{"color":"blue","description":"","name":"S1 — Meridian","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/UFJ7XQ/ZjA5MjRiMDItYzMyZC00YzEzLTg2Y2YtN2JhN2FmNDAyYThh"},{"color":"orange","description":"","name":"S2 — Lumen","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/UFJ7XQ/MDcyMjEwMjUtNzBlNS00YzEzLWEyZWUtZGJkM2U2Mjc3MjFm"},{"color":"purple","description":"","name":"S3 — Moonlight","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/UFJ7XQ/M2MwYmNmNGItY2ExZi00YWFkLWEwNWEtMWM1NjM1OGJmMWZm"},{"color":"pink","description":"","name":"Ponte S2→S3","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/UFJ7XQ/ZjY2ZjRmZmUtNThkZC00NWFmLThiODktZDZlMDFkYTBkYzI0"},{"color":"gray","description":"","name":"Ato I","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/UFJ7XQ/NzhmZjE1OGItOTAwZi00ZTU0LWIyYmItZTYyYTNkZmEwOThk"}],"type":"select"},"Tipo de furo":{"description":"","name":"Tipo de furo","options":[{"color":"orange","description":"","name":"Motivação","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/ZUhgYQ/ZGVmYzRkODctYmNlMi00MWY4LWI2MjAtYjMxNzNjY2I1ZTQ0"},{"color":"red","description":"","name":"Causalidade","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/ZUhgYQ/YTk1YTA2Y2QtMzMxNy00NWY3LTlkZmQtY2Q4ZGEyZDFmYTYy"},{"color":"blue","description":"","name":"Preparação e payoff","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/ZUhgYQ/ZThjYzA0M2QtYTMzZS00MTUwLWI3YjctODc0NmMzYWNhYzhl"},{"color":"purple","description":"","name":"Continuidade","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/ZUhgYQ/YjExOTIzODgtNmI3Ny00YmVhLWJjZmMtOTYxMTljMjAxZTZl"},{"color":"yellow","description":"","name":"Prova / plausibilidade","url":"collectionPropertyOption://b4f0c5f4-39bc-45b1-8950-66bd4a990f20/ZUhgYQ/MTYzNDdhYmYtMTEzNS00NWFjLWE0NTQtNmE3MDg2Y2NiNGZm"}],"type":"select"}},"url":"collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20"}
+</data-source-state>
+
+Here is the SQLite table definition for this data source.
+<sqlite-table>
+CREATE TABLE IF NOT EXISTS "collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20" (
+	url TEXT UNIQUE,
+	createdTime TEXT, -- ISO-8601 datetime string, automatically set. This is the canonical time for when the page was created.
+	"Prioridade" TEXT, -- one of ["P0 - central", "P1 - relevante", "P2 - refinamento"]
+	"Escolha de acontecimento" TEXT, -- one of ["Ainda não escolhi", "A", "B", "C", "D", "Combinar versões"]
+	"Temporada" TEXT, -- one of ["S1 — Meridian", "S2 — Lumen", "S3 — Moonlight", "Ponte S2→S3", "Ato I"]
+	"Tipo de furo" TEXT, -- one of ["Motivação", "Causalidade", "Preparação e payoff", "Continuidade", "Prova / plausibilidade"]
+	"Decisão editorial" TEXT, -- one of ["Para avaliar", "Gostei - explorar", "Pronta para revisão canônica", "Aprovada e incorporada", "Descartar"]
+	"Métodos" TEXT, -- JSON array with zero or more of ["But Therefore", "Promise Progress Payoff", "Story Grid", "Three Clue Rule", "Environmental", "Weave"]
+	"Observação" TEXT,
+	"Acontecimento" TEXT
+)
+</sqlite-table>
+</data-source>
+</data-sources>
+Here are the Database's Views:
+You can use the "fetch" tool on the URL of any View to see its full configuration.
+<views>
+<view url="{{view://3c1f6dde-cae4-4f31-b60b-ad90152f9205}}">
+{"dataSourceUrl":"{{collection://b4f0c5f4-39bc-45b1-8950-66bd4a990f20}}","displayProperties":["Acontecimento","Decisão editorial","Escolha de acontecimento","Métodos","Observação","Prioridade","Temporada","Tipo de furo"],"name":"Default view","type":"table"}
+</view>
+</views>
+</database>
+

@@ -1,17 +1,18 @@
-# BREAKER — histórico do Notion
+# BREAKER — arquivo do Notion
 
-Exportação integral do workspace **BREAKER — Series Workspace**, em 2026-11-07.
+Cópia do workspace **BREAKER — Series Workspace**, exportada em 7 de novembro de 2026.
 
-- 209 páginas, incluindo subpáginas e páginas pertencentes a bancos de dados;
-- 4 bancos de dados, com seus registros exportados;
-- conteúdo preservado como Markdown com a marcação original do Notion quando aplicável;
-- cada arquivo contém a URL e o identificador de origem para rastreabilidade.
+## Organização
 
-## Estrutura
+A pasta `pages/` acompanha os grupos de primeiro nível do Notion:
 
-- `pages/`: uma página por arquivo, com ID do Notion no nome;
-- `databases/`: exportações dos registros e esquemas de bancos;
-- `manifest.json`: índice navegável da exportação.
+- `series-bible/`: universo, regras globais, roadmap e identidade visual;
+- `act-i/`, `act-ii/`, `act-iii/`: documentação de cada ato e suas subpáginas;
+- `season-01/`, `season-02/`, `season-03/`: material das temporadas;
+- `series/`: páginas do índice mestre;
+- `other/`: páginas BREAKER sem caminho de pai retornado pela integração.
 
-> Esta é uma cópia histórica. Status editoriais como “canônico”, “proposta” e “arquivo” foram preservados do texto-fonte; esta exportação não os reinterpreta.
+Os nomes dos arquivos usam títulos legíveis. O identificador do Notion e a URL de origem permanecem no frontmatter e em `manifest.json` para rastrear cada documento. Os quatro bancos de dados e seus registros estão em `databases/`.
+
+A cópia preserva o conteúdo e os status editoriais da fonte; não converte propostas em decisões nem altera o cânone.
 

@@ -10,10 +10,23 @@ Este repositório é um snapshot editorial, não uma sincronização em tempo re
 
 ## Navegação
 
-- [Workspace e índice da série](pages/index.md)
-- [Series Bible](pages/series-bible/README.md)
-- [Acts e Seasons](pages/acts/README.md)
+### Comece por aqui
+
+- [Workspace e premissa da série](pages/index.md)
+- [Series Bible — regras e cânone global](pages/series-bible/README.md)
+- [Acts e Seasons — mapa da narrativa](pages/acts/README.md)
+
+### Atalhos de leitura
+
+- [Narrativa canônica da Season 1 — versão prevalente](pages/acts/act-i/season-01/narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md)
+- [Cases e bosses da Season 1](pages/acts/act-i/season-01/cases/)
+- [Continuidade transversal do Act I](pages/acts/act-i/shared/README.md)
+- [Produção e QA da Season 1](pages/acts/act-i/season-01/production/README.md)
+
+### Consulta e rastreabilidade
+
 - [Bancos de dados exportados](databases/README.md)
+- [Índice completo das páginas](pages/README.md)
 - [Manifesto de origem](manifest.json)
 
 ## Como navegar e usar

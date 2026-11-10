@@ -2,6 +2,12 @@
 
 Arquivo editorial do workspace **BREAKER — Series Workspace**. Esta cópia conserva propostas, material canônico e arquivos históricos conforme identificados no Notion.
 
+## Escopo e atualização
+
+O manifesto registra a exportação de **2026-11-07**: **209 páginas** e **4 snapshots de bancos de dados**. Todos os caminhos de página listados no manifesto existem nesta cópia. Os `README.md` adicionais são índices de navegação locais e, por isso, não aparecem como páginas exportadas no manifesto.
+
+Este repositório é um snapshot editorial, não uma cópia integral nem uma sincronização em tempo real do workspace. Alguns links levam a páginas do Notion que não foram exportadas individualmente; anexos e imagens também não estão empacotados aqui. Para confirmar o estado atual de uma decisão ou conteúdo, consulte a página de origem no Notion e confira sua precedência antes de usar versões arquivadas.
+
 ## Navegação
 
 - [Workspace e índice da série](pages/index.md)
@@ -14,7 +20,7 @@ Arquivo editorial do workspace **BREAKER — Series Workspace**. Esta cópia con
 
 Comece pelo índice do workspace e siga os links relativos. A organização segue Act → Season → área de conteúdo. Em cada Season, `overview.md` apresenta a orientação editorial e aponta para as páginas mais importantes. Materiais antigos ficam em `archive/`; confira os avisos de precedência antes de usá-los.
 
-Os arquivos em `databases/` são snapshots JSON formatados para consulta. As páginas Markdown são a forma principal de navegar e ler o conteúdo editorial. O `manifest.json` registra a correspondência com as fontes do Notion.
+Os arquivos em `databases/` são snapshots JSON formatados para consulta, não bases vivas. As páginas Markdown são a forma principal de navegar e ler o conteúdo editorial. O `manifest.json` registra a correspondência com as fontes do Notion e a data desta exportação.
 
 ## Padrão de organização
 

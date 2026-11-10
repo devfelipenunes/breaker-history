@@ -5,7 +5,7 @@
 - [Cases e bosses](cases/)
 - [Outros documentos narrativos e Livro I](narrative/)
 - [Produção e QA](production/)
-- [Mundo e continuidade](world/)
+- [Mundo e continuidade — cadeia causal da investigação](overview.md#cadeia-causal-da-investigação)
 - [Referências e easter eggs](references/)
 - [Comunidade e publicações](community/)
 - [Arquivo histórico](archive/)

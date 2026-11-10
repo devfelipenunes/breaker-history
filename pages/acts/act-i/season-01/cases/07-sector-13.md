@@ -282,4 +282,4 @@ Payoff obrigatório no Final Boss: [VOSS PROTOCOL — Níveis 11/12 | Especifica
 - [GALEXIE / MIRROR 13](../references/galexie-mirror-13.md): etiqueta opcional de exportação histórica ou pipeline de observabilidade ao lado do indexador, sem mudar a lógica do snapshot externo do Case 07.
 - **HORIZON / LEGACY FEED**: rodapé opcional de uma API de consulta histórica; não afirmar que Horizon, Galexie ou o ledger carregam dados privados do Registry.
 
-**Gate:** o fallback e a revelação PLAYER ACTIVE permanecem sujeitos à prova e ao momento do roteiro locked; sem antecipação em imagens. Ver [Catálogo de Referências — Season 1](../../../../../databases/season-01-reference-catalog.txt).
+**Gate:** o fallback e a revelação PLAYER ACTIVE permanecem sujeitos à prova e ao momento do roteiro locked; sem antecipação em imagens. Ver [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../../../../../databases/season-01-reference-catalog.txt).

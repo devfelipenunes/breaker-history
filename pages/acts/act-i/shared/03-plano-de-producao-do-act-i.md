@@ -241,6 +241,6 @@ Antes de aprovar qualquer roteiro:
 
 **Testes de aceitação narrativa:** (1) player explica por que Breaker bloqueou Rhea; (2) por que a devolução era legítima e precisava de Moonlight; (3) por que Breaker confiou a atestação a Rhea; (4) por que First Witness pediu tudo e reconheceu excesso; (5) por que entregar uma atribuição verdadeira em Lumen rompe confiança sem desfazer vitória Moonlight.
 
-**Fonte de verdade:** [00 — História Canônica do Act I](00-historia-canonica-do-act-i.md); [Decisões Narrativas — Act I](../../../../databases/act-i-story-decisions.txt).
+**Fonte de verdade:** [00 — História Canônica do Act I](00-historia-canonica-do-act-i.md); [07 — Escolhas de Acontecimentos | Writers' Room Act I](../../../../databases/act-i-story-decisions.txt).
 
 [ARQUIVO — Storyboards S1 (51 fichas) \| material de produção pausado](../season-01/production/archive/storyboards-s1-paused.md)

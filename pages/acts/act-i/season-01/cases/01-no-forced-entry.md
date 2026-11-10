@@ -278,4 +278,4 @@ Ele deve sair pensando:
 - [XDR LAB / INSPECTOR](../references/xdr-lab-inspector.md): aba opcional de investigação no BREAKER OS; pode reforçar a cultura Stellar, mas não mostrar solução ou chave de acesso, e deve distinguir owner argument de ator autenticado.
 - **Gate:** a exploração e o verifier permanecem inalterados. Não confundir o resultado do teste do jogador com a transação histórica de Voss.
 
-Todas as entradas seguem o [Catálogo de Referências — Season 1](../../../../../databases/season-01-reference-catalog.txt). Nenhuma alteração em arte, código ou UI foi feita.
+Todas as entradas seguem o [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../../../../../databases/season-01-reference-catalog.txt). Nenhuma alteração em arte, código ou UI foi feita.

@@ -5,7 +5,7 @@ title: "📖 00 — História Canônica do Act I"
 exported_at: 2026-11-07
 ---
 
-**APROVAÇÃO CANÔNICA — revisão dos 12 elos causais do Act I (2026-11-02).** Este documento define a continuidade da trilogia, mas para cenas, gameplay documentado e texto final da Season 1 prevalece [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../season-01/narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md) (v1.4 NARRATIVE LOCK). O usuário aprovou as recomendações editoriais do Writers' Room. Contratos, provas, modelos econômicos, slides e interfaces continuam sujeitos a implementação e QA. Preserva as três Seasons, dez Cases por Season, bosses, status e desfecho fixo. Referência de seleção: [Decisões Narrativas — Act I](../../../../databases/act-i-story-decisions.txt).
+**APROVAÇÃO CANÔNICA — revisão dos 12 elos causais do Act I (2026-11-02).** Este documento define a continuidade da trilogia, mas para cenas, gameplay documentado e texto final da Season 1 prevalece [BREAKER — Season 1 | FINAL NARRATIVE v1.4 — NARRATIVE LOCK](../season-01/narrative/breaker-season-1-final-narrative-v1-4-narrative-lock.md) (v1.4 NARRATIVE LOCK). O usuário aprovou as recomendações editoriais do Writers' Room. Contratos, provas, modelos econômicos, slides e interfaces continuam sujeitos a implementação e QA. Preserva as três Seasons, dez Cases por Season, bosses, status e desfecho fixo. Referência de seleção: [07 — Escolhas de Acontecimentos | Writers' Room Act I](../../../../databases/act-i-story-decisions.txt).
 
 # Revisão canônica — 12 decisões aprovadas
 
@@ -50,7 +50,7 @@ exported_at: 2026-11-07
 
 # Leituras para produção
 
-[06 — Writers' Room: Metodologias & Avaliação do Ato I](06-writers-room-metodologias-avaliacao-do-ato-i.md) · [Decisões Narrativas — Act I](../../../../databases/act-i-story-decisions.txt) · [07 — O Sétimo | Rhea × Breaker — Virada canônica do Act I](../season-03/world/07-o-setimo-rhea-breaker-virada-canonica-do-act-i.md).
+[06 — Writers' Room: Metodologias & Avaliação do Ato I](06-writers-room-metodologias-avaliacao-do-ato-i.md) · [07 — Escolhas de Acontecimentos | Writers' Room Act I](../../../../databases/act-i-story-decisions.txt) · [07 — O Sétimo | Rhea × Breaker — Virada canônica do Act I](../season-03/world/07-o-setimo-rhea-breaker-virada-canonica-do-act-i.md).
 
 # ACT I — História Canônica
 

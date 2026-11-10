@@ -194,7 +194,7 @@ Nome de arquivo = identificador de busca no material enviado. Títulos de cena a
 
 # 10. Easter Eggs — nova checagem de arte e mapa (propostas)
 
-Ao revisar qualquer banner da Season 1 ou o mapa de Meridian, consultar [Catálogo de Referências — Season 1](../../databases/season-01-reference-catalog.txt). Estes itens são **opcionais e não canônicos** até revisão explícita e não têm autorização para alterar as 14 imagens-base.
+Ao revisar qualquer banner da Season 1 ou o mapa de Meridian, consultar [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../../databases/season-01-reference-catalog.txt). Estes itens são **opcionais e não canônicos** até revisão explícita e não têm autorização para alterar as 14 imagens-base.
 
 - Toda proposta precisa de **asset de referência**, **posição na composição** (primeiro plano/fundo/placa/UI), **suporte**, **fonte da referência Stellar**, **risco de spoiler** e **estado**.
 - Em banners 8:3, pequenos detalhes podem ser ambientais; em mobile devem poder desaparecer sem prejudicar a narrativa ou legibilidade. Nunca sobrepor logo oficial de Meridian, rosto, prova, evento, data crítica ou imagem do hack.

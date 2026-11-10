@@ -250,4 +250,4 @@ Payoff obrigatório no Final Boss: [VOSS PROTOCOL — Níveis 11/12 | Especifica
 
 - [FCA00C / ARCADE MACHINE](../references/fca00c-arcade-machine.md): máquina antiga de arcade inspirada pela série de desafios de otimização Soroban, colocada em área secundária do Warehouse 17, sem interação obrigatória.
 
-**Gate:** nunca ocupar o espaço da Ghost Key, W17 / DIAGNOSTIC TRACE ou contestação civil; é apenas um objeto de cenário. Ver [Catálogo de Referências — Season 1](../../../../../databases/season-01-reference-catalog.txt).
+**Gate:** nunca ocupar o espaço da Ghost Key, W17 / DIAGNOSTIC TRACE ou contestação civil; é apenas um objeto de cenário. Ver [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../../../../../databases/season-01-reference-catalog.txt).

@@ -143,7 +143,7 @@ O projeto **Stellar Passport** identifica a empresa Bastian's Creative Studio LL
 
 ## 10 — Easter Eggs \| Banco executável da Season 1
 
-A pesquisa de referências históricas e técnicas foi materializada em [Catálogo de Referências — Season 1](../databases/season-01-reference-catalog.txt), com 18 propostas e fontes. O banco diferencia **nome histórico**, **homenagem a criador**, **tecnologia**, **projeto** e **comunidade**, e permite filtrar por suporte visual, localização, prioridade, spoiler e estado.
+A pesquisa de referências históricas e técnicas foi materializada em [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../databases/season-01-reference-catalog.txt), com 18 propostas e fontes. O banco diferencia **nome histórico**, **homenagem a criador**, **tecnologia**, **projeto** e **comunidade**, e permite filtrar por suporte visual, localização, prioridade, spoiler e estado.
 
 Novos achados documentados: logotipo antigo de foguete da Stellar (substituído em 2019); primeiro evento Meridian em 2019; ábaco japonês que deu nome a Soroban; Project Jump Cannon; estreia de contratos com Protocol 20 em 20/02/2024; Stellar Quest e FCA00C; Galexie como exportador de dados; testnet passphrase pública de 2015; nomenclatura técnica stroop. Esses elementos permanecem **candidatos**, sem alteração do roteiro v1.4 nem da Art Bible.
 

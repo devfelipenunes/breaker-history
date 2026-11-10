@@ -252,4 +252,4 @@ Payoff obrigatório no Final Boss: [VOSS PROTOCOL — Níveis 11/12 | Especifica
 - [JUMP CANNON / OLD FOUNDRY](../references/jump-cannon-old-foundry.md): assinatura de engenharia antiga em uma bancada ou placa lateral do Floor 24, inspirada no codinome de Soroban.
 - [ÁBACO DA VELHA ENGENHARIA](../references/abaco-da-velha-engenharia.md): ábaco japonês discreto que remete ao nome Soroban, como item ambiental.
 
-**Gate:** a porta 24, o TTL e F24 / ARCHIVED ENTRY continuam as únicas referências desta etapa necessárias ao CTF. Essas inclusões não devem sugerir senha, shares, criptografia escondida nem uma porta extra. Ver [Catálogo de Referências — Season 1](../../../../../databases/season-01-reference-catalog.txt).
+**Gate:** a porta 24, o TTL e F24 / ARCHIVED ENTRY continuam as únicas referências desta etapa necessárias ao CTF. Essas inclusões não devem sugerir senha, shares, criptografia escondida nem uma porta extra. Ver [17 — Easter Eggs | Season 1 — Mapa, Arte & Stellar DNA](../../../../../databases/season-01-reference-catalog.txt).
